@@ -1,5 +1,10 @@
 name: NPM Publish
-on: [push]
+on:
+  - push:
+      branches:
+        - master
+  - schedule:
+      - cron: "0 13 * * 1"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,6 +20,9 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
+
+      - name: Update list
+        run: curl https://chainid.network/chains.json | json_pp -json_opt pretty,canonical > chains.json
 
       - name: Test
         run: yarn test

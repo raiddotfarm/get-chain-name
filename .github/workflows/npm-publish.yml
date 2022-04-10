@@ -1,8 +1,7 @@
 name: NPM Publish
 on:
   - push:
-      branches:
-        - master
+      branches: [master]
   - schedule:
       - cron: "0 13 * * 1"
 jobs:

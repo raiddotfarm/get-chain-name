@@ -34,3 +34,8 @@ jobs:
         run: echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" > ~/.npmrc && npm publish --access public
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Send notification
+        run: curl -H "Content-Type: application/json" -d '{"username": "get-chain-name", "content": "new package version published at https://www.npmjs.com/package/@raiddotfarm/get-chain-name"}' $DISCORD_WEBHOOK
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}

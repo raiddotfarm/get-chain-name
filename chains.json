@@ -1541,7 +1541,7 @@
       "shortName" : "primuschain"
    },
    {
-      "chain" : "Zenith Mainnet",
+      "chain" : "Zenith",
       "chainId" : 79,
       "explorers" : [
          {
@@ -1590,7 +1590,7 @@
       "shortName" : "GeneChain"
    },
    {
-      "chain" : "Zenith Testnet",
+      "chain" : "Zenith",
       "chainId" : 81,
       "explorers" : [
          {
@@ -1603,17 +1603,17 @@
          "https://faucet.zenithchain.co/"
       ],
       "infoURL" : "https://www.zenithchain.co/",
-      "name" : "Zenith Testnet",
+      "name" : "Villinius",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "test ZENITH",
-         "symbol" : "tZENITH"
+         "name" : "Villinius",
+         "symbol" : "VIL"
       },
       "networkId" : 81,
       "rpc" : [
          "https://vilinius.zenithchain.co/http"
       ],
-      "shortName" : "tzenith"
+      "shortName" : "VIL"
    },
    {
       "chain" : "METER",
@@ -3266,7 +3266,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Lisinski Ether",
-         "symbol" : "LISINSKI"
+         "symbol" : "LISINS"
       },
       "networkId" : 385,
       "rpc" : [
@@ -3502,6 +3502,30 @@
       "rpc" : [],
       "shortName" : "kar",
       "slip44" : 686
+   },
+   {
+      "chain" : "SNS",
+      "chainId" : 700,
+      "explorers" : [
+         {
+            "name" : "starscan",
+            "standard" : "EIP3091",
+            "url" : "https://avastar.info"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://info.avastar.cc",
+      "name" : "Star Social Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Social",
+         "symbol" : "SNS"
+      },
+      "networkId" : 700,
+      "rpc" : [
+         "https://avastar.cc/ext/bc/C/rpc"
+      ],
+      "shortName" : "SNS"
    },
    {
       "chain" : "BCS",
@@ -5748,8 +5772,8 @@
       "explorers" : [
          {
             "icon" : "evmos",
-            "name" : "Evmos EVM Explorer (Blockscout)",
-            "standard" : "none",
+            "name" : "Evmos EVM Explorer",
+            "standard" : "EIP3091",
             "url" : "https://evm.evmos.dev"
          },
          {
@@ -5772,7 +5796,7 @@
       },
       "networkId" : 9000,
       "rpc" : [
-         "https://evmos-archive-testnet.api.bdnodes.net:8545"
+         "https://eth.bd.evmos.dev:8545"
       ],
       "shortName" : "evmos-testnet"
    },
@@ -6113,7 +6137,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "MetaDot Token TestNet",
-         "symbol" : "MTT-test"
+         "symbol" : "MTTest"
       },
       "networkId" : 16001,
       "rpc" : [
@@ -7627,7 +7651,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "milkTAda",
-         "symbol" : "milkTAda"
+         "symbol" : "mTAda"
       },
       "network" : "testnet",
       "networkId" : 200101,

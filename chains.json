@@ -4135,21 +4135,19 @@
       "shortName" : "tclv"
    },
    {
-      "chain" : "Clover",
+      "chain" : "CLV",
       "chainId" : 1024,
       "faucets" : [],
-      "infoURL" : "https://clover.finance",
-      "name" : "Clover Mainnet",
+      "infoURL" : "https://clv.org",
+      "name" : "CLV Parachain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Clover",
+         "name" : "CLV",
          "symbol" : "CLV"
       },
       "networkId" : 1024,
       "rpc" : [
-         "https://rpc-ivy.clover.finance",
-         "https://rpc-ivy-2.clover.finance",
-         "https://rpc-ivy-3.clover.finance"
+         "https://api-para.clover.finance"
       ],
       "shortName" : "clv"
    },
@@ -4650,7 +4648,8 @@
       "network" : "testnet",
       "networkId" : 1,
       "rpc" : [
-         "http://8.210.150.70:8545"
+         "http://rpc.boyanet.org:8545",
+         "ws://rpc.boyanet.org:8546"
       ],
       "shortName" : "boya"
    },
@@ -4848,6 +4847,56 @@
          "https://api.ecoball.org/espuma/"
       ],
       "shortName" : "esp"
+   },
+   {
+      "chain" : "Findora",
+      "chainId" : 2152,
+      "explorers" : [
+         {
+            "name" : "findorascan",
+            "standard" : "EIP3091",
+            "url" : "https://evm.findorascan.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://findora.org/",
+      "name" : "Findora Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FRA",
+         "symbol" : "FRA"
+      },
+      "network" : "mainnet",
+      "networkId" : 2152,
+      "rpc" : [
+         "https://prod-mainnet.prod.findora.org:8545"
+      ],
+      "shortName" : "fra"
+   },
+   {
+      "chain" : "Testnet-anvil",
+      "chainId" : 2153,
+      "explorers" : [
+         {
+            "name" : "findorascan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-anvil.evm.findorascan.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://findora.org/",
+      "name" : "Findora Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FRA",
+         "symbol" : "FRA"
+      },
+      "network" : "testnet",
+      "networkId" : 2153,
+      "rpc" : [
+         "https://prod-testnet.prod.findora.org:8545/"
+      ],
+      "shortName" : "findora-testnet"
    },
    {
       "chain" : "EVA",
@@ -6890,6 +6939,33 @@
       "shortName" : "ecs-testnet"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 69420,
+      "explorers" : [
+         {
+            "name" : "Condrieu explorer",
+            "standard" : "none",
+            "url" : "https://explorer.condrieu.ethdevops.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.condrieu.ethdevops.io"
+      ],
+      "infoURL" : "https://condrieu.ethdevops.io",
+      "name" : "Condrieu",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Condrieu Testnet Ether",
+         "symbol" : "CTE"
+      },
+      "networkId" : 69420,
+      "rpc" : [
+         "https://rpc.condrieu.ethdevops.io:8545"
+      ],
+      "shortName" : "cndr",
+      "title" : "Ethereum Verkle Testnet Condrieu"
+   },
+   {
       "chain" : "Thinkium",
       "chainId" : 70000,
       "explorers" : [
@@ -7755,8 +7831,8 @@
       "network" : "mainnet",
       "networkId" : 1,
       "rpc" : [
-         "https://openapi.platon.network/rpc",
-         "wss://openapi.platon.network/ws"
+         "https://openapi2.platon.network/rpc",
+         "wss://openapi2.platon.network/ws"
       ],
       "shortName" : "platon"
    },
@@ -8106,8 +8182,8 @@
       },
       "networkId" : 1,
       "rpc" : [
-         "https://devnetopenapi.platon.network/rpc",
-         "wss://devnetopenapi.platon.network/ws"
+         "https://devnetopenapi2.platon.network/rpc",
+         "wss://devnetopenapi2.platon.network/ws"
       ],
       "shortName" : "platondev"
    },

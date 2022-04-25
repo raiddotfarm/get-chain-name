@@ -1422,6 +1422,34 @@
       "title" : "Optimism Testnet Kovan"
    },
    {
+      "chain" : "HSC",
+      "chainId" : 70,
+      "explorers" : [
+         {
+            "name" : "hooscan",
+            "standard" : "EIP3091",
+            "url" : "https://www.hooscan.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.hoosmartchain.com",
+      "name" : "Hoo Smart Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Hoo Smart Chain Native Token",
+         "symbol" : "HOO"
+      },
+      "networkId" : 70,
+      "rpc" : [
+         "https://http-mainnet.hoosmartchain.com",
+         "https://http-mainnet2.hoosmartchain.com",
+         "wss://ws-mainnet.hoosmartchain.com",
+         "wss://ws-mainnet2.hoosmartchain.com"
+      ],
+      "shortName" : "hsc",
+      "slip44" : 1170
+   },
+   {
       "chain" : "Conflux",
       "chainId" : 71,
       "explorers" : [
@@ -4955,6 +4983,30 @@
       "shortName" : "kava"
    },
    {
+      "chain" : "VChain",
+      "chainId" : 2223,
+      "explorers" : [
+         {
+            "name" : "VChain Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.vcex.xyz"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://bo.vcex.xyz/",
+      "name" : "VChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VNDT",
+         "symbol" : "VNDT"
+      },
+      "networkId" : 2223,
+      "rpc" : [
+         "https://bc.vcex.xyz"
+      ],
+      "shortName" : "VChain"
+   },
+   {
       "chain" : "Kortho Chain",
       "chainId" : 2559,
       "faucets" : [],
@@ -4970,6 +5022,33 @@
          "https://www.kortho-chain.com"
       ],
       "shortName" : "ktoc"
+   },
+   {
+      "chain" : "TPC",
+      "chainId" : 2569,
+      "explorers" : [
+         {
+            "icon" : "techpay",
+            "name" : "tpcscan",
+            "standard" : "EIP3091",
+            "url" : "https://tpcscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "techpay",
+      "infoURL" : "https://techpay.io/",
+      "name" : "TechPay Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TechPay",
+         "symbol" : "TPC"
+      },
+      "network" : "mainnet",
+      "networkId" : 2569,
+      "rpc" : [
+         "https://api.techpay.io/"
+      ],
+      "shortName" : "tpc"
    },
    {
       "chain" : "CENNZnet",
@@ -5387,6 +5466,78 @@
          "https://network.uzmigames.com.br/"
       ],
       "shortName" : "UZMI"
+   },
+   {
+      "chain" : "Nahmii",
+      "chainId" : 5551,
+      "explorers" : [
+         {
+            "icon" : "nahmii",
+            "name" : "Nahmii mainnet explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.nahmii.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "nahmii",
+      "infoURL" : "https://nahmii.io",
+      "name" : "Nahmii Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "network" : "mainnet",
+      "networkId" : 5551,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.nahmii.io"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://l2.nahmii.io"
+      ],
+      "shortName" : "Nahmii"
+   },
+   {
+      "chain" : "Nahmii",
+      "chainId" : 5553,
+      "explorers" : [
+         {
+            "icon" : "nahmii",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.nahmii.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "nahmii",
+      "infoURL" : "https://nahmii.io",
+      "name" : "Nahmii Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "network" : "testnet",
+      "networkId" : 5553,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.nahmii.io"
+            }
+         ],
+         "chain" : "eip155-3",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://l2.testnet.nahmii.io"
+      ],
+      "shortName" : "Nahmii testnet"
    },
    {
       "chain" : "SYS",
@@ -6887,6 +7038,32 @@
       "shortName" : "BKLV"
    },
    {
+      "chain" : "MultiVAC",
+      "chainId" : 62621,
+      "explorers" : [
+         {
+            "name" : "MultiVAC Explorer",
+            "standard" : "none",
+            "url" : "https://e.mtv.ac"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "multivac",
+      "infoURL" : "https://mtv.ac",
+      "name" : "MultiVAC Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MultiVAC",
+         "symbol" : "MTV"
+      },
+      "networkId" : 62621,
+      "rpc" : [
+         "https://rpc.mtv.ac",
+         "https://rpc-eu.mtv.ac"
+      ],
+      "shortName" : "mtv"
+   },
+   {
       "chain" : "ECS",
       "chainId" : 63000,
       "explorers" : [
@@ -8011,6 +8188,34 @@
       "shortName" : "wlkt"
    },
    {
+      "chain" : "CMP",
+      "chainId" : 512512,
+      "explorers" : [
+         {
+            "name" : "Galaxy Scan",
+            "standard" : "none",
+            "url" : "https://galaxy.scan.caduceus.foundation"
+         }
+      ],
+      "faucets" : [
+         "https://dev.caduceus.foundation/testNetwork"
+      ],
+      "infoURL" : "https://caduceus.foundation/",
+      "name" : "CMP-Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Caduceus Testnet Token",
+         "symbol" : "CMP"
+      },
+      "network" : "testnet",
+      "networkId" : 512512,
+      "rpc" : [
+         "https://galaxy.block.caduceus.foundation",
+         "wss://galaxy.block.caduceus.foundation"
+      ],
+      "shortName" : "cmp"
+   },
+   {
       "chain" : "Vision-Vpioneer",
       "chainId" : 666666,
       "faucets" : [
@@ -8264,6 +8469,30 @@
          "https://net.iolite.io"
       ],
       "shortName" : "ilt"
+   },
+   {
+      "chain" : "Spectrum",
+      "chainId" : 20180430,
+      "explorers" : [
+         {
+            "name" : "spectrum",
+            "standard" : "none",
+            "url" : "https://spectrum.pub"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://smartmesh.io",
+      "name" : "SmartMesh Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SmartMesh Native Token",
+         "symbol" : "SMT"
+      },
+      "networkId" : 1,
+      "rpc" : [
+         "https://jsonapi1.smartmesh.cn"
+      ],
+      "shortName" : "spectrum"
    },
    {
       "chain" : "QKI",
@@ -8830,7 +9059,7 @@
       },
       "networkId" : 11297108099,
       "rpc" : [
-         "https://palm-testnet.infura.io/v3/{INFURA_API_KEY}"
+         "https://palm-testnet.infura.io/v3/${INFURA_API_KEY}"
       ],
       "shortName" : "tpalm"
    },
@@ -8856,7 +9085,7 @@
       },
       "networkId" : 11297108109,
       "rpc" : [
-         "https://palm-mainnet.infura.io/v3/{INFURA_API_KEY}"
+         "https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}"
       ],
       "shortName" : "palm"
    },

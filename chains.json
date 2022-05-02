@@ -3122,12 +3122,14 @@
       "chainId" : 336,
       "explorers" : [
          {
+            "icon" : "subscan",
             "name" : "subscan",
             "standard" : "none",
             "url" : "https://shiden.subscan.io"
          }
       ],
       "faucets" : [],
+      "icon" : "shiden",
       "infoURL" : "https://shiden.astar.network/",
       "name" : "Shiden",
       "nativeCurrency" : {
@@ -3389,6 +3391,32 @@
       "shortName" : "aact"
    },
    {
+      "chain" : "Candle",
+      "chainId" : 534,
+      "explorers" : [
+         {
+            "name" : "candlescan",
+            "standard" : "none",
+            "url" : "https://cndlchain.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://candlelabs.org/",
+      "name" : "Candle Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CANDLE",
+         "symbol" : "CNDL"
+      },
+      "networkId" : 534,
+      "rpc" : [
+         "https://candle-rpc.com/",
+         "https://rpc.cndlchain.com"
+      ],
+      "shortName" : "CNDL",
+      "slip44" : 674
+   },
+   {
       "chain" : "VELA1",
       "chainId" : 555,
       "explorers" : [
@@ -3464,6 +3492,32 @@
          "https://stardust.metis.io/?owner=588"
       ],
       "shortName" : "metis-stardust"
+   },
+   {
+      "chain" : "ASTR",
+      "chainId" : 592,
+      "explorers" : [
+         {
+            "icon" : "subscan",
+            "name" : "subscan",
+            "standard" : "none",
+            "url" : "https://astar.subscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "astar",
+      "infoURL" : "https://astar.network/",
+      "name" : "Astar",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Astar",
+         "symbol" : "ASTR"
+      },
+      "networkId" : 592,
+      "rpc" : [
+         "https://rpc.astar.network:8545"
+      ],
+      "shortName" : "astr"
    },
    {
       "chain" : "mACA",
@@ -5948,6 +6002,35 @@
       "shortName" : "ambrostestnet"
    },
    {
+      "chain" : "MMT",
+      "chainId" : 8898,
+      "explorers" : [
+         {
+            "name" : "mmtscan",
+            "standard" : "EIP3091",
+            "url" : "https://mmtscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.mmtscan.io/"
+      ],
+      "infoURL" : "https://mmtchain.io/",
+      "name" : "Mammoth",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Mammoth Token",
+         "symbol" : "MMT"
+      },
+      "networkId" : 8898,
+      "rpc" : [
+         "https://dataseed.mmtscan.io",
+         "https://dataseed1.mmtscan.io",
+         "https://dataseed2.mmtscan.io"
+      ],
+      "shortName" : "mmt",
+      "title" : "Mammoth Chain"
+   },
+   {
       "chain" : "bloxberg",
       "chainId" : 8995,
       "faucets" : [
@@ -6497,6 +6580,34 @@
       ],
       "shortName" : "got",
       "slip44" : 6060
+   },
+   {
+      "chain" : "Brise",
+      "chainId" : 32520,
+      "explorers" : [
+         {
+            "icon" : "brise",
+            "name" : "Brise Scan",
+            "standard" : "EIP3091",
+            "url" : "https://brisescan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "brise",
+      "infoURL" : "https://bitgert.com/",
+      "name" : "Bitgert Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Bitrise Token",
+         "symbol" : "Brise"
+      },
+      "networkId" : 32520,
+      "rpc" : [
+         "https://mainnet-rpc.brisescan.com",
+         "https://chainrpc.com",
+         "https://serverrpc.com"
+      ],
+      "shortName" : "Brise"
    },
    {
       "chain" : "FSN",
@@ -7068,12 +7179,14 @@
       "chainId" : 63000,
       "explorers" : [
          {
+            "icon" : "ecredits",
             "name" : "eCredits MainNet Explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.ecredits.com"
          }
       ],
       "faucets" : [],
+      "icon" : "ecredits",
       "infoURL" : "https://ecredits.com",
       "name" : "eCredits Mainnet",
       "nativeCurrency" : {
@@ -7093,6 +7206,7 @@
       "chainId" : 63001,
       "explorers" : [
          {
+            "icon" : "ecredits",
             "name" : "eCredits TestNet Explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.tst.ecredits.com"
@@ -7101,6 +7215,7 @@
       "faucets" : [
          "https://faucet.tst.ecredits.com"
       ],
+      "icon" : "ecredits",
       "infoURL" : "https://ecredits.com",
       "name" : "eCredits Testnet",
       "nativeCurrency" : {

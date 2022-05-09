@@ -1335,28 +1335,29 @@
       "shortName" : "tokt"
    },
    {
-      "chain" : "okexchain",
+      "chain" : "okxchain",
       "chainId" : 66,
       "explorers" : [
          {
             "name" : "OKLink",
             "standard" : "EIP3091",
-            "url" : "https://www.oklink.com/okexchain"
+            "url" : "https://www.oklink.com/en/okc"
          }
       ],
       "faucets" : [
          "https://free-online-app.com/faucet-for-eth-evm-chains/?"
       ],
-      "infoURL" : "https://www.okex.com/okexchain",
+      "infoURL" : "https://www.okex.com/okc",
       "name" : "OKXChain Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "OKExChain Global Utility Token",
+         "name" : "OKXChain Global Utility Token",
          "symbol" : "OKT"
       },
       "networkId" : 66,
       "rpc" : [
-         "https://exchainrpc.okex.org"
+         "https://exchainrpc.okex.org",
+         "https://okc-mainnet.gateway.pokt.network/v1/lb/6275309bea1b320039c893ff"
       ],
       "shortName" : "okt"
    },
@@ -1622,24 +1623,24 @@
       "chainId" : 81,
       "explorers" : [
          {
-            "name" : "villinius zenith scan",
+            "name" : "vilnius scan",
             "standard" : "EIP3091",
-            "url" : "https://vilinius.scan.zenithchain.co"
+            "url" : "https://vilnius.scan.zenithchain.co"
          }
       ],
       "faucets" : [
          "https://faucet.zenithchain.co/"
       ],
       "infoURL" : "https://www.zenithchain.co/",
-      "name" : "Villinius",
+      "name" : "Zenith Testnet (Vilnius)",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Villinius",
+         "name" : "Vilnius",
          "symbol" : "VIL"
       },
       "networkId" : 81,
       "rpc" : [
-         "https://vilinius.zenithchain.co/http"
+         "https://vilnius.zenithchain.co/http"
       ],
       "shortName" : "VIL"
    },
@@ -3535,6 +3536,38 @@
       "shortName" : "maca"
    },
    {
+      "chain" : "KAR",
+      "chainId" : 596,
+      "faucets" : [],
+      "infoURL" : "https://karura.network",
+      "name" : "Karura Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Karura Token",
+         "symbol" : "KAR"
+      },
+      "networkId" : 596,
+      "rpc" : [],
+      "shortName" : "tkar",
+      "slip44" : 596
+   },
+   {
+      "chain" : "ACA",
+      "chainId" : 597,
+      "faucets" : [],
+      "infoURL" : "https://acala.network",
+      "name" : "Acala Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Acala Token",
+         "symbol" : "ACA"
+      },
+      "networkId" : 597,
+      "rpc" : [],
+      "shortName" : "taca",
+      "slip44" : 597
+   },
+   {
       "chain" : "MeshTestChain",
       "chainId" : 600,
       "faucets" : [],
@@ -3678,6 +3711,33 @@
       "slip44" : 721
    },
    {
+      "chain" : "OpenChain Testnet",
+      "chainId" : 776,
+      "explorers" : [
+         {
+            "name" : "OPEN CHAIN TESTNET",
+            "standard" : "none",
+            "url" : "https://testnet.openchain.info"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.openchain.info/"
+      ],
+      "infoURL" : "https://testnet.openchain.info/",
+      "name" : "OpenChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Openchain Testnet",
+         "symbol" : "TOPC"
+      },
+      "networkId" : 776,
+      "rpc" : [
+         "http://mainnet.openchain.info:8545",
+         "https://mainnet1.openchain.info"
+      ],
+      "shortName" : "opc"
+   },
+   {
       "chain" : "cheapETH",
       "chainId" : 777,
       "faucets" : [],
@@ -3794,20 +3854,20 @@
          {
             "name" : "Ambros Chain Explorer",
             "standard" : "none",
-            "url" : "https://explorer.ambroschain.com"
+            "url" : "https://ambrosscan.com"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://bcmhunt.com/",
+      "infoURL" : "https://ambros.network",
       "name" : "Ambros Chain Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "AMBROS",
-         "symbol" : "AMBR"
+         "symbol" : "AMBROS"
       },
       "networkId" : 880,
       "rpc" : [
-         "https://mainnet.ambroschain.com"
+         "https://api.ambros.network"
       ],
       "shortName" : "ambros"
    },
@@ -4857,6 +4917,37 @@
       "shortName" : "edgt"
    },
    {
+      "chain" : "Taycan",
+      "chainId" : 2023,
+      "explorers" : [
+         {
+            "name" : "Taycan Explorer(Blockscout)",
+            "standard" : "none",
+            "url" : "https://evmscan-test.hupayx.io"
+         },
+         {
+            "name" : "Taycan Cosmos Explorer",
+            "standard" : "none",
+            "url" : "https://cosmoscan-test.hupayx.io"
+         }
+      ],
+      "faucets" : [
+         "https://ttaycan-faucet.hupayx.io/"
+      ],
+      "infoURL" : "https://hupayx.io",
+      "name" : "Taycan Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "test-Shuffle",
+         "symbol" : "tSFL"
+      },
+      "networkId" : 2023,
+      "rpc" : [
+         "https://test-taycan.hupayx.io"
+      ],
+      "shortName" : "taycan-testnet"
+   },
+   {
       "chain" : "Rangers",
       "chainId" : 2025,
       "explorers" : [
@@ -5103,6 +5194,58 @@
          "https://api.techpay.io/"
       ],
       "shortName" : "tpc"
+   },
+   {
+      "chain" : "EZC",
+      "chainId" : 2612,
+      "explorers" : [
+         {
+            "name" : "ezchain",
+            "standard" : "EIP3091",
+            "url" : "https://cchain-explorer.ezchain.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ezchain",
+      "infoURL" : "https://ezchain.com",
+      "name" : "EZChain C-Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EZChain",
+         "symbol" : "EZC"
+      },
+      "networkId" : 2612,
+      "rpc" : [
+         "https://api.ezchain.com/ext/bc/C/rpc"
+      ],
+      "shortName" : "EZChain"
+   },
+   {
+      "chain" : "EZC",
+      "chainId" : 2613,
+      "explorers" : [
+         {
+            "name" : "ezchain",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-cchain-explorer.ezchain.com"
+         }
+      ],
+      "faucets" : [
+         "https://testnet-faucet.ezchain.com"
+      ],
+      "icon" : "ezchain",
+      "infoURL" : "https://ezchain.com",
+      "name" : "EZChain C-Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EZChain",
+         "symbol" : "EZC"
+      },
+      "networkId" : 2613,
+      "rpc" : [
+         "https://testnet-api.ezchain.com/ext/bc/C/rpc"
+      ],
+      "shortName" : "Fuji-EZChain"
    },
    {
       "chain" : "CENNZnet",
@@ -5984,20 +6127,20 @@
          {
             "name" : "Ambros Chain Explorer",
             "standard" : "none",
-            "url" : "https://testexplorer.ambroschain.com"
+            "url" : "https://testnet.ambrosscan.com"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://bcmhunt.com/",
+      "infoURL" : "https://test.ambros.network",
       "name" : "Ambros Chain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "AMBROS",
-         "symbol" : "AMBR"
+         "symbol" : "AMBROS"
       },
       "networkId" : 8888,
       "rpc" : [
-         "https://testnet.ambroschain.com"
+         "https://api.testnet.ambros.network"
       ],
       "shortName" : "ambrostestnet"
    },
@@ -6502,6 +6645,36 @@
          "https://seed.omlira.com"
       ],
       "shortName" : "oml"
+   },
+   {
+      "chain" : "Taycan",
+      "chainId" : 22023,
+      "explorers" : [
+         {
+            "name" : "Taycan Explorer(Blockscout)",
+            "standard" : "none",
+            "url" : "https://taycan-evmscan.hupayx.io"
+         },
+         {
+            "name" : "Taycan Cosmos Explorer(BigDipper)",
+            "standard" : "none",
+            "url" : "https://taycan-cosmoscan.hupayx.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://hupayx.io",
+      "name" : "Taycan",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "shuffle",
+         "symbol" : "SFL"
+      },
+      "network" : "mainnet",
+      "networkId" : 22023,
+      "rpc" : [
+         "https://taycan-rpc.hupayx.io:8545"
+      ],
+      "shortName" : "SFL"
    },
    {
       "chain" : "WEB",

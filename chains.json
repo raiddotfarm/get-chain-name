@@ -1589,8 +1589,10 @@
       },
       "networkId" : 79,
       "rpc" : [
-         "https://dataserver-1.zenithchain.co/",
-         "https://dataserver-us-1.zenithchain.co/"
+         "https://dataserver-us-1.zenithchain.co/",
+         "https://dataserver-asia-3.zenithchain.co/",
+         "https://dataserver-asia-4.zenithchain.co/",
+         "https://dataserver-asia-2.zenithchain.co/"
       ],
       "shortName" : "zenith"
    },
@@ -2727,7 +2729,6 @@
    {
       "chain" : "SOTER",
       "chainId" : 218,
-      "deprecated" : true,
       "faucets" : [],
       "infoURL" : "https://www.soterone.com",
       "name" : "SoterOne Mainnet old",
@@ -2740,7 +2741,8 @@
       "rpc" : [
          "https://rpc.soter.one"
       ],
-      "shortName" : "SO1-old"
+      "shortName" : "SO1-old",
+      "status" : "deprecated"
    },
    {
       "chain" : "ASK",
@@ -4639,7 +4641,6 @@
    {
       "chain" : "MOON",
       "chainId" : 1286,
-      "deprecated" : true,
       "faucets" : [],
       "infoURL" : "",
       "name" : "Moonrock old",
@@ -4650,7 +4651,8 @@
       },
       "networkId" : 1286,
       "rpc" : [],
-      "shortName" : "mrock-old"
+      "shortName" : "mrock-old",
+      "status" : "deprecated"
    },
    {
       "chain" : "MOON",
@@ -4698,7 +4700,6 @@
    {
       "chain" : "CENNZnet",
       "chainId" : 1337,
-      "deprecated" : true,
       "faucets" : [],
       "infoURL" : "https://cennz.net",
       "name" : "CENNZnet old",
@@ -4709,7 +4710,8 @@
       },
       "networkId" : 1337,
       "rpc" : [],
-      "shortName" : "cennz-old"
+      "shortName" : "cennz-old",
+      "status" : "deprecated"
    },
    {
       "chain" : "Catechain",
@@ -6821,6 +6823,33 @@
       "shortName" : "mintme"
    },
    {
+      "chain" : "PieceNetwork",
+      "chainId" : 30067,
+      "explorers" : [
+         {
+            "name" : "Piece Scan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-scan.piecenetwork.com"
+         }
+      ],
+      "faucets" : [
+         "https://piecenetwork.com/faucet"
+      ],
+      "icon" : "piecechain",
+      "infoURL" : "https://piecenetwork.com",
+      "name" : "Piece testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ECE",
+         "symbol" : "ECE"
+      },
+      "networkId" : 30067,
+      "rpc" : [
+         "https://testnet-rpc0.piecenetwork.com"
+      ],
+      "shortName" : "Piece"
+   },
+   {
       "chain" : "ESN",
       "chainId" : 31102,
       "faucets" : [],
@@ -7156,7 +7185,7 @@
       "shortName" : "ALFA"
    },
    {
-      "chain" : "BNB",
+      "chain" : "TXL",
       "chainId" : 45000,
       "explorers" : [
          {
@@ -7172,15 +7201,15 @@
       "name" : "Autobahn Network",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "BNB",
-         "symbol" : "BNB"
+         "name" : "TXL",
+         "symbol" : "TXL"
       },
       "network" : "mainnet",
       "networkId" : 45000,
       "rpc" : [
          "https://rpc.autobahn.network"
       ],
-      "shortName" : "autobahn"
+      "shortName" : "Autobahn Network"
    },
    {
       "chain" : "REI",

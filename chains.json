@@ -2059,8 +2059,8 @@
          "https://faucet.prussia.dev/xdai"
       ],
       "icon" : "gnosis",
-      "infoURL" : "https://www.xdaichain.com/",
-      "name" : "Gnosis Chain (formerly xDai)",
+      "infoURL" : "https://developers.gnosischain.com",
+      "name" : "Gnosis",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "xDAI",
@@ -2070,10 +2070,11 @@
       "rpc" : [
          "https://rpc.gnosischain.com",
          "https://xdai.poanetwork.dev",
+         "https://dai.poa.network",
+         "https://rpc.ankr.com/gnosis",
+         "https://gnosischain-rpc.gateway.pokt.network",
          "wss://rpc.gnosischain.com/wss",
          "wss://xdai.poanetwork.dev/wss",
-         "http://xdai.poanetwork.dev",
-         "https://dai.poa.network",
          "ws://xdai.poanetwork.dev:8546"
       ],
       "shortName" : "gno",
@@ -4714,6 +4715,54 @@
       "status" : "deprecated"
    },
    {
+      "chain" : "Sherpax Mainnet",
+      "chainId" : 1506,
+      "explorers" : [
+         {
+            "name" : "Sherpax Mainnet Explorer",
+            "standard" : "none",
+            "url" : "https://evm.sherpax.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://sherpax.io/",
+      "name" : "Sherpax Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "KSX",
+         "symbol" : "KSX"
+      },
+      "networkId" : 1506,
+      "rpc" : [
+         "https://mainnet.sherpax.io/rpc"
+      ],
+      "shortName" : "Sherpax"
+   },
+   {
+      "chain" : "Sherpax Testnet",
+      "chainId" : 1507,
+      "explorers" : [
+         {
+            "name" : "Sherpax Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://evm-pre.sherpax.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://sherpax.io/",
+      "name" : "Sherpax Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "KSX",
+         "symbol" : "KSX"
+      },
+      "networkId" : 1507,
+      "rpc" : [
+         "https://sherpax-testnet.chainx.org/rpc"
+      ],
+      "shortName" : "Sherpax Testnet"
+   },
+   {
       "chain" : "Catechain",
       "chainId" : 1618,
       "faucets" : [],
@@ -5357,27 +5406,25 @@
       "shortName" : "Fuji-EZChain"
    },
    {
-      "chain" : "Echelon",
+      "chain" : "CENNZnet",
       "chainId" : 3000,
       "faucets" : [
-         "https://app.ech.network/faucet"
+         "https://app-faucet.centrality.me"
       ],
-      "icon" : "echelon",
-      "infoURL" : "https://ech.network",
-      "name" : "Echelon",
+      "icon" : "cennz",
+      "infoURL" : "https://cennz.net",
+      "name" : "CENNZnet Rata",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "ECH",
-         "symbol" : "ECH"
+         "name" : "CPAY",
+         "symbol" : "CPAY"
       },
-      "network" : "Echelon",
+      "network" : "rata",
       "networkId" : 3000,
       "rpc" : [
-         "https://rpc.ech.network",
-         "https://evm.ech.network",
-         "https://draco.ech.network"
+         "https://rata.centrality.me/public"
       ],
-      "shortName" : "echelon"
+      "shortName" : "cennz-r"
    },
    {
       "chain" : "CENNZnet",
@@ -6545,6 +6592,65 @@
       "shortName" : "CCP"
    },
    {
+      "chain" : "QDC",
+      "chainId" : 10946,
+      "explorers" : [
+         {
+            "icon" : "quadrans",
+            "name" : "explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.quadrans.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "quadrans",
+      "infoURL" : "https://quadrans.io",
+      "name" : "Quadrans Blockchain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Quadrans Coin",
+         "symbol" : "QDC"
+      },
+      "network" : "mainnet",
+      "networkId" : 10946,
+      "rpc" : [
+         "https://rpc.quadrans.io",
+         "https://rpcna.quadrans.io",
+         "https://explorer.quadrans.io"
+      ],
+      "shortName" : "quadrans"
+   },
+   {
+      "chain" : "tQDC",
+      "chainId" : 10947,
+      "explorers" : [
+         {
+            "icon" : "quadrans",
+            "name" : "explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.quadrans.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucetpage.quadrans.io"
+      ],
+      "icon" : "quadrans",
+      "infoURL" : "https://quadrans.io",
+      "name" : "Quadrans Blockchain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Quadrans Testnet Coin",
+         "symbol" : "tQDC"
+      },
+      "network" : "testnet",
+      "networkId" : 10947,
+      "rpc" : [
+         "https://rpctest.quadrans.io",
+         "https://explorer.testnet.quadrans.io"
+      ],
+      "shortName" : "quadranstestnet"
+   },
+   {
       "chain" : "WAGMI",
       "chainId" : 11111,
       "explorers" : [
@@ -6853,6 +6959,34 @@
       "shortName" : "mintme"
    },
    {
+      "chain" : "OasisChain",
+      "chainId" : 26863,
+      "explorers" : [
+         {
+            "name" : "OasisChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.oasischain.io"
+         }
+      ],
+      "faucets" : [
+         "http://faucet.oasischain.io"
+      ],
+      "infoURL" : "https://scan.oasischain.io",
+      "name" : "OasisChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OAC",
+         "symbol" : "OAC"
+      },
+      "networkId" : 26863,
+      "rpc" : [
+         "https://rpc1.oasischain.io",
+         "https://rpc2.oasischain.io",
+         "https://rpc3.oasischain.io"
+      ],
+      "shortName" : "OAC"
+   },
+   {
       "chain" : "PieceNetwork",
       "chainId" : 30067,
       "explorers" : [
@@ -7037,8 +7171,7 @@
       "rpc" : [
          "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
          "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
-         "https://arb1.arbitrum.io/rpc",
-         "wss://arb1.arbitrum.io/ws"
+         "https://arb1.arbitrum.io/rpc"
       ],
       "shortName" : "arb1"
    },
@@ -7714,6 +7847,58 @@
          "ws://godwoken-testnet-web3-rpc.ckbapp.dev/ws"
       ],
       "shortName" : "ckb"
+   },
+   {
+      "chain" : "GWT",
+      "chainId" : 71401,
+      "explorers" : [
+         {
+            "name" : "GWScan Block Explorer",
+            "standard" : "none",
+            "url" : "https://v1.aggron.gwscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://testnet.bridge.godwoken.io"
+      ],
+      "infoURL" : "https://www.nervos.org",
+      "name" : "Godwoken Testnet (V1.1)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CKB",
+         "symbol" : "CKB"
+      },
+      "networkId" : 71401,
+      "rpc" : [
+         "https://godwoken-testnet-v1.ckbapp.dev"
+      ],
+      "shortName" : "gw-testnet-v1"
+   },
+   {
+      "chain" : "GWT",
+      "chainId" : 71402,
+      "explorers" : [
+         {
+            "name" : "GWScan Block Explorer",
+            "standard" : "none",
+            "url" : "https://v1.aggron.gwscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://testnet.bridge.godwoken.io"
+      ],
+      "infoURL" : "https://www.nervos.org",
+      "name" : "Godwoken Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CKB",
+         "symbol" : "CKB"
+      },
+      "networkId" : 71402,
+      "rpc" : [
+         "https://godwoken-testnet-v1.ckbapp.dev"
+      ],
+      "shortName" : "gw-mainnet-v1"
    },
    {
       "chain" : "Volta",
@@ -8611,11 +8796,37 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://rinkeby.arbitrum.io/rpc",
-         "wss://rinkeby.arbitrum.io/ws"
+         "https://rinkeby.arbitrum.io/rpc"
       ],
       "shortName" : "arb-rinkeby",
       "title" : "Arbitrum Testnet Rinkeby"
+   },
+   {
+      "chain" : "DEXALOT",
+      "chainId" : 432201,
+      "explorers" : [
+         {
+            "name" : "Avalanche Subnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets.avax.network/dexalot/testnet/explorer"
+         }
+      ],
+      "faucets" : [
+         "https://sfaucet.dexalot-test.com"
+      ],
+      "infoURL" : "https://dexalot.com",
+      "name" : "Dexalot Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dexalot",
+         "symbol" : "ALOT"
+      },
+      "network" : "testnet",
+      "networkId" : 432201,
+      "rpc" : [
+         "https://subnets.avax.network/dexalot/testnet/rpc"
+      ],
+      "shortName" : "Dexalot"
    },
    {
       "chain" : "WLK",
@@ -8642,6 +8853,30 @@
          "https://weelinknode1c.gw002.oneitfarm.com"
       ],
       "shortName" : "wlkt"
+   },
+   {
+      "chain" : "OpenChain",
+      "chainId" : 474142,
+      "explorers" : [
+         {
+            "name" : "SIDE SCAN",
+            "standard" : "none",
+            "url" : "https://sidescan.luniverse.io/1641349324562974539"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.openchain.live",
+      "name" : "OpenChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 10,
+         "name" : "OpenCoin",
+         "symbol" : "OPC"
+      },
+      "networkId" : 474142,
+      "rpc" : [
+         "https://baas-rpc.luniverse.io:18545?lChainId=1641349324562974539"
+      ],
+      "shortName" : "oc"
    },
    {
       "chain" : "CMP",
@@ -8819,6 +9054,37 @@
       ],
       "shortName" : "kintsugi",
       "title" : "Kintsugi merge testnet"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 1337802,
+      "explorers" : [
+         {
+            "icon" : "ethereum",
+            "name" : "Kiln Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.kiln.themerge.dev"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.kiln.themerge.dev",
+         "https://kiln-faucet.pk910.de",
+         "https://kilnfaucet.com"
+      ],
+      "icon" : "ethereum",
+      "infoURL" : "https://kiln.themerge.dev/",
+      "name" : "Kiln",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet ETH",
+         "symbol" : "ETH"
+      },
+      "network" : "testnet",
+      "networkId" : 1337802,
+      "rpc" : [
+         "https://rpc.kiln.themerge.dev"
+      ],
+      "shortName" : "kiln"
    },
    {
       "chain" : "PlatON",
@@ -9070,10 +9336,23 @@
    {
       "chain" : "Solana",
       "chainId" : 245022926,
+      "explorers" : [
+         {
+            "name" : "native",
+            "standard" : "EIP3091",
+            "url" : "https://devnet.explorer.neon-labs.org"
+         },
+         {
+            "name" : "neonscan",
+            "standard" : "EIP3091",
+            "url" : "https://devnet.neonscan.org"
+         }
+      ],
       "faucets" : [
          "https://neonswap.live/#/get-tokens"
       ],
-      "infoURL" : "https://neon-labs.org/",
+      "icon" : "neon",
+      "infoURL" : "https://neon-labs.org",
       "name" : "Neon EVM DevNet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -9089,8 +9368,21 @@
    {
       "chain" : "Solana",
       "chainId" : 245022934,
+      "explorers" : [
+         {
+            "name" : "native",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet.explorer.neon-labs.org"
+         },
+         {
+            "name" : "neonscan",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet.neonscan.org"
+         }
+      ],
       "faucets" : [],
-      "infoURL" : "https://neon-labs.org/",
+      "icon" : "neon",
+      "infoURL" : "https://neon-labs.org",
       "name" : "Neon EVM MainNet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -9106,8 +9398,21 @@
    {
       "chain" : "Solana",
       "chainId" : 245022940,
+      "explorers" : [
+         {
+            "name" : "native",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.explorer.neon-labs.org"
+         },
+         {
+            "name" : "neonscan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.neonscan.org"
+         }
+      ],
       "faucets" : [],
-      "infoURL" : "https://neon-labs.org/",
+      "icon" : "neon",
+      "infoURL" : "https://neon-labs.org",
       "name" : "Neon EVM TestNet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -9638,6 +9943,7 @@
       "rpc" : [
          "https://godwoken-testnet-web3-v1-rpc.ckbapp.dev"
       ],
-      "shortName" : "gw-testnet-v1"
+      "shortName" : "gw-testnet-v1-deprecated",
+      "status" : "deprecated"
    }
 ]

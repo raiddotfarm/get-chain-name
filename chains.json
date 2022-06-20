@@ -2072,13 +2072,10 @@
       "networkId" : 100,
       "rpc" : [
          "https://rpc.gnosischain.com",
-         "https://xdai.poanetwork.dev",
-         "https://dai.poa.network",
          "https://rpc.ankr.com/gnosis",
          "https://gnosischain-rpc.gateway.pokt.network",
-         "wss://rpc.gnosischain.com/wss",
-         "wss://xdai.poanetwork.dev/wss",
-         "ws://xdai.poanetwork.dev:8546"
+         "https://gnosis-mainnet.public.blastapi.io",
+         "wss://rpc.gnosischain.com/wss"
       ],
       "shortName" : "gno",
       "slip44" : 700
@@ -2681,6 +2678,30 @@
          "https://testnet.bmcchain.com"
       ],
       "shortName" : "BMCT"
+   },
+   {
+      "chain" : "CEM",
+      "chainId" : 193,
+      "explorers" : [
+         {
+            "name" : "cemscan",
+            "standard" : "EIP3091",
+            "url" : "https://cemscan.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://cemblockchain.com/",
+      "name" : "Crypto Emergency",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Crypto Emergency",
+         "symbol" : "CEM"
+      },
+      "networkId" : 193,
+      "rpc" : [
+         "https://cemchain.com"
+      ],
+      "shortName" : "cem"
    },
    {
       "chain" : "BTTC",
@@ -3365,6 +3386,32 @@
       "shortName" : "lisinski"
    },
    {
+      "chain" : "SX",
+      "chainId" : 416,
+      "explorers" : [
+         {
+            "name" : "SX Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.sx.technology"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "SX",
+      "infoURL" : "https://www.sx.technology",
+      "name" : "SX Network Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SX Network",
+         "symbol" : "SX"
+      },
+      "network" : "mainnet",
+      "networkId" : 416,
+      "rpc" : [
+         "https://rpc.sx.technology"
+      ],
+      "shortName" : "SX"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 420,
       "faucets" : [],
@@ -3449,6 +3496,35 @@
          "https://rpc-testnet.acuteangle.com"
       ],
       "shortName" : "aact"
+   },
+   {
+      "chain" : "XSC",
+      "chainId" : 520,
+      "explorers" : [
+         {
+            "name" : "xscscan",
+            "standard" : "EIP3091",
+            "url" : "https://xscscan.pub"
+         }
+      ],
+      "faucets" : [
+         "https://xsc.pub/faucet"
+      ],
+      "icon" : "xsc",
+      "infoURL" : "https://xsc.pub/",
+      "name" : "XT Smart Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "XT Smart Chain Native Token",
+         "symbol" : "XT"
+      },
+      "networkId" : 1024,
+      "rpc" : [
+         "https://datarpc1.xsc.pub",
+         "https://datarpc2.xsc.pub",
+         "https://datarpc3.xsc.pub"
+      ],
+      "shortName" : "xt"
    },
    {
       "chain" : "Candle",
@@ -3640,6 +3716,34 @@
       "networkId" : 600,
       "rpc" : [],
       "shortName" : "mesh-chain-testnet"
+   },
+   {
+      "chain" : "SX",
+      "chainId" : 647,
+      "explorers" : [
+         {
+            "name" : "SX Network Toronto Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.toronto.sx.technology"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.toronto.sx.technology"
+      ],
+      "icon" : "SX",
+      "infoURL" : "https://www.sx.technology",
+      "name" : "SX Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SX Network",
+         "symbol" : "SX"
+      },
+      "network" : "testnet",
+      "networkId" : 647,
+      "rpc" : [
+         "https://rpc.toronto.sx.technology"
+      ],
+      "shortName" : "SX-Testnet"
    },
    {
       "chain" : "PixieChain",
@@ -6033,6 +6137,31 @@
       "shortName" : "xvm"
    },
    {
+      "chain" : "TLC",
+      "chainId" : 5177,
+      "explorers" : [
+         {
+            "name" : "TLChain Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.tlchain.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "tlc",
+      "infoURL" : "https://tlchain.network/",
+      "name" : "TLChain Network Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TLChain Network",
+         "symbol" : "TLC"
+      },
+      "networkId" : 5177,
+      "rpc" : [
+         "https://mainnet-rpc.tlxscan.com/"
+      ],
+      "shortName" : "tlc"
+   },
+   {
       "chain" : "ESN",
       "chainId" : 5197,
       "faucets" : [],
@@ -8217,6 +8346,33 @@
          "wss://volta-rpc.energyweb.org/ws"
       ],
       "shortName" : "vt"
+   },
+   {
+      "chain" : "MVM",
+      "chainId" : 73927,
+      "explorers" : [
+         {
+            "icon" : "mvm",
+            "name" : "mvmscan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.mvm.dev"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "mvm",
+      "infoURL" : "https://mvm.dev",
+      "name" : "Mixin Virtual Machine",
+      "nativeCurrency" : {
+         "decimals" : 8,
+         "name" : "Mixin",
+         "symbol" : "XIN"
+      },
+      "network" : "mainnet",
+      "networkId" : 73927,
+      "rpc" : [
+         "https://geth.mvm.dev"
+      ],
+      "shortName" : "mvm"
    },
    {
       "chain" : "ETH",

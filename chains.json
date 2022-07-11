@@ -947,6 +947,31 @@
       "shortName" : "pangoro"
    },
    {
+      "chain" : "darwinia",
+      "chainId" : 46,
+      "explorers" : [
+         {
+            "name" : "subscan",
+            "standard" : "none",
+            "url" : "https://darwinia.subscan.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://darwinia.network/",
+      "name" : "Darwinia Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Darwinia Network Native Token",
+         "symbol" : "RING"
+      },
+      "network" : "darwinia network",
+      "networkId" : 46,
+      "rpc" : [
+         "https://darwinia-rpc.darwinia.network"
+      ],
+      "shortName" : "darwinia"
+   },
+   {
       "chain" : "XDC",
       "chainId" : 50,
       "faucets" : [],
@@ -4747,6 +4772,31 @@
       "shortName" : "enter"
    },
    {
+      "chain" : "omchain",
+      "chainId" : 1246,
+      "explorers" : [
+         {
+            "name" : "OMSCAN - Expenter",
+            "standard" : "none",
+            "url" : "https://omscan.omplatform.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://omplatform.com/",
+      "name" : "OM Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OMCOIN",
+         "symbol" : "OM"
+      },
+      "network" : "mainnet",
+      "networkId" : 1246,
+      "rpc" : [
+         "https://rpc-cnx.omplatform.com/"
+      ],
+      "shortName" : "om"
+   },
+   {
       "chain" : "HALO",
       "chainId" : 1280,
       "explorers" : [
@@ -5476,7 +5526,7 @@
             "icon" : "kava",
             "name" : "Kava Testnet Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.evm-alpha.kava.io"
+            "url" : "https://explorer.testnet.kava.io"
          }
       ],
       "faucets" : [
@@ -5493,8 +5543,8 @@
       "network" : "testnet",
       "networkId" : 2221,
       "rpc" : [
-         "https://evm.evm-alpha.kava.io",
-         "wss://evm-ws.evm-alpha.kava.io"
+         "https://evm.testnet.kava.io",
+         "wss://wevm.testnet.kava.io"
       ],
       "shortName" : "tkava"
    },
@@ -6403,6 +6453,39 @@
          "wss://ws-mainnet.chain.pixie.xyz"
       ],
       "shortName" : "pixie-chain"
+   },
+   {
+      "chain" : "Tomb Chain",
+      "chainId" : 6969,
+      "explorers" : [
+         {
+            "name" : "tombscout",
+            "standard" : "none",
+            "url" : "https://tombscout.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://tombchain.com/",
+      "name" : "Tomb Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Tomb",
+         "symbol" : "TOMB"
+      },
+      "networkId" : 6969,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://beta-bridge.lif3.com/"
+            }
+         ],
+         "chain" : "eip155-250",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.tombchain.com/"
+      ],
+      "shortName" : "tombchain"
    },
    {
       "chain" : "ella",

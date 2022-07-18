@@ -231,7 +231,7 @@
       "explorers" : [
          {
             "name" : "etherscan",
-            "standard" : "none",
+            "standard" : "EIP3091",
             "url" : "https://optimistic.etherscan.io"
          }
       ],
@@ -305,13 +305,20 @@
    {
       "chain" : "FLR",
       "chainId" : 14,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://flare-explorer.flare.network"
+         }
+      ],
       "faucets" : [],
       "icon" : "flare",
       "infoURL" : "https://flare.xyz",
       "name" : "Flare Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Spark",
+         "name" : "FLR",
          "symbol" : "FLR"
       },
       "networkId" : 14,
@@ -2071,7 +2078,7 @@
       "slip44" : 178
    },
    {
-      "chain" : "Gnosis",
+      "chain" : "GNO",
       "chainId" : 100,
       "explorers" : [
          {
@@ -2088,7 +2095,7 @@
       ],
       "icon" : "gnosis",
       "infoURL" : "https://developers.gnosischain.com",
-      "name" : "Gnosis",
+      "name" : "Gnosis Chain",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "xDAI",
@@ -2202,7 +2209,9 @@
             "url" : "https://explorer.novanetwork.io"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://faucet.novanetwork.io"
+      ],
       "icon" : "nebulatestnet",
       "infoURL" : "https://novanetwork.io",
       "name" : "Nebula Testnet",
@@ -2887,33 +2896,6 @@
       "shortName" : "TLA"
    },
    {
-      "chain" : "AITD",
-      "chainId" : 239,
-      "explorers" : [
-         {
-            "name" : "AITD Chain Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://aitd-explorer-pre.aitdcoin.com"
-         }
-      ],
-      "faucets" : [
-         "https://aitd-faucet-pre.aitdcoin.com/"
-      ],
-      "icon" : "aitd",
-      "infoURL" : "https://www.aitd.io/",
-      "name" : "Aitd Testnet",
-      "nativeCurrency" : {
-         "decimals" : 18,
-         "name" : "AITD Testnet",
-         "symbol" : "AITD"
-      },
-      "networkId" : 239,
-      "rpc" : [
-         "http://http-testnet.aitd.io"
-      ],
-      "shortName" : "AITD"
-   },
-   {
       "chain" : "Energy Web Chain",
       "chainId" : 246,
       "explorers" : [
@@ -3441,11 +3423,11 @@
       "chainId" : 420,
       "faucets" : [],
       "infoURL" : "https://optimism.io",
-      "name" : "Optimistic Ethereum Testnet Goerli",
+      "name" : "Optimism Goerli Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "GÃ¶rli Ether",
-         "symbol" : "GOR"
+         "symbol" : "ETH"
       },
       "networkId" : 420,
       "rpc" : [
@@ -4930,6 +4912,86 @@
       "shortName" : "mrock"
    },
    {
+      "chain" : "Bobabase",
+      "chainId" : 1297,
+      "explorers" : [
+         {
+            "name" : "Blockscout",
+            "standard" : "none",
+            "url" : "https://blockexplorer.bobabase.boba.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://boba.network",
+      "name" : "Boba Network Bobabase",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Boba Token",
+         "symbol" : "BOBA"
+      },
+      "networkId" : 1297,
+      "rpc" : [
+         "https://bobabase.boba.network",
+         "wss://wss.bobabase.boba.network",
+         "https://replica.bobabase.boba.network",
+         "wss://replica-wss.bobabase.boba.network"
+      ],
+      "shortName" : "Bobabase"
+   },
+   {
+      "chain" : "AITD",
+      "chainId" : 1319,
+      "explorers" : [
+         {
+            "name" : "AITD Chain Explorer Mainnet",
+            "standard" : "EIP3091",
+            "url" : "https://aitd-explorer-new.aitd.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "aitd",
+      "infoURL" : "https://www.aitd.io/",
+      "name" : "Aitd Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "AITD Mainnet",
+         "symbol" : "AITD"
+      },
+      "networkId" : 1319,
+      "rpc" : [
+         "http://walletrpc.aitd.io",
+         "http://node.aitd.io"
+      ],
+      "shortName" : "aitd"
+   },
+   {
+      "chain" : "AITD",
+      "chainId" : 1320,
+      "explorers" : [
+         {
+            "name" : "AITD Chain Explorer Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://block-explorer-testnet.aitd.io"
+         }
+      ],
+      "faucets" : [
+         "https://aitd-faucet-pre.aitdcoin.com/"
+      ],
+      "icon" : "aitd",
+      "infoURL" : "https://www.aitd.io/",
+      "name" : "Aitd Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "AITD Testnet",
+         "symbol" : "AITD"
+      },
+      "networkId" : 1320,
+      "rpc" : [
+         "http://http-testnet.aitd.io"
+      ],
+      "shortName" : "aitdtestnet"
+   },
+   {
       "chain" : "CENNZnet",
       "chainId" : 1337,
       "faucets" : [],
@@ -6031,6 +6093,33 @@
          "https://rpc.testnet.fantom.network"
       ],
       "shortName" : "tftm"
+   },
+   {
+      "chain" : "Bobaopera Testnet",
+      "chainId" : 4051,
+      "explorers" : [
+         {
+            "name" : "Blockscout",
+            "standard" : "none",
+            "url" : "https://blockexplorer.testnet.bobaopera.boba.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://boba.network",
+      "name" : "Boba Network Bobaopera Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Boba Token",
+         "symbol" : "BOBA"
+      },
+      "networkId" : 4051,
+      "rpc" : [
+         "https://testnet.bobaopera.boba.network",
+         "wss://wss.testnet.bobaopera.boba.network",
+         "https://replica.testnet.bobaopera.boba.network",
+         "wss://replica-wss.testnet.bobaopera.boba.network"
+      ],
+      "shortName" : "Bobaopera Testnet"
    },
    {
       "chain" : "AIOZ",
@@ -7588,6 +7677,7 @@
       },
       "networkId" : 32520,
       "rpc" : [
+         "https://rpc.icecreamswap.com",
          "https://mainnet-rpc.brisescan.com",
          "https://chainrpc.com",
          "https://serverrpc.com"
@@ -7611,6 +7701,60 @@
          "https://fsn.dev/api"
       ],
       "shortName" : "fsn"
+   },
+   {
+      "chain" : "Q",
+      "chainId" : 35441,
+      "explorers" : [
+         {
+            "icon" : "q",
+            "name" : "Q explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.q.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "q",
+      "infoURL" : "https://q.org",
+      "name" : "Q Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Q token",
+         "symbol" : "Q"
+      },
+      "network" : "mainnet",
+      "networkId" : 35441,
+      "rpc" : [
+         "https://rpc.q.org"
+      ],
+      "shortName" : "q"
+   },
+   {
+      "chain" : "Q",
+      "chainId" : 35443,
+      "explorers" : [
+         {
+            "icon" : "q",
+            "name" : "Q explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.qtestnet.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "q",
+      "infoURL" : "https://q.org/",
+      "name" : "Q Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Q token",
+         "symbol" : "Q"
+      },
+      "network" : "testnet",
+      "networkId" : 35443,
+      "rpc" : [
+         "https://rpc.qtestnet.org"
+      ],
+      "shortName" : "q-testnet"
    },
    {
       "chain" : "NRG",
@@ -8446,7 +8590,7 @@
       "infoURL" : "https://mvm.dev",
       "name" : "Mixin Virtual Machine",
       "nativeCurrency" : {
-         "decimals" : 8,
+         "decimals" : 18,
          "name" : "Mixin",
          "symbol" : "XIN"
       },
@@ -9779,7 +9923,13 @@
       },
       "network" : "testnet",
       "networkId" : 11155111,
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.sepolia.dev",
+         "https://rpc.sepolia.online",
+         "https://www.sepoliarpc.space",
+         "https://rpc.sepolia.org",
+         "https://rpc-sepolia.rockx.com"
+      ],
       "shortName" : "sep",
       "title" : "Ethereum Testnet Sepolia"
    },

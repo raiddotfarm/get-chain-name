@@ -785,6 +785,23 @@
       "shortName" : "tbwg"
    },
    {
+      "chain" : "Dxchain",
+      "chainId" : 36,
+      "faucets" : [],
+      "infoURL" : "https://www.dxchain.com/",
+      "name" : "Dxchain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dxchain",
+         "symbol" : "DX"
+      },
+      "networkId" : 36,
+      "rpc" : [
+         "https://www.mainnet.dxchain.com"
+      ],
+      "shortName" : "dx"
+   },
+   {
       "chain" : "VAL",
       "chainId" : 38,
       "faucets" : [],
@@ -1511,6 +1528,25 @@
       "shortName" : "cfxtest"
    },
    {
+      "chain" : "DxChain",
+      "chainId" : 72,
+      "faucets" : [
+         "https://faucet.dxscan.io"
+      ],
+      "infoURL" : "https://testnet.dxscan.io/",
+      "name" : "DxChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DxChain Testnet",
+         "symbol" : "DX"
+      },
+      "networkId" : 72,
+      "rpc" : [
+         "https://testnet-http.dxchain.com"
+      ],
+      "shortName" : "dxc"
+   },
+   {
       "chain" : "IDChain",
       "chainId" : 74,
       "explorers" : [
@@ -2147,6 +2183,33 @@
          "https://testnet.web3games.org/evm"
       ],
       "shortName" : "tw3g"
+   },
+   {
+      "chain" : "tKLC",
+      "chainId" : 104,
+      "explorers" : [
+         {
+            "icon" : "kaibascan",
+            "name" : "kaibascan",
+            "standard" : "EIP3091",
+            "url" : "https://kaibascan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "kaiba",
+      "infoURL" : "https://kaibadefi.com",
+      "name" : "Kaiba Lightning Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Kaiba Testnet Token",
+         "symbol" : "tKAIBA"
+      },
+      "network" : "testnet",
+      "networkId" : 104,
+      "rpc" : [
+         "https://klc.live/"
+      ],
+      "shortName" : "tklc"
    },
    {
       "chain" : "Web3Games",
@@ -3534,6 +3597,32 @@
       "shortName" : "xt"
    },
    {
+      "chain" : "Fxcore",
+      "chainId" : 530,
+      "explorers" : [
+         {
+            "name" : "FunctionX Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://fx-evm.functionx.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "fxcore",
+      "infoURL" : "https://functionx.io/",
+      "name" : "F(x)Core Mainnet Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Function X",
+         "symbol" : "FX"
+      },
+      "network" : "mainnet",
+      "networkId" : 530,
+      "rpc" : [
+         "https://fx-json-web3.functionx.io:8545"
+      ],
+      "shortName" : "f(x)Core"
+   },
+   {
       "chain" : "Candle",
       "chainId" : 534,
       "explorers" : [
@@ -3985,6 +4074,26 @@
       "shortName" : "haic"
    },
    {
+      "chain" : "PF",
+      "chainId" : 808,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "pf",
+      "infoURL" : "https://portalfantasy.io",
+      "name" : "Portal Fantasy Chain Test",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Portal Fantasy Token",
+         "symbol" : "PFT"
+      },
+      "network" : "testnet",
+      "networkId" : 808,
+      "rpc" : [
+         "http://3.212.233.100:9650/ext/bc/2FJX3r1hWwyMWSo12j429g8HTVH1nrC8twatkLgtaCXtRD4GLq/rpc"
+      ],
+      "shortName" : "PFTEST"
+   },
+   {
       "chain" : "CLO",
       "chainId" : 820,
       "faucets" : [],
@@ -4186,6 +4295,25 @@
          "https://s3-testnet.garizon.net/rpc"
       ],
       "shortName" : "gar-test-s3"
+   },
+   {
+      "chain" : "PF",
+      "chainId" : 909,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "pf",
+      "infoURL" : "https://portalfantasy.io",
+      "name" : "Portal Fantasy Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Portal Fantasy Token",
+         "symbol" : "PFT"
+      },
+      "network" : "mainnet",
+      "networkId" : 909,
+      "rpc" : [],
+      "shortName" : "PF",
+      "status" : "incubating"
    },
    {
       "chain" : "tPLS",
@@ -5934,6 +6062,30 @@
       "shortName" : "prbtestnet"
    },
    {
+      "chain" : "JFIN",
+      "chainId" : 3501,
+      "explorers" : [
+         {
+            "name" : "JFIN Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://exp.jfinchain.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://jfinchain.com",
+      "name" : "JFIN Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "JFIN Coin",
+         "symbol" : "jfin"
+      },
+      "networkId" : 3501,
+      "rpc" : [
+         "https://rpc.jfinchain.com"
+      ],
+      "shortName" : "jfin"
+   },
+   {
       "chain" : "BTX",
       "chainId" : 3690,
       "explorers" : [
@@ -7017,6 +7169,33 @@
          "https://eth.bd.evmos.org:8545"
       ],
       "shortName" : "evmos"
+   },
+   {
+      "chain" : "BRB",
+      "chainId" : 9012,
+      "explorers" : [
+         {
+            "name" : "berylbit-explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.berylbit.io"
+         }
+      ],
+      "faucets" : [
+         "https://t.me/BerylBit"
+      ],
+      "icon" : "berylbit",
+      "infoURL" : "https://www.beryl-bit.com",
+      "name" : "BerylBit Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BerylBit Chain Native Token",
+         "symbol" : "BRB"
+      },
+      "networkId" : 9012,
+      "rpc" : [
+         "https://mainnet.berylbit.io"
+      ],
+      "shortName" : "brb"
    },
    {
       "chain" : "Genesis",
@@ -8507,9 +8686,14 @@
       "chainId" : 71401,
       "explorers" : [
          {
+            "name" : "GWScout Explorer",
+            "standard" : "none",
+            "url" : "https://gw-testnet-explorer.nervosdao.community"
+         },
+         {
             "name" : "GWScan Block Explorer",
             "standard" : "none",
-            "url" : "https://v1.aggron.gwscan.com"
+            "url" : "https://v1.testnet.gwscan.com"
          }
       ],
       "faucets" : [
@@ -8519,8 +8703,8 @@
       "name" : "Godwoken Testnet (V1.1)",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "CKB",
-         "symbol" : "CKB"
+         "name" : "pCKB",
+         "symbol" : "pCKB"
       },
       "networkId" : 71401,
       "rpc" : [
@@ -8533,24 +8717,27 @@
       "chainId" : 71402,
       "explorers" : [
          {
+            "name" : "GWScout Explorer",
+            "standard" : "none",
+            "url" : "https://gw-mainnet-explorer.nervosdao.community"
+         },
+         {
             "name" : "GWScan Block Explorer",
             "standard" : "none",
-            "url" : "https://v1.aggron.gwscan.com"
+            "url" : "https://v1.gwscan.com"
          }
       ],
-      "faucets" : [
-         "https://testnet.bridge.godwoken.io"
-      ],
+      "faucets" : [],
       "infoURL" : "https://www.nervos.org",
       "name" : "Godwoken Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "CKB",
-         "symbol" : "CKB"
+         "name" : "pCKB",
+         "symbol" : "pCKB"
       },
       "networkId" : 71402,
       "rpc" : [
-         "https://godwoken-testnet-v1.ckbapp.dev"
+         "https://v1.mainnet.godwoken.io/rpc"
       ],
       "shortName" : "gw-mainnet-v1"
    },
@@ -9263,6 +9450,33 @@
          "http://eth-jrpc.devnet.quarkchain.io:39907"
       ],
       "shortName" : "qkc-d-s7"
+   },
+   {
+      "chain" : "ETND",
+      "chainId" : 131419,
+      "explorers" : [
+         {
+            "icon" : "ETND",
+            "name" : "etndscan",
+            "standard" : "none",
+            "url" : "https://scan.etnd.pro"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ETND",
+      "infoURL" : "https://www.etnd.pro",
+      "name" : "ETND Chain Mainnets",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ETND",
+         "symbol" : "ETND"
+      },
+      "network" : "mainnet",
+      "networkId" : 131419,
+      "rpc" : [
+         "https://rpc.node1.etnd.pro/"
+      ],
+      "shortName" : "ETND"
    },
    {
       "chain" : "milkTAda",

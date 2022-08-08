@@ -71,7 +71,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ropsten Ether",
-         "symbol" : "ROP"
+         "symbol" : "ETH"
       },
       "network" : "testnet",
       "networkId" : 3,
@@ -104,7 +104,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Rinkeby Ether",
-         "symbol" : "RIN"
+         "symbol" : "ETH"
       },
       "network" : "testnet",
       "networkId" : 4,
@@ -138,7 +138,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "GÃ¶rli Ether",
-         "symbol" : "GOR"
+         "symbol" : "ETH"
       },
       "network" : "testnet",
       "networkId" : 5,
@@ -797,7 +797,7 @@
       },
       "networkId" : 36,
       "rpc" : [
-         "https://www.mainnet.dxchain.com"
+         "https://mainnet.dxchain.com"
       ],
       "shortName" : "dx"
    },
@@ -882,7 +882,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Kovan Ether",
-         "symbol" : "KOV"
+         "symbol" : "ETH"
       },
       "network" : "testnet",
       "networkId" : 42,
@@ -1354,7 +1354,7 @@
       "rpc" : [
          "https://jsonrpc.ellaism.org"
       ],
-      "shortName" : "ella",
+      "shortName" : "ellaism",
       "slip44" : 163
    },
    {
@@ -1462,7 +1462,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Kovan Ether",
-         "symbol" : "KOR"
+         "symbol" : "ETH"
       },
       "networkId" : 69,
       "rpc" : [
@@ -3106,6 +3106,34 @@
    },
    {
       "chain" : "ETH",
+      "chainId" : 280,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://zksync2-testnet.zkscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://portal.zksync.io/faucet"
+      ],
+      "icon" : "ethereum",
+      "infoURL" : "https://v2-docs.zksync.io/",
+      "name" : "zkSync alpha testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 280,
+      "rpc" : [
+         "https://zksync2-testnet.zksync.dev"
+      ],
+      "shortName" : "zksync-goerli"
+   },
+   {
+      "chain" : "ETH",
       "chainId" : 288,
       "explorers" : [
          {
@@ -4089,7 +4117,7 @@
       "network" : "testnet",
       "networkId" : 808,
       "rpc" : [
-         "http://3.212.233.100:9650/ext/bc/2FJX3r1hWwyMWSo12j429g8HTVH1nrC8twatkLgtaCXtRD4GLq/rpc"
+         "https://subnets.avax.network/portal-fantasy/testnet/rpc"
       ],
       "shortName" : "PFTEST"
    },
@@ -4910,7 +4938,7 @@
       "shortName" : "enter"
    },
    {
-      "chain" : "omchain",
+      "chain" : "omplatform",
       "chainId" : 1246,
       "explorers" : [
          {
@@ -4921,7 +4949,7 @@
       ],
       "faucets" : [],
       "infoURL" : "https://omplatform.com/",
-      "name" : "OM Chain Mainnet",
+      "name" : "OM Platform Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "OMCOIN",
@@ -8392,7 +8420,7 @@
       "rpc" : [
          "https://rei-rpc.moonrhythm.io"
       ],
-      "shortName" : "rei"
+      "shortName" : "reichain"
    },
    {
       "chain" : "REI",
@@ -8868,8 +8896,8 @@
       "name" : "Mixin Virtual Machine",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Mixin",
-         "symbol" : "XIN"
+         "name" : "Ether",
+         "symbol" : "ETH"
       },
       "network" : "mainnet",
       "networkId" : 73927,
@@ -8877,6 +8905,30 @@
          "https://geth.mvm.dev"
       ],
       "shortName" : "mvm"
+   },
+   {
+      "chain" : "RESIN",
+      "chainId" : 75000,
+      "explorers" : [
+         {
+            "name" : "ResinScan",
+            "standard" : "none",
+            "url" : "https://explorer.resincoin.ml"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://resincoin.ml",
+      "name" : "ResinCoin Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "RESIN"
+      },
+      "networkId" : 75000,
+      "rpc" : [
+         "https://mainnet.resincoin.ml"
+      ],
+      "shortName" : "resin"
    },
    {
       "chain" : "ETH",
@@ -9828,7 +9880,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Arbitrum Rinkeby Ether",
-         "symbol" : "ARETH"
+         "symbol" : "ETH"
       },
       "networkId" : 421611,
       "parent" : {
@@ -10004,6 +10056,23 @@
       ],
       "shortName" : "vpioneer",
       "slip44" : 60
+   },
+   {
+      "chain" : "4GN",
+      "chainId" : 846000,
+      "faucets" : [],
+      "infoURL" : "https://bloqs4good.com",
+      "name" : "4GoodNetwork",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "APTA",
+         "symbol" : "APTA"
+      },
+      "networkId" : 846000,
+      "rpc" : [
+         "https://chain.deptofgood.com"
+      ],
+      "shortName" : "bloqs4good"
    },
    {
       "chain" : "Vision",
@@ -10462,7 +10531,7 @@
          }
       ],
       "faucets" : [
-         "https://neonswap.live/#/get-tokens"
+         "https://neonfaucet.org"
       ],
       "icon" : "neon",
       "infoURL" : "https://neon-labs.org",
@@ -10474,7 +10543,7 @@
       },
       "networkId" : 245022926,
       "rpc" : [
-         "https://proxy.devnet.neonlabs.org/solana"
+         "https://devnet.neonevm.org"
       ],
       "shortName" : "neonevm-devnet"
    },
@@ -10504,7 +10573,7 @@
       },
       "networkId" : 245022934,
       "rpc" : [
-         "https://proxy.mainnet.neonlabs.org/solana"
+         "https://mainnet.neonevm.org"
       ],
       "shortName" : "neonevm-mainnet"
    },
@@ -10534,7 +10603,7 @@
       },
       "networkId" : 245022940,
       "rpc" : [
-         "https://proxy.testnet.neonlabs.org/solana"
+         "https://testnet.neonevm.org"
       ],
       "shortName" : "neonevm-testnet"
    },

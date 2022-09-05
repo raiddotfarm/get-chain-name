@@ -360,7 +360,7 @@
       "name" : "Flare Testnet Coston",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Coston Spark",
+         "name" : "Coston Flare",
          "symbol" : "CFLR"
       },
       "networkId" : 16,
@@ -639,7 +639,7 @@
       "rpc" : [
          "https://rinkeby.boba.network/"
       ],
-      "shortName" : "Boba Rinkeby"
+      "shortName" : "BobaRinkeby"
    },
    {
       "chain" : "genesis",
@@ -824,7 +824,7 @@
       "infoURL" : "https://www.seedcoin.network/",
       "name" : "SeedCoin-Network",
       "nativeCurrency" : {
-         "decimals" : 8,
+         "decimals" : 18,
          "name" : "SeedCoin",
          "symbol" : "SEED"
       },
@@ -874,7 +874,7 @@
       "rpc" : [
          "https://mainnet.telos.net/evm"
       ],
-      "shortName" : "Telos EVM"
+      "shortName" : "TelosEVM"
    },
    {
       "chain" : "TLOS",
@@ -893,7 +893,7 @@
       "rpc" : [
          "https://testnet.telos.net/evm"
       ],
-      "shortName" : "Telos EVM Testnet"
+      "shortName" : "TelosEVMTestnet"
    },
    {
       "chain" : "ETH",
@@ -1292,7 +1292,7 @@
          "https://dappnode3.ont.io:10339",
          "https://dappnode4.ont.io:10339"
       ],
-      "shortName" : "Ontology Mainnet"
+      "shortName" : "OntologyMainnet"
    },
    {
       "chain" : "EOS",
@@ -1316,7 +1316,7 @@
       "rpc" : [
          "https://api.eosargentina.io"
       ],
-      "shortName" : "EOS Mainnet"
+      "shortName" : "EOSMainnet"
    },
    {
       "chain" : "GO",
@@ -2085,7 +2085,7 @@
       "rpc" : [
          "https://kylin.eosargentina.io"
       ],
-      "shortName" : "Kylin Testnet"
+      "shortName" : "KylinTestnet"
    },
    {
       "chain" : "NSC",
@@ -2499,7 +2499,7 @@
       "rpc" : [
          "https://rpc.testnet.oychain.io"
       ],
-      "shortName" : "oychain testnet",
+      "shortName" : "OYchainTestnet",
       "slip44" : 125
    },
    {
@@ -2525,7 +2525,7 @@
       "rpc" : [
          "https://rpc.mainnet.oychain.io"
       ],
-      "shortName" : "oychain mainnet",
+      "shortName" : "OYchainMainnet",
       "slip44" : 126
    },
    {
@@ -3738,7 +3738,7 @@
       "rpc" : [
          "https://fx-json-web3.functionx.io:8545"
       ],
-      "shortName" : "f(x)Core"
+      "shortName" : "FxCore"
    },
    {
       "chain" : "Candle",
@@ -4112,6 +4112,31 @@
       "rpc" : [],
       "shortName" : "tfeth",
       "slip44" : 721
+   },
+   {
+      "chain" : "LYC",
+      "chainId" : 721,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.lycanchain.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "lycanchain",
+      "infoURL" : "https://lycanchain.com",
+      "name" : "Lycan Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Lycan",
+         "symbol" : "LYC"
+      },
+      "networkId" : 721,
+      "rpc" : [
+         "https://rpc.lycanchain.com/"
+      ],
+      "shortName" : "LYC"
    },
    {
       "chain" : "OpenChain Testnet",
@@ -5129,7 +5154,7 @@
       "rpc" : [
          "https://ultron-dev.io"
       ],
-      "shortName" : "Ultron Testnet"
+      "shortName" : "UltronTestnet"
    },
    {
       "chain" : "Ultron",
@@ -5155,7 +5180,7 @@
       "rpc" : [
          "https://ultron-rpc.net"
       ],
-      "shortName" : "Utron Mainnet"
+      "shortName" : "UtronMainnet"
    },
    {
       "chain" : "omplatform",
@@ -5483,7 +5508,7 @@
       "rpc" : [
          "https://sherpax-testnet.chainx.org/rpc"
       ],
-      "shortName" : "Sherpax Testnet"
+      "shortName" : "SherpaxTestnet"
    },
    {
       "chain" : "BMC",
@@ -5940,6 +5965,30 @@
       "slip44" : 1008
    },
    {
+      "chain" : "Qkacoin",
+      "chainId" : 2077,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.qkacoin.org"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://qkacoin.org",
+      "name" : "Quokkacoin Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Qkacoin",
+         "symbol" : "QKA"
+      },
+      "networkId" : 2077,
+      "rpc" : [
+         "http://rpc.qkacoin.org:8548"
+      ],
+      "shortName" : "QKA"
+   },
+   {
       "chain" : "ECO",
       "chainId" : 2100,
       "explorers" : [
@@ -6336,6 +6385,32 @@
       "shortName" : "cennz-n"
    },
    {
+      "chain" : "ORL",
+      "chainId" : 3031,
+      "explorers" : [
+         {
+            "icon" : "orl",
+            "name" : "Orlando (ORL) Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://orlscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "orl",
+      "infoURL" : "https://orlchain.com",
+      "name" : "Orlando Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Orlando",
+         "symbol" : "ORL"
+      },
+      "networkId" : 3031,
+      "rpc" : [
+         "https://rpc-testnet.orlchain.com"
+      ],
+      "shortName" : "ORL"
+   },
+   {
       "chain" : "Beach",
       "chainId" : 3331,
       "faucets" : [
@@ -6665,7 +6740,7 @@
          "https://replica.testnet.bobaopera.boba.network",
          "wss://replica-wss.testnet.bobaopera.boba.network"
       ],
-      "shortName" : "Bobaopera Testnet"
+      "shortName" : "BobaoperaTestnet"
    },
    {
       "chain" : "AIOZ",
@@ -6745,7 +6820,7 @@
          "https://replica.testnet.avax.boba.network",
          "wss://replica-wss.testnet.avax.boba.network"
       ],
-      "shortName" : "Bobafuji Testnet"
+      "shortName" : "BobafujiTestnet"
    },
    {
       "chain" : "iotex.io",
@@ -6991,7 +7066,7 @@
       "rpc" : [
          "https://l2.testnet.nahmii.io"
       ],
-      "shortName" : "Nahmii testnet"
+      "shortName" : "NahmiiTestnet"
    },
    {
       "chain" : "SYS",
@@ -7076,7 +7151,7 @@
          "https://polaris3.ont.io:10339",
          "https://polaris4.ont.io:10339"
       ],
-      "shortName" : "Ontology Testnet"
+      "shortName" : "OntologyTestnet"
    },
    {
       "chain" : "RBD",
@@ -7213,6 +7288,35 @@
       "slip44" : 2147490989
    },
    {
+      "chain" : "Canto",
+      "chainId" : 7700,
+      "explorers" : [
+         {
+            "name" : "Canto EVM Explorer (Blockscout)",
+            "standard" : "none",
+            "url" : "https://evm.explorer.canto.io"
+         },
+         {
+            "name" : "Canto Cosmos Explorer (BigDipper)",
+            "standard" : "none",
+            "url" : "https://cosmos.explorer.canto.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://canto.io",
+      "name" : "Canto",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Canto",
+         "symbol" : "CANTO"
+      },
+      "networkId" : 7700,
+      "rpc" : [
+         "https://canto.evm.chandrastation.com"
+      ],
+      "shortName" : "canto"
+   },
+   {
       "chain" : "nmactest",
       "chainId" : 7777,
       "explorers" : [
@@ -7238,7 +7342,7 @@
          "https://testnet4.riseofthewarbots.com",
          "https://testnet5.riseofthewarbots.com"
       ],
-      "shortName" : "Rise of the Warbots Testnet"
+      "shortName" : "RiseOfTheWarbotsTestnet"
    },
    {
       "chain" : "SCAS",
@@ -7741,7 +7845,7 @@
          "https://replica.testnet.bnb.boba.network",
          "wss://replica-wss.testnet.bnb.boba.network"
       ],
-      "shortName" : "Boba BNB Testnet"
+      "shortName" : "BobaBNBTestnet"
    },
    {
       "chain" : "myOwn",
@@ -7822,6 +7926,23 @@
          "https://node1.testnet.gaiaopen.network"
       ],
       "shortName" : "gon"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 10086,
+      "faucets" : [],
+      "infoURL" : "https://sjis.me",
+      "name" : "SJATSH",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 10086,
+      "rpc" : [
+         "http://geth.free.idcfengye.com"
+      ],
+      "shortName" : "SJ"
    },
    {
       "chain" : "GEN",
@@ -7963,16 +8084,16 @@
       "chainId" : 11111,
       "explorers" : [
          {
-            "name" : "WAGMI Explorer",
+            "name" : "Avalanche Subnet Explorer",
             "standard" : "EIP3091",
-            "url" : "https://subnets.avax.network/wagmi/wagmi-chain-testnet/explorer"
+            "url" : "https://subnets-test.avax.network/wagmi"
          }
       ],
       "faucets" : [
-         "https://faucet.trywagmi.xyz"
+         "https://faucet.avax.network/?subnet=wagmi"
       ],
       "icon" : "wagmi",
-      "infoURL" : "https://trywagmi.xyz",
+      "infoURL" : "https://subnets-test.avax.network/wagmi/details",
       "name" : "WAGMI",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -8181,7 +8302,7 @@
       "rpc" : [
          "https://api.testnet-dev.trust.one"
       ],
-      "shortName" : "Trust testnet"
+      "shortName" : "TrustTestnet"
    },
    {
       "chain" : "MTT",
@@ -8287,7 +8408,7 @@
       "rpc" : [
          "https://testnet-rpc.callisto.network/"
       ],
-      "shortName" : "clo testnet"
+      "shortName" : "CLOTestnet"
    },
    {
       "chain" : "CENNZnet",
@@ -8367,6 +8488,33 @@
          "https://taycan-rpc.hupayx.io:8545"
       ],
       "shortName" : "SFL"
+   },
+   {
+      "chain" : "Opside",
+      "chainId" : 23118,
+      "explorers" : [
+         {
+            "name" : "opsideInfo",
+            "standard" : "EIP3091",
+            "url" : "https://opside.info"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.opside.network"
+      ],
+      "icon" : "opside",
+      "infoURL" : "https://opside.network",
+      "name" : "Opside Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "IDE",
+         "symbol" : "IDE"
+      },
+      "networkId" : 23118,
+      "rpc" : [
+         "https://testrpc.opside.network"
+      ],
+      "shortName" : "opside"
    },
    {
       "chain" : "WEB",
@@ -8903,7 +9051,7 @@
       "rpc" : [
          "https://rpc.autobahn.network"
       ],
-      "shortName" : "Autobahn Network"
+      "shortName" : "AutobahnNetwork"
    },
    {
       "chain" : "REI",

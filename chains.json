@@ -5607,6 +5607,33 @@
       "shortName" : "LUDAN"
    },
    {
+      "chain" : "rAna",
+      "chainId" : 1807,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "none",
+            "url" : "https://rabbit.analogscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://analogfaucet.com"
+      ],
+      "icon" : "rabbit",
+      "infoURL" : "https://rabbit.analogscan.com",
+      "name" : "Rabbit Analog Testnet Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Rabbit Analog Test Chain Native Token ",
+         "symbol" : "rAna"
+      },
+      "networkId" : 1807,
+      "rpc" : [
+         "https://rabbit.analog-rpc.com"
+      ],
+      "shortName" : "rAna"
+   },
+   {
       "chain" : "Cube",
       "chainId" : 1818,
       "explorers" : [
@@ -5984,7 +6011,7 @@
       },
       "networkId" : 2077,
       "rpc" : [
-         "http://rpc.qkacoin.org:8548"
+         "https://rpc.qkacoin.org"
       ],
       "shortName" : "QKA"
    },
@@ -8368,6 +8395,30 @@
       "shortName" : "tivar"
    },
    {
+      "chain" : "Game Network",
+      "chainId" : 18000,
+      "explorers" : [
+         {
+            "name" : "Game Network",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.fod.games"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://goexosphere.com",
+      "name" : "Frontier of Dreams Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZKST",
+         "symbol" : "ZKST"
+      },
+      "networkId" : 18000,
+      "rpc" : [
+         "https://rpc.fod.games/"
+      ],
+      "shortName" : "ZKST"
+   },
+   {
       "chain" : "BTCIX",
       "chainId" : 19845,
       "explorers" : [
@@ -8767,6 +8818,30 @@
       "slip44" : 39797
    },
    {
+      "chain" : "Opulent-X",
+      "chainId" : 41500,
+      "explorers" : [
+         {
+            "name" : "Opulent-X BETA Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.opulent-x.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://beta.opulent-x.com",
+      "name" : "Opulent-X BETA",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Oxyn Gas",
+         "symbol" : "OXYN"
+      },
+      "networkId" : 41500,
+      "rpc" : [
+         "https://connect.opulent-x.com"
+      ],
+      "shortName" : "ox-beta"
+   },
+   {
       "chain" : "42069",
       "chainId" : 42069,
       "faucets" : [],
@@ -8887,15 +8962,17 @@
       "chainId" : 42261,
       "explorers" : [
          {
-            "name" : "Emerald Paratime Testnet Explorer",
+            "name" : "Emerald ParaTime Testnet Explorer",
             "standard" : "EIP3091",
             "url" : "https://testnet.explorer.emerald.oasis.dev"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://faucet.testnet.oasis.dev/"
+      ],
       "icon" : "oasis",
       "infoURL" : "https://docs.oasis.dev/general/developer-resources/overview",
-      "name" : "Emerald Paratime Testnet",
+      "name" : "Oasis Emerald ParaTime Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Emerald Rose",
@@ -8906,14 +8983,14 @@
          "https://testnet.emerald.oasis.dev/",
          "wss://testnet.emerald.oasis.dev/ws"
       ],
-      "shortName" : "emerald"
+      "shortName" : "emerald-testnet"
    },
    {
       "chain" : "Emerald",
       "chainId" : 42262,
       "explorers" : [
          {
-            "name" : "Emerald Paratime Mainnet Explorer",
+            "name" : "Emerald ParaTime Mainnet Explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.emerald.oasis.dev"
          }
@@ -8921,7 +8998,7 @@
       "faucets" : [],
       "icon" : "oasis",
       "infoURL" : "https://docs.oasis.dev/general/developer-resources/overview",
-      "name" : "Emerald Paratime Mainnet",
+      "name" : "Oasis Emerald ParaTime Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Emerald Rose",
@@ -8932,7 +9009,7 @@
          "https://emerald.oasis.dev",
          "wss://emerald.oasis.dev/ws"
       ],
-      "shortName" : "oasis"
+      "shortName" : "emerald"
    },
    {
       "chain" : "ATH",
@@ -9779,7 +9856,7 @@
       },
       "networkId" : 92001,
       "rpc" : [
-         "http://18.143.13.243:8545"
+         "https://evm.lambda.top/"
       ],
       "shortName" : "lambda-testnet"
    },
@@ -11550,6 +11627,60 @@
          "https://jp.rpc.qkiscan.io"
       ],
       "shortName" : "qki"
+   },
+   {
+      "chain" : "TEXL",
+      "chainId" : 27082017,
+      "explorers" : [
+         {
+            "icon" : "exl",
+            "name" : "exlscan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-explorer.exlscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.exlscan.com"
+      ],
+      "icon" : "exl",
+      "infoURL" : "",
+      "name" : "Excoincial Chain Volta-Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TExlcoin",
+         "symbol" : "TEXL"
+      },
+      "networkId" : 27082017,
+      "rpc" : [
+         "https://testnet-rpc.exlscan.com"
+      ],
+      "shortName" : "exlvolta"
+   },
+   {
+      "chain" : "EXL",
+      "chainId" : 27082022,
+      "explorers" : [
+         {
+            "icon" : "exl",
+            "name" : "exlscan",
+            "standard" : "EIP3091",
+            "url" : "https://exlscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "exl",
+      "infoURL" : "",
+      "name" : "Excoincial Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Exlcoin",
+         "symbol" : "EXL"
+      },
+      "networkId" : 27082022,
+      "rpc" : [
+         "https://rpc.exlscan.com"
+      ],
+      "shortName" : "exl"
    },
    {
       "chain" : "AUX",

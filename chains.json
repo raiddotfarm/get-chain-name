@@ -7495,7 +7495,7 @@
          "https://faucet.liberty10.shardeum.org"
       ],
       "infoURL" : "https://docs.shardeum.org/",
-      "name" : "Shardeum Liberty 1.3",
+      "name" : "Shardeum Liberty",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Shardeum SHM",
@@ -9742,11 +9742,11 @@
          {
             "name" : "ResinScan",
             "standard" : "none",
-            "url" : "https://explorer.resincoin.ml"
+            "url" : "https://explorer.resincoin.dev"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://resincoin.ml",
+      "infoURL" : "https://resincoin.dev",
       "name" : "ResinCoin Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -9755,7 +9755,7 @@
       },
       "networkId" : 75000,
       "rpc" : [
-         "https://mainnet.resincoin.ml"
+         "https://mainnet.resincoin.dev"
       ],
       "shortName" : "resin"
    },
@@ -9831,6 +9831,34 @@
          "https://mainnet-rpc.ivarex.com"
       ],
       "shortName" : "ivar"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 90210,
+      "explorers" : [
+         {
+            "name" : "Beverly Hills explorer",
+            "standard" : "none",
+            "url" : "https://explorer.beverlyhills.ethdevops.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.beverlyhills.ethdevops.io"
+      ],
+      "infoURL" : "https://beverlyhills.ethdevops.io",
+      "name" : "Beverly Hills",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Beverly Hills Testnet Ether",
+         "symbol" : "BVE"
+      },
+      "networkId" : 90210,
+      "rpc" : [
+         "https://rpc.beverlyhills.ethdevops.io:8545"
+      ],
+      "shortName" : "bvhl",
+      "status" : "incubating",
+      "title" : "Ethereum multi-client Verkle Testnet Beverly Hills"
    },
    {
       "chain" : "Lambda",

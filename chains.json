@@ -3230,6 +3230,11 @@
       "chainId" : 288,
       "explorers" : [
          {
+            "name" : "Bobascan",
+            "standard" : "none",
+            "url" : "https://bobascan.com"
+         },
+         {
             "name" : "Blockscout",
             "standard" : "none",
             "url" : "https://blockexplorer.boba.network"
@@ -4096,22 +4101,6 @@
          "wss://rpc-ws-testnet.bcsdev.io"
       ],
       "shortName" : "tbcs"
-   },
-   {
-      "chain" : "FETH",
-      "chainId" : 721,
-      "faucets" : [],
-      "infoURL" : "https://www.factory127.com",
-      "name" : "Factory 127 Testnet",
-      "nativeCurrency" : {
-         "decimals" : 18,
-         "name" : "Factory 127 Token",
-         "symbol" : "FETH"
-      },
-      "networkId" : 721,
-      "rpc" : [],
-      "shortName" : "tfeth",
-      "slip44" : 721
    },
    {
       "chain" : "LYC",
@@ -7991,6 +7980,30 @@
       "shortName" : "GEN"
    },
    {
+      "chain" : "0XTade Chain",
+      "chainId" : 10248,
+      "explorers" : [
+         {
+            "name" : "0xtrade Scan",
+            "standard" : "none",
+            "url" : "https://www.0xtscan.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.0xtrade.finance/",
+      "name" : "0XTade",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "0XT",
+         "symbol" : "0XT"
+      },
+      "networkId" : 10248,
+      "rpc" : [
+         "https://node.0xtchain.com"
+      ],
+      "shortName" : "0xt"
+   },
+   {
       "chain" : "CCP",
       "chainId" : 10823,
       "explorers" : [
@@ -8935,6 +8948,11 @@
       "chainId" : 42220,
       "explorers" : [
          {
+            "name" : "Celoscan",
+            "standard" : "EIP3091",
+            "url" : "https://celoscan.io"
+         },
+         {
             "name" : "blockscout",
             "standard" : "none",
             "url" : "https://explorer.celo.org"
@@ -8955,7 +8973,7 @@
          "https://forno.celo.org",
          "wss://forno.celo.org/ws"
       ],
-      "shortName" : "CELO"
+      "shortName" : "celo"
    },
    {
       "chain" : "Emerald",

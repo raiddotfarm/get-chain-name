@@ -9764,6 +9764,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "resincoin",
       "infoURL" : "https://resincoin.dev",
       "name" : "ResinCoin Mainnet",
       "nativeCurrency" : {

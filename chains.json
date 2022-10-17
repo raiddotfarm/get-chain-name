@@ -3581,6 +3581,34 @@
       "shortName" : "lisinski"
    },
    {
+      "chain" : "HPN",
+      "chainId" : 400,
+      "explorers" : [
+         {
+            "icon" : "hyperonchain",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.hyperonchain.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.hyperonchain.com"
+      ],
+      "icon" : "hyperonchain",
+      "infoURL" : "https://docs.hyperonchain.com",
+      "name" : "HyperonChain TestNet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "HyperonChain",
+         "symbol" : "HPN"
+      },
+      "networkId" : 400,
+      "rpc" : [
+         "https://testnet-rpc.hyperonchain.com"
+      ],
+      "shortName" : "hpn"
+   },
+   {
       "chain" : "SX",
       "chainId" : 416,
       "explorers" : [
@@ -7328,7 +7356,7 @@
       },
       "networkId" : 7700,
       "rpc" : [
-         "https://canto.evm.chandrastation.com"
+         "https://canto.slingshot.finance"
       ],
       "shortName" : "canto"
    },

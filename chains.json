@@ -2597,7 +2597,8 @@
          "https://matic-mainnet.chainstacklabs.com",
          "https://rpc-mainnet.maticvigil.com",
          "https://rpc-mainnet.matic.quiknode.pro",
-         "https://matic-mainnet-full-rpc.bwarelabs.com"
+         "https://matic-mainnet-full-rpc.bwarelabs.com",
+         "https://polygon-bor.publicnode.com"
       ],
       "shortName" : "matic",
       "slip44" : 966
@@ -3292,6 +3293,43 @@
       "shortName" : "ogc"
    },
    {
+      "chain" : "FIL",
+      "chainId" : 314,
+      "explorers" : [
+         {
+            "name" : "Filfox",
+            "standard" : "none",
+            "url" : "https://filfox.info/en"
+         },
+         {
+            "name" : "Filscan",
+            "standard" : "none",
+            "url" : "https://filscan.io"
+         },
+         {
+            "name" : "Filscout",
+            "standard" : "none",
+            "url" : "https://filscout.io/en"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "filecoin",
+      "infoURL" : "https://filecoin.io",
+      "name" : "Filecoin — Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "filecoin",
+         "symbol" : "FIL"
+      },
+      "networkId" : 314,
+      "rpc" : [
+         "https://api.node.glif.io/rpc/v0"
+      ],
+      "shortName" : "filecoin",
+      "slip44" : 461,
+      "status" : "incubating"
+   },
+   {
       "chain" : "KCC",
       "chainId" : 321,
       "explorers" : [
@@ -3901,7 +3939,8 @@
       "rpc" : [
          "https://stardust.metis.io/?owner=588"
       ],
-      "shortName" : "metis-stardust"
+      "shortName" : "metis-stardust",
+      "status" : "deprecated"
    },
    {
       "chain" : "ASTR",
@@ -3975,6 +4014,41 @@
       "rpc" : [],
       "shortName" : "taca",
       "slip44" : 597
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 599,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://goerli.explorer.metisdevops.link"
+         }
+      ],
+      "faucets" : [
+         "https://goerli.faucet.metisdevops.link"
+      ],
+      "infoURL" : "https://www.metis.io",
+      "name" : "Metis Goerli Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Goerli Metis",
+         "symbol" : "METIS"
+      },
+      "networkId" : 599,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://testnet-bridge.metis.io"
+            }
+         ],
+         "chain" : "eip155-4",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://goerli.gateway.metisdevops.link"
+      ],
+      "shortName" : "metis-goerli"
    },
    {
       "chain" : "MeshTestChain",
@@ -4934,6 +5008,34 @@
       "shortName" : "cfx"
    },
    {
+      "chain" : "Bronos",
+      "chainId" : 1038,
+      "explorers" : [
+         {
+            "icon" : "bronos",
+            "name" : "Bronos Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://tbroscan.bronos.org"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.bronos.org"
+      ],
+      "icon" : "bronos",
+      "infoURL" : "https://bronos.org",
+      "name" : "Bronos Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BRO",
+         "symbol" : "BRO"
+      },
+      "networkId" : 1038,
+      "rpc" : [
+         "https://testnet-json-rpc.bronos.org"
+      ],
+      "shortName" : "bronos-testnet"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 1088,
       "explorers" : [
@@ -5859,6 +5961,32 @@
       "shortName" : "milkAda"
    },
    {
+      "chain" : "milkALGO",
+      "chainId" : 2002,
+      "explorers" : [
+         {
+            "name" : "Blockscout",
+            "standard" : "none",
+            "url" : "https://explorer-mainnet-algorand-rollup.a1.milkomeda.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "milkomeda",
+      "infoURL" : "https://milkomeda.com",
+      "name" : "Milkomeda A1 Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "milkALGO",
+         "symbol" : "mALGO"
+      },
+      "networkId" : 2002,
+      "rpc" : [
+         "https://rpc-mainnet-algorand-rollup.a1.milkomeda.com",
+         "wss://rpc-mainnet-algorand-rollup.a1.milkomeda.com/ws"
+      ],
+      "shortName" : "milkALGO"
+   },
+   {
       "chain" : "CloudWalk Testnet",
       "chainId" : 2008,
       "explorers" : [
@@ -6453,6 +6581,25 @@
          "https://rpc-testnet.orlchain.com"
       ],
       "shortName" : "ORL"
+   },
+   {
+      "chain" : "FIL",
+      "chainId" : 3141,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "filecoin",
+      "infoURL" : "https://filecoin.io",
+      "name" : "Filecoin — Buildernet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "filecoin",
+         "symbol" : "FIL"
+      },
+      "networkId" : 3141,
+      "rpc" : [],
+      "shortName" : "filecoin-buildernet",
+      "slip44" : 1,
+      "status" : "incubating"
    },
    {
       "chain" : "Beach",
@@ -7653,6 +7800,32 @@
       "slip44" : 479
    },
    {
+      "chain" : "ALPH",
+      "chainId" : 8738,
+      "explorers" : [
+         {
+            "icon" : "alphscan",
+            "name" : "alphscan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.alph.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://alph.network",
+      "name" : "Alph Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Alph Network",
+         "symbol" : "ALPH"
+      },
+      "networkId" : 8738,
+      "rpc" : [
+         "http://rpc.alph.network:8545",
+         "ws://rpc.alph.network:8546"
+      ],
+      "shortName" : "alph"
+   },
+   {
       "chain" : "ambroschain",
       "chainId" : 8888,
       "explorers" : [
@@ -8742,6 +8915,35 @@
       "slip44" : 6060
    },
    {
+      "chain" : "FIL",
+      "chainId" : 31415,
+      "explorers" : [
+         {
+            "name" : "Filscan",
+            "standard" : "none",
+            "url" : "https://wallaby.filscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://wallaby.network/#faucet"
+      ],
+      "icon" : "filecoin",
+      "infoURL" : "https://filecoin.io",
+      "name" : "Filecoin — Wallaby testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "testnet filecoin",
+         "symbol" : "tFIL"
+      },
+      "networkId" : 31415,
+      "rpc" : [
+         "https://wallaby.node.glif.io/rpc/v0"
+      ],
+      "shortName" : "filecoin-wallaby",
+      "slip44" : 1,
+      "status" : "incubating"
+   },
+   {
       "chain" : "Brise",
       "chainId" : 32520,
       "explorers" : [
@@ -9128,6 +9330,32 @@
       ],
       "shortName" : "avax",
       "slip44" : 9005
+   },
+   {
+      "chain" : "Boba Avax",
+      "chainId" : 43288,
+      "explorers" : [
+         {
+            "name" : "Boba Avax Explorer",
+            "standard" : "none",
+            "url" : "https://blockexplorer.avax.boba.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://docs.boba.network/for-developers/network-avalanche",
+      "name" : "Boba Avax",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Boba Token",
+         "symbol" : "BOBA"
+      },
+      "networkId" : 43288,
+      "rpc" : [
+         "https://avax.boba.network",
+         "wss://wss.avax.boba.network",
+         "https://replica.avax.boba.network"
+      ],
+      "shortName" : "bobaavax"
    },
    {
       "chain" : "CELO",
@@ -10848,6 +11076,40 @@
       "shortName" : "SoChain"
    },
    {
+      "chain" : "FIL",
+      "chainId" : 314159,
+      "explorers" : [
+         {
+            "name" : "Filscan",
+            "standard" : "none",
+            "url" : "https://calibration.filscan.io"
+         },
+         {
+            "name" : "Filscout",
+            "standard" : "none",
+            "url" : "https://calibration.filscout.com/en"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.calibration.fildev.network/"
+      ],
+      "icon" : "filecoin",
+      "infoURL" : "https://filecoin.io",
+      "name" : "Filecoin — Calibration testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "testnet filecoin",
+         "symbol" : "tFIL"
+      },
+      "networkId" : 314159,
+      "rpc" : [
+         "https://api.calibration.node.glif.io/rpc/v0"
+      ],
+      "shortName" : "filecoin-calibration",
+      "slip44" : 1,
+      "status" : "incubating"
+   },
+   {
       "chain" : "Sparta",
       "chainId" : 333888,
       "faucets" : [
@@ -10886,6 +11148,56 @@
          "https://rpc.polis.tech"
       ],
       "shortName" : "olympus"
+   },
+   {
+      "chain" : "Metal",
+      "chainId" : 381931,
+      "explorers" : [
+         {
+            "name" : "metalscan",
+            "standard" : "EIP3091",
+            "url" : "https://metalscan.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.metalblockchain.org/",
+      "name" : "Metal C-Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Metal",
+         "symbol" : "METAL"
+      },
+      "networkId" : 381931,
+      "rpc" : [
+         "https://api.metalblockchain.org/ext/bc/C/rpc"
+      ],
+      "shortName" : "metal",
+      "slip44" : 9005
+   },
+   {
+      "chain" : "Metal",
+      "chainId" : 381932,
+      "explorers" : [
+         {
+            "name" : "metalscan",
+            "standard" : "EIP3091",
+            "url" : "https://tahoe.metalscan.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.metalblockchain.org/",
+      "name" : "Metal Tahoe C-Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Metal",
+         "symbol" : "METAL"
+      },
+      "networkId" : 381932,
+      "rpc" : [
+         "https://tahoe.metalblockchain.org/ext/bc/C/rpc"
+      ],
+      "shortName" : "Tahoe",
+      "slip44" : 9005
    },
    {
       "chain" : "kek",
@@ -11499,6 +11811,27 @@
       "shortName" : "platondev2"
    },
    {
+      "chain" : "FIL",
+      "chainId" : 3141592,
+      "explorers" : [],
+      "faucets" : [
+         "https://faucet.butterfly.fildev.network"
+      ],
+      "icon" : "filecoin",
+      "infoURL" : "https://filecoin.io",
+      "name" : "Filecoin — Butterfly testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "testnet filecoin",
+         "symbol" : "tFIL"
+      },
+      "networkId" : 3141592,
+      "rpc" : [],
+      "shortName" : "filecoin-butterfly",
+      "slip44" : 1,
+      "status" : "incubating"
+   },
+   {
       "chain" : "MUSIC",
       "chainId" : 7762959,
       "faucets" : [],
@@ -11774,6 +12107,25 @@
       ],
       "shortName" : "auxi",
       "slip44" : 344
+   },
+   {
+      "chain" : "FIL",
+      "chainId" : 31415926,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "filecoin",
+      "infoURL" : "https://filecoin.io",
+      "name" : "Filecoin — Local testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "testnet filecoin",
+         "symbol" : "tFIL"
+      },
+      "networkId" : 31415926,
+      "rpc" : [],
+      "shortName" : "filecoin-local",
+      "slip44" : 1,
+      "status" : "incubating"
    },
    {
       "chain" : "JOYS",

@@ -3033,6 +3033,30 @@
       "shortName" : "aox"
    },
    {
+      "chain" : "MOAC",
+      "chainId" : 201,
+      "explorers" : [
+         {
+            "name" : "moac testnet explorer",
+            "standard" : "none",
+            "url" : "https://testnet.moac.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://moac.io",
+      "name" : "MOAC testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MOAC",
+         "symbol" : "mc"
+      },
+      "networkId" : 201,
+      "rpc" : [
+         "http://gateway.moac.io/testnet"
+      ],
+      "shortName" : "moactest"
+   },
+   {
       "chain" : "EDI",
       "chainId" : 211,
       "faucets" : [
@@ -3189,7 +3213,7 @@
       },
       "networkId" : 248,
       "rpc" : [
-         "https://rpc-mainnet.oasys.games"
+         "https://rpc.mainnet.oasys.games"
       ],
       "shortName" : "OAS"
    },
@@ -3451,7 +3475,10 @@
             "url" : "https://explorer.kcc.io/en"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://faucet.kcc.io/",
+         "https://free-online-app.com/faucet-for-eth-evm-chains/"
+      ],
       "infoURL" : "https://kcc.io",
       "name" : "KCC Mainnet",
       "nativeCurrency" : {
@@ -3459,19 +3486,21 @@
          "name" : "KuCoin Token",
          "symbol" : "KCS"
       },
-      "networkId" : 1,
+      "networkId" : 321,
       "rpc" : [
          "https://rpc-mainnet.kcc.network",
-         "wss://rpc-ws-mainnet.kcc.network"
+         "https://kcc.mytokenpocket.vip",
+         "https://public-rpc.blockpi.io/http/kcc"
       ],
-      "shortName" : "kcs"
+      "shortName" : "kcs",
+      "slip44" : 641
    },
    {
       "chain" : "KCC",
       "chainId" : 322,
       "explorers" : [
          {
-            "name" : "kcc-scan",
+            "name" : "kcc-scan-testnet",
             "standard" : "EIP3091",
             "url" : "https://scan-testnet.kcc.network"
          }
@@ -3488,8 +3517,7 @@
       },
       "networkId" : 322,
       "rpc" : [
-         "https://rpc-testnet.kcc.network",
-         "wss://rpc-ws-testnet.kcc.network"
+         "https://rpc-testnet.kcc.network"
       ],
       "shortName" : "kcst"
    },
@@ -4855,6 +4883,35 @@
       "shortName" : "top_evm"
    },
    {
+      "chain" : "MEMO",
+      "chainId" : 985,
+      "explorers" : [
+         {
+            "icon" : "memoscan",
+            "name" : "Memo Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.metamemo.one:8080"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.metamemo.one/"
+      ],
+      "icon" : "memo",
+      "infoURL" : "www.memolabs.org",
+      "name" : "Memo Smart Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Memo",
+         "symbol" : "CMEMO"
+      },
+      "networkId" : 985,
+      "rpc" : [
+         "https://chain.metamemo.one:8501",
+         "wss://chain.metamemo.one:16801"
+      ],
+      "shortName" : "memochain"
+   },
+   {
       "chain" : "TOP",
       "chainId" : 989,
       "explorers" : [
@@ -5235,6 +5292,31 @@
          "https://andromeda.metis.io/?owner=1088"
       ],
       "shortName" : "metis-andromeda"
+   },
+   {
+      "chain" : "MOAC",
+      "chainId" : 1099,
+      "explorers" : [
+         {
+            "name" : "moac explorer",
+            "standard" : "none",
+            "url" : "https://explorer.moac.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://moac.io",
+      "name" : "MOAC mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MOAC",
+         "symbol" : "mc"
+      },
+      "networkId" : 1099,
+      "rpc" : [
+         "http://gateway.moac.io/mainnet"
+      ],
+      "shortName" : "moac",
+      "slip44" : 314
    },
    {
       "chain" : "WEMIX",
@@ -5742,6 +5824,30 @@
       "shortName" : "Bobabase"
    },
    {
+      "chain" : "DOS",
+      "chainId" : 1311,
+      "explorers" : [
+         {
+            "name" : "dos-testnet",
+            "standard" : "EIP3091",
+            "url" : "https://test.doscan.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "http://doschain.io/",
+      "name" : "Dos Fuji Subnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dos Native Token",
+         "symbol" : "DOS"
+      },
+      "networkId" : 1311,
+      "rpc" : [
+         "https://test.doschain.com/jsonrpc"
+      ],
+      "shortName" : "DOS"
+   },
+   {
       "chain" : "AITD",
       "chainId" : 1319,
       "explorers" : [
@@ -5811,6 +5917,31 @@
       ],
       "shortName" : "geth",
       "title" : "Go Ethereum (Geth) Private Testnet"
+   },
+   {
+      "chain" : "Polygon",
+      "chainId" : 1402,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.public.zkevm-test.net"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://polygon.technology/solutions/polygon-zkevm/",
+      "name" : "Polygon zkEVM Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 1402,
+      "rpc" : [
+         "https://rpc.public.zkevm-test.net"
+      ],
+      "shortName" : "zkevmtest",
+      "title" : "Polygon zkEVM Testnet"
    },
    {
       "chain" : "Sherpax Mainnet",
@@ -5955,6 +6086,34 @@
          "https://rpc.ludan.org/"
       ],
       "shortName" : "LUDAN"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 1701,
+      "explorers" : [
+         {
+            "icon" : "any",
+            "name" : "Anytype Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.anytype.io"
+         }
+      ],
+      "faucets" : [
+         "https://evm.anytype.io/faucet"
+      ],
+      "icon" : "any",
+      "infoURL" : "https://evm.anytype.io",
+      "name" : "Anytype EVM Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ANY",
+         "symbol" : "ANY"
+      },
+      "networkId" : 1701,
+      "rpc" : [
+         "https://geth.anytype.io"
+      ],
+      "shortName" : "AnytypeChain"
    },
    {
       "chain" : "TBSI",
@@ -6416,11 +6575,13 @@
       "chainId" : 2023,
       "explorers" : [
          {
+            "icon" : "shuffle",
             "name" : "Taycan Explorer(Blockscout)",
             "standard" : "none",
             "url" : "https://evmscan-test.hupayx.io"
          },
          {
+            "icon" : "shuffle",
             "name" : "Taycan Cosmos Explorer",
             "standard" : "none",
             "url" : "https://cosmoscan-test.hupayx.io"
@@ -6429,6 +6590,7 @@
       "faucets" : [
          "https://ttaycan-faucet.hupayx.io/"
       ],
+      "icon" : "shuffle",
       "infoURL" : "https://hupayx.io",
       "name" : "Taycan Testnet",
       "nativeCurrency" : {
@@ -7129,6 +7291,30 @@
          "https://rpc.jfinchain.com"
       ],
       "shortName" : "jfin"
+   },
+   {
+      "chain" : "metacode",
+      "chainId" : 3666,
+      "explorers" : [
+         {
+            "name" : "meta",
+            "standard" : "EIP3091",
+            "url" : "https://j.blockcoach.com:8089"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://j.blockcoach.com:8089",
+      "name" : "Metacodechain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "J",
+         "symbol" : "J"
+      },
+      "networkId" : 3666,
+      "rpc" : [
+         "https://j.blockcoach.com:8503"
+      ],
+      "shortName" : "metacode"
    },
    {
       "chain" : "BTX",
@@ -8310,7 +8496,8 @@
       },
       "networkId" : 8738,
       "rpc" : [
-         "https://rpc.alph.network"
+         "https://rpc.alph.network",
+         "wss://rpc.alph.network"
       ],
       "shortName" : "alph"
    },
@@ -9136,7 +9323,7 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://testnet.rpc.step.network"
+         "https://rpc.testnet.step.network"
       ],
       "shortName" : "steptest",
       "title" : "Step Test Network"
@@ -9404,17 +9591,20 @@
       "chainId" : 22023,
       "explorers" : [
          {
+            "icon" : "shuffle",
             "name" : "Taycan Explorer(Blockscout)",
             "standard" : "none",
             "url" : "https://taycan-evmscan.hupayx.io"
          },
          {
+            "icon" : "shuffle",
             "name" : "Taycan Cosmos Explorer(BigDipper)",
             "standard" : "none",
             "url" : "https://taycan-cosmoscan.hupayx.io"
          }
       ],
       "faucets" : [],
+      "icon" : "shuffle",
       "infoURL" : "https://hupayx.io",
       "name" : "Taycan",
       "nativeCurrency" : {
@@ -10391,6 +10581,34 @@
          "https://test103.thinkiumrpc.net/"
       ],
       "shortName" : "TKM-test103"
+   },
+   {
+      "chain" : "DoKEN Super Chain",
+      "chainId" : 61916,
+      "explorers" : [
+         {
+            "icon" : "doken",
+            "name" : "DSC Scan",
+            "standard" : "EIP3091",
+            "url" : "https://explore.doken.dev"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "doken",
+      "infoURL" : "https://doken.dev/",
+      "name" : "DoKEN Super Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DoKEN",
+         "symbol" : "DKN"
+      },
+      "networkId" : 61916,
+      "rpc" : [
+         "https://sgrpc.doken.dev",
+         "https://nyrpc.doken.dev",
+         "https://ukrpc.doken.dev"
+      ],
+      "shortName" : "DoKEN"
    },
    {
       "chain" : "CELO",
@@ -12715,6 +12933,64 @@
       "status" : "incubating"
    },
    {
+      "chain" : "Imversed",
+      "chainId" : 5555555,
+      "explorers" : [
+         {
+            "icon" : "imversed",
+            "name" : "Imversed Cosmos Explorer (Big Dipper)",
+            "standard" : "none",
+            "url" : "https://tex-c.imversed.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "imversed",
+      "infoURL" : "https://imversed.com",
+      "name" : "Imversed Canary",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Imversed Token",
+         "symbol" : "IMV"
+      },
+      "networkId" : 5555555,
+      "rpc" : [
+         "https://jsonrpc-endpoint-canary.imversed.com"
+      ],
+      "shortName" : "imversed"
+   },
+   {
+      "chain" : "Imversed",
+      "chainId" : 5555558,
+      "explorers" : [
+         {
+            "icon" : "imversed",
+            "name" : "Imversed EVM Explorer (Blockscout)",
+            "standard" : "none",
+            "url" : "https://txe-test.imversed.com"
+         },
+         {
+            "icon" : "imversed",
+            "name" : "Imversed Cosmos Explorer (Big Dipper)",
+            "standard" : "none",
+            "url" : "https://tex-t.imversed.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "imversed",
+      "infoURL" : "https://imversed.com",
+      "name" : "Imversed Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Imversed Token",
+         "symbol" : "IMV"
+      },
+      "networkId" : 5555558,
+      "rpc" : [
+         "https://jsonrpc-endpoint-test.imversed.com"
+      ],
+      "shortName" : "imversed-testnet"
+   },
+   {
       "chain" : "MUSIC",
       "chainId" : 7762959,
       "faucets" : [],
@@ -13262,6 +13538,32 @@
       "shortName" : "dGTH"
    },
    {
+      "chain" : "staging-faint-slimy-achird",
+      "chainId" : 503129905,
+      "explorers" : [
+         {
+            "icon" : "nebula",
+            "name" : "nebula",
+            "standard" : "EIP3091",
+            "url" : "https://staging-faint-slimy-achird.explorer.staging-v3.skalenodes.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://nebulachain.io/",
+      "name" : "Nebula Staging",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "sFUEL",
+         "symbol" : "sFUEL"
+      },
+      "networkId" : 503129905,
+      "rpc" : [
+         "https://staging-v3.skalenodes.com/v1/staging-faint-slimy-achird",
+         "wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird"
+      ],
+      "shortName" : "nebula-staging"
+   },
+   {
       "chain" : "IPOS",
       "chainId" : 1122334455,
       "faucets" : [],
@@ -13343,6 +13645,32 @@
          "https://betanet.aurora.dev/"
       ],
       "shortName" : "aurora-betanet"
+   },
+   {
+      "chain" : "green-giddy-denebola",
+      "chainId" : 1482601649,
+      "explorers" : [
+         {
+            "icon" : "nebula",
+            "name" : "nebula",
+            "standard" : "EIP3091",
+            "url" : "https://green-giddy-denebola.explorer.mainnet.skalenodes.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://nebulachain.io/",
+      "name" : "Nebula Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "sFUEL",
+         "symbol" : "sFUEL"
+      },
+      "networkId" : 1482601649,
+      "rpc" : [
+         "https://mainnet.skalenodes.com/v1/green-giddy-denebola",
+         "wss://mainnet-proxy.skalenodes.com/v1/ws/green-giddy-denebola"
+      ],
+      "shortName" : "nebula-mainnet"
    },
    {
       "chain" : "Harmony",

@@ -524,24 +524,25 @@
       "shortName" : "eladidt"
    },
    {
-      "chain" : "DTH",
+      "chain" : "KAI",
       "chainId" : 24,
-      "faucets" : [
-         "https://faucet.dithereum.org"
-      ],
-      "icon" : "dithereum",
-      "infoURL" : "https://dithereum.org",
-      "name" : "Dithereum Mainnet",
+      "faucets" : [],
+      "icon" : "kardiachain",
+      "infoURL" : "https://kardiachain.io",
+      "name" : "KardiaChain Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Dither",
-         "symbol" : "DTH"
+         "name" : "KardiaChain",
+         "symbol" : "KAI"
       },
-      "networkId" : 24,
-      "rpc" : [
-         "https://node-mainnet.dithereum.io"
+      "networkId" : 0,
+      "redFlags" : [
+         "reusedChainId"
       ],
-      "shortName" : "dthmainnet"
+      "rpc" : [
+         "https://rpc.kardiachain.io"
+      ],
+      "shortName" : "kardiachain"
    },
    {
       "chain" : "CRO",
@@ -1005,7 +1006,7 @@
       },
       "networkId" : 45,
       "rpc" : [
-         "http://pangoro-rpc.darwinia.network"
+         "https://pangoro-rpc.darwinia.network"
       ],
       "shortName" : "pangoro"
    },
@@ -1029,7 +1030,7 @@
       },
       "networkId" : 46,
       "rpc" : [
-         "https://darwinia-rpc.darwinia.network"
+         "https://rpc.darwinia.network"
       ],
       "shortName" : "darwinia"
    },
@@ -1054,9 +1055,7 @@
          "symbol" : "ETMP"
       },
       "networkId" : 48,
-      "rpc" : [
-         "https://rpc.etm.network"
-      ],
+      "rpc" : [],
       "shortName" : "etmp"
    },
    {
@@ -2510,6 +2509,68 @@
       "shortName" : "ETL"
    },
    {
+      "chain" : "Dehvo",
+      "chainId" : 113,
+      "explorers" : [
+         {
+            "name" : "Dehvo Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.dehvo.com"
+         }
+      ],
+      "faucets" : [
+         "https://buy.dehvo.com"
+      ],
+      "infoURL" : "https://dehvo.com",
+      "name" : "Dehvo",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dehvo",
+         "symbol" : "Deh"
+      },
+      "networkId" : 113,
+      "rpc" : [
+         "https://connect.dehvo.com",
+         "https://rpc.dehvo.com",
+         "https://rpc1.dehvo.com",
+         "https://rpc2.dehvo.com"
+      ],
+      "shortName" : "deh",
+      "slip44" : 714
+   },
+   {
+      "chain" : "DeBank",
+      "chainId" : 115,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "DeBank Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 115,
+      "rpc" : [],
+      "shortName" : "debank-testnet"
+   },
+   {
+      "chain" : "DeBank",
+      "chainId" : 116,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "DeBank Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 116,
+      "rpc" : [],
+      "shortName" : "debank-mainnet"
+   },
+   {
       "chain" : "FUSE",
       "chainId" : 122,
       "faucets" : [],
@@ -3052,7 +3113,7 @@
       },
       "networkId" : 201,
       "rpc" : [
-         "http://gateway.moac.io/testnet"
+         "https://gateway.moac.io/testnet"
       ],
       "shortName" : "moactest"
    },
@@ -3075,6 +3136,33 @@
          "https://app.freighttrust.net/ftn/${API_KEY}"
       ],
       "shortName" : "EDI"
+   },
+   {
+      "chain" : "MAP",
+      "chainId" : 212,
+      "explorers" : [
+         {
+            "name" : "mapscan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.mapscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.maplabs.io"
+      ],
+      "infoURL" : "https://maplabs.io",
+      "name" : "MAP Makalu",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Makalu MAP",
+         "symbol" : "MAP"
+      },
+      "networkId" : 212,
+      "rpc" : [
+         "https://testnet-rpc.maplabs.io"
+      ],
+      "shortName" : "makalu",
+      "title" : "MAP Testnet Makalu"
    },
    {
       "chain" : "SOTER",
@@ -4505,6 +4593,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "meer",
       "infoURL" : "https://github.com/Qitmeer",
       "name" : "Qitmeer",
       "nativeCurrency" : {
@@ -4514,9 +4603,10 @@
       },
       "networkId" : 813,
       "rpc" : [
-         "https://evm-dataseed3.meerscan.io",
-         "https://evm-dataseed1.meerscan.com",
-         "https://evm-dataseed.meerscan.com"
+         "https://evm-dataseed1.meerscan.io",
+         "https://evm-dataseed2.meerscan.io",
+         "https://evm-dataseed.meerscan.com",
+         "https://evm-dataseed1.meerscan.com"
       ],
       "shortName" : "meer",
       "slip44" : 813
@@ -5255,9 +5345,7 @@
          "symbol" : "BRO"
       },
       "networkId" : 1039,
-      "rpc" : [
-         "https://evm.bronos.org"
-      ],
+      "rpc" : [],
       "shortName" : "bronos-mainnet"
    },
    {
@@ -5312,9 +5400,7 @@
          "symbol" : "mc"
       },
       "networkId" : 1099,
-      "rpc" : [
-         "http://gateway.moac.io/mainnet"
-      ],
+      "rpc" : [],
       "shortName" : "moac",
       "slip44" : 314
    },
@@ -6289,6 +6375,59 @@
       "shortName" : "boya"
    },
    {
+      "chain" : "onus",
+      "chainId" : 1945,
+      "explorers" : [
+         {
+            "icon" : "onus",
+            "name" : "Onus explorer testnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.onuschain.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://onuschain.io",
+      "name" : "ONUS Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ONUS",
+         "symbol" : "ONUS"
+      },
+      "networkId" : 1945,
+      "rpc" : [
+         "https://rpc-testnet.onuschain.io"
+      ],
+      "shortName" : "onus-testnet",
+      "title" : "ONUS Chain Testnet"
+   },
+   {
+      "chain" : "onus",
+      "chainId" : 1975,
+      "explorers" : [
+         {
+            "icon" : "onus",
+            "name" : "Onus explorer mainnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.onuschain.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://onuschain.io",
+      "name" : "ONUS Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ONUS",
+         "symbol" : "ONUS"
+      },
+      "networkId" : 1975,
+      "rpc" : [
+         "https://rpc.onuschain.io",
+         "wss://ws.onuschain.io"
+      ],
+      "shortName" : "onus-mainnet",
+      "title" : "ONUS Chain Mainnet"
+   },
+   {
       "chain" : "EUN",
       "chainId" : 1984,
       "explorers" : [
@@ -6701,6 +6840,34 @@
          "https://api.ecoball.org/espuma/"
       ],
       "shortName" : "esp"
+   },
+   {
+      "chain" : "EXN",
+      "chainId" : 2109,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.exosama.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "exn",
+      "infoURL" : "https://moonsama.com",
+      "name" : "Exosama Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sama Token",
+         "symbol" : "SAMA"
+      },
+      "networkId" : 2109,
+      "rpc" : [
+         "https://rpc.exosama.com",
+         "wss://rpc.exosama.com"
+      ],
+      "shortName" : "exn",
+      "slip44" : 2109
    },
    {
       "chain" : "ETH",
@@ -7145,6 +7312,31 @@
       "shortName" : "filecoin-buildernet",
       "slip44" : 1,
       "status" : "incubating"
+   },
+   {
+      "chain" : "Debounce Network",
+      "chainId" : 3306,
+      "explorers" : [
+         {
+            "name" : "Debounce Devnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.debounce.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "debounce",
+      "infoURL" : "https://debounce.network",
+      "name" : "Debounce Subnet Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Debounce Network",
+         "symbol" : "DB"
+      },
+      "networkId" : 3306,
+      "rpc" : [
+         "https://dev-rpc.debounce.network"
+      ],
+      "shortName" : "debounce-devnet"
    },
    {
       "chain" : "Beach",
@@ -7742,6 +7934,25 @@
       "shortName" : "hmnd"
    },
    {
+      "chain" : "FIRE",
+      "chainId" : 5290,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "firechain",
+      "infoURL" : "https://thefirechain.com",
+      "name" : "Firechain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Firechain",
+         "symbol" : "FIRE"
+      },
+      "networkId" : 5290,
+      "rpc" : [
+         "https://mainnet.rpc1.thefirechain.com"
+      ],
+      "shortName" : "fire"
+   },
+   {
       "chain" : "UZMI",
       "chainId" : 5315,
       "faucets" : [],
@@ -8282,7 +8493,7 @@
          "https://faucet.liberty10.shardeum.org"
       ],
       "infoURL" : "https://docs.shardeum.org/",
-      "name" : "Shardeum Liberty 1.5",
+      "name" : "Shardeum Liberty 1.6",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Shardeum SHM",
@@ -8337,6 +8548,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "meer",
       "infoURL" : "https://github.com/Qitmeer",
       "name" : "Qitmeer Network Testnet",
       "nativeCurrency" : {
@@ -8345,9 +8557,7 @@
          "symbol" : "MEER-T"
       },
       "networkId" : 8131,
-      "rpc" : [
-         "https://explorer.qitmeer.io/rpc"
-      ],
+      "rpc" : [],
       "shortName" : "meertest"
    },
    {
@@ -8654,7 +8864,8 @@
       },
       "networkId" : 9001,
       "rpc" : [
-         "https://eth.bd.evmos.org:8545"
+         "https://eth.bd.evmos.org:8545",
+         "https://evmos-evm.publicnode.com"
       ],
       "shortName" : "evmos"
    },
@@ -8702,6 +8913,27 @@
          "wss://genesis-gn.com"
       ],
       "shortName" : "GENEC"
+   },
+   {
+      "chain" : "FIRE",
+      "chainId" : 9170,
+      "explorers" : [],
+      "faucets" : [
+         "https://faucet.thefirechain.com"
+      ],
+      "icon" : "rinia",
+      "infoURL" : "https://thefirechain.com",
+      "name" : "Rinia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Firechain",
+         "symbol" : "FIRE"
+      },
+      "networkId" : 9170,
+      "rpc" : [
+         "https://rinia.rpc1.thefirechain.com"
+      ],
+      "shortName" : "tfire"
    },
    {
       "chain" : "Rangers",
@@ -9203,9 +9435,7 @@
          "symbol" : "SHYFTT"
       },
       "networkId" : 11437,
-      "rpc" : [
-         "https://rpc.testnet.shyft.network/"
-      ],
+      "rpc" : [],
       "shortName" : "shyftt"
    },
    {
@@ -9488,7 +9718,10 @@
       },
       "networkId" : 18159,
       "rpc" : [
-         "https://mainnet-rpc.memescan.io"
+         "https://mainnet-rpc.memescan.io",
+         "https://mainnet-rpc2.memescan.io",
+         "https://mainnet-rpc3.memescan.io",
+         "https://mainnet-rpc4.memescan.io"
       ],
       "shortName" : "pom",
       "title" : "Proof Of Memes Mainnet"
@@ -9619,6 +9852,32 @@
       "shortName" : "SFL"
    },
    {
+      "chain" : "MAP",
+      "chainId" : 22776,
+      "explorers" : [
+         {
+            "name" : "mapscan",
+            "standard" : "EIP3091",
+            "url" : "https://mapscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "map",
+      "infoURL" : "https://maplabs.io",
+      "name" : "MAP Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MAP",
+         "symbol" : "MAP"
+      },
+      "networkId" : 22776,
+      "rpc" : [
+         "https://rpc.maplabs.io"
+      ],
+      "shortName" : "map",
+      "slip44" : 60
+   },
+   {
       "chain" : "Opside",
       "chainId" : 23118,
       "explorers" : [
@@ -9657,9 +9916,7 @@
          "symbol" : "WEB"
       },
       "networkId" : 37129,
-      "rpc" : [
-         "https://node1.webchain.network"
-      ],
+      "rpc" : [],
       "shortName" : "web",
       "slip44" : 227
    },
@@ -10709,6 +10966,30 @@
          "https://rpc.tst.ecredits.com"
       ],
       "shortName" : "ecs-testnet"
+   },
+   {
+      "chain" : "SIN",
+      "chainId" : 67390,
+      "explorers" : [
+         {
+            "name" : "siriusnetscan",
+            "standard" : "EIP3091",
+            "url" : "https://siriusnet.tryethernal.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://macaucasinolisboa.xyz",
+      "name" : "SiriusNet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MCD",
+         "symbol" : "MCD"
+      },
+      "networkId" : 67390,
+      "rpc" : [
+         "https://u0tnafcv6j:o2T045sxuCNXL878RDQLp5__Zj-es2cvdjtgkl4etn0@u0v7kwtvtg-u0wj114sve-rpc.us0-aws.kaleido.io/"
+      ],
+      "shortName" : "mcl"
    },
    {
       "chain" : "ETH",
@@ -12310,16 +12591,17 @@
       "chainId" : 432201,
       "explorers" : [
          {
-            "name" : "Avalanche Subnet Explorer",
+            "name" : "Avalanche Subnet Testnet Explorer",
             "standard" : "EIP3091",
-            "url" : "https://subnets.avax.network/dexalot/testnet/explorer"
+            "url" : "https://subnets-test.avax.network/dexalot"
          }
       ],
       "faucets" : [
-         "https://sfaucet.dexalot-test.com"
+         "https://faucet.avax.network/?subnet=dexalot"
       ],
+      "icon" : "dexalot",
       "infoURL" : "https://dexalot.com",
-      "name" : "Dexalot Testnet",
+      "name" : "Dexalot Subnet Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Dexalot",
@@ -12329,7 +12611,32 @@
       "rpc" : [
          "https://subnets.avax.network/dexalot/testnet/rpc"
       ],
-      "shortName" : "Dexalot"
+      "shortName" : "dexalot-testnet"
+   },
+   {
+      "chain" : "DEXALOT",
+      "chainId" : 432204,
+      "explorers" : [
+         {
+            "name" : "Avalanche Subnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets.avax.network/dexalot"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "dexalot",
+      "infoURL" : "https://dexalot.com",
+      "name" : "Dexalot Subnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dexalot",
+         "symbol" : "ALOT"
+      },
+      "networkId" : 432204,
+      "rpc" : [
+         "https://subnets.avax.network/dexalot/mainnet/rpc"
+      ],
+      "shortName" : "dexalot"
    },
    {
       "chain" : "WLK",
@@ -12561,7 +12868,6 @@
       "chainId" : 900000,
       "explorers" : [
          {
-            "icon" : "posichain",
             "name" : "Posichain Explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.posichain.org"
@@ -12570,7 +12876,6 @@
       "faucets" : [
          "https://faucet.posichain.org/"
       ],
-      "icon" : "posichain",
       "infoURL" : "https://posichain.org",
       "name" : "Posichain Mainnet Shard 0",
       "nativeCurrency" : {
@@ -12590,7 +12895,6 @@
       "chainId" : 910000,
       "explorers" : [
          {
-            "icon" : "posichain",
             "name" : "Posichain Explorer Testnet",
             "standard" : "EIP3091",
             "url" : "https://explorer-testnet.posichain.org"
@@ -12599,7 +12903,6 @@
       "faucets" : [
          "https://faucet.posichain.org/"
       ],
-      "icon" : "posichain",
       "infoURL" : "https://posichain.org",
       "name" : "Posichain Testnet Shard 0",
       "nativeCurrency" : {
@@ -12618,7 +12921,6 @@
       "chainId" : 920000,
       "explorers" : [
          {
-            "icon" : "posichain",
             "name" : "Posichain Explorer Devnet",
             "standard" : "EIP3091",
             "url" : "https://explorer-devnet.posichain.org"
@@ -12627,7 +12929,6 @@
       "faucets" : [
          "https://faucet.posichain.org/"
       ],
-      "icon" : "posichain",
       "infoURL" : "https://posichain.org",
       "name" : "Posichain Devnet Shard 0",
       "nativeCurrency" : {
@@ -12646,7 +12947,6 @@
       "chainId" : 920001,
       "explorers" : [
          {
-            "icon" : "posichain",
             "name" : "Posichain Explorer Devnet",
             "standard" : "EIP3091",
             "url" : "https://explorer-devnet.posichain.org"
@@ -12655,7 +12955,6 @@
       "faucets" : [
          "https://faucet.posichain.org/"
       ],
-      "icon" : "posichain",
       "infoURL" : "https://posichain.org",
       "name" : "Posichain Devnet Shard 1",
       "nativeCurrency" : {
@@ -12870,7 +13169,7 @@
       ],
       "icon" : "platon",
       "infoURL" : "https://www.platon.network",
-      "name" : "PlatON Dev Testnet",
+      "name" : "PlatON Dev Testnet Deprecated",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "LAT",
@@ -12881,7 +13180,8 @@
          "https://devnetopenapi2.platon.network/rpc",
          "wss://devnetopenapi2.platon.network/ws"
       ],
-      "shortName" : "platondev"
+      "shortName" : "platondev",
+      "status" : "deprecated"
    },
    {
       "chain" : "PlatON",
@@ -13490,6 +13790,34 @@
       "shortName" : "oneledger"
    },
    {
+      "chain" : "staging-utter-unripe-menkar",
+      "chainId" : 344106930,
+      "explorers" : [
+         {
+            "icon" : "calypso",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://staging-utter-unripe-menkar.explorer.staging-v3.skalenodes.com"
+         }
+      ],
+      "faucets" : [
+         "https://sfuel.dirtroad.dev/staging"
+      ],
+      "infoURL" : "https://calypsohub.network/",
+      "name" : "Calypso NFT Hub | SKALE Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "sFUEL",
+         "symbol" : "sFUEL"
+      },
+      "networkId" : 344106930,
+      "rpc" : [
+         "https://staging-v3.skalenodes.com/v1/staging-utter-unripe-menkar"
+      ],
+      "shortName" : "calypso-testnet",
+      "title" : "Calypso NFT Hub Testnet"
+   },
+   {
       "chain" : "GTH",
       "chainId" : 356256156,
       "explorers" : [
@@ -13641,9 +13969,7 @@
          "symbol" : "ETH"
       },
       "networkId" : 1313161556,
-      "rpc" : [
-         "https://betanet.aurora.dev/"
-      ],
+      "rpc" : [],
       "shortName" : "aurora-betanet"
    },
    {
@@ -13671,6 +13997,34 @@
          "wss://mainnet-proxy.skalenodes.com/v1/ws/green-giddy-denebola"
       ],
       "shortName" : "nebula-mainnet"
+   },
+   {
+      "chain" : "honorable-steel-rasalhague",
+      "chainId" : 1564830818,
+      "explorers" : [
+         {
+            "icon" : "calypso",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://honorable-steel-rasalhague.explorer.mainnet.skalenodes.com"
+         }
+      ],
+      "faucets" : [
+         "https://sfuel.dirtroad.dev"
+      ],
+      "infoURL" : "https://calypsohub.network/",
+      "name" : "Calypso NFT Hub | SKALE",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "sFUEL",
+         "symbol" : "sFUEL"
+      },
+      "networkId" : 1564830818,
+      "rpc" : [
+         "https://mainnet.skalenodes.com/v1/honorable-steel-rasalhague"
+      ],
+      "shortName" : "calypso-mainnet",
+      "title" : "Calypso NFT Hub Mainnet"
    },
    {
       "chain" : "Harmony",
@@ -13921,14 +14275,12 @@
       "chainId" : 11297108099,
       "explorers" : [
          {
-            "icon" : "palm",
             "name" : "Palm Testnet Explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.palm-uat.xyz"
          }
       ],
       "faucets" : [],
-      "icon" : "palm",
       "infoURL" : "https://palm.io",
       "name" : "Palm Testnet",
       "nativeCurrency" : {
@@ -13947,14 +14299,12 @@
       "chainId" : 11297108109,
       "explorers" : [
          {
-            "icon" : "palm",
             "name" : "Palm Explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.palm.io"
          }
       ],
       "faucets" : [],
-      "icon" : "palm",
       "infoURL" : "https://palm.io",
       "name" : "Palm",
       "nativeCurrency" : {

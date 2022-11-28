@@ -13,6 +13,14 @@
          }
       ],
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
       "icon" : "ethereum",
       "infoURL" : "https://ethereum.org",
       "name" : "Ethereum Mainnet",
@@ -132,10 +140,10 @@
          "https://faucet.goerli.mudit.blog"
       ],
       "infoURL" : "https://goerli.net/#about",
-      "name" : "GÃ¶rli",
+      "name" : "Goerli",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "GÃ¶rli Ether",
+         "name" : "Goerli Ether",
          "symbol" : "ETH"
       },
       "networkId" : 5,
@@ -145,7 +153,7 @@
          "https://rpc.goerli.mudit.blog/"
       ],
       "shortName" : "gor",
-      "title" : "Ethereum Testnet GÃ¶rli"
+      "title" : "Ethereum Testnet Goerli"
    },
    {
       "chain" : "ETC",
@@ -953,7 +961,7 @@
       "name" : "Darwinia Pangolin Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Pangolin Network Native Token”",
+         "name" : "Pangolin Network Native Token",
          "symbol" : "PRING"
       },
       "networkId" : 43,
@@ -1001,7 +1009,7 @@
       "name" : "Darwinia Pangoro Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Pangoro Network Native Token”",
+         "name" : "Pangoro Network Native Token",
          "symbol" : "ORING"
       },
       "networkId" : 45,
@@ -2250,10 +2258,7 @@
       },
       "networkId" : 99,
       "rpc" : [
-         "https://core.poanetwork.dev",
-         "http://core.poanetwork.dev:8545",
-         "https://core.poa.network",
-         "ws://core.poanetwork.dev:8546"
+         "https://core.poa.network"
       ],
       "shortName" : "poa",
       "slip44" : 178
@@ -2543,7 +2548,8 @@
       "chainId" : 115,
       "explorers" : [],
       "faucets" : [],
-      "infoURL" : "",
+      "icon" : "debank",
+      "infoURL" : "https://debank.com",
       "name" : "DeBank Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -2559,7 +2565,8 @@
       "chainId" : 116,
       "explorers" : [],
       "faucets" : [],
-      "infoURL" : "",
+      "icon" : "debank",
+      "infoURL" : "https://debank.com",
       "name" : "DeBank Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -2721,6 +2728,32 @@
       "slip44" : 1010
    },
    {
+      "chain" : "Alyx Chain Testnet",
+      "chainId" : 135,
+      "explorers" : [
+         {
+            "name" : "alyx testnet scan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.alyxscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.alyxchain.com"
+      ],
+      "infoURL" : "https://www.alyxchain.com",
+      "name" : "Alyx Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Alyx Testnet Native Token",
+         "symbol" : "ALYX"
+      },
+      "networkId" : 135,
+      "rpc" : [
+         "https://testnet-rpc.alyxchain.com"
+      ],
+      "shortName" : "AlyxTestnet"
+   },
+   {
       "chain" : "Polygon",
       "chainId" : 137,
       "explorers" : [
@@ -2731,6 +2764,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "polygon",
       "infoURL" : "https://polygon.technology/",
       "name" : "Polygon Mainnet",
       "nativeCurrency" : {
@@ -2815,8 +2849,7 @@
       },
       "networkId" : 144,
       "rpc" : [
-         "https://connect.phi.network",
-         ""
+         "https://connect.phi.network"
       ],
       "shortName" : "PHI"
    },
@@ -3539,7 +3572,7 @@
       "faucets" : [],
       "icon" : "filecoin",
       "infoURL" : "https://filecoin.io",
-      "name" : "Filecoin — Mainnet",
+      "name" : "Filecoin - Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "filecoin",
@@ -3910,7 +3943,7 @@
       "name" : "Optimism Goerli Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "GÃ¶rli Ether",
+         "name" : "Goerli Ether",
          "symbol" : "ETH"
       },
       "networkId" : 420,
@@ -3987,6 +4020,25 @@
          "https://rpc-testnet.acuteangle.com"
       ],
       "shortName" : "aact"
+   },
+   {
+      "chain" : "GearZero",
+      "chainId" : 516,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://token.gearzero.ca/mainnet",
+      "name" : "Gear Zero Network Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gear Zero Network Native Token",
+         "symbol" : "GZN"
+      },
+      "networkId" : 516,
+      "rpc" : [
+         "https://gzn.linksme.info"
+      ],
+      "shortName" : "gz-mainnet",
+      "slip44" : 516
    },
    {
       "chain" : "XSC",
@@ -4461,6 +4513,33 @@
       "shortName" : "LYC"
    },
    {
+      "chain" : "QOM",
+      "chainId" : 766,
+      "explorers" : [
+         {
+            "icon" : "qom",
+            "name" : "QL1 Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet.qom.one"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "qom",
+      "infoURL" : "https://qom.one",
+      "name" : "QL1",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Shiba Predator",
+         "symbol" : "QOM"
+      },
+      "networkId" : 766,
+      "rpc" : [
+         "https://mainnet.qom.one:8545"
+      ],
+      "shortName" : "qom",
+      "status" : "incubating"
+   },
+   {
       "chain" : "OpenChain Testnet",
       "chainId" : 776,
       "explorers" : [
@@ -4481,10 +4560,7 @@
          "symbol" : "TOPC"
       },
       "networkId" : 776,
-      "rpc" : [
-         "http://mainnet.openchain.info:8545",
-         "https://mainnet1.openchain.info"
-      ],
+      "rpc" : [],
       "shortName" : "opc"
    },
    {
@@ -4968,7 +5044,7 @@
       },
       "networkId" : 0,
       "rpc" : [
-         "ethapi.topnetwork.org"
+         "https://ethapi.topnetwork.org"
       ],
       "shortName" : "top_evm"
    },
@@ -5021,9 +5097,7 @@
          "symbol" : "TOP"
       },
       "networkId" : 0,
-      "rpc" : [
-         "topapi.topnetwork.org"
-      ],
+      "rpc" : [],
       "shortName" : "top"
    },
    {
@@ -5455,6 +5529,43 @@
          "wss://ws.test.wemix.com"
       ],
       "shortName" : "twemix"
+   },
+   {
+      "chain" : "defichain-evm",
+      "chainId" : 1130,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "defichain-network",
+      "infoURL" : "https://meta.defichain.com/",
+      "name" : "DeFiChain EVM Network Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DeFiChain",
+         "symbol" : "DFI"
+      },
+      "networkId" : 1130,
+      "rpc" : [],
+      "shortName" : "DFI",
+      "slip44" : 1130,
+      "status" : "incubating"
+   },
+   {
+      "chain" : "defichain-evm-testnet",
+      "chainId" : 1131,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "defichain-network",
+      "infoURL" : "https://meta.defichain.com/",
+      "name" : "DeFiChain EVM Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DeFiChain",
+         "symbol" : "DFI"
+      },
+      "networkId" : 1131,
+      "rpc" : [],
+      "shortName" : "DFI-T",
+      "status" : "incubating"
    },
    {
       "chain" : "MATH",
@@ -5932,6 +6043,30 @@
          "https://test.doschain.com/jsonrpc"
       ],
       "shortName" : "DOS"
+   },
+   {
+      "chain" : "ALYX",
+      "chainId" : 1314,
+      "explorers" : [
+         {
+            "name" : "alyxscan",
+            "standard" : "EIP3091",
+            "url" : "https://www.alyxscan.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.alyxchain.com",
+      "name" : "Alyx Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Alyx Chain Native Token",
+         "symbol" : "ALYX"
+      },
+      "networkId" : 1314,
+      "rpc" : [
+         "https://rpc.alyxchain.com"
+      ],
+      "shortName" : "alyx"
    },
    {
       "chain" : "AITD",
@@ -6990,8 +7125,7 @@
       },
       "networkId" : 2203,
       "rpc" : [
-         "https://connect.bitcoinevm.com",
-         ""
+         "https://connect.bitcoinevm.com"
       ],
       "shortName" : "eBTC"
    },
@@ -7222,6 +7356,31 @@
       "shortName" : "Fuji-EZChain"
    },
    {
+      "chain" : "BTY",
+      "chainId" : 2999,
+      "explorers" : [
+         {
+            "name" : "BitYuan Block Chain Explorer",
+            "standard" : "none",
+            "url" : "https://mainnet.bityuan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bty",
+      "infoURL" : "https://www.bityuan.com",
+      "name" : "BitYuan Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BTY",
+         "symbol" : "BTY"
+      },
+      "networkId" : 2999,
+      "rpc" : [
+         "https://mainnet.bityuan.com/eth"
+      ],
+      "shortName" : "bty"
+   },
+   {
       "chain" : "CENNZnet",
       "chainId" : 3000,
       "faucets" : [
@@ -7301,7 +7460,7 @@
       "faucets" : [],
       "icon" : "filecoin",
       "infoURL" : "https://filecoin.io",
-      "name" : "Filecoin — Buildernet",
+      "name" : "Filecoin - Buildernet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "filecoin",
@@ -7483,6 +7642,56 @@
          "https://rpc.jfinchain.com"
       ],
       "shortName" : "jfin"
+   },
+   {
+      "chain" : "Pando",
+      "chainId" : 3601,
+      "explorers" : [
+         {
+            "name" : "Pando Mainnet Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.pandoproject.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "pando",
+      "infoURL" : "https://www.pandoproject.org/",
+      "name" : "Pandonet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Pando token ",
+         "symbol" : "PTX"
+      },
+      "networkId" : 3601,
+      "rpc" : [
+         "https://eth-rpc-api.pandoproject.org/rpc"
+      ],
+      "shortName" : "pando-mainnet"
+   },
+   {
+      "chain" : "Pando",
+      "chainId" : 3602,
+      "explorers" : [
+         {
+            "name" : "Pando Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://testnet.explorer.pandoproject.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "pando",
+      "infoURL" : "https://www.pandoproject.org/",
+      "name" : "Pando Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Pando token ",
+         "symbol" : "PTX"
+      },
+      "networkId" : 3602,
+      "rpc" : [
+         "https://testnet.ethrpc.pandoproject.org/rpc"
+      ],
+      "shortName" : "pando-testnet"
    },
    {
       "chain" : "metacode",
@@ -8250,7 +8459,7 @@
       "parent" : {
          "bridges" : [
             {
-               "url" : "https://beta-bridge.lif3.com/"
+               "url" : "https://lif3.com/bridge"
             }
          ],
          "chain" : "eip155-250",
@@ -8260,6 +8469,25 @@
          "https://rpc.tombchain.com/"
       ],
       "shortName" : "tombchain"
+   },
+   {
+      "chain" : "PSC",
+      "chainId" : 6999,
+      "faucets" : [],
+      "infoURL" : "https://www.polysmartchain.com/",
+      "name" : "PolySmartChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PSC",
+         "symbol" : "PSC"
+      },
+      "networkId" : 6999,
+      "rpc" : [
+         "https://seed0.polysmartchain.com/",
+         "https://seed1.polysmartchain.com/",
+         "https://seed2.polysmartchain.com/"
+      ],
+      "shortName" : "psc"
    },
    {
       "chain" : "ella",
@@ -8532,9 +8760,7 @@
       "redFlags" : [
          "reusedChainId"
       ],
-      "rpc" : [
-         "https://liberty20.shardeum.org/"
-      ],
+      "rpc" : [],
       "shortName" : "Liberty20"
    },
    {
@@ -9977,10 +10203,10 @@
       ],
       "faucets" : [],
       "infoURL" : "https://community.optimism.io/docs/developers/bedrock",
-      "name" : "Optimism Bedrock: Goerli Alpha Testnet",
+      "name" : "Optimism Bedrock (Goerli Alpha Testnet)",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "GÃ¶rli Ether",
+         "name" : "Goerli Ether",
          "symbol" : "ETH"
       },
       "networkId" : 28528,
@@ -10082,7 +10308,7 @@
       ],
       "icon" : "filecoin",
       "infoURL" : "https://filecoin.io",
-      "name" : "Filecoin — Wallaby testnet",
+      "name" : "Filecoin - Wallaby testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "testnet filecoin",
@@ -10444,6 +10670,7 @@
       "faucets" : [
          "https://faucet.avax-test.network/"
       ],
+      "icon" : "avax",
       "infoURL" : "https://cchain.explorer.avax-test.network",
       "name" : "Avalanche Fuji Testnet",
       "nativeCurrency" : {
@@ -10470,6 +10697,12 @@
       "faucets" : [
          "https://free-online-app.com/faucet-for-eth-evm-chains/"
       ],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "avax",
       "infoURL" : "https://www.avax.network/",
       "name" : "Avalanche C-Chain",
       "nativeCurrency" : {
@@ -11296,6 +11529,7 @@
       "faucets" : [
          "https://faucet.polygon.technology/"
       ],
+      "icon" : "polygon",
       "infoURL" : "https://polygon.technology/",
       "name" : "Mumbai",
       "nativeCurrency" : {
@@ -11694,7 +11928,7 @@
       ],
       "icon" : "gnosis",
       "infoURL" : "https://docs.gnosischain.com",
-      "name" : "Chiado 1 Testnet",
+      "name" : "Deprecated Chiado Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Chiado xDAI",
@@ -12318,6 +12552,25 @@
       "shortName" : "cmp-mainnet"
    },
    {
+      "chain" : "GearZero",
+      "chainId" : 266256,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://token.gearzero.ca/testnet",
+      "name" : "Gear Zero Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gear Zero Network Native Token",
+         "symbol" : "GZN"
+      },
+      "networkId" : 266256,
+      "rpc" : [
+         "https://gzn-test.linksme.info"
+      ],
+      "shortName" : "gz-testnet",
+      "slip44" : 266256
+   },
+   {
       "chain" : "SoChain",
       "chainId" : 281121,
       "explorers" : [],
@@ -12355,7 +12608,7 @@
       ],
       "icon" : "filecoin",
       "infoURL" : "https://filecoin.io",
-      "name" : "Filecoin — Calibration testnet",
+      "name" : "Filecoin - Calibration testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "testnet filecoin",
@@ -12557,17 +12810,17 @@
       "chainId" : 421613,
       "explorers" : [
          {
-            "name" : "Arbitrum GÃ¶rli Rollup Explorer",
+            "name" : "Arbitrum Goerli Rollup Explorer",
             "standard" : "EIP3091",
             "url" : "https://goerli-rollup-explorer.arbitrum.io"
          }
       ],
       "faucets" : [],
       "infoURL" : "https://arbitrum.io/",
-      "name" : "Arbitrum GÃ¶rli",
+      "name" : "Arbitrum Goerli",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Arbitrum GÃ¶rli Ether",
+         "name" : "Arbitrum Goerli Ether",
          "symbol" : "AGOR"
       },
       "networkId" : 421613,
@@ -12584,7 +12837,7 @@
          "https://goerli-rollup.arbitrum.io/rpc/"
       ],
       "shortName" : "arb-goerli",
-      "title" : "Arbitrum GÃ¶rli Rollup Testnet"
+      "title" : "Arbitrum Goerli Rollup Testnet"
    },
    {
       "chain" : "DEXALOT",
@@ -12760,7 +13013,7 @@
       "explorers" : [],
       "faucets" : [],
       "infoURL" : "https://scroll.io",
-      "name" : "Scroll GÃ¶rli Testnet",
+      "name" : "Scroll Goerli Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ether",
@@ -12820,6 +13073,33 @@
       ],
       "shortName" : "vpioneer",
       "slip44" : 60
+   },
+   {
+      "chain" : "OCTA",
+      "chainId" : 800001,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.octa.space"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "octaspace",
+      "infoURL" : "https://octa.space",
+      "name" : "OctaSpace",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OctaSpace",
+         "symbol" : "OCTA"
+      },
+      "networkId" : 800001,
+      "rpc" : [
+         "https://rpc.octa.space",
+         "wss://rpc.octa.space"
+      ],
+      "shortName" : "octa"
    },
    {
       "chain" : "4GN",
@@ -13220,7 +13500,7 @@
       ],
       "icon" : "filecoin",
       "infoURL" : "https://filecoin.io",
-      "name" : "Filecoin — Butterfly testnet",
+      "name" : "Filecoin - Butterfly testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "testnet filecoin",
@@ -13289,6 +13569,35 @@
          "https://jsonrpc-endpoint-test.imversed.com"
       ],
       "shortName" : "imversed-testnet"
+   },
+   {
+      "chain" : "QOM",
+      "chainId" : 7668378,
+      "explorers" : [
+         {
+            "icon" : "qom",
+            "name" : "QL1 Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.qom.one"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.qom.one"
+      ],
+      "icon" : "qom",
+      "infoURL" : "https://qom.one",
+      "name" : "QL1 Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Shiba Predator",
+         "symbol" : "QOM"
+      },
+      "networkId" : 7668378,
+      "rpc" : [
+         "https://testnet.qom.one:8545"
+      ],
+      "shortName" : "tqom",
+      "status" : "incubating"
    },
    {
       "chain" : "MUSIC",
@@ -13501,6 +13810,31 @@
       "shortName" : "qki"
    },
    {
+      "chain" : "XLON",
+      "chainId" : 22052002,
+      "explorers" : [
+         {
+            "name" : "Excelon explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.excelon.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "xlon",
+      "infoURL" : "https://xlon.org",
+      "name" : "Excelon Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Excelon",
+         "symbol" : "xlon"
+      },
+      "networkId" : 22052002,
+      "rpc" : [
+         "http://wallet2.xlon.org:8545"
+      ],
+      "shortName" : "xlon"
+   },
+   {
       "chain" : "TEXL",
       "chainId" : 27082017,
       "explorers" : [
@@ -13579,7 +13913,7 @@
       "faucets" : [],
       "icon" : "filecoin",
       "infoURL" : "https://filecoin.io",
-      "name" : "Filecoin — Local testnet",
+      "name" : "Filecoin - Local testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "testnet filecoin",
@@ -13804,7 +14138,7 @@
          "https://sfuel.dirtroad.dev/staging"
       ],
       "infoURL" : "https://calypsohub.network/",
-      "name" : "Calypso NFT Hub | SKALE Testnet",
+      "name" : "Calypso NFT Hub (SKALE Testnet)",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "sFUEL",
@@ -14013,7 +14347,7 @@
          "https://sfuel.dirtroad.dev"
       ],
       "infoURL" : "https://calypsohub.network/",
-      "name" : "Calypso NFT Hub | SKALE",
+      "name" : "Calypso NFT Hub (SKALE)",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "sFUEL",

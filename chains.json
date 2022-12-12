@@ -3668,6 +3668,35 @@
       "shortName" : "kcst"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 324,
+      "explorers" : [
+         {
+            "name" : "zkSync v2 Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.zksync.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ethereum",
+      "infoURL" : "https://zksync.io/",
+      "name" : "zkSync v2",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 324,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [],
+      "shortName" : "zksync",
+      "status" : "incubating"
+   },
+   {
       "chain" : "Web3Q",
       "chainId" : 333,
       "explorers" : [
@@ -3992,6 +4021,56 @@
       "rpc" : [],
       "shortName" : "rupx",
       "slip44" : 499
+   },
+   {
+      "chain" : "CAM",
+      "chainId" : 500,
+      "explorers" : [
+         {
+            "name" : "blockexplorer",
+            "standard" : "none",
+            "url" : "https://explorer.camino.foundation/mainnet"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "camino",
+      "infoURL" : "https://camino.foundation/",
+      "name" : "Camino C-Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Camino",
+         "symbol" : "CAM"
+      },
+      "networkId" : 1000,
+      "rpc" : [
+         "https://mainnet.camino.foundation/ext/bc/C/rpc"
+      ],
+      "shortName" : "Camino"
+   },
+   {
+      "chain" : "CAM",
+      "chainId" : 501,
+      "explorers" : [
+         {
+            "name" : "blockexplorer",
+            "standard" : "none",
+            "url" : "https://explorer.camino.foundation"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "camino",
+      "infoURL" : "https://camino.foundation/",
+      "name" : "Columbus Test Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Camino",
+         "symbol" : "CAM"
+      },
+      "networkId" : 1001,
+      "rpc" : [
+         "https://columbus.camino.foundation/ext/bc/C/rpc"
+      ],
+      "shortName" : "Columbus"
    },
    {
       "chain" : "AAC",
@@ -4559,7 +4638,7 @@
       },
       "networkId" : 766,
       "rpc" : [
-         "https://mainnet.qom.one:8545"
+         "https://rpc.qom.one:8545"
       ],
       "shortName" : "qom",
       "status" : "incubating"
@@ -4747,6 +4826,32 @@
       "rpc" : [],
       "shortName" : "tclo",
       "status" : "deprecated"
+   },
+   {
+      "chain" : "DXT",
+      "chainId" : 877,
+      "explorers" : [
+         {
+            "name" : "dxtscan",
+            "standard" : "EIP3091",
+            "url" : "https://dxtscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.dexit.network"
+      ],
+      "infoURL" : "https://dexit.network",
+      "name" : "Dexit Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dexit network",
+         "symbol" : "DXT"
+      },
+      "networkId" : 877,
+      "rpc" : [
+         "https://dxt.dexit.network"
+      ],
+      "shortName" : "DXT"
    },
    {
       "chain" : "ambroschain",
@@ -5237,6 +5342,33 @@
          "https://api.baobab.klaytn.net:8651"
       ],
       "shortName" : "Baobab"
+   },
+   {
+      "chain" : "T-EKTA",
+      "chainId" : 1004,
+      "explorers" : [
+         {
+            "icon" : "ekta",
+            "name" : "test-ektascan",
+            "standard" : "EIP3091",
+            "url" : "https://test.ektascan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ekta",
+      "infoURL" : "https://www.ekta.io",
+      "name" : "T-EKTA",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "T-EKTA",
+         "symbol" : "T-EKTA"
+      },
+      "networkId" : 1004,
+      "rpc" : [
+         "https://test.ekta.io:8545"
+      ],
+      "shortName" : "t-ekta",
+      "title" : "EKTA Testnet T-EKTA"
    },
    {
       "chain" : "NEW",
@@ -5764,6 +5896,31 @@
       "shortName" : "enter"
    },
    {
+      "chain" : "EXZO",
+      "chainId" : 1229,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://exzoscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "exzo",
+      "infoURL" : "https://exzo.network",
+      "name" : "Exzo Network Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Exzo",
+         "symbol" : "XZO"
+      },
+      "networkId" : 1229,
+      "rpc" : [
+         "https://mainnet.exzo.technology"
+      ],
+      "shortName" : "xzo"
+   },
+   {
       "chain" : "Ultron",
       "chainId" : 1230,
       "explorers" : [
@@ -5880,6 +6037,7 @@
       "chainId" : 1252,
       "explorers" : [
          {
+            "icon" : "cicchain",
             "name" : "CICscan",
             "standard" : "EIP3091",
             "url" : "https://testnet.cicscan.com"
@@ -5888,6 +6046,7 @@
       "faucets" : [
          "https://cicfaucet.com"
       ],
+      "icon" : "cicchain",
       "infoURL" : "https://www.cicchain.net",
       "name" : "CIC Chain Testnet",
       "nativeCurrency" : {
@@ -6212,12 +6371,14 @@
       "chainId" : 1353,
       "explorers" : [
          {
+            "icon" : "cicchain",
             "name" : "CICscan",
             "standard" : "EIP3091",
             "url" : "https://cicscan.com"
          }
       ],
       "faucets" : [],
+      "icon" : "cicchain",
       "infoURL" : "https://www.cicchain.net",
       "name" : "CIC Chain Mainnet",
       "nativeCurrency" : {
@@ -6697,6 +6858,32 @@
       ],
       "shortName" : "egem",
       "slip44" : 1987
+   },
+   {
+      "chain" : "EKTA",
+      "chainId" : 1994,
+      "explorers" : [
+         {
+            "icon" : "ekta",
+            "name" : "ektascan",
+            "standard" : "EIP3091",
+            "url" : "https://ektascan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ekta",
+      "infoURL" : "https://www.ekta.io",
+      "name" : "Ekta",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EKTA",
+         "symbol" : "EKTA"
+      },
+      "networkId" : 1994,
+      "rpc" : [
+         "https://main.ekta.io"
+      ],
+      "shortName" : "ekta"
    },
    {
       "chain" : "DC",
@@ -7348,13 +7535,13 @@
          "name" : "Altcoin",
          "symbol" : "ALT"
       },
-      "networkId" : 12345,
+      "networkId" : 2330,
       "rpc" : [
-         "http://161.35.101.221:8545",
+         "http://161.35.101.221:8547",
          "https://rpc0.altcoinchain.org"
       ],
       "shortName" : "alt",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "Kortho Chain",
@@ -8102,6 +8289,35 @@
          "wss://replica-wss.testnet.avax.boba.network"
       ],
       "shortName" : "BobafujiTestnet"
+   },
+   {
+      "chain" : "mainnet",
+      "chainId" : 4444,
+      "explorers" : [
+         {
+            "icon" : "htmlcoin",
+            "name" : "htmlcoin",
+            "standard" : "none",
+            "url" : "https://explorer.htmlcoin.com"
+         }
+      ],
+      "faucets" : [
+         "https://gruvin.me/htmlcoin"
+      ],
+      "icon" : "htmlcoin",
+      "infoURL" : "https://htmlcoin.com",
+      "name" : "Htmlcoin Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 8,
+         "name" : "Htmlcoin",
+         "symbol" : "HTML"
+      },
+      "networkId" : 4444,
+      "rpc" : [
+         "https://janus.htmlcoin.com/api/"
+      ],
+      "shortName" : "html",
+      "status" : "active"
    },
    {
       "chain" : "iotex.io",
@@ -10004,10 +10220,9 @@
       },
       "networkId" : 13000,
       "rpc" : [
-         "https://marketplace.ssquad.games"
+         "https://rpc.ssquad.games"
       ],
-      "shortName" : "SPS",
-      "status" : "incubating"
+      "shortName" : "SPS"
    },
    {
       "chain" : "Phoenix",
@@ -10573,7 +10788,7 @@
       "infoURL" : "https://cloudtx.finance",
       "name" : "CloudTx Mainnet",
       "nativeCurrency" : {
-         "decimals" : 9,
+         "decimals" : 18,
          "name" : "CloudTx",
          "symbol" : "CLD"
       },
@@ -10588,10 +10803,9 @@
       "chainId" : 31224,
       "explorers" : [
          {
-            "icon" : "cloudtx",
             "name" : "cloudtxexplorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.cloudtx.finance      "
+            "url" : "https://explorer.cloudtx.finance"
          }
       ],
       "faucets" : [
@@ -10601,9 +10815,9 @@
       "infoURL" : "https://cloudtx.finance/",
       "name" : "CloudTx Testnet",
       "nativeCurrency" : {
-         "decimals" : 9,
+         "decimals" : 18,
          "name" : "CloudTx",
-         "symbol" : "CLOUD"
+         "symbol" : "CLD"
       },
       "networkId" : 31224,
       "rpc" : [
@@ -10820,6 +11034,32 @@
       ],
       "shortName" : "nrg",
       "slip44" : 39797
+   },
+   {
+      "chain" : "OHO",
+      "chainId" : 39815,
+      "explorers" : [
+         {
+            "icon" : "ohoscan",
+            "name" : "ohoscan",
+            "standard" : "EIP3091",
+            "url" : "https://ohoscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "oho",
+      "infoURL" : "https://oho.ai",
+      "name" : "OHO Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OHO",
+         "symbol" : "OHO"
+      },
+      "networkId" : 39815,
+      "rpc" : [
+         "https://mainnet.oho.ai"
+      ],
+      "shortName" : "oho"
    },
    {
       "chain" : "Opulent-X",
@@ -11776,7 +12016,7 @@
          "https://testnet.bridge.godwoken.io"
       ],
       "infoURL" : "https://www.nervos.org",
-      "name" : "Godwoken Testnet (V1.1)",
+      "name" : "Godwoken Testnet v1",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "pCKB",
@@ -11784,7 +12024,8 @@
       },
       "networkId" : 71401,
       "rpc" : [
-         "https://godwoken-testnet-v1.ckbapp.dev"
+         "https://godwoken-testnet-v1.ckbapp.dev",
+         "https://v1.testnet.godwoken.io/rpc"
       ],
       "shortName" : "gw-testnet-v1"
    },
@@ -13997,7 +14238,7 @@
       },
       "networkId" : 7668378,
       "rpc" : [
-         "https://testnet.qom.one:8545"
+         "https://rpct.qom.one:8545"
       ],
       "shortName" : "tqom",
       "status" : "incubating"

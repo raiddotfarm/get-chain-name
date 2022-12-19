@@ -175,7 +175,22 @@
    {
       "chain" : "TCH",
       "chainId" : 7,
+      "explorers" : [
+         {
+            "name" : "Thaichain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://exp.thaichain.org"
+         }
+      ],
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
       "infoURL" : "https://thaichain.io",
       "name" : "ThaiChain",
       "nativeCurrency" : {
@@ -185,7 +200,8 @@
       },
       "networkId" : 7,
       "rpc" : [
-         "https://rpc.dome.cloud"
+         "https://rpc.dome.cloud",
+         "https://rpc.thaichain.org"
       ],
       "shortName" : "tch"
    },
@@ -364,6 +380,7 @@
          "https://faucet.towolabs.com",
          "https://fauceth.komputing.org?chain=16&address=${ADDRESS}"
       ],
+      "icon" : "coston",
       "infoURL" : "https://flare.xyz",
       "name" : "Flare Testnet Coston",
       "nativeCurrency" : {
@@ -441,8 +458,8 @@
       },
       "networkId" : 19,
       "rpc" : [
-         "https://songbird.towolabs.com/rpc",
          "https://songbird-api.flare.network/ext/C/rpc",
+         "https://songbird.towolabs.com/ext/C/rpc",
          "https://sgb.ftso.com.au/ext/bc/C/rpc",
          "https://sgb.lightft.so/rpc",
          "https://sgb-rpc.ftso.eu"
@@ -563,6 +580,11 @@
          }
       ],
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
       "infoURL" : "https://cronos.org/",
       "name" : "Cronos Mainnet Beta",
       "nativeCurrency" : {
@@ -2544,6 +2566,33 @@
       "slip44" : 714
    },
    {
+      "chain" : "FLR",
+      "chainId" : 114,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://coston2-explorer.flare.network"
+         }
+      ],
+      "faucets" : [
+         "https://coston2-faucet.towolabs.com"
+      ],
+      "icon" : "coston2",
+      "infoURL" : "https://flare.xyz",
+      "name" : "Flare Testnet Coston2",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Coston2 Flare",
+         "symbol" : "C2FLR"
+      },
+      "networkId" : 114,
+      "rpc" : [
+         "https://coston2-api.flare.network/ext/bc/C/rpc"
+      ],
+      "shortName" : "c2flr"
+   },
+   {
       "chain" : "DeBank",
       "chainId" : 115,
       "explorers" : [],
@@ -2740,6 +2789,7 @@
       "faucets" : [
          "https://faucet.alyxchain.com"
       ],
+      "icon" : "alyx",
       "infoURL" : "https://www.alyxchain.com",
       "name" : "Alyx Chain Testnet",
       "nativeCurrency" : {
@@ -3575,6 +3625,33 @@
       "shortName" : "ogc"
    },
    {
+      "chain" : "Bobaopera",
+      "chainId" : 301,
+      "explorers" : [
+         {
+            "name" : "Bobaopera block explorer",
+            "standard" : "none",
+            "url" : "https://blockexplorer.bobaopera.boba.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://boba.network",
+      "name" : "Bobaopera",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Boba Token",
+         "symbol" : "BOBA"
+      },
+      "networkId" : 301,
+      "rpc" : [
+         "https://bobaopera.boba.network",
+         "wss://wss.bobaopera.boba.network",
+         "https://replica.bobaopera.boba.network",
+         "wss://replica-wss.bobaopera.boba.network"
+      ],
+      "shortName" : "Bobaopera"
+   },
+   {
       "chain" : "FIL",
       "chainId" : 314,
       "explorers" : [
@@ -4007,6 +4084,30 @@
       "shortName" : "ogor"
    },
    {
+      "chain" : "ZeethChain",
+      "chainId" : 427,
+      "explorers" : [
+         {
+            "name" : "Zeeth Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.zeeth.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "Zeeth Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zeeth Token",
+         "symbol" : "ZTH"
+      },
+      "networkId" : 427,
+      "rpc" : [
+         "https://rpc.zeeth.io"
+      ],
+      "shortName" : "zeeth"
+   },
+   {
       "chain" : "RUPX",
       "chainId" : 499,
       "faucets" : [],
@@ -4172,6 +4273,26 @@
          "https://datarpc3.xsc.pub"
       ],
       "shortName" : "xt"
+   },
+   {
+      "chain" : "FIRE",
+      "chainId" : 529,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "firechain",
+      "infoURL" : "https://thefirechain.com",
+      "name" : "Firechain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Firechain",
+         "symbol" : "FIRE"
+      },
+      "networkId" : 529,
+      "rpc" : [
+         "https://mainnet.rpc1.thefirechain.com"
+      ],
+      "shortName" : "fire",
+      "status" : "incubating"
    },
    {
       "chain" : "Fxcore",
@@ -4638,7 +4759,7 @@
       },
       "networkId" : 766,
       "rpc" : [
-         "https://rpc.qom.one:8545"
+         "https://rpc.qom.one"
       ],
       "shortName" : "qom",
       "status" : "incubating"
@@ -4826,6 +4947,80 @@
       "rpc" : [],
       "shortName" : "tclo",
       "status" : "deprecated"
+   },
+   {
+      "chain" : "Tara",
+      "chainId" : 841,
+      "explorers" : [
+         {
+            "name" : "Taraxa Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.mainnet.taraxa.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "taraxa",
+      "infoURL" : "https://taraxa.io",
+      "name" : "Taraxa Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Tara",
+         "symbol" : "TARA"
+      },
+      "networkId" : 841,
+      "rpc" : [
+         "https://rpc.mainnet.taraxa.io/"
+      ],
+      "shortName" : "tara"
+   },
+   {
+      "chain" : "Tara",
+      "chainId" : 842,
+      "explorers" : [
+         {
+            "name" : "Taraxa Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.testnet.taraxa.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "taraxa",
+      "infoURL" : "https://taraxa.io",
+      "name" : "Taraxa Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Tara",
+         "symbol" : "TARA"
+      },
+      "networkId" : 842,
+      "rpc" : [
+         "https://rpc.testnet.taraxa.io/"
+      ],
+      "shortName" : "taratest"
+   },
+   {
+      "chain" : "ZeethChainDev",
+      "chainId" : 859,
+      "explorers" : [
+         {
+            "name" : "Zeeth Explorer Dev",
+            "standard" : "none",
+            "url" : "https://explorer.dev.zeeth.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "Zeeth Chain Dev",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zeeth Token",
+         "symbol" : "ZTH"
+      },
+      "networkId" : 859,
+      "rpc" : [
+         "https://rpc.dev.zeeth.io"
+      ],
+      "shortName" : "zeethdev"
    },
    {
       "chain" : "DXT",
@@ -5035,6 +5230,28 @@
       "networkId" : 909,
       "rpc" : [],
       "shortName" : "PF",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "FIRE",
+      "chainId" : 917,
+      "explorers" : [],
+      "faucets" : [
+         "https://faucet.thefirechain.com"
+      ],
+      "icon" : "rinia",
+      "infoURL" : "https://thefirechain.com",
+      "name" : "Rinia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Firechain",
+         "symbol" : "FIRE"
+      },
+      "networkId" : 917,
+      "rpc" : [
+         "https://rinia.rpc1.thefirechain.com"
+      ],
+      "shortName" : "tfire",
       "status" : "incubating"
    },
    {
@@ -6205,7 +6422,7 @@
       ],
       "faucets" : [],
       "infoURL" : "https://boba.network",
-      "name" : "Boba Network Bobabeam",
+      "name" : "Bobabeam",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Boba Token",
@@ -6232,7 +6449,7 @@
       ],
       "faucets" : [],
       "infoURL" : "https://boba.network",
-      "name" : "Boba Network Bobabase Testnet",
+      "name" : "Bobabase Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Boba Token",
@@ -6282,6 +6499,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "alyx",
       "infoURL" : "https://www.alyxchain.com",
       "name" : "Alyx Mainnet",
       "nativeCurrency" : {
@@ -6626,6 +6844,27 @@
       ],
       "shortName" : "tTBSI",
       "title" : "Thai Blockchain Service Infrastructure Testnet"
+   },
+   {
+      "chain" : "CRC",
+      "chainId" : 1804,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://github.com/ethereum-pocr/kerleano",
+      "name" : "Kerleano",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Carbon Reduction Coin",
+         "symbol" : "CRC"
+      },
+      "networkId" : 1804,
+      "rpc" : [
+         "https://cacib-saturn-test.francecentral.cloudapp.azure.com",
+         "wss://cacib-saturn-test.francecentral.cloudapp.azure.com:9443"
+      ],
+      "shortName" : "kerleano",
+      "status" : "incubating",
+      "title" : "Proof of Carbon Reduction testnet"
    },
    {
       "chain" : "rAna",
@@ -7184,6 +7423,24 @@
       "slip44" : 1008
    },
    {
+      "chain" : "OTP",
+      "chainId" : 2043,
+      "faucets" : [],
+      "infoURL" : "https://parachain.origintrail.io",
+      "name" : "OriginTrail Parachain",
+      "nativeCurrency" : {
+         "decimals" : 12,
+         "name" : "OriginTrail Parachain Token",
+         "symbol" : "OTP"
+      },
+      "networkId" : 2043,
+      "rpc" : [
+         "https://astrosat.origintrail.network",
+         "wss://parachain-rpc.origin-trail.network"
+      ],
+      "shortName" : "otp"
+   },
+   {
       "chain" : "Qkacoin",
       "chainId" : 2077,
       "explorers" : [
@@ -7516,6 +7773,32 @@
       "shortName" : "VChain"
    },
    {
+      "chain" : "BOMB",
+      "chainId" : 2300,
+      "explorers" : [
+         {
+            "icon" : "bomb",
+            "name" : "bombscan",
+            "standard" : "EIP3091",
+            "url" : "https://bombscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bomb",
+      "infoURL" : "https://www.bombchain.com",
+      "name" : "BOMB Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BOMB Token",
+         "symbol" : "BOMB"
+      },
+      "networkId" : 2300,
+      "rpc" : [
+         "https://rpc.bombchain.com"
+      ],
+      "shortName" : "bomb"
+   },
+   {
       "chain" : "mainnet",
       "chainId" : 2330,
       "explorers" : [
@@ -7523,7 +7806,7 @@
             "icon" : "altcoinchain",
             "name" : "expedition",
             "standard" : "none",
-            "url" : "https://expedition.altcoinchain.org"
+            "url" : "http://expedition.altcoinchain.org"
          }
       ],
       "faucets" : [],
@@ -7537,11 +7820,38 @@
       },
       "networkId" : 2330,
       "rpc" : [
-         "http://161.35.101.221:8547",
-         "https://rpc0.altcoinchain.org"
+         "https://rpc0.altcoinchain.org/rpc"
       ],
       "shortName" : "alt",
       "status" : "active"
+   },
+   {
+      "chain" : "BOMB",
+      "chainId" : 2399,
+      "explorers" : [
+         {
+            "icon" : "bomb",
+            "name" : "bombscan-testnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.bombchain-testnet.ankr.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.bombchain-testnet.ankr.com/"
+      ],
+      "icon" : "bomb",
+      "infoURL" : "https://www.bombmoney.com",
+      "name" : "BOMB Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BOMB Token",
+         "symbol" : "tBOMB"
+      },
+      "networkId" : 2399,
+      "rpc" : [
+         "https://bombchain-testnet.ankr.com/bas_full_rpc_1"
+      ],
+      "shortName" : "bombt"
    },
    {
       "chain" : "Kortho Chain",
@@ -7585,6 +7895,24 @@
          "https://api.techpay.io/"
       ],
       "shortName" : "tpc"
+   },
+   {
+      "chain" : "CRC",
+      "chainId" : 2606,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://github.com/ethereum-pocr",
+      "name" : "PoCRNet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Carbon Reduction Coin",
+         "symbol" : "CRC"
+      },
+      "networkId" : 2606,
+      "rpc" : [],
+      "shortName" : "pocrnet",
+      "status" : "incubating",
+      "title" : "Proof of Carbon Reduction mainnet"
    },
    {
       "chain" : "REDLC",
@@ -7661,6 +7989,39 @@
          "https://testnet-api.ezchain.com/ext/bc/C/rpc"
       ],
       "shortName" : "Fuji-EZChain"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 2888,
+      "explorers" : [
+         {
+            "name" : "Blockscout",
+            "standard" : "none",
+            "url" : "https://testnet.bobascan.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://boba.network",
+      "name" : "Boba Network Goerli Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Goerli Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 2888,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://gateway.goerli.boba.network"
+            }
+         ],
+         "chain" : "eip155-5",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://goerli.boba.network/"
+      ],
+      "shortName" : "Bobagoerli"
    },
    {
       "chain" : "BTY",
@@ -7951,7 +8312,7 @@
       "shortName" : "jfin"
    },
    {
-      "chain" : "Pando",
+      "chain" : "PandoProject",
       "chainId" : 3601,
       "explorers" : [
          {
@@ -7963,7 +8324,7 @@
       "faucets" : [],
       "icon" : "pando",
       "infoURL" : "https://www.pandoproject.org/",
-      "name" : "Pandonet",
+      "name" : "PandoProject Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Pando token ",
@@ -7976,7 +8337,7 @@
       "shortName" : "pando-mainnet"
    },
    {
-      "chain" : "Pando",
+      "chain" : "PandoProject",
       "chainId" : 3602,
       "explorers" : [
          {
@@ -7988,7 +8349,7 @@
       "faucets" : [],
       "icon" : "pando",
       "infoURL" : "https://www.pandoproject.org/",
-      "name" : "Pando Testnet",
+      "name" : "PandoProject Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Pando token ",
@@ -8077,6 +8438,42 @@
          "https://rpc.crossbell.io"
       ],
       "shortName" : "csb"
+   },
+   {
+      "chain" : "DRAC",
+      "chainId" : 3912,
+      "explorers" : [
+         {
+            "icon" : "DRAC",
+            "name" : "DRAC_Network Scan",
+            "standard" : "EIP3091",
+            "url" : "https://www.dracscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://www.dracscan.io/faucet"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "drac",
+      "infoURL" : "https://drac.io/",
+      "name" : "DRAC Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DRAC",
+         "symbol" : "DRAC"
+      },
+      "networkId" : 3912,
+      "rpc" : [
+         "https://www.dracscan.com/rpc"
+      ],
+      "shortName" : "drac"
    },
    {
       "chain" : "DYNO",
@@ -8195,7 +8592,7 @@
       ],
       "faucets" : [],
       "infoURL" : "https://boba.network",
-      "name" : "Boba Network Bobaopera Testnet",
+      "name" : "Bobaopera Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Boba Token",
@@ -8275,7 +8672,7 @@
       ],
       "faucets" : [],
       "infoURL" : "https://boba.network",
-      "name" : "Boba Network Bobafuji Testnet",
+      "name" : "Bobafuji Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Boba Token",
@@ -8288,7 +8685,7 @@
          "https://replica.testnet.avax.boba.network",
          "wss://replica-wss.testnet.avax.boba.network"
       ],
-      "shortName" : "BobafujiTestnet"
+      "shortName" : "BobaFujiTestnet"
    },
    {
       "chain" : "mainnet",
@@ -8419,6 +8816,56 @@
       "shortName" : "xvm"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 5000,
+      "explorers" : [
+         {
+            "name" : "Mantle Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.mantle.xyz"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://mantle.xyz",
+      "name" : "Mantle",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BitDAO",
+         "symbol" : "BIT"
+      },
+      "networkId" : 5000,
+      "rpc" : [
+         "https://rpc.mantle.xyz"
+      ],
+      "shortName" : "mantle"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 5001,
+      "explorers" : [
+         {
+            "name" : "Mantle Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.mantle.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.testnet.mantle.xyz"
+      ],
+      "infoURL" : "https://mantle.xyz",
+      "name" : "Mantle Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet BitDAO",
+         "symbol" : "BIT"
+      },
+      "networkId" : 5001,
+      "rpc" : [
+         "https://rpc.testnet.mantle.xyz"
+      ],
+      "shortName" : "mantle-testnet"
+   },
+   {
       "chain" : "TLC",
       "chainId" : 5177,
       "explorers" : [
@@ -8485,7 +8932,7 @@
       "faucets" : [],
       "icon" : "firechain",
       "infoURL" : "https://thefirechain.com",
-      "name" : "Firechain Mainnet",
+      "name" : "Firechain Mainnet Old",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Firechain",
@@ -8495,7 +8942,8 @@
       "rpc" : [
          "https://mainnet.rpc1.thefirechain.com"
       ],
-      "shortName" : "fire"
+      "shortName" : "_old_fire",
+      "status" : "deprecated"
    },
    {
       "chain" : "UZMI",
@@ -9564,7 +10012,7 @@
       ],
       "icon" : "rinia",
       "infoURL" : "https://thefirechain.com",
-      "name" : "Rinia Testnet",
+      "name" : "Rinia Testnet Old",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Firechain",
@@ -9574,7 +10022,8 @@
       "rpc" : [
          "https://rinia.rpc1.thefirechain.com"
       ],
-      "shortName" : "tfire"
+      "shortName" : "_old_tfire",
+      "status" : "deprecated"
    },
    {
       "chain" : "Rangers",
@@ -9642,7 +10091,7 @@
       ],
       "faucets" : [],
       "infoURL" : "https://boba.network",
-      "name" : "Boba Network BNB Testnet",
+      "name" : "Boba BNB Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Boba Token",
@@ -9655,7 +10104,7 @@
          "https://replica.testnet.bnb.boba.network",
          "wss://replica-wss.testnet.bnb.boba.network"
       ],
-      "shortName" : "BobaBNBTestnet"
+      "shortName" : "BobaBnbTestnet"
    },
    {
       "chain" : "myOwn",
@@ -10056,6 +10505,30 @@
          "https://rpc.astranaut.dev"
       ],
       "shortName" : "astra-testnet"
+   },
+   {
+      "chain" : "Haqq",
+      "chainId" : 11235,
+      "explorers" : [
+         {
+            "name" : "Mainnet HAQQ Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.haqq.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://islamiccoin.net",
+      "name" : "Haqq Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Islamic Coin",
+         "symbol" : "ISLM"
+      },
+      "networkId" : 11235,
+      "rpc" : [
+         "https://rpc.eth.haqq.network"
+      ],
+      "shortName" : "ISLM"
    },
    {
       "chain" : "SHYFTT",
@@ -10460,6 +10933,39 @@
       "shortName" : "CLOTestnet"
    },
    {
+      "chain" : "P12",
+      "chainId" : 20736,
+      "explorers" : [
+         {
+            "name" : "P12 Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.p12.games"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "p12",
+      "infoURL" : "https://p12.network",
+      "name" : "P12 Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Hooked P2",
+         "symbol" : "hP2"
+      },
+      "networkId" : 20736,
+      "rpc" : [
+         "https://rpc-chain.p12.games"
+      ],
+      "shortName" : "p12"
+   },
+   {
       "chain" : "CENNZnet",
       "chainId" : 21337,
       "explorers" : [
@@ -10855,6 +11361,11 @@
       "chainId" : 31415,
       "explorers" : [
          {
+            "name" : "Filfox",
+            "standard" : "none",
+            "url" : "https://wallaby.filfox.info"
+         },
+         {
             "name" : "Glif Explorer",
             "standard" : "none",
             "url" : "https://explorer.glif.io/wallaby"
@@ -10878,6 +11389,7 @@
       },
       "networkId" : 31415,
       "rpc" : [
+         "https://wallaby.filfox.info/rpc/v0",
          "https://wallaby.node.glif.io/rpc/v0"
       ],
       "shortName" : "filecoin-wallaby",
@@ -10964,6 +11476,39 @@
          "https://rpc.avescoin.io"
       ],
       "shortName" : "avs"
+   },
+   {
+      "chain" : "TARO",
+      "chainId" : 35011,
+      "explorers" : [
+         {
+            "icon" : "j2otaro",
+            "name" : "J2O Taro Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://exp.j2o.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://j2o.io",
+      "name" : "J2O Taro",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TARO Coin",
+         "symbol" : "taro"
+      },
+      "networkId" : 35011,
+      "rpc" : [
+         "https://rpc.j2o.io"
+      ],
+      "shortName" : "j2o"
    },
    {
       "chain" : "Q",
@@ -11361,7 +11906,8 @@
       "rpc" : [
          "https://avax.boba.network",
          "wss://wss.avax.boba.network",
-         "https://replica.avax.boba.network"
+         "https://replica.avax.boba.network",
+         "wss://replica-wss.avax.boba.network"
       ],
       "shortName" : "bobaavax"
    },
@@ -11542,6 +12088,32 @@
          "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
       ],
       "shortName" : "DFK"
+   },
+   {
+      "chain" : "TestEdge2",
+      "chainId" : 54211,
+      "explorers" : [
+         {
+            "name" : "TestEdge HAQQ Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testedge2.haqq.network"
+         }
+      ],
+      "faucets" : [
+         "https://testedge2.haqq.network"
+      ],
+      "infoURL" : "https://islamiccoin.net",
+      "name" : "Haqq Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Islamic Coin",
+         "symbol" : "ISLMT"
+      },
+      "networkId" : 54211,
+      "rpc" : [
+         "https://rpc.eth.testedge2.haqq.network"
+      ],
+      "shortName" : "ISLMT"
    },
    {
       "chain" : "REI",
@@ -12258,6 +12830,33 @@
          "https://evm.lambda.top/"
       ],
       "shortName" : "lambda-testnet"
+   },
+   {
+      "chain" : "Boba BNB Mainnet",
+      "chainId" : 97288,
+      "explorers" : [
+         {
+            "name" : "Boba BNB block explorer",
+            "standard" : "none",
+            "url" : "https://blockexplorer.bnb.boba.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://boba.network",
+      "name" : "Boba BNB Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Boba Token",
+         "symbol" : "BOBA"
+      },
+      "networkId" : 97288,
+      "rpc" : [
+         "https://bnb.boba.network",
+         "wss://wss.bnb.boba.network",
+         "https://replica.bnb.boba.network",
+         "wss://replica-wss.bnb.boba.network"
+      ],
+      "shortName" : "BobaBnb"
    },
    {
       "chain" : "USC",
@@ -14238,7 +14837,7 @@
       },
       "networkId" : 7668378,
       "rpc" : [
-         "https://rpct.qom.one:8545"
+         "https://rpc.testnet.qom.one"
       ],
       "shortName" : "tqom",
       "status" : "incubating"
@@ -15344,6 +15943,30 @@
          "https://blockchain.haradev.com"
       ],
       "shortName" : "ntt-haradev"
+   },
+   {
+      "chain" : "IPDC",
+      "chainId" : 666301171999,
+      "explorers" : [
+         {
+            "name" : "ipdcscan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.ipdc.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://ipdc.io",
+      "name" : "PDC Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PDC",
+         "symbol" : "PDC"
+      },
+      "networkId" : 666301171999,
+      "rpc" : [
+         "https://mainnet.ipdc.io/"
+      ],
+      "shortName" : "ipdc"
    },
    {
       "chain" : "ETH",

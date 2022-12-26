@@ -1085,7 +1085,9 @@
          "symbol" : "ETMP"
       },
       "networkId" : 48,
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.etm.network"
+      ],
       "shortName" : "etmp"
    },
    {
@@ -1752,6 +1754,40 @@
          "wss://idchain.one/ws/"
       ],
       "shortName" : "idchain"
+   },
+   {
+      "chain" : "DSC",
+      "chainId" : 75,
+      "explorers" : [
+         {
+            "icon" : "dsc",
+            "name" : "DSC Explorer Mainnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.decimalchain.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "dsc",
+      "infoURL" : "https://decimalchain.com",
+      "name" : "Decimal Smart Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Decimal",
+         "symbol" : "DEL"
+      },
+      "networkId" : 75,
+      "rpc" : [
+         "https://node.decimalchain.com/web3"
+      ],
+      "shortName" : "DSC"
    },
    {
       "chain" : "MIX",
@@ -8327,7 +8363,7 @@
       "name" : "PandoProject Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Pando token ",
+         "name" : "pando-token",
          "symbol" : "PTX"
       },
       "networkId" : 3601,
@@ -8352,7 +8388,7 @@
       "name" : "PandoProject Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Pando token ",
+         "name" : "pando-token",
          "symbol" : "PTX"
       },
       "networkId" : 3602,
@@ -8922,7 +8958,9 @@
          "symbol" : "HMND"
       },
       "networkId" : 5234,
-      "rpc" : [],
+      "rpc" : [
+         "https://explorer-rpc-http.mainnet.stages.humanode.io"
+      ],
       "shortName" : "hmnd"
    },
    {
@@ -9584,7 +9622,7 @@
          "https://faucet.liberty10.shardeum.org"
       ],
       "infoURL" : "https://docs.shardeum.org/",
-      "name" : "Shardeum Liberty 1.6",
+      "name" : "Shardeum Liberty 1.X",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Shardeum SHM",
@@ -9613,7 +9651,7 @@
          "https://faucet.liberty20.shardeum.org"
       ],
       "infoURL" : "https://docs.shardeum.org/",
-      "name" : "Shardeum Liberty 2.0",
+      "name" : "Shardeum Liberty 2.X",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Shardeum SHM",
@@ -9623,7 +9661,9 @@
       "redFlags" : [
          "reusedChainId"
       ],
-      "rpc" : [],
+      "rpc" : [
+         "https://liberty20.shardeum.org/"
+      ],
       "shortName" : "Liberty20"
    },
    {
@@ -11178,6 +11218,30 @@
          "https://node1.mintme.com"
       ],
       "shortName" : "mintme"
+   },
+   {
+      "chain" : "HammerChain",
+      "chainId" : 25888,
+      "explorers" : [
+         {
+            "name" : "Hammer Chain Explorer",
+            "standard" : "none",
+            "url" : "https://www.hammerchain.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.hammerchain.io",
+      "name" : "Hammer Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GOLDT",
+         "symbol" : "GOLDT"
+      },
+      "networkId" : 25888,
+      "rpc" : [
+         "https://www.hammerchain.io/rpc"
+      ],
+      "shortName" : "GOLDT"
    },
    {
       "chain" : "OasisChain",
@@ -13650,6 +13714,74 @@
       "shortName" : "alayadev"
    },
    {
+      "chain" : "MYTH",
+      "chainId" : 201804,
+      "explorers" : [
+         {
+            "icon" : "mythical",
+            "name" : "Mythical Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.mythicalgames.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "mythical",
+      "infoURL" : "https://mythicalgames.com/",
+      "name" : "Mythical Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Mythos",
+         "symbol" : "MYTH"
+      },
+      "networkId" : 201804,
+      "rpc" : [
+         "https://chain-rpc.mythicalgames.com"
+      ],
+      "shortName" : "myth"
+   },
+   {
+      "chain" : "tDSC",
+      "chainId" : 202020,
+      "explorers" : [
+         {
+            "icon" : "dsc",
+            "name" : "DSC Explorer Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.explorer.decimalchain.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "dsc",
+      "infoURL" : "https://decimalchain.com",
+      "name" : "Decimal Smart Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Decimal",
+         "symbol" : "tDEL"
+      },
+      "networkId" : 202020,
+      "rpc" : [
+         "https://testnet-val.decimalchain.com/web3"
+      ],
+      "shortName" : "tDSC"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 202624,
       "explorers" : [
@@ -15181,6 +15313,30 @@
          "https://node.joys.digital"
       ],
       "shortName" : "JOYS"
+   },
+   {
+      "chain" : "MAI",
+      "chainId" : 43214913,
+      "explorers" : [
+         {
+            "name" : "maistesntet",
+            "standard" : "none",
+            "url" : "http://174.138.9.169:3006/?network=maistesntet"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "maistestsubnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "maistestsubnet",
+         "symbol" : "MAI"
+      },
+      "networkId" : 43214913,
+      "rpc" : [
+         "http://174.138.9.169:9650/ext/bc/VUKSzFZKckx4PoZF9gX5QAqLPxbLzvu1vcssPG5QuodaJtdHT/rpc"
+      ],
+      "shortName" : "mais"
    },
    {
       "chain" : "AQUA",

@@ -1364,6 +1364,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "ontology",
       "infoURL" : "https://ont.io/",
       "name" : "Ontology Mainnet",
       "nativeCurrency" : {
@@ -4774,6 +4775,33 @@
       "shortName" : "LYC"
    },
    {
+      "chain" : "VSCT",
+      "chainId" : 741,
+      "explorers" : [
+         {
+            "name" : "ventionscan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.ventionscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.vention.network"
+      ],
+      "icon" : "ventionTestnet",
+      "infoURL" : "https://testnet.ventionscan.io",
+      "name" : "Vention Smart Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VNT",
+         "symbol" : "VNT"
+      },
+      "networkId" : 741,
+      "rpc" : [
+         "https://node-testnet.vention.network"
+      ],
+      "shortName" : "vsct"
+   },
+   {
       "chain" : "QOM",
       "chainId" : 766,
       "explorers" : [
@@ -5366,42 +5394,59 @@
       "shortName" : "munode"
    },
    {
-      "chain" : "CCN",
+      "chain" : "Oort Mainnet",
       "chainId" : 970,
       "faucets" : [],
       "icon" : "ccn",
-      "infoURL" : "https://computecoin.com/",
-      "name" : "CCN",
+      "infoURL" : "https://oortech.com",
+      "name" : "Oort Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "ComputeCoin",
+         "name" : "Oort",
          "symbol" : "CCN"
       },
       "networkId" : 970,
       "rpc" : [
-         "https://rpc.mainnet.computecoin.com"
+         "https://rpc.oortech.com"
       ],
-      "shortName" : "ccn",
-      "title" : "ComputeCoin Main Network"
+      "shortName" : "ccn"
    },
    {
-      "chain" : "CCN Beta",
+      "chain" : "Huygens",
       "chainId" : 971,
       "faucets" : [],
       "icon" : "ccn",
-      "infoURL" : "https://computecoin.com/",
-      "name" : "CCN Beta",
+      "infoURL" : "https://oortech.com",
+      "name" : "Oort Huygens",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "ComputeCoin",
+         "name" : "Oort",
          "symbol" : "CCN"
       },
       "networkId" : 971,
       "rpc" : [
-         "https://beta-rpc.mainnet.computecoin.com"
+         "https://huygens-rpc.oortech.com"
       ],
-      "shortName" : "ccnbeta",
-      "title" : "ComputeCoin Beta Network"
+      "shortName" : "Huygens"
+   },
+   {
+      "chain" : "Ascraeus",
+      "chainId" : 972,
+      "faucets" : [],
+      "icon" : "ccn",
+      "infoURL" : "https://oortech.com",
+      "name" : "Oort Ascraeus",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Oort",
+         "symbol" : "CCNA"
+      },
+      "networkId" : 972,
+      "rpc" : [
+         "https://ascraeus-rpc.oortech.com"
+      ],
+      "shortName" : "Ascraeus",
+      "title" : "Oort Ascraeus"
    },
    {
       "chain" : "YETI",
@@ -6030,6 +6075,40 @@
          "https://galois-hk.maiziqianbao.net/rpc"
       ],
       "shortName" : "tMATH"
+   },
+   {
+      "chain" : "SHT",
+      "chainId" : 1177,
+      "explorers" : [
+         {
+            "icon" : "smarthost",
+            "name" : "Smart Host Teknoloji TESTNET Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://s2.tl.web.tr:4000"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "smarthost",
+      "infoURL" : "https://smart-host.com.tr",
+      "name" : "Smart Host Teknoloji TESTNET",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Smart Host Teknoloji TESTNET",
+         "symbol" : "tSHT"
+      },
+      "networkId" : 1177,
+      "rpc" : [
+         "https://s2.tl.web.tr:4041"
+      ],
+      "shortName" : "sht"
    },
    {
       "chain" : "IORA",
@@ -7161,6 +7240,33 @@
       "shortName" : "ekta"
    },
    {
+      "chain" : "edeXa TestNetwork",
+      "chainId" : 1995,
+      "explorers" : [
+         {
+            "name" : "edexa-testnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.edexa.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.edexa.com/"
+      ],
+      "icon" : "edexa",
+      "infoURL" : "https://edexa.com/",
+      "name" : "edeXa Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EDEXA",
+         "symbol" : "EDX"
+      },
+      "networkId" : 1995,
+      "rpc" : [
+         "https://testnet.edexa.com/rpc"
+      ],
+      "shortName" : "edx"
+   },
+   {
       "chain" : "DC",
       "chainId" : 2000,
       "explorers" : [
@@ -7181,12 +7287,9 @@
       },
       "networkId" : 2000,
       "rpc" : [
-         "https://rpc-sg.dogechain.dog",
-         "https://rpc-us.dogechain.dog",
          "https://rpc.dogechain.dog",
-         "https://rpc01-sg.dogechain.dog",
-         "https://rpc02-sg.dogechain.dog",
-         "https://rpc03-sg.dogechain.dog"
+         "https://rpc-us.dogechain.dog",
+         "https://rpc01.dogechain.dog"
       ],
       "shortName" : "dc"
    },
@@ -9130,6 +9233,7 @@
       "faucets" : [
          "https://developer.ont.io/"
       ],
+      "icon" : "ontology",
       "infoURL" : "https://ont.io/",
       "name" : "Ontology Testnet",
       "nativeCurrency" : {
@@ -9913,6 +10017,38 @@
       "title" : "Mammoth Chain"
    },
    {
+      "chain" : "JBC",
+      "chainId" : 8899,
+      "explorers" : [
+         {
+            "name" : "JIBCHAIN Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://exp-l1.jibchain.net"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://jibchain.net",
+      "name" : "JIBCHAIN L1",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "JIBCOIN",
+         "symbol" : "JBC"
+      },
+      "networkId" : 8899,
+      "rpc" : [
+         "https://rpc-l1.jibchain.net"
+      ],
+      "shortName" : "jbc"
+   },
+   {
       "chain" : "bloxberg",
       "chainId" : 8995,
       "faucets" : [
@@ -10118,6 +10254,25 @@
          "https://qeasyweb3.com"
       ],
       "shortName" : "QETTest"
+   },
+   {
+      "chain" : "MainnetDev",
+      "chainId" : 9700,
+      "faucets" : [],
+      "icon" : "ccn",
+      "infoURL" : "https://oortech.com",
+      "name" : "Oort MainnetDev",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Oort",
+         "symbol" : "CCN"
+      },
+      "networkId" : 9700,
+      "rpc" : [
+         "https://dev-rpc.oortech.com"
+      ],
+      "shortName" : "MainnetDev",
+      "title" : "Oort MainnetDev"
    },
    {
       "chain" : "Boba BNB Testnet",
@@ -12764,6 +12919,33 @@
          "https://mainnet.resincoin.dev"
       ],
       "shortName" : "resin"
+   },
+   {
+      "chain" : "VSC",
+      "chainId" : 77612,
+      "explorers" : [
+         {
+            "name" : "ventionscan",
+            "standard" : "EIP3091",
+            "url" : "https://ventionscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.vention.network"
+      ],
+      "icon" : "vention",
+      "infoURL" : "https://ventionscan.io",
+      "name" : "Vention Smart Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VNT",
+         "symbol" : "VNT"
+      },
+      "networkId" : 77612,
+      "rpc" : [
+         "https://mainnet-rpc.vention.network"
+      ],
+      "shortName" : "vscm"
    },
    {
       "chain" : "ETH",

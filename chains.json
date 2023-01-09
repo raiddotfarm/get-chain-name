@@ -3291,7 +3291,7 @@
          {
             "name" : "siriusnet explorer",
             "standard" : "none",
-            "url" : "http://rpc.siriusnet.io"
+            "url" : "https://scan.siriusnet.io"
          }
       ],
       "faucets" : [],
@@ -3305,7 +3305,7 @@
       },
       "networkId" : 217,
       "rpc" : [
-         "https://u0zpw2zdzz:uf4y-ZGiQP_CJJgY6Vea2mSaeXOa1vFvfQ1PZhaDQ9M@u0iclv2dgh-u0jlczjhef-rpc.us0-aws.kaleido.io/"
+         "https://rpc2.siriusnet.io"
       ],
       "shortName" : "SIN2"
    },
@@ -9174,6 +9174,31 @@
       "shortName" : "NahmiiTestnet"
    },
    {
+      "chain" : "CVERSE",
+      "chainId" : 5555,
+      "explorers" : [
+         {
+            "name" : "Chain Verse Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.chainverse.info"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "chain_verse",
+      "infoURL" : "https://chainverse.info",
+      "name" : "Chain Verse Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Oasys",
+         "symbol" : "OAS"
+      },
+      "networkId" : 5555,
+      "rpc" : [
+         "https://rpc.chainverse.info"
+      ],
+      "shortName" : "cverse"
+   },
+   {
       "chain" : "SYS",
       "chainId" : 5700,
       "explorers" : [
@@ -9771,6 +9796,23 @@
       "shortName" : "Liberty20"
    },
    {
+      "chain" : "StreamuX",
+      "chainId" : 8098,
+      "faucets" : [],
+      "infoURL" : "https://www.streamux.cloud",
+      "name" : "StreamuX Blockchain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "StreamuX",
+         "symbol" : "SmuX"
+      },
+      "networkId" : 8098,
+      "rpc" : [
+         "https://u0ma6t6heb:KDNwOsRDGcyM2Oeui1p431Bteb4rvcWkuPgQNHwB4FM@u0xy4x6x82-u0e2mg517m-rpc.us0-aws.kaleido.io/"
+      ],
+      "shortName" : "StreamuX"
+   },
+   {
       "chain" : "MEER",
       "chainId" : 8131,
       "explorers" : [
@@ -9945,28 +9987,32 @@
       "shortName" : "alph"
    },
    {
-      "chain" : "ambroschain",
+      "chain" : "XANAChain",
       "chainId" : 8888,
       "explorers" : [
          {
-            "name" : "Ambros Chain Explorer",
-            "standard" : "none",
-            "url" : "https://testnet.ambrosscan.com"
+            "name" : "XANAChain",
+            "standard" : "EIP3091",
+            "url" : "https://xanachain.xana.net"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://test.ambros.network",
-      "name" : "Ambros Chain Testnet",
+      "icon" : "xeta",
+      "infoURL" : "https://xanachain.xana.net/",
+      "name" : "XANAChain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "AMBROS",
-         "symbol" : "AMBROS"
+         "name" : "XETA",
+         "symbol" : "XETA"
       },
       "networkId" : 8888,
-      "rpc" : [
-         "https://api.testnet.ambros.network"
+      "redFlags" : [
+         "reusedChainId"
       ],
-      "shortName" : "ambrostestnet"
+      "rpc" : [
+         "https://mainnet.xana.net/rpc"
+      ],
+      "shortName" : "XANAChain"
    },
    {
       "chain" : "VSC",
@@ -10919,6 +10965,30 @@
       "shortName" : "Phoenix"
    },
    {
+      "chain" : "SUS",
+      "chainId" : 13812,
+      "explorers" : [
+         {
+            "name" : "Susono",
+            "standard" : "none",
+            "url" : "http://explorer.opn.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "Susono",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Susono",
+         "symbol" : "OPN"
+      },
+      "networkId" : 13812,
+      "rpc" : [
+         "https://gateway.opn.network/node/ext/bc/2VsZe5DstWw2bfgdx3YbjKcMsJnNDjni95sZorBEdk9L9Qr9Fr/rpc"
+      ],
+      "shortName" : "sus"
+   },
+   {
       "chain" : "SPS-Testnet",
       "chainId" : 14000,
       "explorers" : [
@@ -11397,6 +11467,40 @@
          "https://www.hammerchain.io/rpc"
       ],
       "shortName" : "GOLDT"
+   },
+   {
+      "chain" : "HTZ",
+      "chainId" : 26600,
+      "explorers" : [
+         {
+            "icon" : "hertz-network",
+            "name" : "Hertz Scan",
+            "standard" : "EIP3091",
+            "url" : "https://hertzscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "hertz-network",
+      "infoURL" : "https://www.hertz-network.com",
+      "name" : "Hertz Network Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Hertz",
+         "symbol" : "HTZ"
+      },
+      "networkId" : 26600,
+      "rpc" : [
+         "https://mainnet-rpc.hertzscan.com"
+      ],
+      "shortName" : "HTZ"
    },
    {
       "chain" : "OasisChain",
@@ -14018,6 +14122,40 @@
       "shortName" : "platon"
    },
    {
+      "chain" : "MAS",
+      "chainId" : 220315,
+      "explorers" : [
+         {
+            "icon" : "explorer",
+            "name" : "explorer masnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.masnet.ai"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "mas",
+      "infoURL" : "https://masterbank.org",
+      "name" : "Mas Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Master Bank",
+         "symbol" : "MAS"
+      },
+      "networkId" : 220315,
+      "rpc" : [
+         "http://node.masnet.ai:8545"
+      ],
+      "shortName" : "mas"
+   },
+   {
       "chain" : "tHYM",
       "chainId" : 234666,
       "faucets" : [],
@@ -14588,18 +14726,18 @@
          }
       ],
       "faucets" : [
-         "https://prealpha.scroll.io"
+         "https://prealpha.scroll.io/faucet"
       ],
       "infoURL" : "https://scroll.io",
       "name" : "Scroll Pre-Alpha Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ether",
-         "symbol" : "ETH"
+         "symbol" : "TSETH"
       },
       "networkId" : 534354,
       "rpc" : [
-         "https://prealpha.scroll.io/l2"
+         "https://prealpha-rpc.scroll.io/l2"
       ],
       "shortName" : "scr-prealpha"
    },
@@ -15128,6 +15266,31 @@
       "shortName" : "imversed-testnet"
    },
    {
+      "chain" : "VSL",
+      "chainId" : 7355310,
+      "explorers" : [
+         {
+            "name" : "openvessel-mainnet",
+            "standard" : "none",
+            "url" : "https://mainnet-explorer.openvessel.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "vsl",
+      "infoURL" : "https://www.openvessel.io",
+      "name" : "OpenVessel",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Vessel ETH",
+         "symbol" : "VETH"
+      },
+      "networkId" : 7355310,
+      "rpc" : [
+         "https://mainnet-external.openvessel.io"
+      ],
+      "shortName" : "vsl"
+   },
+   {
       "chain" : "QOM",
       "chainId" : 7668378,
       "explorers" : [
@@ -15279,6 +15442,32 @@
          "https://churchill-rpc.pepchain.io"
       ],
       "shortName" : "tpep"
+   },
+   {
+      "chain" : "anduschain",
+      "chainId" : 14288640,
+      "explorers" : [
+         {
+            "icon" : "daon",
+            "name" : "anduschain explorer",
+            "standard" : "none",
+            "url" : "https://explorer.anduschain.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://anduschain.io/",
+      "name" : "Anduschain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DAON",
+         "symbol" : "DEB"
+      },
+      "networkId" : 14288640,
+      "rpc" : [
+         "https://rpc.anduschain.io/rpc",
+         "wss://rpc.anduschain.io/ws"
+      ],
+      "shortName" : "anduschain-mainnet"
    },
    {
       "chain" : "Plian",
@@ -16136,6 +16325,44 @@
          "https://23.92.21.121:8545"
       ],
       "shortName" : "hop"
+   },
+   {
+      "chain" : "europa",
+      "chainId" : 2046399126,
+      "explorers" : [
+         {
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://elated-tan-skat.explorer.mainnet.skalenodes.com"
+         }
+      ],
+      "faucets" : [
+         "https://ruby.exchange/faucet.html",
+         "https://sfuel.mylilius.com/"
+      ],
+      "icon" : "europa",
+      "infoURL" : "https://europahub.network/",
+      "name" : "Europa SKALE Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "sFUEL",
+         "symbol" : "sFUEL"
+      },
+      "networkId" : 2046399126,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://ruby.exchange/bridge.html"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://mainnet.skalenodes.com/v1/elated-tan-skat",
+         "wss://mainnet.skalenodes.com/v1/elated-tan-skat"
+      ],
+      "shortName" : "europa"
    },
    {
       "chain" : "PIRL",

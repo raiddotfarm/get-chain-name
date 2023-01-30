@@ -8285,6 +8285,62 @@
       "shortName" : "bombt"
    },
    {
+      "chain" : "TCG Verse",
+      "chainId" : 2400,
+      "explorers" : [
+         {
+            "name" : "TCG Verse Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.tcgverse.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "tcg_verse",
+      "infoURL" : "https://tcgverse.xyz/",
+      "name" : "TCG Verse Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OAS",
+         "symbol" : "OAS"
+      },
+      "networkId" : 2400,
+      "parent" : {
+         "chain" : "eip155-248",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.tcgverse.xyz"
+      ],
+      "shortName" : "TCGV"
+   },
+   {
+      "chain" : "XODEX",
+      "chainId" : 2415,
+      "explorers" : [
+         {
+            "icon" : "xodex",
+            "name" : "XODEX Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.xo-dex.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "xodex",
+      "infoURL" : "https://xo-dex.com",
+      "name" : "XODEX",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "XODEX Native Token",
+         "symbol" : "XODEX"
+      },
+      "networkId" : 10,
+      "rpc" : [
+         "https://mainnet.xo-dex.com/rpc",
+         "https://xo-dex.io"
+      ],
+      "shortName" : "xodex"
+   },
+   {
       "chain" : "Kortho Chain",
       "chainId" : 2559,
       "faucets" : [],
@@ -15574,10 +15630,10 @@
       "name" : "ethereum Fair",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Ether",
-         "symbol" : "ETH"
+         "name" : "EthereumFair",
+         "symbol" : "ETHF"
       },
-      "networkId" : 1,
+      "networkId" : 513100,
       "rpc" : [
          "https://rpc.etherfair.org"
       ],
@@ -16604,6 +16660,39 @@
       ],
       "shortName" : "auxi",
       "slip44" : 344
+   },
+   {
+      "chain" : "FLX",
+      "chainId" : 29032022,
+      "explorers" : [
+         {
+            "name" : "FLXExplorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.flaexchange.top"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "flacoin",
+      "infoURL" : "https://www.flaexchange.top",
+      "name" : "Flachain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Flacoin",
+         "symbol" : "FLA"
+      },
+      "networkId" : 29032022,
+      "rpc" : [
+         "https://flachain.flaexchange.top/"
+      ],
+      "shortName" : "fla"
    },
    {
       "chain" : "FIL",

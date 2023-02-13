@@ -4349,6 +4349,32 @@
       "shortName" : "zeeth"
    },
    {
+      "chain" : "tfren",
+      "chainId" : 444,
+      "explorers" : [
+         {
+            "icon" : "fren",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.frenscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "fren",
+      "infoURL" : "https://frenchain.app",
+      "name" : "Frenchain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "tFREN",
+         "symbol" : "FtREN"
+      },
+      "networkId" : 444,
+      "rpc" : [
+         "https://rpc-01tn.frenchain.app"
+      ],
+      "shortName" : "tFREN"
+   },
+   {
       "chain" : "RUPX",
       "chainId" : 499,
       "faucets" : [],
@@ -4999,6 +5025,30 @@
       "shortName" : "LYC"
    },
    {
+      "chain" : "Canto Tesnet",
+      "chainId" : 740,
+      "explorers" : [
+         {
+            "name" : "Canto Tesnet Explorer (Neobase)",
+            "standard" : "none",
+            "url" : "http://testnet-explorer.canto.neobase.one"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://canto.io",
+      "name" : "Canto Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Canto",
+         "symbol" : "CANTO"
+      },
+      "networkId" : 740,
+      "rpc" : [
+         "https://eth.plexnode.wtf/"
+      ],
+      "shortName" : "tcanto"
+   },
+   {
       "chain" : "VSCT",
       "chainId" : 741,
       "explorers" : [
@@ -5362,6 +5412,35 @@
          "https://mainnet-data3.fantasiachain.com/"
       ],
       "shortName" : "FSCMainnet"
+   },
+   {
+      "chain" : "Bandai Namco Research Verse",
+      "chainId" : 876,
+      "explorers" : [
+         {
+            "name" : "Bandai Namco Research Verse Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.main.oasvrs.bnken.net"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bnken",
+      "infoURL" : "https://www.bandainamco-mirai.com/en/",
+      "name" : "Bandai Namco Research Verse Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OAS",
+         "symbol" : "OAS"
+      },
+      "networkId" : 876,
+      "parent" : {
+         "chain" : "eip155-248",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.main.oasvrs.bnken.net"
+      ],
+      "shortName" : "BNKEN"
    },
    {
       "chain" : "DXT",
@@ -7106,6 +7185,31 @@
       "shortName" : "CIC"
    },
    {
+      "chain" : "AmStar",
+      "chainId" : 1388,
+      "explorers" : [
+         {
+            "name" : "amstarscan",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet.amstarscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "amstar",
+      "infoURL" : "https://sinso.io",
+      "name" : "AmStar Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SINSO",
+         "symbol" : "SINSO"
+      },
+      "networkId" : 1388,
+      "rpc" : [
+         "https://mainnet-rpc.amstarscan.com"
+      ],
+      "shortName" : "ASAR"
+   },
+   {
       "chain" : "Polygon",
       "chainId" : 1402,
       "explorers" : [
@@ -8091,6 +8195,51 @@
       "shortName" : "otp"
    },
    {
+      "chain" : "STOS",
+      "chainId" : 2047,
+      "explorers" : [
+         {
+            "name" : "Stratos EVM Explorer (Blockscout)",
+            "standard" : "none",
+            "url" : "https://web3-testnet-explorer.thestratos.org"
+         },
+         {
+            "name" : "Stratos Cosmos Explorer (BigDipper)",
+            "standard" : "none",
+            "url" : "https://big-dipper-dev.thestratos.org"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.thestratos.org",
+      "name" : "Stratos Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "STOS",
+         "symbol" : "STOS"
+      },
+      "networkId" : 2047,
+      "rpc" : [
+         "https://web3-testnet-rpc.thestratos.org"
+      ],
+      "shortName" : "stos-testnet"
+   },
+   {
+      "chain" : "STOS",
+      "chainId" : 2048,
+      "faucets" : [],
+      "infoURL" : "https://www.thestratos.org",
+      "name" : "Stratos Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "STOS",
+         "symbol" : "STOS"
+      },
+      "networkId" : 2048,
+      "rpc" : [],
+      "shortName" : "stos-mainnet",
+      "status" : "incubating"
+   },
+   {
       "chain" : "Qkacoin",
       "chainId" : 2077,
       "explorers" : [
@@ -8859,6 +9008,33 @@
          "https://rpc-testnet.orlchain.com"
       ],
       "shortName" : "ORL"
+   },
+   {
+      "chain" : "BFC",
+      "chainId" : 3068,
+      "explorers" : [
+         {
+            "name" : "explorer-thebifrost",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.mainnet.thebifrost.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bifrost",
+      "infoURL" : "https://thebifrost.io",
+      "name" : "Bifrost Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Bifrost",
+         "symbol" : "BFC"
+      },
+      "networkId" : 3068,
+      "rpc" : [
+         "https://public-01.mainnet.thebifrost.io/rpc",
+         "https://public-02.mainnet.thebifrost.io/rpc"
+      ],
+      "shortName" : "bfc",
+      "title" : "The Bifrost Mainnet network"
    },
    {
       "chain" : "FIL",
@@ -12173,6 +12349,31 @@
       "shortName" : "mtttest"
    },
    {
+      "chain" : "ambnet",
+      "chainId" : 16718,
+      "explorers" : [
+         {
+            "name" : "AirDAO Network Explorer",
+            "standard" : "none",
+            "url" : "https://airdao.io/explorer"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "airdao",
+      "infoURL" : "https://airdao.io",
+      "name" : "AirDAO Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Amber",
+         "symbol" : "AMB"
+      },
+      "networkId" : 16718,
+      "rpc" : [
+         "https://network.ambrosus.io"
+      ],
+      "shortName" : "airdao"
+   },
+   {
       "chain" : "IVAR",
       "chainId" : 16888,
       "explorers" : [
@@ -12438,6 +12639,31 @@
          "https://taycan-rpc.hupayx.io:8545"
       ],
       "shortName" : "SFL"
+   },
+   {
+      "chain" : "ambnet-test",
+      "chainId" : 22040,
+      "explorers" : [
+         {
+            "name" : "AirDAO Network Explorer",
+            "standard" : "none",
+            "url" : "https://testnet.airdao.io/explorer"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "airdao",
+      "infoURL" : "https://testnet.airdao.io",
+      "name" : "AirDAO Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Amber",
+         "symbol" : "AMB"
+      },
+      "networkId" : 22040,
+      "rpc" : [
+         "https://network.ambrosus-test.io"
+      ],
+      "shortName" : "airdao-test"
    },
    {
       "chain" : "MAP",
@@ -13397,6 +13623,32 @@
       "shortName" : "bobaavax"
    },
    {
+      "chain" : "fren",
+      "chainId" : 44444,
+      "explorers" : [
+         {
+            "icon" : "fren",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://frenscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "fren",
+      "infoURL" : "https://frenchain.app",
+      "name" : "Frenchain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FREN",
+         "symbol" : "FREN"
+      },
+      "networkId" : 44444,
+      "rpc" : [
+         "https://rpc-02.frenscan.io"
+      ],
+      "shortName" : "FREN"
+   },
+   {
       "chain" : "CELO",
       "chainId" : 44787,
       "explorers" : [
@@ -13547,8 +13799,9 @@
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://testnet.thebifrost.io",
-      "name" : "Bifrost Testnet1",
+      "icon" : "bifrost",
+      "infoURL" : "https://thebifrost.io",
+      "name" : "Bifrost Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Bifrost",
@@ -13557,10 +13810,9 @@
       "networkId" : 49088,
       "rpc" : [
          "https://public-01.testnet.thebifrost.io/rpc",
-         "https://public-02.testnet.thebifrost.io/rpc",
-         "https://private.chain.thebifrost.io/rpc"
+         "https://public-02.testnet.thebifrost.io/rpc"
       ],
-      "shortName" : "BIT",
+      "shortName" : "tbfc",
       "title" : "The Bifrost Testnet network"
    },
    {
@@ -14870,6 +15122,57 @@
       "shortName" : "qkc-s7"
    },
    {
+      "chain" : "VeChain",
+      "chainId" : 100009,
+      "explorers" : [
+         {
+            "name" : "VeChain Stats",
+            "standard" : "none",
+            "url" : "https://vechainstats.com"
+         },
+         {
+            "name" : "VeChain Explorer",
+            "standard" : "none",
+            "url" : "https://explore.vechain.org"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://vechain.org",
+      "name" : "VeChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VeChain",
+         "symbol" : "VET"
+      },
+      "networkId" : 100009,
+      "rpc" : [],
+      "shortName" : "vechain"
+   },
+   {
+      "chain" : "VeChain",
+      "chainId" : 100010,
+      "explorers" : [
+         {
+            "name" : "VeChain Explorer",
+            "standard" : "none",
+            "url" : "https://explore-testnet.vechain.org"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.vecha.in"
+      ],
+      "infoURL" : "https://vechain.org",
+      "name" : "VeChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VeChain",
+         "symbol" : "VET"
+      },
+      "networkId" : 100010,
+      "rpc" : [],
+      "shortName" : "vechain-testnet"
+   },
+   {
       "chain" : "CHI1",
       "chainId" : 100100,
       "explorers" : [
@@ -15950,6 +16253,39 @@
       "title" : "Arbitrum Goerli Rollup Testnet"
    },
    {
+      "chain" : "FTN",
+      "chainId" : 424242,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "none",
+            "url" : "https://testnet.ftnscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://fastex.com",
+      "name" : "Fastex Chain testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FTN",
+         "symbol" : "FTN"
+      },
+      "networkId" : 424242,
+      "rpc" : [
+         "https://rpc.testnet.fastexchain.com"
+      ],
+      "shortName" : "ftn",
+      "title" : "Fastex Chain testnet"
+   },
+   {
       "chain" : "DEXALOT",
       "chainId" : 432201,
       "explorers" : [
@@ -16126,10 +16462,16 @@
    {
       "chain" : "ETH",
       "chainId" : 534353,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "Scroll Alpha Testnet Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.scroll.io"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://scroll.io",
-      "name" : "Scroll Goerli Testnet",
+      "name" : "Scroll Alpha Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ether",
@@ -16141,8 +16483,11 @@
          "chain" : "eip155-5",
          "type" : "L2"
       },
-      "rpc" : [],
-      "shortName" : "scr-goerli"
+      "rpc" : [
+         "https://alpha-rpc.scroll.io/l2"
+      ],
+      "shortName" : "scr-alpha",
+      "status" : "incubating"
    },
    {
       "chain" : "ETH",
@@ -16215,6 +16560,31 @@
       ],
       "shortName" : "vpioneer",
       "slip44" : 60
+   },
+   {
+      "chain" : "BRNKCTEST",
+      "chainId" : 751230,
+      "explorers" : [
+         {
+            "name" : "brnktestscan",
+            "standard" : "EIP3091",
+            "url" : "https://brnktest-scan.bearnetwork.net"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "brnkc",
+      "infoURL" : "https://bearnetwork.net",
+      "name" : "Bear Network Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Bear Network Chain Testnet Token",
+         "symbol" : "tBRNKC"
+      },
+      "networkId" : 751230,
+      "rpc" : [
+         "https://brnkc-test.bearnetwork.net"
+      ],
+      "shortName" : "BRNKCTEST"
    },
    {
       "chain" : "OCTA",

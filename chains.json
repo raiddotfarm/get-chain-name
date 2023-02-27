@@ -2268,6 +2268,36 @@
       "shortName" : "KylinTestnet"
    },
    {
+      "chain" : "BKC",
+      "chainId" : 96,
+      "explorers" : [
+         {
+            "icon" : "bkc",
+            "name" : "Bitkub Chain Explorer",
+            "standard" : "none",
+            "url" : "https://bkcscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bkc",
+      "infoURL" : "https://www.bitkubchain.com/",
+      "name" : "Bitkub Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Bitkub Coin",
+         "symbol" : "KUB"
+      },
+      "networkId" : 96,
+      "redFlags" : [
+         "reusedChainId"
+      ],
+      "rpc" : [
+         "https://rpc.bitkubchain.io",
+         "wss://wss.bitkubchain.io"
+      ],
+      "shortName" : "bkc"
+   },
+   {
       "chain" : "BSC",
       "chainId" : 97,
       "explorers" : [
@@ -2663,6 +2693,31 @@
       "networkId" : 116,
       "rpc" : [],
       "shortName" : "debank-mainnet"
+   },
+   {
+      "chain" : "Arcology",
+      "chainId" : 118,
+      "explorers" : [
+         {
+            "name" : "arcology",
+            "standard" : "none",
+            "url" : "https://testnet.arcology.network/explorer"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "acolicon",
+      "infoURL" : "https://arcology.network/",
+      "name" : "Arcology Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Arcology Coin",
+         "symbol" : "Acol"
+      },
+      "networkId" : 118,
+      "rpc" : [
+         "https://testnet.arcology.network/rpc"
+      ],
+      "shortName" : "arcology"
    },
    {
       "chain" : "ENULS",
@@ -7705,6 +7760,43 @@
       "shortName" : "bta"
    },
    {
+      "chain" : "Yuma",
+      "chainId" : 1662,
+      "explorers" : [
+         {
+            "icon" : "eon",
+            "name" : "Yuma Testnet Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://yuma-explorer.horizen.io"
+         }
+      ],
+      "faucets" : [
+         "https://yuma-testnet-faucet.horizen.io"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "eon",
+      "infoURL" : "https://horizen.io/",
+      "name" : "Horizen Yuma Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet Zen",
+         "symbol" : "tZEN"
+      },
+      "networkId" : 1662,
+      "rpc" : [
+         "https://yuma-testnet.horizenlabs.io/ethv1"
+      ],
+      "shortName" : "Yuma",
+      "slip44" : 121
+   },
+   {
       "chain" : "LUDAN",
       "chainId" : 1688,
       "faucets" : [],
@@ -7986,6 +8078,58 @@
       "shortName" : "boya"
    },
    {
+      "chain" : "BITCI",
+      "chainId" : 1907,
+      "explorers" : [
+         {
+            "name" : "Bitci Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://bitciexplorer.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bitci",
+      "infoURL" : "https://www.bitcichain.com",
+      "name" : "Bitcichain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Bitci",
+         "symbol" : "BITCI"
+      },
+      "networkId" : 1907,
+      "rpc" : [
+         "https://rpc.bitci.com"
+      ],
+      "shortName" : "bitci"
+   },
+   {
+      "chain" : "TBITCI",
+      "chainId" : 1908,
+      "explorers" : [
+         {
+            "name" : "Bitci Explorer Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.bitciexplorer.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.bitcichain.com"
+      ],
+      "icon" : "bitci",
+      "infoURL" : "https://www.bitcichain.com",
+      "name" : "Bitcichain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Test Bitci",
+         "symbol" : "TBITCI"
+      },
+      "networkId" : 1908,
+      "rpc" : [
+         "https://testnet.bitcichain.com"
+      ],
+      "shortName" : "tbitci"
+   },
+   {
       "chain" : "onus",
       "chainId" : 1945,
       "explorers" : [
@@ -8169,7 +8313,8 @@
       },
       "networkId" : 1995,
       "rpc" : [
-         "https://testnet.edexa.com/rpc"
+         "https://testnet.edexa.com/rpc",
+         "https://io-dataseed1.testnet.edexa.io-market.com/rpc"
       ],
       "shortName" : "edx"
    },
@@ -8941,6 +9086,23 @@
          "https://rpc.bombchain.com"
       ],
       "shortName" : "bomb"
+   },
+   {
+      "chain" : "Arevia",
+      "chainId" : 2309,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "Arevia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Arev",
+         "symbol" : "ARÉV"
+      },
+      "networkId" : 2309,
+      "rpc" : [],
+      "shortName" : "arevia",
+      "status" : "incubating"
    },
    {
       "chain" : "mainnet",
@@ -10500,6 +10662,32 @@
       "shortName" : "tsys"
    },
    {
+      "chain" : "HIK",
+      "chainId" : 5729,
+      "explorers" : [
+         {
+            "name" : "Hika Network Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://scan-testnet.hika.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "hik",
+      "infoURL" : "https://hika.network/",
+      "name" : "Hika Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Hik Token",
+         "symbol" : "HIK"
+      },
+      "networkId" : 5729,
+      "rpc" : [
+         "https://rpc-testnet.hika.network/"
+      ],
+      "shortName" : "hik",
+      "title" : "Hika Network Testnet"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 5777,
       "explorers" : [],
@@ -11274,6 +11462,22 @@
          "https://www.krotho-test.net"
       ],
       "shortName" : "Kortho"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 8453,
+      "faucets" : [],
+      "infoURL" : "https://base.org",
+      "name" : "Base",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 8453,
+      "rpc" : [],
+      "shortName" : "base",
+      "status" : "incubating"
    },
    {
       "chain" : "TOKI",
@@ -14768,7 +14972,8 @@
       "rpc" : [
          "https://u0tnafcv6j:o2T045sxuCNXL878RDQLp5__Zj-es2cvdjtgkl4etn0@u0v7kwtvtg-u0wj114sve-rpc.us0-aws.kaleido.io/"
       ],
-      "shortName" : "mcl"
+      "shortName" : "mcl",
+      "status" : "deprecated"
    },
    {
       "chain" : "ETH",
@@ -15144,6 +15349,37 @@
       ],
       "shortName" : "maticmum",
       "title" : "Polygon Testnet Mumbai"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 84531,
+      "explorers" : [
+         {
+            "name" : "basescan",
+            "standard" : "none",
+            "url" : "https://goerli.basescan.org"
+         },
+         {
+            "name" : "basescout",
+            "standard" : "none",
+            "url" : "https://base-goerli.blockscout.com"
+         }
+      ],
+      "faucets" : [
+         "https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"
+      ],
+      "infoURL" : "https://base.org",
+      "name" : "Base Goerli Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Goerli Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 84531,
+      "rpc" : [
+         "https://goerli.base.org"
+      ],
+      "shortName" : "basegor"
    },
    {
       "chain" : "CHZ",

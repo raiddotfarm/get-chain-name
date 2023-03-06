@@ -4120,6 +4120,21 @@
             "url" : "https://filfox.info/en"
          },
          {
+            "name" : "Beryx",
+            "standard" : "none",
+            "url" : "https://beryx.zondax.ch"
+         },
+         {
+            "name" : "Glif Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.glif.io"
+         },
+         {
+            "name" : "Filmine",
+            "standard" : "none",
+            "url" : "https://explorer.filmine.io"
+         },
+         {
             "name" : "Filscan",
             "standard" : "none",
             "url" : "https://filscan.io"
@@ -6730,7 +6745,7 @@
       },
       "networkId" : 1117,
       "rpc" : [
-         "https://mainnet-rpc.dogcoin.network"
+         "https://mainnet-rpc.dogcoin.me"
       ],
       "shortName" : "DOGSm"
    },
@@ -8174,6 +8189,34 @@
       "shortName" : "dchain-mainnet"
    },
    {
+      "chain" : "MTC",
+      "chainId" : 1967,
+      "explorers" : [
+         {
+            "name" : "metaexplorer-eleanor",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.metatime.com/eleanor"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.metatime.com/eleanor"
+      ],
+      "infoURL" : "https://eleanor.metatime.com",
+      "name" : "Eleanor",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Eleanor Metacoin",
+         "symbol" : "MTC"
+      },
+      "networkId" : 1967,
+      "rpc" : [
+         "https://rpc.metatime.com/eleanor",
+         "wss://ws.metatime.com/eleanor"
+      ],
+      "shortName" : "mtc",
+      "title" : "Metatime Testnet Eleanor"
+   },
+   {
       "chain" : "ALTR",
       "chainId" : 1971,
       "faucets" : [],
@@ -9561,6 +9604,7 @@
       "networkId" : 3141,
       "rpc" : [
          "https://api.hyperspace.node.glif.io/rpc/v1",
+         "https://rpc.ankr.com/filecoin_testnet",
          "https://filecoin-hyperspace.chainstacklabs.com/rpc/v1"
       ],
       "shortName" : "filecoin-hyperspace",
@@ -10058,6 +10102,67 @@
       "shortName" : "BobaoperaTestnet"
    },
    {
+      "chain" : "Nahmii",
+      "chainId" : 4061,
+      "faucets" : [],
+      "icon" : "nahmii",
+      "infoURL" : "https://nahmii.io",
+      "name" : "Nahmii 3 Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 4061,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.nahmii.io"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [],
+      "shortName" : "Nahmii3Mainnet",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "Nahmii",
+      "chainId" : 4062,
+      "explorers" : [
+         {
+            "icon" : "nahmii",
+            "name" : "Nahmii 3 Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.n3.nahmii.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "nahmii",
+      "infoURL" : "https://nahmii.io",
+      "name" : "Nahmii 3 Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Goerli Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 4062,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.testnet.n3.nahmii.io"
+            }
+         ],
+         "chain" : "eip155-3",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://ngeth.testnet.n3.nahmii.io"
+      ],
+      "shortName" : "Nahmii3Testnet"
+   },
+   {
       "chain" : "BNI",
       "chainId" : 4096,
       "explorers" : [
@@ -10136,6 +10241,33 @@
       ],
       "shortName" : "aioz-testnet",
       "slip44" : 60
+   },
+   {
+      "chain" : "TPBX",
+      "chainId" : 4141,
+      "explorers" : [
+         {
+            "name" : "Tipboxcoin",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.tipboxcoin.net"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.tipboxcoin.net"
+      ],
+      "icon" : "tipboxcoinIcon",
+      "infoURL" : "https://tipboxcoin.net",
+      "name" : "Tipboxcoin Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Tipboxcoin",
+         "symbol" : "TPBX"
+      },
+      "networkId" : 4141,
+      "rpc" : [
+         "https://testnet-rpc.tipboxcoin.net"
+      ],
+      "shortName" : "TPBXt"
    },
    {
       "chain" : "PHI V1",
@@ -11033,6 +11165,35 @@
          "https://evm-rpc.planq.network"
       ],
       "shortName" : "planq"
+   },
+   {
+      "chain" : "KLY",
+      "chainId" : 7331,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "klyntar",
+      "infoURL" : "https://klyntar.org",
+      "name" : "KLYNTAR",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "KLYNTAR",
+         "symbol" : "KLY"
+      },
+      "networkId" : 7331,
+      "rpc" : [
+         "https://evm.klyntar.org/kly_evm_rpc",
+         "https://evm.klyntarscan.org/kly_evm_rpc"
+      ],
+      "shortName" : "kly",
+      "status" : "incubating"
    },
    {
       "chain" : "SHYFT",
@@ -12057,7 +12218,7 @@
       },
       "networkId" : 9339,
       "rpc" : [
-         "https://testnet-rpc.dogcoin.network"
+         "https://testnet-rpc.dogcoin.me"
       ],
       "shortName" : "DOGSt"
    },
@@ -12587,6 +12748,33 @@
       "shortName" : "astra-testnet"
    },
    {
+      "chain" : "HBIT",
+      "chainId" : 11119,
+      "explorers" : [
+         {
+            "name" : "hashbitscan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.hashbit.org"
+         }
+      ],
+      "faucets" : [
+         "https://free-online-app.com/faucet-for-eth-evm-chains/"
+      ],
+      "infoURL" : "https://hashbit.org",
+      "name" : "HashBit Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "HashBit Native Token",
+         "symbol" : "HBIT"
+      },
+      "networkId" : 11119,
+      "rpc" : [
+         "https://mainnet-rpc.hashbit.org",
+         "https://rpc.hashbit.org"
+      ],
+      "shortName" : "hbit"
+   },
+   {
       "chain" : "Haqq",
       "chainId" : 11235,
       "explorers" : [
@@ -12746,6 +12934,31 @@
       ],
       "shortName" : "ZERO",
       "slip44" : 621
+   },
+   {
+      "chain" : "FIBO",
+      "chainId" : 12306,
+      "explorers" : [
+         {
+            "name" : "fiboscan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.fibochain.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "fibonacci",
+      "infoURL" : "https://fibochain.org",
+      "name" : "Fibonacci Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FIBONACCI UTILITY TOKEN",
+         "symbol" : "FIBO"
+      },
+      "networkId" : 1230,
+      "rpc" : [
+         "https://node1.fibo-api.asia"
+      ],
+      "shortName" : "fibo"
    },
    {
       "chain" : "BLG",
@@ -16208,6 +16421,39 @@
       "shortName" : "qkc-d-s7"
    },
    {
+      "chain" : "SBR",
+      "chainId" : 111111,
+      "explorers" : [
+         {
+            "icon" : "siberium",
+            "name" : "Siberium Mainnet Explorer - blockscout - 1",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.main.siberium.net"
+         },
+         {
+            "icon" : "siberium",
+            "name" : "Siberium Mainnet Explorer - blockscout - 2",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.main.siberium.net.ru"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "siberium",
+      "infoURL" : "https://siberium.net",
+      "name" : "Siberium Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Siberium",
+         "symbol" : "SBR"
+      },
+      "networkId" : 111111,
+      "rpc" : [
+         "https://rpc.main.siberium.net",
+         "https://rpc.main.siberium.net.ru"
+      ],
+      "shortName" : "sbr"
+   },
+   {
       "chain" : "ETND",
       "chainId" : 131419,
       "explorers" : [
@@ -16828,6 +17074,33 @@
       "slip44" : 9005
    },
    {
+      "chain" : "TPBX",
+      "chainId" : 404040,
+      "explorers" : [
+         {
+            "name" : "Tipboxcoin",
+            "standard" : "EIP3091",
+            "url" : "https://tipboxcoin.net"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.tipboxcoin.net"
+      ],
+      "icon" : "tipboxcoinIcon",
+      "infoURL" : "https://tipboxcoin.net",
+      "name" : "Tipboxcoin Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Tipboxcoin",
+         "symbol" : "TPBX"
+      },
+      "networkId" : 404040,
+      "rpc" : [
+         "https://mainnet-rpc.tipboxcoin.net"
+      ],
+      "shortName" : "TPBXm"
+   },
+   {
       "chain" : "kek",
       "chainId" : 420420,
       "explorers" : [
@@ -17216,6 +17489,33 @@
          "https://prealpha-rpc.scroll.io/l2"
       ],
       "shortName" : "scr-prealpha"
+   },
+   {
+      "chain" : "BESC",
+      "chainId" : 535037,
+      "explorers" : [
+         {
+            "name" : "bescscan",
+            "standard" : "EIP3091",
+            "url" : "https://Bescscan.io"
+         }
+      ],
+      "faucets" : [
+         "faucet.bescscan.ion"
+      ],
+      "infoURL" : "besceco.finance",
+      "name" : "BeanEco SmartChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BeanEco SmartChain",
+         "symbol" : "BESC"
+      },
+      "networkId" : 535037,
+      "rpc" : [
+         "https://mainnet-rpc.bescscan.io"
+      ],
+      "shortName" : "BESC",
+      "title" : "BESC Mainnet"
    },
    {
       "chain" : "BRNKC",
@@ -18386,6 +18686,7 @@
       "faucets" : [
          "https://faucet.autonity.org/"
       ],
+      "icon" : "autonity",
       "infoURL" : "https://autonity.org/",
       "name" : "Autonity Bakerloo (Thames) Testnet",
       "nativeCurrency" : {
@@ -18413,6 +18714,7 @@
       "faucets" : [
          "https://faucet.autonity.org/"
       ],
+      "icon" : "autonity",
       "infoURL" : "https://autonity.org/",
       "name" : "Autonity Piccadilly (Thames) Testnet",
       "nativeCurrency" : {

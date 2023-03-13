@@ -34,7 +34,8 @@
          "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
          "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
          "https://api.mycryptoapi.com/eth",
-         "https://cloudflare-eth.com"
+         "https://cloudflare-eth.com",
+         "https://ethereum.publicnode.com"
       ],
       "shortName" : "eth",
       "slip44" : 60
@@ -593,7 +594,8 @@
       },
       "networkId" : 25,
       "rpc" : [
-         "https://evm.cronos.org"
+         "https://evm.cronos.org",
+         "https://cronos-evm.publicnode.com"
       ],
       "shortName" : "cro"
    },
@@ -1122,7 +1124,6 @@
       "chainId" : 49,
       "explorers" : [
          {
-            "icon" : "etmpscan",
             "name" : "etmp",
             "standard" : "EIP3091",
             "url" : "https://pioneer.etmscan.network"
@@ -1348,6 +1349,7 @@
          "https://bsc-dataseed2.ninicoin.io",
          "https://bsc-dataseed3.ninicoin.io",
          "https://bsc-dataseed4.ninicoin.io",
+         "https://bsc.publicnode.com",
          "wss://bsc-ws-node.nariox.org"
       ],
       "shortName" : "bnb",
@@ -1761,7 +1763,6 @@
       "chainId" : 74,
       "explorers" : [
          {
-            "icon" : "etherscan",
             "name" : "explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.idchain.one"
@@ -2358,7 +2359,6 @@
       "chainId" : 100,
       "explorers" : [
          {
-            "icon" : "gnosisscan",
             "name" : "gnosisscan",
             "standard" : "EIP3091",
             "url" : "https://gnosisscan.io"
@@ -2960,6 +2960,32 @@
       "slip44" : 1010
    },
    {
+      "chain" : "Bellecour",
+      "chainId" : 134,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.bellecour.iex.ec"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "rlc",
+      "infoURL" : "https://iex.ec",
+      "name" : "iExec Sidechain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "xRLC",
+         "symbol" : "xRLC"
+      },
+      "networkId" : 134,
+      "rpc" : [
+         "https://bellecour.iex.ec"
+      ],
+      "shortName" : "rlc"
+   },
+   {
       "chain" : "Alyx Chain Testnet",
       "chainId" : 135,
       "explorers" : [
@@ -3375,6 +3401,42 @@
       "shortName" : "cem"
    },
    {
+      "chain" : "okbchain",
+      "chainId" : 195,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [],
+      "infoURL" : "https://www.okex.com/okc",
+      "name" : "OKBChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OKBChain Global Utility Token in testnet",
+         "symbol" : "OKB"
+      },
+      "networkId" : 195,
+      "rpc" : [],
+      "shortName" : "tokb",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "okbchain",
+      "chainId" : 196,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [],
+      "infoURL" : "https://www.okex.com/okc",
+      "name" : "OKBChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OKBChain Global Utility Token",
+         "symbol" : "OKB"
+      },
+      "networkId" : 196,
+      "rpc" : [],
+      "shortName" : "okb",
+      "status" : "incubating"
+   },
+   {
       "chain" : "BTTC",
       "chainId" : 199,
       "explorers" : [
@@ -3687,7 +3749,8 @@
       },
       "networkId" : 250,
       "rpc" : [
-         "https://rpc.ftm.tools"
+         "https://rpc.ftm.tools",
+         "https://fantom.publicnode.com"
       ],
       "shortName" : "ftm"
    },
@@ -6140,7 +6203,7 @@
       "chainId" : 985,
       "explorers" : [
          {
-            "icon" : "memoscan",
+            "icon" : "memo",
             "name" : "Memo Mainnet Explorer",
             "standard" : "EIP3091",
             "url" : "https://scan.metamemo.one:8080"
@@ -7516,7 +7579,7 @@
       },
       "networkId" : 1339,
       "rpc" : [
-         "https://elysium-rpc.vulcanforged.com"
+         "https://rpc.elysiumchain.tech/"
       ],
       "shortName" : "ELSM",
       "title" : "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain created by VulcanForged"
@@ -7894,6 +7957,33 @@
       ],
       "shortName" : "tTBSI",
       "title" : "Thai Blockchain Service Infrastructure Testnet"
+   },
+   {
+      "chain" : "PLT",
+      "chainId" : 1718,
+      "explorers" : [
+         {
+            "icon" : "PLT",
+            "name" : "Palettescan",
+            "standard" : "none",
+            "url" : "https://palettescan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [],
+      "icon" : "PLT",
+      "infoURL" : "https://hashpalette.com/",
+      "name" : "Palette Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Palette Token",
+         "symbol" : "PLT"
+      },
+      "networkId" : 1718,
+      "rpc" : [
+         "https://palette-rpc.com:22000"
+      ],
+      "shortName" : "PaletteChain"
    },
    {
       "chain" : "CRC",
@@ -9708,7 +9798,6 @@
       "chainId" : 3400,
       "explorers" : [
          {
-            "icon" : "explorer",
             "name" : "Paribu Net Explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.paribu.network"
@@ -9734,7 +9823,6 @@
       "chainId" : 3500,
       "explorers" : [
          {
-            "icon" : "explorer",
             "name" : "Paribu Net Testnet Explorer",
             "standard" : "EIP3091",
             "url" : "https://testnet.paribuscan.com"
@@ -9860,14 +9948,12 @@
       "chainId" : 3690,
       "explorers" : [
          {
-            "icon" : "etherscan",
             "name" : "bittexscan",
             "standard" : "EIP3091",
             "url" : "https://bittexscan.com"
          }
       ],
       "faucets" : [],
-      "icon" : "ethereum",
       "infoURL" : "https://bittexscan.com",
       "name" : "Bittex Mainnet",
       "nativeCurrency" : {
@@ -9938,7 +10024,6 @@
       "chainId" : 3912,
       "explorers" : [
          {
-            "icon" : "DRAC",
             "name" : "DRAC_Network Scan",
             "standard" : "EIP3091",
             "url" : "https://www.dracscan.io"
@@ -11728,7 +11813,6 @@
       "chainId" : 8738,
       "explorers" : [
          {
-            "icon" : "alphscan",
             "name" : "alphscan",
             "standard" : "EIP3091",
             "url" : "https://explorer.alph.network"
@@ -11755,7 +11839,7 @@
       "faucets" : [
          "https://faucet.tmychain.org/"
       ],
-      "icon" : "ethereum",
+      "icon" : "tmychain",
       "infoURL" : "https://tmychain.org/",
       "name" : "TMY Chain",
       "nativeCurrency" : {
@@ -12254,7 +12338,6 @@
       "chainId" : 9528,
       "explorers" : [
          {
-            "icon" : "qetscan",
             "name" : "QEasyWeb3 Explorer",
             "standard" : "EIP3091",
             "url" : "https://www.qeasyweb3.com"
@@ -13076,7 +13159,6 @@
       "chainId" : 13381,
       "explorers" : [
          {
-            "icon" : "phoenixplorer",
             "name" : "phoenixplorer",
             "standard" : "EIP3091",
             "url" : "https://phoenixplorer.com"
@@ -14449,7 +14531,8 @@
       },
       "networkId" : 43114,
       "rpc" : [
-         "https://api.avax.network/ext/bc/C/rpc"
+         "https://api.avax.network/ext/bc/C/rpc",
+         "https://avalanche-c-chain.publicnode.com"
       ],
       "shortName" : "avax",
       "slip44" : 9005
@@ -16756,7 +16839,6 @@
       "chainId" : 220315,
       "explorers" : [
          {
-            "icon" : "explorer",
             "name" : "explorer masnet",
             "standard" : "EIP3091",
             "url" : "https://explorer.masnet.ai"
@@ -18331,6 +18413,7 @@
       "networkId" : 11155111,
       "rpc" : [
          "https://rpc.sepolia.org",
+         "https://rpc2.sepolia.org",
          "https://rpc-sepolia.rockx.com"
       ],
       "shortName" : "sep",

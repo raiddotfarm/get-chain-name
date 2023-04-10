@@ -3576,6 +3576,32 @@
       "status" : "incubating"
    },
    {
+      "chain" : "NEUTR",
+      "chainId" : 197,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.neutrinoschain.com"
+         }
+      ],
+      "faucets" : [
+         "https://neutrinoschain.com/faucet"
+      ],
+      "infoURL" : "https://docs.neutrinoschain.com",
+      "name" : "Neutrinos TestNet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Neutrinos",
+         "symbol" : "NEUTR"
+      },
+      "networkId" : 197,
+      "rpc" : [
+         "https://testnet-rpc.neutrinoschain.com"
+      ],
+      "shortName" : "NEUTR"
+   },
+   {
       "chain" : "BTTC",
       "chainId" : 199,
       "explorers" : [
@@ -5796,6 +5822,37 @@
       ],
       "shortName" : "meer",
       "slip44" : 813
+   },
+   {
+      "chain" : "BOC",
+      "chainId" : 818,
+      "explorers" : [
+         {
+            "name" : "BeOne Chain Mainnet",
+            "standard" : "EIP3091",
+            "url" : "https://beonescan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "beonechain",
+      "infoURL" : "https://beonechain.com",
+      "name" : "BeOne Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BeOne Chain Mainnet",
+         "symbol" : "BOC"
+      },
+      "networkId" : 818,
+      "rpc" : [
+         "https://dataseed1.beonechain.com",
+         "https://dataseed2.beonechain.com",
+         "https://dataseed-us1.beonechain.com",
+         "https://dataseed-us2.beonechain.com",
+         "https://dataseed-uk1.beonechain.com",
+         "https://dataseed-uk2.beonechain.com"
+      ],
+      "shortName" : "BOC",
+      "slip44" : 8181
    },
    {
       "chain" : "CLO",
@@ -8285,6 +8342,34 @@
       "shortName" : "PaletteChain"
    },
    {
+      "chain" : "mainnet",
+      "chainId" : 1773,
+      "explorers" : [
+         {
+            "icon" : "grams",
+            "name" : "PartyExplorer",
+            "standard" : "EIP3091",
+            "url" : "https://partyexplorer.co"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "grams",
+      "infoURL" : "TeaPartyCrypto.com",
+      "name" : "PartyChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Grams",
+         "symbol" : "GRAMS"
+      },
+      "networkId" : 1773,
+      "rpc" : [
+         "https://tea.mining4people.com/rpc",
+         "http://172.104.194.36:8545"
+      ],
+      "shortName" : "TeaParty",
+      "status" : "incubating"
+   },
+   {
       "chain" : "CRC",
       "chainId" : 1804,
       "explorers" : [
@@ -9798,12 +9883,14 @@
       "chainId" : 2357,
       "explorers" : [
          {
+            "icon" : "wemixkanvas",
             "name" : "blockscout",
             "standard" : "EIP3091",
             "url" : "https://blockscout.aqua.wemixkanvas.io"
          }
       ],
       "faucets" : [],
+      "icon" : "wemixkanvas",
       "infoURL" : "https://wemixkanvas.io",
       "name" : "WEMIX Kanvas Sepolia",
       "nativeCurrency" : {
@@ -12004,6 +12091,31 @@
       "shortName" : "tadil"
    },
    {
+      "chain" : "ADIL",
+      "chainId" : 7576,
+      "explorers" : [
+         {
+            "name" : "ADIL Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://s2.adilchain-scan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "adil",
+      "infoURL" : "https://adilchain.io",
+      "name" : "ADIL Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ADIL",
+         "symbol" : "ADIL"
+      },
+      "networkId" : 7576,
+      "rpc" : [
+         "https://s2.adilchain-rpc.io"
+      ],
+      "shortName" : "adil"
+   },
+   {
       "chain" : "TRN",
       "chainId" : 7668,
       "explorers" : [
@@ -12414,7 +12526,7 @@
       "faucets" : [],
       "icon" : "meer",
       "infoURL" : "https://github.com/Qitmeer",
-      "name" : "Qitmeer Network Mixnext",
+      "name" : "Qitmeer Network Mixnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Qitmeer Mixnet",
@@ -16748,7 +16860,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Amana Testnet",
-         "symbol" : "MEER-t"
+         "symbol" : "MEER-T"
       },
       "networkId" : 81341,
       "rpc" : [],
@@ -16765,7 +16877,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Amana Mixnet",
-         "symbol" : "MEER-m"
+         "symbol" : "MEER-M"
       },
       "networkId" : 81342,
       "rpc" : [],
@@ -16782,7 +16894,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Amana Privnet",
-         "symbol" : "MEER-p"
+         "symbol" : "MEER-P"
       },
       "networkId" : 81343,
       "rpc" : [],
@@ -16799,7 +16911,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Flana Testnet",
-         "symbol" : "MEER-t"
+         "symbol" : "MEER-T"
       },
       "networkId" : 81351,
       "rpc" : [],
@@ -16816,7 +16928,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Flana Mixnet",
-         "symbol" : "MEER-m"
+         "symbol" : "MEER-M"
       },
       "networkId" : 81352,
       "rpc" : [],
@@ -16833,7 +16945,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Flana Privnet",
-         "symbol" : "MEER-p"
+         "symbol" : "MEER-P"
       },
       "networkId" : 81353,
       "rpc" : [],
@@ -16850,7 +16962,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Mizana Testnet",
-         "symbol" : "MEER-t"
+         "symbol" : "MEER-T"
       },
       "networkId" : 81361,
       "rpc" : [],
@@ -16867,7 +16979,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Mizana Mixnet",
-         "symbol" : "MEER-m"
+         "symbol" : "MEER-M"
       },
       "networkId" : 81362,
       "rpc" : [],
@@ -16884,7 +16996,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Mizana Privnet",
-         "symbol" : "MEER-p"
+         "symbol" : "MEER-P"
       },
       "networkId" : 81363,
       "rpc" : [],
@@ -19535,6 +19647,31 @@
       "status" : "incubating"
    },
    {
+      "chain" : "MXC zkEVM",
+      "chainId" : 5167003,
+      "explorers" : [
+         {
+            "name" : "MXC Wannsee zkEVM Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://wannsee-explorer.mxc.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "mxc",
+      "infoURL" : "https://wannsee.mxc.com/docs/intro",
+      "name" : "MXC Wannsee zkEVM Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MXC Wannsee zkEVM Testnet",
+         "symbol" : "MXC"
+      },
+      "networkId" : 5167003,
+      "rpc" : [
+         "https://wannsee-rpc.mxc.com"
+      ],
+      "shortName" : "MXC"
+   },
+   {
       "chain" : "Imversed",
       "chainId" : 5555555,
       "explorers" : [
@@ -20326,12 +20463,14 @@
       "chainId" : 192837465,
       "explorers" : [
          {
+            "icon" : "gather",
             "name" : "Blockscout",
             "standard" : "none",
             "url" : "https://explorer.gather.network"
          }
       ],
       "faucets" : [],
+      "icon" : "gather",
       "infoURL" : "https://gather.network",
       "name" : "Gather Mainnet Network",
       "nativeCurrency" : {
@@ -20495,12 +20634,14 @@
       "chainId" : 356256156,
       "explorers" : [
          {
+            "icon" : "gather",
             "name" : "Blockscout",
             "standard" : "none",
             "url" : "https://testnet-explorer.gather.network"
          }
       ],
       "faucets" : [],
+      "icon" : "gather",
       "infoURL" : "https://gather.network",
       "name" : "Gather Testnet Network",
       "nativeCurrency" : {

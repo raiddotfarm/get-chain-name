@@ -2046,6 +2046,30 @@
       "shortName" : "MeterTest"
    },
    {
+      "chain" : "LNQ",
+      "chainId" : 84,
+      "explorers" : [
+         {
+            "name" : "Linqto Devnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.linqto-dev.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://linqto.com",
+      "name" : "Linqto Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "XRP",
+         "symbol" : "XRP"
+      },
+      "networkId" : 84,
+      "rpc" : [
+         "https://linqto-dev.com"
+      ],
+      "shortName" : "linqto-devnet"
+   },
+   {
       "chain" : "GTTEST",
       "chainId" : 85,
       "explorers" : [
@@ -3240,6 +3264,39 @@
          "https://connect.phi.network"
       ],
       "shortName" : "PHI"
+   },
+   {
+      "chain" : "OEBt",
+      "chainId" : 156,
+      "explorers" : [
+         {
+            "name" : "OEScan explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.oescan.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "oescan",
+      "infoURL" : "https://www.oeblock.com/",
+      "name" : "OEBlock Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OEBlock",
+         "symbol" : "OEB"
+      },
+      "networkId" : 156,
+      "rpc" : [
+         "https://testnet-rpc.oeblock.com"
+      ],
+      "shortName" : "obe"
    },
    {
       "chain" : "Eva",
@@ -6284,7 +6341,8 @@
          "https://rpc.v2.testnet.pulsechain.com/",
          "wss://rpc.v2.testnet.pulsechain.com/"
       ],
-      "shortName" : "tpls"
+      "shortName" : "tpls",
+      "status" : "deprecated"
    },
    {
       "chain" : "t2bPLS",
@@ -6304,7 +6362,8 @@
          "https://rpc.v2b.testnet.pulsechain.com/",
          "wss://rpc.v2b.testnet.pulsechain.com/"
       ],
-      "shortName" : "t2bpls"
+      "shortName" : "t2bpls",
+      "status" : "deprecated"
    },
    {
       "chain" : "t3PLS",
@@ -6325,6 +6384,40 @@
          "wss://rpc.v3.testnet.pulsechain.com/"
       ],
       "shortName" : "t3pls"
+   },
+   {
+      "chain" : "t4PLS",
+      "chainId" : 943,
+      "ens" : {
+         "registry" : "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+      },
+      "explorers" : [],
+      "faucets" : [
+         "https://faucet.v4.testnet.pulsechain.com/"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "pulsechain",
+      "infoURL" : "https://pulsechain.com",
+      "name" : "PulseChain Testnet v4",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Test Pulse",
+         "symbol" : "tPLS"
+      },
+      "networkId" : 943,
+      "rpc" : [
+         "https://rpc.v4.testnet.pulsechain.com/",
+         "wss://rpc.v4.testnet.pulsechain.com/"
+      ],
+      "shortName" : "t4pls",
+      "status" : "incubating"
    },
    {
       "chain" : "munode",
@@ -9693,13 +9786,13 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Bitcoin",
-         "symbol" : "eBTC"
+         "symbol" : "BTC"
       },
       "networkId" : 2203,
       "rpc" : [
          "https://connect.bitcoinevm.com"
       ],
-      "shortName" : "eBTC"
+      "shortName" : "BTC"
    },
    {
       "chain" : "EVA",
@@ -14354,6 +14447,40 @@
       "shortName" : "mtttest"
    },
    {
+      "chain" : "IRIShub",
+      "chainId" : 16688,
+      "explorers" : [
+         {
+            "icon" : "nyancat",
+            "name" : "IRISHub Testnet Cosmos Explorer (IOBScan)",
+            "standard" : "none",
+            "url" : "https://nyancat.iobscan.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "nyancat",
+      "infoURL" : "https://www.irisnet.org",
+      "name" : "IRIShub Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Eris",
+         "symbol" : "ERIS"
+      },
+      "networkId" : 16688,
+      "rpc" : [
+         "http://34.80.202.172:8545"
+      ],
+      "shortName" : "nyancat"
+   },
+   {
       "chain" : "ambnet",
       "chainId" : 16718,
       "explorers" : [
@@ -16474,6 +16601,23 @@
       ],
       "shortName" : "mcl",
       "status" : "deprecated"
+   },
+   {
+      "chain" : "COSMIC",
+      "chainId" : 67588,
+      "faucets" : [],
+      "infoURL" : "https://cosmicchain.site",
+      "name" : "Cosmic Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Cosmic Chain",
+         "symbol" : "COSMIC"
+      },
+      "networkId" : 3344,
+      "rpc" : [
+         "http://testnet.cosmicchain.site:3344"
+      ],
+      "shortName" : "Cosmic"
    },
    {
       "chain" : "ETH",
@@ -18850,6 +18994,26 @@
       "title" : "Fastex Chain testnet"
    },
    {
+      "chain" : "Unified",
+      "chainId" : 431140,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "markrgo",
+      "infoURL" : "https://www.markr.io/",
+      "name" : "Markr Go",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Avalanche",
+         "symbol" : "AVAX"
+      },
+      "networkId" : 431140,
+      "rpc" : [
+         "https://rpc.markr.io/ext/"
+      ],
+      "shortName" : "markr-go",
+      "status" : "incubating"
+   },
+   {
       "chain" : "DEXALOT",
       "chainId" : 432201,
       "explorers" : [
@@ -20485,6 +20649,26 @@
       "shortName" : "GTH"
    },
    {
+      "chain" : "MELD",
+      "chainId" : 222000222,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [],
+      "infoURL" : "https://meld.com",
+      "name" : "Kanazawa",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "gMeld",
+         "symbol" : "gMELD"
+      },
+      "networkId" : 222000222,
+      "rpc" : [
+         "https://rpc-kanazawa.meldlabs.dev/ext/bc/2Ci7VYrUd4fTBqGA5D2HA6UPHzQ4LQyr8rZQww9MGSv9rNkRzn/rpc"
+      ],
+      "shortName" : "meld",
+      "title" : "Meld Testnet Kanazawa"
+   },
+   {
       "chain" : "Solana",
       "chainId" : 245022926,
       "explorers" : [
@@ -21219,6 +21403,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "palm",
       "infoURL" : "https://palm.io",
       "name" : "Palm Testnet",
       "nativeCurrency" : {
@@ -21243,6 +21428,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "palm",
       "infoURL" : "https://palm.io",
       "name" : "Palm",
       "nativeCurrency" : {

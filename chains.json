@@ -2580,7 +2580,7 @@
       },
       "networkId" : 107,
       "rpc" : [
-         "https://testnet.rpc.novanetwork.io:9070"
+         "https://testnet.rpc.novanetwork.io"
       ],
       "shortName" : "ntn"
    },
@@ -3257,6 +3257,34 @@
       "shortName" : "PHI"
    },
    {
+      "chain" : "FIVENET",
+      "chainId" : 150,
+      "explorers" : [
+         {
+            "icon" : "six",
+            "name" : "SIX Scan fivenet",
+            "standard" : "none",
+            "url" : "https://sixscan.io/fivenet"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.sixprotocol.net"
+      ],
+      "icon" : "six",
+      "infoURL" : "https://six.network/",
+      "name" : "Six Protocol Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SIX testnet evm token",
+         "symbol" : "tSIX"
+      },
+      "networkId" : 150,
+      "rpc" : [
+         "https://rpc-evm.fivenet.sixprotocol.net"
+      ],
+      "shortName" : "sixt"
+   },
+   {
       "chain" : "OEBt",
       "chainId" : 156,
       "explorers" : [
@@ -3883,6 +3911,31 @@
          "https://rpc-testnet.lachain.io"
       ],
       "shortName" : "TLA"
+   },
+   {
+      "chain" : "SDX",
+      "chainId" : 230,
+      "explorers" : [
+         {
+            "name" : "SwapDEX",
+            "standard" : "none",
+            "url" : "https://evm.swapdex.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://swapdex.network/",
+      "name" : "SwapDEX",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SwapDEX",
+         "symbol" : "SDX"
+      },
+      "networkId" : 230,
+      "rpc" : [
+         "https://rpc.swapdex.network",
+         "wss://ss.swapdex.network"
+      ],
+      "shortName" : "SDX"
    },
    {
       "chain" : "Energy Web Chain",
@@ -7355,6 +7408,32 @@
          "https://galois-hk.maiziqianbao.net/rpc"
       ],
       "shortName" : "tMATH"
+   },
+   {
+      "chain" : "Plexchain",
+      "chainId" : 1149,
+      "explorers" : [
+         {
+            "icon" : "plexchain",
+            "name" : "Plexchain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.plexfinance.us"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "plexchain",
+      "infoURL" : "https://plexfinance.us/",
+      "name" : "Symplexia Smart Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Plex Native Token",
+         "symbol" : "PLEX"
+      },
+      "networkId" : 1149,
+      "rpc" : [
+         "https://plex-rpc.plexfinance.us"
+      ],
+      "shortName" : "Plexchain"
    },
    {
       "chain" : "SHT",
@@ -12023,6 +12102,24 @@
       "shortName" : "TRESMAIN"
    },
    {
+      "chain" : "P2P",
+      "chainId" : 6502,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://peerpay.su.gy",
+      "name" : "Peerpay",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Peerpay",
+         "symbol" : "P2P"
+      },
+      "networkId" : 6502,
+      "rpc" : [
+         "https://peerpay.su.gy/p2p"
+      ],
+      "shortName" : "Peerpay"
+   },
+   {
       "chain" : "SCOLWEI-testnet",
       "chainId" : 6552,
       "explorers" : [
@@ -12409,7 +12506,7 @@
       "explorers" : [
          {
             "name" : "rootnet",
-            "standard" : "none",
+            "standard" : "EIP3091",
             "url" : "https://explorer.rootnet.live"
          }
       ],
@@ -12434,7 +12531,7 @@
       "explorers" : [
          {
             "name" : "rootnet",
-            "standard" : "none",
+            "standard" : "EIP3091",
             "url" : "https://explorer.rootnet.cloud"
          }
       ],
@@ -21124,11 +21221,12 @@
       "shortName" : "GTH"
    },
    {
-      "chain" : "MELD",
+      "chain" : "Kanazawa",
       "chainId" : 222000222,
       "explorers" : [],
       "faucets" : [],
       "features" : [],
+      "icon" : "meld",
       "infoURL" : "https://meld.com",
       "name" : "Kanazawa",
       "nativeCurrency" : {
@@ -21140,7 +21238,7 @@
       "rpc" : [
          "https://rpc-kanazawa.meldlabs.dev/ext/bc/2Ci7VYrUd4fTBqGA5D2HA6UPHzQ4LQyr8rZQww9MGSv9rNkRzn/rpc"
       ],
-      "shortName" : "meld",
+      "shortName" : "kanazawa",
       "title" : "Meld Testnet Kanazawa"
    },
    {
@@ -21259,6 +21357,27 @@
          "https://mainnet-rpc.oneledger.network"
       ],
       "shortName" : "oneledger"
+   },
+   {
+      "chain" : "MELD",
+      "chainId" : 333000333,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [],
+      "icon" : "meld",
+      "infoURL" : "https://meld.com",
+      "name" : "Meld",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "gMeld",
+         "symbol" : "gMELD"
+      },
+      "networkId" : 333000333,
+      "rpc" : [
+         "https://network-rpc.meld.com"
+      ],
+      "shortName" : "meld",
+      "title" : "Meld Mainnet"
    },
    {
       "chain" : "staging-utter-unripe-menkar",
@@ -21944,6 +22063,34 @@
          "https://palm-mainnet.infura.io/v3/${INFURA_API_KEY}"
       ],
       "shortName" : "palm"
+   },
+   {
+      "chain" : "Alphabet Network",
+      "chainId" : 111222333444,
+      "explorers" : [
+         {
+            "name" : "Alphabet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.alphabetnetwork.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "alphabetnetwork",
+      "infoURL" : "https://alphabetnetwork.org",
+      "name" : "Alphabet Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ALT",
+         "symbol" : "ALT"
+      },
+      "networkId" : 111222333444,
+      "rpc" : [
+         "https://londonpublic.alphabetnetwork.org",
+         "wss://londonpublic.alphabetnetwork.org/ws/",
+         "https://main-rpc.com",
+         "wss://main-rpc.com/ws/"
+      ],
+      "shortName" : "alphabet"
    },
    {
       "chain" : "Ntity",

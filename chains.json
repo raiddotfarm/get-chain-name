@@ -2377,6 +2377,32 @@
       "shortName" : "bnbt"
    },
    {
+      "chain" : "SIXNET",
+      "chainId" : 98,
+      "explorers" : [
+         {
+            "icon" : "six",
+            "name" : "SIX Scan",
+            "standard" : "none",
+            "url" : "https://sixscan.io/sixnet"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "six",
+      "infoURL" : "https://six.network/",
+      "name" : "Six Protocol",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SIX evm token",
+         "symbol" : "SIX"
+      },
+      "networkId" : 98,
+      "rpc" : [
+         "https://sixnet-rpc-evm.sixprotocol.net"
+      ],
+      "shortName" : "six"
+   },
+   {
       "chain" : "POA",
       "chainId" : 99,
       "explorers" : [
@@ -2649,6 +2675,32 @@
          "https://rpc.etherlite.org"
       ],
       "shortName" : "ETL"
+   },
+   {
+      "chain" : "Coinbit",
+      "chainId" : 112,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://coinbit-explorer.chain.sbcrypto.app"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "coinbit",
+      "infoURL" : "https://crypto.stockbit.com/",
+      "name" : "Coinbit Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gas IDR",
+         "symbol" : "GIDR"
+      },
+      "networkId" : 112,
+      "rpc" : [
+         "https://coinbit-rpc-mainnet.chain.sbcrypto.app"
+      ],
+      "shortName" : "coinbit"
    },
    {
       "chain" : "Dehvo",
@@ -3086,6 +3138,32 @@
       "shortName" : "AlyxTestnet"
    },
    {
+      "chain" : "Deamchain",
+      "chainId" : 136,
+      "explorers" : [
+         {
+            "icon" : "deam",
+            "name" : "Deamchain Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.deamchain.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "deam",
+      "infoURL" : "https://deamchain.com",
+      "name" : "Deamchain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Deamchain Native Token",
+         "symbol" : "DEAM"
+      },
+      "networkId" : 136,
+      "rpc" : [
+         "https://mainnet.deamchain.com"
+      ],
+      "shortName" : "deam"
+   },
+   {
       "chain" : "Polygon",
       "chainId" : 137,
       "explorers" : [
@@ -3283,6 +3361,35 @@
          "https://rpc-evm.fivenet.sixprotocol.net"
       ],
       "shortName" : "sixt"
+   },
+   {
+      "chain" : "TENET",
+      "chainId" : 155,
+      "explorers" : [
+         {
+            "icon" : "tenet",
+            "name" : "TenetScan Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.tenetscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.testnet.tenet.org"
+      ],
+      "icon" : "tenet",
+      "infoURL" : "https://tenet.org/",
+      "name" : "Tenet Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TENET",
+         "symbol" : "TENET"
+      },
+      "networkId" : 155,
+      "rpc" : [
+         "https://rpc.testnet.tenet.org"
+      ],
+      "shortName" : "tenet-testnet",
+      "title" : "Tenet Testnet"
    },
    {
       "chain" : "OEBt",
@@ -3936,6 +4043,34 @@
          "wss://ss.swapdex.network"
       ],
       "shortName" : "SDX"
+   },
+   {
+      "chain" : "Deamchain",
+      "chainId" : 236,
+      "explorers" : [
+         {
+            "icon" : "deam",
+            "name" : "Deamchain Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-scan.deamchain.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.deamchain.com"
+      ],
+      "icon" : "deam",
+      "infoURL" : "https://deamchain.com",
+      "name" : "Deamchain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Deamchain Native Token",
+         "symbol" : "DEAM"
+      },
+      "networkId" : 236,
+      "rpc" : [
+         "https://testnet.deamchain.com"
+      ],
+      "shortName" : "deamtest"
    },
    {
       "chain" : "Energy Web Chain",
@@ -4697,7 +4832,7 @@
          {
             "name" : "Cronos Testnet Explorer",
             "standard" : "none",
-            "url" : "https://testnet.cronoscan.com"
+            "url" : "https://explorer.cronos.org/testnet"
          }
       ],
       "faucets" : [
@@ -4930,8 +5065,16 @@
    {
       "chain" : "LATestnet",
       "chainId" : 418,
-      "explorers" : [],
-      "faucets" : [],
+      "explorers" : [
+         {
+            "name" : "LA Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testexplorer.lachain.network"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.lachain.network"
+      ],
       "features" : [
          {
             "name" : "EIP155"
@@ -8284,6 +8427,31 @@
       "title" : "Polygon zkEVM Testnet"
    },
    {
+      "chain" : "GIL",
+      "chainId" : 1452,
+      "explorers" : [
+         {
+            "name" : "GIL Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.giltestnet.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "gauss",
+      "infoURL" : "https://gaussgang.com/",
+      "name" : "GIL Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GANG",
+         "symbol" : "GANG"
+      },
+      "networkId" : 1452,
+      "rpc" : [
+         "https://rpc.giltestnet.com"
+      ],
+      "shortName" : "gil"
+   },
+   {
       "chain" : "Ctex Scan Blockchain",
       "chainId" : 1455,
       "explorers" : [
@@ -8383,6 +8551,33 @@
          "https://beagle.chat/eth"
       ],
       "shortName" : "beagle"
+   },
+   {
+      "chain" : "TENET",
+      "chainId" : 1559,
+      "explorers" : [
+         {
+            "icon" : "tenet",
+            "name" : "TenetScan Mainnet",
+            "standard" : "EIP3091",
+            "url" : "https://tenetscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "tenet",
+      "infoURL" : "https://tenet.org/",
+      "name" : "Tenet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TENET",
+         "symbol" : "TENET"
+      },
+      "networkId" : 1559,
+      "rpc" : [
+         "https://rpc.tenet.org"
+      ],
+      "shortName" : "tenet",
+      "title" : "Tenet Mainnet"
    },
    {
       "chain" : "Catechain",
@@ -8650,10 +8845,36 @@
       "status" : "incubating"
    },
    {
+      "chain" : "Gauss",
+      "chainId" : 1777,
+      "explorers" : [
+         {
+            "name" : "Gauss Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.gaussgang.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "gauss",
+      "infoURL" : "https://gaussgang.com/",
+      "name" : "Gauss Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GANG",
+         "symbol" : "GANG"
+      },
+      "networkId" : 1777,
+      "rpc" : [
+         "https://rpc.gaussgang.com"
+      ],
+      "shortName" : "gauss"
+   },
+   {
       "chain" : "CRC",
       "chainId" : 1804,
       "explorers" : [
          {
+            "icon" : "pocr",
             "name" : "Lite Explorer",
             "standard" : "EIP3091",
             "url" : "https://ethereum-pocr.github.io/explorer/kerleano"
@@ -8662,11 +8883,12 @@
       "faucets" : [
          "https://github.com/ethereum-pocr/kerleano/blob/main/docs/faucet.md"
       ],
+      "icon" : "pocr",
       "infoURL" : "https://github.com/ethereum-pocr/kerleano",
       "name" : "Kerleano",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Carbon Reduction Coin",
+         "name" : "Climate awaReness Coin",
          "symbol" : "CRC"
       },
       "networkId" : 1804,
@@ -8676,7 +8898,7 @@
       ],
       "shortName" : "kerleano",
       "status" : "active",
-      "title" : "Proof of Carbon Reduction testnet"
+      "title" : "Proof of Climate awaReness testnet"
    },
    {
       "chain" : "rAna",
@@ -10352,17 +10574,19 @@
       "chainId" : 2606,
       "explorers" : [
          {
+            "icon" : "pocr",
             "name" : "Lite Explorer",
             "standard" : "EIP3091",
             "url" : "https://ethereum-pocr.github.io/explorer/pocrnet"
          }
       ],
       "faucets" : [],
+      "icon" : "pocr",
       "infoURL" : "https://github.com/ethereum-pocr/pocrnet",
       "name" : "PoCRNet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Carbon Reduction Coin",
+         "name" : "Climate awaReness Coin",
          "symbol" : "CRC"
       },
       "networkId" : 2606,
@@ -10372,7 +10596,7 @@
       ],
       "shortName" : "pocrnet",
       "status" : "active",
-      "title" : "Proof of Carbon Reduction mainnet"
+      "title" : "Proof of Climate awaReness mainnet"
    },
    {
       "chain" : "REDLC",
@@ -17287,11 +17511,6 @@
       "chainId" : 71401,
       "explorers" : [
          {
-            "name" : "GWScout Explorer",
-            "standard" : "none",
-            "url" : "https://gw-testnet-explorer.nervosdao.community"
-         },
-         {
             "name" : "GWScan Block Explorer",
             "standard" : "none",
             "url" : "https://v1.testnet.gwscan.com"
@@ -17318,11 +17537,6 @@
       "chain" : "GWT",
       "chainId" : 71402,
       "explorers" : [
-         {
-            "name" : "GWScout Explorer",
-            "standard" : "none",
-            "url" : "https://gw-mainnet-explorer.nervosdao.community"
-         },
          {
             "name" : "GWScan Block Explorer",
             "standard" : "none",

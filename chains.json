@@ -3861,6 +3861,23 @@
       "shortName" : "moactest"
    },
    {
+      "chain" : "utx",
+      "chainId" : 208,
+      "faucets" : [],
+      "infoURL" : "https://structx.io",
+      "name" : "Structx Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Notes",
+         "symbol" : "utx"
+      },
+      "networkId" : 208,
+      "rpc" : [
+         "https://mainnet.structx.io"
+      ],
+      "shortName" : "utx"
+   },
+   {
       "chain" : "EDI",
       "chainId" : 211,
       "faucets" : [
@@ -4269,6 +4286,36 @@
       ],
       "shortName" : "hpb",
       "slip44" : 269
+   },
+   {
+      "chain" : "LaChain",
+      "chainId" : 274,
+      "explorers" : [
+         {
+            "name" : "LaChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.lachain.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "",
+      "name" : "LaChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "LaCoin",
+         "symbol" : "LAC"
+      },
+      "networkId" : 274,
+      "rpc" : [
+         "https://rpc1.mainnet.lachain.network",
+         "https://rpc2.mainnet.lachain.network"
+      ],
+      "shortName" : "lachain"
    },
    {
       "chain" : "ETH",
@@ -4950,9 +4997,20 @@
    {
       "chain" : "PLS",
       "chainId" : 369,
+      "ens" : {
+         "registry" : "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+      },
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
       "infoURL" : "https://pulsechain.com/",
-      "name" : "PulseChain Mainnet",
+      "name" : "PulseChain",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Pulse",
@@ -4960,10 +5018,11 @@
       },
       "networkId" : 369,
       "rpc" : [
-         "https://rpc.mainnet.pulsechain.com/",
-         "wss://rpc.mainnet.pulsechain.com/"
+         "https://rpc.pulsechain.com/",
+         "wss://rpc.pulsechain.com/"
       ],
-      "shortName" : "pls"
+      "shortName" : "pls",
+      "status" : "incubating"
    },
    {
       "chain" : "tCNT",
@@ -5183,7 +5242,7 @@
          {
             "name" : "blockexplorer",
             "standard" : "none",
-            "url" : "https://explorer.camino.foundation/mainnet"
+            "url" : "https://suite.camino.network/explorer"
          }
       ],
       "faucets" : [],
@@ -5196,7 +5255,9 @@
          "symbol" : "CAM"
       },
       "networkId" : 1000,
-      "rpc" : [],
+      "rpc" : [
+         "https://api.camino.network/ext/bc/C/rpc"
+      ],
       "shortName" : "Camino"
    },
    {
@@ -5206,7 +5267,7 @@
          {
             "name" : "blockexplorer",
             "standard" : "none",
-            "url" : "https://explorer.camino.foundation"
+            "url" : "https://suite.camino.network/explorer"
          }
       ],
       "faucets" : [],
@@ -7843,6 +7904,58 @@
       "title" : "Step Main Network"
    },
    {
+      "chain" : "ARC",
+      "chainId" : 1243,
+      "explorers" : [
+         {
+            "name" : "archiescan",
+            "standard" : "none",
+            "url" : "https://app.archiescan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "arc",
+      "infoURL" : "https://archiechain.io/",
+      "name" : "ARC Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ARC",
+         "symbol" : "ARC"
+      },
+      "networkId" : 1243,
+      "rpc" : [
+         "https://rpc-main-1.archiechain.io"
+      ],
+      "shortName" : "ARC"
+   },
+   {
+      "chain" : "ARC",
+      "chainId" : 1244,
+      "explorers" : [
+         {
+            "name" : "archiescan",
+            "standard" : "none",
+            "url" : "https://testnet.archiescan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.archiechain.io"
+      ],
+      "icon" : "arc",
+      "infoURL" : "https://archiechain.io/",
+      "name" : "ARC Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ARC",
+         "symbol" : "ARC"
+      },
+      "networkId" : 1244,
+      "rpc" : [
+         "https://rpc-test-1.archiechain.io"
+      ],
+      "shortName" : "TARC"
+   },
+   {
       "chain" : "omplatform",
       "chainId" : 1246,
       "explorers" : [
@@ -9511,8 +9624,8 @@
       "networkId" : 2000,
       "rpc" : [
          "https://rpc.dogechain.dog",
-         "https://rpc-us.dogechain.dog",
-         "https://rpc01.dogechain.dog"
+         "https://rpc01-sg.dogechain.dog",
+         "https://rpc.ankr.com/dogechain"
       ],
       "shortName" : "dc"
    },
@@ -11480,6 +11593,42 @@
       "shortName" : "Nahmii3Testnet"
    },
    {
+      "chain" : "Fastex Chain (Bahamut)",
+      "chainId" : 4090,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "none",
+            "url" : "https://oasis.ftnscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.oasis.fastexchain.com"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "bahamut",
+      "infoURL" : "https://fastexchain.com",
+      "name" : "Fastex Chain (Bahamut) Oasis Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FTN",
+         "symbol" : "FTN"
+      },
+      "networkId" : 4090,
+      "rpc" : [
+         "https://rpc1.oasis.bahamutchain.com"
+      ],
+      "shortName" : "Oasis",
+      "title" : "Bahamut testnet Oasis"
+   },
+   {
       "chain" : "BNI",
       "chainId" : 4096,
       "explorers" : [
@@ -11916,6 +12065,41 @@
          "https://rpc.testnet.mantle.xyz"
       ],
       "shortName" : "mantle-testnet"
+   },
+   {
+      "chain" : "Fastex Chain (Bahamut)",
+      "chainId" : 5165,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "none",
+            "url" : "https://ftnscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "bahamut",
+      "infoURL" : "https://fastexchain.com",
+      "name" : "Fastex Chain (Bahamut)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FTN",
+         "symbol" : "FTN"
+      },
+      "networkId" : 5165,
+      "rpc" : [
+         "https://rpc1.sahara.bahamutchain.com",
+         "https://rpc2.sahara.bahamutchain.com"
+      ],
+      "shortName" : "ftn",
+      "title" : "Bahamut mainnet Sahara"
    },
    {
       "chain" : "TLC",
@@ -12671,6 +12855,32 @@
       ],
       "shortName" : "shyft",
       "slip44" : 2147490989
+   },
+   {
+      "chain" : "Raba",
+      "chainId" : 7484,
+      "explorers" : [
+         {
+            "name" : "raba",
+            "standard" : "none",
+            "url" : "https://x.raba.app/explorer"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "raba",
+      "infoURL" : "https://x.raba.app/",
+      "name" : "Raba Network Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Raba",
+         "symbol" : "RABA"
+      },
+      "networkId" : 7484,
+      "rpc" : [
+         "https://rpc.x.raba.app/",
+         "wss://rpc.x.raba.app/ws/"
+      ],
+      "shortName" : "raba"
    },
    {
       "chain" : "ADIL",
@@ -14121,6 +14331,40 @@
       "shortName" : "carbon-testnet"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 9997,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-rollup-explorer.altlayer.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "altlayer",
+      "infoURL" : "https://altlayer.io",
+      "name" : "AltLayer Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 9997,
+      "rpc" : [
+         "https://testnet-rollup-api.altlayer.io"
+      ],
+      "shortName" : "alt-testnet"
+   },
+   {
       "chain" : "myOwn",
       "chainId" : 9999,
       "faucets" : [],
@@ -15093,7 +15337,7 @@
       },
       "networkId" : 16688,
       "rpc" : [
-         "http://34.80.202.172:8545"
+         "https://evmrpc.nyancat.irisnet.org"
       ],
       "shortName" : "nyancat"
    },
@@ -17486,6 +17730,34 @@
       "shortName" : "TKM103"
    },
    {
+      "chain" : "GuapcoinX",
+      "chainId" : 71111,
+      "explorers" : [
+         {
+            "icon" : "guapcoinx",
+            "name" : "GuapcoinX Explorer",
+            "standard" : "none",
+            "url" : "http://explorer.guapcoinx.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "guapcoinx",
+      "infoURL" : "https://guapcoin.org/",
+      "name" : "GuapcoinX",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GuapcoinX",
+         "symbol" : "GuapX"
+      },
+      "networkId" : 71111,
+      "rpc" : [
+         "https://rpc-mainnet.guapcoinx.com/",
+         "https://rpc-mainnet-1.guapcoinx.com/",
+         "https://rpc-mainnet-2.guapcoinx.com/"
+      ],
+      "shortName" : "GuapX"
+   },
+   {
       "chain" : "CKB",
       "chainId" : 71393,
       "faucets" : [
@@ -19776,7 +20048,7 @@
       "rpc" : [
          "https://rpc.testnet.fastexchain.com"
       ],
-      "shortName" : "ftn",
+      "shortName" : "fastexTestnet",
       "title" : "Fastex Chain testnet"
    },
    {
@@ -21437,7 +21709,14 @@
    {
       "chain" : "Kanazawa",
       "chainId" : 222000222,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "icon" : "meld",
+            "name" : "explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets-test.avax.network/meld"
+         }
+      ],
       "faucets" : [],
       "features" : [],
       "icon" : "meld",
@@ -21450,7 +21729,7 @@
       },
       "networkId" : 222000222,
       "rpc" : [
-         "https://rpc-kanazawa.meldlabs.dev/ext/bc/2Ci7VYrUd4fTBqGA5D2HA6UPHzQ4LQyr8rZQww9MGSv9rNkRzn/rpc"
+         "https://subnets.avax.network/meld/testnet/rpc"
       ],
       "shortName" : "kanazawa",
       "title" : "Meld Testnet Kanazawa"
@@ -21548,6 +21827,33 @@
       "shortName" : "neonevm-testnet"
    },
    {
+      "chain" : "Razor Schain",
+      "chainId" : 278611351,
+      "explorers" : [
+         {
+            "name" : "turbulent-unique-scheat",
+            "standard" : "EIP3091",
+            "url" : "https://turbulent-unique-scheat.explorer.mainnet.skalenodes.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.razorscan.io/"
+      ],
+      "icon" : "razornetwork",
+      "infoURL" : "https://razor.network",
+      "name" : "Razor Skale Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "sFuel",
+         "symbol" : "SFUEL"
+      },
+      "networkId" : 278611351,
+      "rpc" : [
+         "https://mainnet.skalenodes.com/v1/turbulent-unique-scheat"
+      ],
+      "shortName" : "razor"
+   },
+   {
       "chain" : "OLT",
       "chainId" : 311752642,
       "explorers" : [
@@ -21575,7 +21881,14 @@
    {
       "chain" : "MELD",
       "chainId" : 333000333,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "icon" : "meld",
+            "name" : "explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets.avax.network/meld"
+         }
+      ],
       "faucets" : [],
       "features" : [],
       "icon" : "meld",
@@ -21588,7 +21901,7 @@
       },
       "networkId" : 333000333,
       "rpc" : [
-         "https://network-rpc.meld.com"
+         "https://subnets.avax.network/meld/mainnet/rpc"
       ],
       "shortName" : "meld",
       "title" : "Meld Mainnet"

@@ -971,37 +971,41 @@
       "shortName" : "TelosEVMTestnet"
    },
    {
-      "chain" : "ETH",
+      "chain" : "LUKSO",
       "chainId" : 42,
       "explorers" : [
          {
-            "name" : "etherscan",
+            "name" : "Blockscout",
             "standard" : "EIP3091",
-            "url" : "https://kovan.etherscan.io"
+            "url" : "https://explorer.execution.mainnet.lukso.network"
          }
       ],
-      "faucets" : [
-         "http://fauceth.komputing.org?chain=42&address=${ADDRESS}",
-         "https://faucet.kovan.network",
-         "https://gitter.im/kovan-testnet/faucet"
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
       ],
-      "infoURL" : "https://kovan-testnet.github.io/website",
-      "name" : "Kovan",
+      "icon" : "lukso",
+      "infoURL" : "https://lukso.network",
+      "name" : "LUKSO Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Kovan Ether",
-         "symbol" : "ETH"
+         "name" : "LUKSO",
+         "symbol" : "LYX"
       },
       "networkId" : 42,
-      "rpc" : [
-         "https://kovan.poa.network",
-         "http://kovan.poa.network:8545",
-         "https://kovan.infura.io/v3/${INFURA_API_KEY}",
-         "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}",
-         "ws://kovan.poa.network:8546"
+      "redFlags" : [
+         "reusedChainId"
       ],
-      "shortName" : "kov",
-      "title" : "Ethereum Testnet Kovan"
+      "rpc" : [
+         "https://rpc.mainnet.lukso.network",
+         "wss://ws-rpc.mainnet.lukso.network"
+      ],
+      "shortName" : "lukso"
    },
    {
       "chain" : "pangolin",
@@ -1419,6 +1423,8 @@
       "networkId" : 57,
       "rpc" : [
          "https://rpc.syscoin.org",
+         "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}",
+         "https://syscoin.public-rpc.com",
          "wss://rpc.syscoin.org/wss"
       ],
       "shortName" : "sys"
@@ -2488,7 +2494,6 @@
       ],
       "faucets" : [
          "https://gnosisfaucet.com",
-         "https://faucet.gimlu.com/gnosis",
          "https://stakely.io/faucet/gnosis-chain-xdai",
          "https://faucet.prussia.dev/xdai"
       ],
@@ -2498,14 +2503,18 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "xDAI",
-         "symbol" : "xDAI"
+         "symbol" : "XDAI"
       },
       "networkId" : 100,
       "rpc" : [
          "https://rpc.gnosischain.com",
+         "https://rpc.gnosis.gateway.fm",
          "https://rpc.ankr.com/gnosis",
          "https://gnosischain-rpc.gateway.pokt.network",
          "https://gnosis-mainnet.public.blastapi.io",
+         "https://gnosis.api.onfinality.io/public",
+         "https://gnosis.blockpi.network/v1/rpc/public",
+         "https://web3endpoints.com/gnosischain-mainnet",
          "wss://rpc.gnosischain.com/wss"
       ],
       "shortName" : "gno",
@@ -4611,30 +4620,19 @@
    {
       "chain" : "OGC",
       "chainId" : 300,
-      "explorers" : [
-         {
-            "icon" : "blockscout",
-            "name" : "blockscout",
-            "standard" : "EIP3091",
-            "url" : "https://blockscout.com/xdai/optimism"
-         }
-      ],
-      "faucets" : [
-         "https://faucet.gimlu.com/gnosis"
-      ],
-      "infoURL" : "https://www.xdaichain.com/for-developers/optimism-optimistic-rollups-on-gc",
-      "name" : "Optimism on Gnosis",
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://docs.gnosischain.com",
+      "name" : "(deprecated) Optimism on GC",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "xDAI",
          "symbol" : "xDAI"
       },
       "networkId" : 300,
-      "rpc" : [
-         "https://optimism.gnosischain.com",
-         "wss://optimism.gnosischain.com/wss"
-      ],
-      "shortName" : "ogc"
+      "rpc" : [],
+      "shortName" : "ogc",
+      "status" : "deprecated"
    },
    {
       "chain" : "Bobaopera",
@@ -5666,6 +5664,33 @@
          "https://rpc-testnet.dogechain.dog"
       ],
       "shortName" : "dct"
+   },
+   {
+      "chain" : "SYS",
+      "chainId" : 570,
+      "explorers" : [
+         {
+            "name" : "Rollux Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.rollux.com"
+         }
+      ],
+      "faucets" : [
+         "https://rollux.id/faucetapp"
+      ],
+      "infoURL" : "https://rollux.com",
+      "name" : "Rollux Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Syscoin",
+         "symbol" : "SYS"
+      },
+      "networkId" : 570,
+      "rpc" : [
+         "https://rpc.rollux.com",
+         "wss://rpc.rollux.com/wss"
+      ],
+      "shortName" : "sys-rollux"
    },
    {
       "chain" : "ETH",
@@ -8807,6 +8832,31 @@
       "shortName" : "CTEX"
    },
    {
+      "chain" : "ChainX",
+      "chainId" : 1501,
+      "explorers" : [
+         {
+            "name" : "chainx-evm scan",
+            "standard" : "none",
+            "url" : "https://evm.chainx.org"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://chainx.org",
+      "name" : "ChainX-EVM",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BTC",
+         "symbol" : "BTC"
+      },
+      "networkId" : 1501,
+      "rpc" : [
+         "https://mainnet.chainx.org/rpc",
+         "https://mainnet2.chainx.org/rpc"
+      ],
+      "shortName" : "chainx"
+   },
+   {
       "chain" : "Sherpax Mainnet",
       "chainId" : 1506,
       "explorers" : [
@@ -11060,6 +11110,33 @@
       "shortName" : "Fuji-EZChain"
    },
    {
+      "chain" : "WBT",
+      "chainId" : 2625,
+      "explorers" : [
+         {
+            "name" : "wb-explorer-testnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.whitebit.network/testnet"
+         }
+      ],
+      "faucets" : [
+         "https://explorer.whitebit.network/testnet/faucet"
+      ],
+      "icon" : "whitebit-testnet",
+      "infoURL" : "https://whitebit.com/wbt",
+      "name" : "WhiteBIT Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "WhiteBIT Coin",
+         "symbol" : "WBT"
+      },
+      "networkId" : 2625,
+      "rpc" : [
+         "https://rpc-testnet.whitebit.network"
+      ],
+      "shortName" : "twbt"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 2888,
       "explorers" : [
@@ -12118,6 +12195,42 @@
       "shortName" : "PHIv1"
    },
    {
+      "chain" : "LUKSO Testnet",
+      "chainId" : 4201,
+      "explorers" : [
+         {
+            "name" : "Blockscout",
+            "standard" : "none",
+            "url" : "https://explorer.execution.testnet.lukso.network"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.testnet.lukso.network"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "lukso",
+      "infoURL" : "https://lukso.network",
+      "name" : "LUKSO Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TestLYX",
+         "symbol" : "LYXt"
+      },
+      "networkId" : 4201,
+      "rpc" : [
+         "https://rpc.testnet.lukso.network",
+         "wss://ws-rpc.testnet.lukso.network"
+      ],
+      "shortName" : "lukso-testnet"
+   },
+   {
       "chain" : "Nexi",
       "chainId" : 4242,
       "explorers" : [
@@ -12386,8 +12499,8 @@
       "name" : "Mantle",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "BitDAO",
-         "symbol" : "BIT"
+         "name" : "Mantle",
+         "symbol" : "MNT"
       },
       "networkId" : 5000,
       "rpc" : [
@@ -12412,8 +12525,8 @@
       "name" : "Mantle Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Testnet BitDAO",
-         "symbol" : "BIT"
+         "name" : "Testnet Mantle",
+         "symbol" : "MNT"
       },
       "networkId" : 5001,
       "rpc" : [
@@ -12863,6 +12976,66 @@
          "https://rpc.treschain.io/"
       ],
       "shortName" : "TRESMAIN"
+   },
+   {
+      "chain" : "UPTN",
+      "chainId" : 6118,
+      "explorers" : [
+         {
+            "name" : "UPTN Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.explorer.uptn.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "uptn",
+      "infoURL" : "https://uptn.io",
+      "name" : "UPTN Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "UPTN",
+         "symbol" : "UPTN"
+      },
+      "networkId" : 6118,
+      "rpc" : [
+         "https://node-api.alp.uptn.io/v1/ext/rpc"
+      ],
+      "shortName" : "UPTN-TEST"
+   },
+   {
+      "chain" : "UPTN",
+      "chainId" : 6119,
+      "explorers" : [
+         {
+            "name" : "UPTN Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.uptn.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "uptn",
+      "infoURL" : "https://uptn.io",
+      "name" : "UPTN",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "UPTN",
+         "symbol" : "UPTN"
+      },
+      "networkId" : 6119,
+      "rpc" : [
+         "https://node-api.uptn.io/v1/ext/rpc"
+      ],
+      "shortName" : "UPTN"
    },
    {
       "chain" : "P2P",
@@ -14911,7 +15084,7 @@
       "shortName" : "GEN"
    },
    {
-      "chain" : "CHI",
+      "chain" : "GNO",
       "chainId" : 10200,
       "explorers" : [
          {
@@ -14926,16 +15099,17 @@
       ],
       "icon" : "gnosis",
       "infoURL" : "https://docs.gnosischain.com",
-      "name" : "Chiado Testnet",
+      "name" : "Gnosis Chiado Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Chiado xDAI",
-         "symbol" : "xDAI"
+         "symbol" : "XDAI"
       },
       "networkId" : 10200,
       "rpc" : [
          "https://rpc.chiadochain.net",
-         "https://rpc.eu-central-2.gateway.fm/v3/gnosis/archival/chiado"
+         "https://rpc.chiado.gnosis.gateway.fm",
+         "wss://rpc.chiadochain.net/wss"
       ],
       "shortName" : "chi"
    },
@@ -17719,22 +17893,25 @@
       "chainId" : 57000,
       "explorers" : [
          {
-            "name" : "Syscoin Rollux Testnet Explorer",
+            "name" : "Rollux Testnet Explorer",
             "standard" : "EIP3091",
             "url" : "https://rollux.tanenbaum.io"
          }
       ],
-      "faucets" : [],
-      "infoURL" : "https://syscoin.org",
-      "name" : "Syscoin Rollux Testnet",
+      "faucets" : [
+         "https://rollux.id/faucetapp"
+      ],
+      "infoURL" : "https://rollux.com",
+      "name" : "Rollux Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Rollux Testnet Syscoin",
-         "symbol" : "tSYS"
+         "name" : "Testnet Syscoin",
+         "symbol" : "TSYS"
       },
       "networkId" : 57000,
       "rpc" : [
          "https://rpc-tanenbaum.rollux.com",
+         "https://rpc.ankr.com/rollux_testnet/${ANKR_API_KEY}",
          "wss://rpc-tanenbaum.rollux.com/wss"
       ],
       "shortName" : "tsys-rollux"
@@ -17884,6 +18061,31 @@
          "https://test103.thinkiumrpc.net/"
       ],
       "shortName" : "TKM-test103"
+   },
+   {
+      "chain" : "AXEL",
+      "chainId" : 61800,
+      "explorers" : [
+         {
+            "name" : "AxelChain Dev-Net Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://devexplorer2.viacube.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "axelium",
+      "infoURL" : "https://www.axel.org",
+      "name" : "AxelChain Dev-Net",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Axelium",
+         "symbol" : "AIUM"
+      },
+      "networkId" : 61800,
+      "rpc" : [
+         "https://aium-rpc-dev.viacube.com"
+      ],
+      "shortName" : "aium-dev"
    },
    {
       "chain" : "Etica Protocol (ETI/EGAZ)",
@@ -19240,29 +19442,18 @@
    {
       "chain" : "CHI1",
       "chainId" : 100100,
-      "explorers" : [
-         {
-            "icon" : "blockscout",
-            "name" : "blockscout",
-            "standard" : "EIP3091",
-            "url" : "https://blockscout-chiado.gnosistestnet.com"
-         }
-      ],
-      "faucets" : [
-         "https://gnosisfaucet.com"
-      ],
+      "explorers" : [],
+      "faucets" : [],
       "icon" : "gnosis",
       "infoURL" : "https://docs.gnosischain.com",
-      "name" : "Deprecated Chiado Testnet",
+      "name" : "Deprecated CHI",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Chiado xDAI",
          "symbol" : "xDAI"
       },
       "networkId" : 100100,
-      "rpc" : [
-         "https://rpc-chiado.gnosistestnet.com"
-      ],
+      "rpc" : [],
       "shortName" : "chi1",
       "status" : "deprecated"
    },
@@ -19728,7 +19919,34 @@
       "rpc" : [
          "https://rpc.a2.taiko.xyz"
       ],
-      "shortName" : "taiko-a2"
+      "shortName" : "taiko-a2",
+      "status" : "deprecated"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 167005,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.test.taiko.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "taiko",
+      "infoURL" : "https://taiko.xyz",
+      "name" : "Taiko (Alpha-3 Testnet)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 167005,
+      "rpc" : [
+         "https://rpc.test.taiko.xyz"
+      ],
+      "shortName" : "taiko-a3",
+      "status" : "active"
    },
    {
       "chain" : "CONDOR",

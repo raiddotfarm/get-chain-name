@@ -2345,23 +2345,40 @@
       "shortName" : "sdlt"
    },
    {
-      "chain" : "EOS",
+      "chain" : "CADL",
       "chainId" : 95,
-      "explorers" : [],
-      "faucets" : [],
-      "infoURL" : "https://www.cryptokylin.io/",
-      "name" : "CryptoKylin Testnet",
+      "explorers" : [
+         {
+            "name" : "CamDL Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.camdl.gov.kh"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.camdl.gov.kh/"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "camdl",
+      "infoURL" : "https://camdl.gov.kh/",
+      "name" : "CamDL Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "EOS",
-         "symbol" : "EOS"
+         "name" : "CADL",
+         "symbol" : "CADL"
       },
       "networkId" : 95,
-      "rpc" : [
-         "https://kylin.eosargentina.io"
+      "redFlags" : [
+         "reusedChainId"
       ],
-      "shortName" : "kylin",
-      "status" : "deprecated"
+      "rpc" : [
+         "https://rpc1.camdl.gov.kh/"
+      ],
+      "shortName" : "camdl",
+      "status" : "active"
    },
    {
       "chain" : "BKC",
@@ -3555,6 +3572,35 @@
       "shortName" : "pht"
    },
    {
+      "chain" : "Omni",
+      "chainId" : 165,
+      "explorers" : [
+         {
+            "name" : "Omni Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-1.explorer.omni.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://docs.omni.network/",
+      "name" : "Omni Testnet 1",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Omni",
+         "symbol" : "OMNI"
+      },
+      "networkId" : 165,
+      "rpc" : [
+         "https://testnet-1.omni.network"
+      ],
+      "shortName" : "omni_testnet"
+   },
+   {
       "chain" : "ATOSHI",
       "chainId" : 167,
       "explorers" : [
@@ -4667,7 +4713,6 @@
       "chainId" : 303,
       "explorers" : [
          {
-            "icon" : "neurochain",
             "name" : "neuroscan",
             "standard" : "EIP3091",
             "url" : "https://testnet.ncnscan.com"
@@ -4682,7 +4727,6 @@
             "name" : "EIP1559"
          }
       ],
-      "icon" : "neurochain",
       "infoURL" : "https://www.neurochain.ai",
       "name" : "Neurochain Testnet",
       "nativeCurrency" : {
@@ -4729,7 +4773,6 @@
       "chainId" : 313,
       "explorers" : [
          {
-            "icon" : "neurochain",
             "name" : "neuroscan",
             "standard" : "EIP3091",
             "url" : "https://ncnscan.com"
@@ -4744,7 +4787,6 @@
             "name" : "EIP1559"
          }
       ],
-      "icon" : "neurochain",
       "infoURL" : "https://www.neurochain.ai",
       "name" : "Neurochain Mainnet",
       "nativeCurrency" : {
@@ -10338,6 +10380,23 @@
       "shortName" : "otp"
    },
    {
+      "chain" : "shrapnel",
+      "chainId" : 2044,
+      "faucets" : [],
+      "infoURL" : "https://www.shrapnel.com/",
+      "name" : "Shrapnel Subnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Shrapnel Gas Token",
+         "symbol" : "SHRAPG"
+      },
+      "networkId" : 2044,
+      "rpc" : [
+         "https://subnets.avax.network/shrapnel/mainnet/rpc"
+      ],
+      "shortName" : "Shrapnel"
+   },
+   {
       "chain" : "STOS",
       "chainId" : 2047,
       "explorers" : [
@@ -10513,14 +10572,12 @@
       "chainId" : 2124,
       "explorers" : [
          {
-            "icon" : "meu",
             "name" : "MP1Scan",
             "standard" : "EIP3091",
             "url" : "https://dubai.mp1scan.io"
          }
       ],
       "faucets" : [],
-      "icon" : "meu",
       "infoURL" : "https://docs.metaplayer.one/",
       "name" : "Metaplayerone Dubai Testnet",
       "nativeCurrency" : {
@@ -17915,6 +17972,31 @@
       "shortName" : "ISLMT"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 55004,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.titan.tokamak.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://tokamak.network",
+      "name" : "Titan",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 55004,
+      "rpc" : [
+         "https://rpc.titan.tokamak.network",
+         "wss://rpc.titan.tokamak.network/ws"
+      ],
+      "shortName" : "teth"
+   },
+   {
       "chain" : "REI",
       "chainId" : 55555,
       "explorers" : [
@@ -22176,6 +22258,30 @@
       ],
       "shortName" : "music",
       "slip44" : 184
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 7777777,
+      "explorers" : [
+         {
+            "name" : "Zora Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.zora.co"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://zora.co",
+      "name" : "Zora",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 7777777,
+      "rpc" : [
+         "https://rpc.zora.co/"
+      ],
+      "shortName" : "zora"
    },
    {
       "chain" : "Plian",

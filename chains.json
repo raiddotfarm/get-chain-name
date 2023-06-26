@@ -6347,7 +6347,24 @@
    {
       "chain" : "ETH",
       "chainId" : 789,
+      "explorers" : [
+         {
+            "icon" : "patex",
+            "name" : "patexscan",
+            "standard" : "EIP3091",
+            "url" : "https://patexscan.io"
+         }
+      ],
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "patex",
       "infoURL" : "https://patex.io/",
       "name" : "Patex",
       "nativeCurrency" : {
@@ -9110,7 +9127,7 @@
       "chain" : "ATH",
       "chainId" : 1620,
       "faucets" : [],
-      "infoURL" : "https://atheios.com",
+      "infoURL" : "https://atheios.org",
       "name" : "Atheios",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -9119,7 +9136,7 @@
       },
       "networkId" : 11235813,
       "rpc" : [
-         "https://wallet.atheios.com:8797"
+         "https://rpc.atheios.org/"
       ],
       "shortName" : "ath",
       "slip44" : 1620
@@ -9176,7 +9193,8 @@
          "https://yuma-testnet.horizenlabs.io/ethv1"
       ],
       "shortName" : "Yuma",
-      "slip44" : 121
+      "slip44" : 121,
+      "status" : "deprecated"
    },
    {
       "chain" : "Gobi",
@@ -9210,7 +9228,8 @@
       },
       "networkId" : 1663,
       "rpc" : [
-         "https://gobi-testnet.horizenlabs.io/ethv1"
+         "https://gobi-testnet.horizenlabs.io/ethv1",
+         "https://rpc.ankr.com/horizen_testnet_evm"
       ],
       "shortName" : "Gobi",
       "slip44" : 121
@@ -15721,6 +15740,33 @@
       ],
       "shortName" : "ZERO",
       "slip44" : 621
+   },
+   {
+      "chain" : "BRC",
+      "chainId" : 12123,
+      "explorers" : [
+         {
+            "name" : "BRC Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.brcchain.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.brcchain.io"
+      ],
+      "icon" : "brcchain",
+      "infoURL" : "https://bridge.brcchain.io",
+      "name" : "BRC Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BRC Chain mainnet native token",
+         "symbol" : "BRC"
+      },
+      "networkId" : 12123,
+      "rpc" : [
+         "https://rpc.brcchain.io"
+      ],
+      "shortName" : "BRC"
    },
    {
       "chain" : "FIBO",
@@ -22266,11 +22312,12 @@
          {
             "name" : "Zora Network Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.zora.co"
+            "url" : "https://explorer.zora.energy"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://zora.co",
+      "icon" : "zora",
+      "infoURL" : "https://zora.energy",
       "name" : "Zora",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -22279,7 +22326,7 @@
       },
       "networkId" : 7777777,
       "rpc" : [
-         "https://rpc.zora.co/"
+         "https://rpc.zora.energy/"
       ],
       "shortName" : "zora"
    },

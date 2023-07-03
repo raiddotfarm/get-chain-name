@@ -260,7 +260,7 @@
       ],
       "faucets" : [],
       "infoURL" : "https://optimism.io",
-      "name" : "Optimism",
+      "name" : "OP Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ether",
@@ -1529,7 +1529,7 @@
       },
       "networkId" : 1,
       "rpc" : [
-         "https://www.ethercluster.com/etc"
+         "https://etc.rivet.link"
       ],
       "shortName" : "etc",
       "slip44" : 61
@@ -1562,7 +1562,7 @@
       },
       "networkId" : 7,
       "rpc" : [
-         "https://www.ethercluster.com/mordor"
+         "https://rpc.mordor.etccooperative.org"
       ],
       "shortName" : "metc"
    },
@@ -5757,7 +5757,9 @@
       "networkId" : 570,
       "rpc" : [
          "https://rpc.rollux.com",
-         "wss://rpc.rollux.com/wss"
+         "https://rollux.public-rpc.com",
+         "wss://rpc.rollux.com/wss",
+         "https://rpc.ankr.com/rollux/${ANKR_API_KEY}"
       ],
       "shortName" : "sys-rollux"
    },
@@ -9161,17 +9163,8 @@
    {
       "chain" : "Yuma",
       "chainId" : 1662,
-      "explorers" : [
-         {
-            "icon" : "eon",
-            "name" : "Yuma Testnet Block Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://yuma-explorer.horizen.io"
-         }
-      ],
-      "faucets" : [
-         "https://yuma-testnet-faucet.horizen.io"
-      ],
+      "explorers" : [],
+      "faucets" : [],
       "features" : [
          {
             "name" : "EIP155"
@@ -9182,16 +9175,14 @@
       ],
       "icon" : "eon",
       "infoURL" : "https://horizen.io/",
-      "name" : "Horizen Yuma Testnet",
+      "name" : "Horizen Yuma Testnet Deprecated",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Testnet Zen",
          "symbol" : "tZEN"
       },
       "networkId" : 1662,
-      "rpc" : [
-         "https://yuma-testnet.horizenlabs.io/ethv1"
-      ],
+      "rpc" : [],
       "shortName" : "Yuma",
       "slip44" : 121,
       "status" : "deprecated"
@@ -12068,6 +12059,32 @@
       "shortName" : "ozo"
    },
    {
+      "chain" : "PERIUM",
+      "chainId" : 4001,
+      "explorers" : [
+         {
+            "icon" : "peperium",
+            "name" : "Peperium Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan-testnet.peperium.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "peperium",
+      "infoURL" : "https://peperium.io",
+      "name" : "Peperium Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Peperium Chain Testnet",
+         "symbol" : "PERIUM"
+      },
+      "networkId" : 4001,
+      "rpc" : [
+         "https://rpc-testnet.peperium.io"
+      ],
+      "shortName" : "PERIUM"
+   },
+   {
       "chain" : "FTM",
       "chainId" : 4002,
       "explorers" : [
@@ -13136,6 +13153,40 @@
          "https://rpc.treschain.io/"
       ],
       "shortName" : "TRESMAIN"
+   },
+   {
+      "chain" : "Cascadia",
+      "chainId" : 6102,
+      "explorers" : [
+         {
+            "icon" : "cascadia",
+            "name" : "Cascadia EVM Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.cascadia.foundation"
+         },
+         {
+            "icon" : "cascadia",
+            "name" : "Cascadia Cosmos Explorer",
+            "standard" : "none",
+            "url" : "https://validator.cascadia.foundation"
+         }
+      ],
+      "faucets" : [
+         "https://www.cascadia.foundation/faucet"
+      ],
+      "icon" : "cascadia",
+      "infoURL" : "https://www.cascadia.foundation",
+      "name" : "Cascadia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CC",
+         "symbol" : "tCC"
+      },
+      "networkId" : 6102,
+      "rpc" : [
+         "https://testnet.cascadia.foundation"
+      ],
+      "shortName" : "cascadia"
    },
    {
       "chain" : "UPTN",
@@ -14724,15 +14775,9 @@
       "explorers" : [
          {
             "icon" : "evmos",
-            "name" : "Evmos EVM Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://evm.evmos.dev"
-         },
-         {
-            "icon" : "evmos",
-            "name" : "Evmos Cosmos Explorer",
+            "name" : "Evmos Explorer (Escan)",
             "standard" : "none",
-            "url" : "https://explorer.evmos.dev"
+            "url" : "https://testnet.escan.live"
          }
       ],
       "faucets" : [
@@ -14758,15 +14803,9 @@
       "explorers" : [
          {
             "icon" : "evmos",
-            "name" : "Evmos EVM Explorer (Escan)",
+            "name" : "Evmos Explorer (Escan)",
             "standard" : "none",
             "url" : "https://escan.live"
-         },
-         {
-            "icon" : "evmos",
-            "name" : "Evmos Cosmos Explorer (Mintscan)",
-            "standard" : "none",
-            "url" : "https://www.mintscan.io/evmos"
          }
       ],
       "faucets" : [],
@@ -14780,7 +14819,6 @@
       },
       "networkId" : 9001,
       "rpc" : [
-         "https://eth.bd.evmos.org:8545",
          "https://evmos-evm.publicnode.com"
       ],
       "shortName" : "evmos"
@@ -20110,6 +20148,33 @@
       "shortName" : "sbr"
    },
    {
+      "chain" : "METAO",
+      "chainId" : 112358,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.metachain.one"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "metao",
+      "infoURL" : "https://metachain.one",
+      "name" : "Metachain One Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Metao",
+         "symbol" : "METAO"
+      },
+      "networkId" : 112358,
+      "rpc" : [
+         "https://rpc.metachain.one",
+         "https://rpc2.metachain.one"
+      ],
+      "shortName" : "metao"
+   },
+   {
       "chain" : "ADIL",
       "chainId" : 123456,
       "explorers" : [
@@ -22634,6 +22699,34 @@
          "https://jp.rpc.qkiscan.io"
       ],
       "shortName" : "qki"
+   },
+   {
+      "chain" : "PEGO",
+      "chainId" : 20201022,
+      "explorers" : [
+         {
+            "name" : "Pego Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.pego.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "pego",
+      "infoURL" : "https://pego.network",
+      "name" : "Pego Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Pego Native Token",
+         "symbol" : "PG"
+      },
+      "networkId" : 20201022,
+      "rpc" : [
+         "https://pegorpc.com",
+         "https://node1.pegorpc.com",
+         "https://node2.pegorpc.com",
+         "https://node3.pegorpc.com"
+      ],
+      "shortName" : "pg"
    },
    {
       "chain" : "XLON",

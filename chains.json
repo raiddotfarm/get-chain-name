@@ -4188,6 +4188,33 @@
       "shortName" : "deamtest"
    },
    {
+      "chain" : "Plinga",
+      "chainId" : 242,
+      "explorers" : [
+         {
+            "name" : "plgscan",
+            "standard" : "EIP3091",
+            "url" : "https://www.plgscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "plinga",
+      "infoURL" : "https://www.plinga.technology/",
+      "name" : "Plinga Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Plinga",
+         "symbol" : "PLINGA"
+      },
+      "networkId" : 242,
+      "rpc" : [
+         "https://rpcurl.mainnet.plgchain.com",
+         "https://rpcurl.plgchain.blockchain.evmnode.online",
+         "https://rpcurl.mainnet.plgchain.plinga.technology"
+      ],
+      "shortName" : "plgchain"
+   },
+   {
       "chain" : "Energy Web Chain",
       "chainId" : 246,
       "explorers" : [
@@ -5945,6 +5972,32 @@
       "shortName" : "glq"
    },
    {
+      "chain" : "Avocado",
+      "chainId" : 634,
+      "explorers" : [
+         {
+            "icon" : "avocado",
+            "name" : "avoscan",
+            "standard" : "none",
+            "url" : "https://avoscan.co"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "avocado",
+      "infoURL" : "https://avocado.instadapp.io",
+      "name" : "Avocado",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "USDC",
+         "symbol" : "USDC"
+      },
+      "networkId" : 634,
+      "rpc" : [
+         "https://rpc.avocado.instadapp.io"
+      ],
+      "shortName" : "avocado"
+   },
+   {
       "chain" : "SX",
       "chainId" : 647,
       "explorers" : [
@@ -7608,6 +7661,32 @@
       ],
       "shortName" : "shimmerevm-testnet",
       "title" : "ShimmerEVM Testnet"
+   },
+   {
+      "chain" : "Mintara",
+      "chainId" : 1079,
+      "explorers" : [
+         {
+            "name" : "explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets-test.avax.network/mintara"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "mintara",
+      "infoURL" : "https://playthink.co.jp",
+      "name" : "Mintara Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MINTARA",
+         "symbol" : "MNTR"
+      },
+      "networkId" : 1079,
+      "rpc" : [
+         "https://subnets.avax.network/mintara/testnet/rpc"
+      ],
+      "shortName" : "mintara-testnet",
+      "title" : "Mintara Testnet"
    },
    {
       "chain" : "ETH",
@@ -10739,6 +10818,36 @@
       "shortName" : "findora-forge"
    },
    {
+      "chain" : "MSN",
+      "chainId" : 2199,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.moonsama.com"
+         }
+      ],
+      "faucets" : [
+         "https://multiverse.moonsama.com/faucet"
+      ],
+      "icon" : "msn",
+      "infoURL" : "https://moonsama.com",
+      "name" : "Moonsama Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sama Token",
+         "symbol" : "SAMA"
+      },
+      "networkId" : 2199,
+      "rpc" : [
+         "https://rpc.moonsama.com",
+         "wss://rpc.moonsama.com/ws"
+      ],
+      "shortName" : "msn",
+      "slip44" : 2199
+   },
+   {
       "chain" : "Bitcoin EVM",
       "chainId" : 2203,
       "explorers" : [
@@ -11770,6 +11879,60 @@
       "shortName" : "pando-testnet"
    },
    {
+      "chain" : "BTC",
+      "chainId" : 3636,
+      "explorers" : [
+         {
+            "name" : "Botanix",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.btxtestchain.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.btxtestchain.com"
+      ],
+      "icon" : "botanix",
+      "infoURL" : "https://btxtestchain.com",
+      "name" : "Botanix Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Botanix",
+         "symbol" : "BTC"
+      },
+      "networkId" : 3636,
+      "rpc" : [
+         "https://testnet-rpc.btxtestchain.com"
+      ],
+      "shortName" : "BTCt"
+   },
+   {
+      "chain" : "BTC",
+      "chainId" : 3637,
+      "explorers" : [
+         {
+            "name" : "Botanix",
+            "standard" : "EIP3091",
+            "url" : "https://btxtestchain.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.btxtestchain.com"
+      ],
+      "icon" : "botanix",
+      "infoURL" : "https://btxtestchain.com",
+      "name" : "Botanix Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Botanix",
+         "symbol" : "BTC"
+      },
+      "networkId" : 3637,
+      "rpc" : [
+         "https://rpc.btxtestchain.com"
+      ],
+      "shortName" : "BTCm"
+   },
+   {
       "chain" : "Jouleverse",
       "chainId" : 3666,
       "explorers" : [
@@ -12540,6 +12703,32 @@
          "https://babel-api.testnet.iotex.io"
       ],
       "shortName" : "iotex-testnet"
+   },
+   {
+      "chain" : "MEVerse",
+      "chainId" : 4759,
+      "explorers" : [
+         {
+            "icon" : "meverse",
+            "name" : "MEVerse Chain Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://testnet.meversescan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "meverse",
+      "infoURL" : "https://www.meverse.sg",
+      "name" : "MEVerse Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MEVerse",
+         "symbol" : "MEV"
+      },
+      "networkId" : 4759,
+      "rpc" : [
+         "https://rpc.meversetestnet.io"
+      ],
+      "shortName" : "TESTMEV"
    },
    {
       "chain" : "TBXN",
@@ -13510,8 +13699,7 @@
       },
       "networkId" : 7001,
       "rpc" : [
-         "https://zetachain-athens-evm.blockpi.network/v1/rpc/public",
-         "wss://zetachain-athens.blockpi.network/rpc/v1/public/websocket"
+         "https://api.athens2.zetachain.com/evm"
       ],
       "shortName" : "zetachain-athens",
       "status" : "active"
@@ -13651,6 +13839,32 @@
          "wss://rpc.x.raba.app/ws/"
       ],
       "shortName" : "raba"
+   },
+   {
+      "chain" : "MEVerse",
+      "chainId" : 7518,
+      "explorers" : [
+         {
+            "icon" : "meverse",
+            "name" : "MEVerse Chain Explorer",
+            "standard" : "none",
+            "url" : "https://www.meversescan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "meverse",
+      "infoURL" : "https://www.meverse.sg",
+      "name" : "MEVerse Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MEVerse",
+         "symbol" : "MEV"
+      },
+      "networkId" : 7518,
+      "rpc" : [
+         "https://rpc.meversemainnet.io"
+      ],
+      "shortName" : "MEV"
    },
    {
       "chain" : "ADIL",
@@ -21564,6 +21778,32 @@
       "status" : "deprecated"
    },
    {
+      "chain" : "Shinarium",
+      "chainId" : 534849,
+      "explorers" : [
+         {
+            "name" : "shinascan",
+            "standard" : "EIP3091",
+            "url" : "https://shinascan.shinarium.org"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.shinarium.org"
+      ],
+      "infoURL" : "https://shinarium.org",
+      "name" : "Shinarium Beta",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Shina Inu",
+         "symbol" : "SHI"
+      },
+      "networkId" : 534849,
+      "rpc" : [
+         "https://rpc.shinarium.org"
+      ],
+      "shortName" : "shi"
+   },
+   {
       "chain" : "BESC",
       "chainId" : 535037,
       "explorers" : [
@@ -21615,6 +21855,31 @@
          "https://brnkc-mainnet1.bearnetwork.net"
       ],
       "shortName" : "BRNKC"
+   },
+   {
+      "chain" : "ALL",
+      "chainId" : 651940,
+      "explorers" : [
+         {
+            "name" : "Alltra SmartChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://alltra.global"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "alltra",
+      "infoURL" : "https://alltra.world",
+      "name" : "ALL Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ALL",
+         "symbol" : "ALL"
+      },
+      "networkId" : 651940,
+      "rpc" : [
+         "https://mainnet-rpc.alltra.global"
+      ],
+      "shortName" : "ALL"
    },
    {
       "chain" : "Vision-Vpioneer",
@@ -22154,6 +22419,40 @@
       "shortName" : "filecoin-butterfly",
       "slip44" : 1,
       "status" : "incubating"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 4000003,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://zero-explorer.alt.technology"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "altlayer",
+      "infoURL" : "https://altlayer.io",
+      "name" : "AltLayer Zero Gas Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZERO",
+         "symbol" : "ZERO"
+      },
+      "networkId" : 4000003,
+      "rpc" : [
+         "https://zero.alt.technology"
+      ],
+      "shortName" : "alt-zerogas"
    },
    {
       "chain" : "WCal",

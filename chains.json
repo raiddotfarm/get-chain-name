@@ -1373,19 +1373,19 @@
       "faucets" : [
          "https://free-online-app.com/faucet-for-eth-evm-chains/"
       ],
-      "infoURL" : "https://www.binance.org",
-      "name" : "Binance Smart Chain Mainnet",
+      "infoURL" : "https://www.bnbchain.org/en",
+      "name" : "BNB Smart Chain Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Binance Chain Native Token",
+         "name" : "BNB Chain Native Token",
          "symbol" : "BNB"
       },
       "networkId" : 56,
       "rpc" : [
-         "https://bsc-dataseed1.binance.org",
-         "https://bsc-dataseed2.binance.org",
-         "https://bsc-dataseed3.binance.org",
-         "https://bsc-dataseed4.binance.org",
+         "https://bsc-dataseed1.bnbchain.org",
+         "https://bsc-dataseed2.bnbchain.org",
+         "https://bsc-dataseed3.bnbchain.org",
+         "https://bsc-dataseed4.bnbchain.org",
          "https://bsc-dataseed1.defibit.io",
          "https://bsc-dataseed2.defibit.io",
          "https://bsc-dataseed3.defibit.io",
@@ -2421,23 +2421,23 @@
          }
       ],
       "faucets" : [
-         "https://testnet.binance.org/faucet-smart"
+         "https://testnet.bnbchain.org/faucet-smart"
       ],
-      "infoURL" : "https://testnet.binance.org/",
-      "name" : "Binance Smart Chain Testnet",
+      "infoURL" : "https://www.bnbchain.org/en",
+      "name" : "BNB Smart Chain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Binance Chain Native Token",
+         "name" : "BNB Chain Native Token",
          "symbol" : "tBNB"
       },
       "networkId" : 97,
       "rpc" : [
-         "https://data-seed-prebsc-1-s1.binance.org:8545",
-         "https://data-seed-prebsc-2-s1.binance.org:8545",
-         "https://data-seed-prebsc-1-s2.binance.org:8545",
-         "https://data-seed-prebsc-2-s2.binance.org:8545",
-         "https://data-seed-prebsc-1-s3.binance.org:8545",
-         "https://data-seed-prebsc-2-s3.binance.org:8545",
+         "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+         "https://data-seed-prebsc-2-s1.bnbchain.org:8545",
+         "https://data-seed-prebsc-1-s2.bnbchain.org:8545",
+         "https://data-seed-prebsc-2-s2.bnbchain.org:8545",
+         "https://data-seed-prebsc-1-s3.bnbchain.org:8545",
+         "https://data-seed-prebsc-2-s3.bnbchain.org:8545",
          "https://bsc-testnet.publicnode.com"
       ],
       "shortName" : "bnbt"
@@ -4413,6 +4413,33 @@
       "slip44" : 269
    },
    {
+      "chain" : "EGON",
+      "chainId" : 271,
+      "explorers" : [
+         {
+            "name" : "EgonCoin Mainnet",
+            "standard" : "EIP3091",
+            "url" : "https://egcscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.egcscan.com"
+      ],
+      "icon" : "egonicon",
+      "infoURL" : "https://egcscan.com",
+      "name" : "EgonCoin Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EgonCoin",
+         "symbol" : "EGON"
+      },
+      "networkId" : 271,
+      "rpc" : [
+         "https://rpc.egcscan.com"
+      ],
+      "shortName" : "EGONm"
+   },
+   {
       "chain" : "LaChain",
       "chainId" : 274,
       "explorers" : [
@@ -4515,7 +4542,12 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://mainnet.boba.network/"
+         "https://mainnet.boba.network",
+         "https://replica.boba.network",
+         "http://boba-ethereum.gateway.tenderly.co",
+         "http://gateway.tenderly.co/public/boba-ethereum",
+         "wss://boba-ethereum.gateway.tenderly.co/",
+         "wss://gateway.tenderly.co/public/boba-ethereum"
       ],
       "shortName" : "Boba"
    },
@@ -5376,6 +5408,49 @@
          "https://goerli.optimism.io/"
       ],
       "shortName" : "ogor"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 424,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.publicgoods.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "publicGoodsNetwork",
+      "infoURL" : "https://publicgoods.network/",
+      "name" : "PGN (Public Goods Network)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 424,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.publicgoods.network"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.publicgoods.network"
+      ],
+      "shortName" : "PGN"
    },
    {
       "chain" : "ZeethChain",
@@ -7649,13 +7724,41 @@
       ],
       "icon" : "shimmerevm",
       "infoURL" : "https://shimmer.network",
-      "name" : "ShimmerEVM Testnet",
+      "name" : "ShimmerEVM Testnet Deprecated",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "SMR",
          "symbol" : "SMR"
       },
       "networkId" : 1071,
+      "rpc" : [],
+      "shortName" : "shimmerevm-testnet-deprecated",
+      "status" : "deprecated",
+      "title" : "ShimmerEVM Testnet Deprecated"
+   },
+   {
+      "chain" : "ShimmerEVM",
+      "chainId" : 1072,
+      "explorers" : [
+         {
+            "name" : "explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.evm.testnet.shimmer.network"
+         }
+      ],
+      "faucets" : [
+         "https://evm-toolkit.evm.testnet.shimmer.network",
+         "https://evm-faucet.testnet.shimmer.network"
+      ],
+      "icon" : "shimmerevm",
+      "infoURL" : "https://shimmer.network",
+      "name" : "ShimmerEVM Testnet",
+      "nativeCurrency" : {
+         "decimals" : 6,
+         "name" : "SMR",
+         "symbol" : "SMR"
+      },
+      "networkId" : 1072,
       "rpc" : [
          "https://json-rpc.evm.testnet.shimmer.network"
       ],
@@ -9066,14 +9169,14 @@
       "chainId" : 1501,
       "explorers" : [
          {
-            "name" : "chainx-evm scan",
+            "name" : "bevm scan",
             "standard" : "none",
             "url" : "https://evm.chainx.org"
          }
       ],
       "faucets" : [],
       "infoURL" : "https://chainx.org",
-      "name" : "ChainX-EVM",
+      "name" : "BEVM",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "BTC",
@@ -11115,6 +11218,43 @@
             "icon" : "kroma",
             "name" : "blockscout",
             "standard" : "EIP3091",
+            "url" : "https://blockscout.sepolia-deprecated.kroma.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "kroma",
+      "infoURL" : "https://kroma.network",
+      "name" : "(deprecated) Kroma Sepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 2357,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://kroma.network/bridge"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://api.sepolia-deprecated.kroma.network"
+      ],
+      "shortName" : "deprecated-kroma-sepolia",
+      "status" : "deprecated",
+      "title" : "(deprecated) Kroma Testnet Sepolia"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 2358,
+      "explorers" : [
+         {
+            "icon" : "kroma",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
             "url" : "https://blockscout.sepolia.kroma.network"
          }
       ],
@@ -11127,7 +11267,7 @@
          "name" : "Sepolia Ether",
          "symbol" : "ETH"
       },
-      "networkId" : 2357,
+      "networkId" : 2358,
       "parent" : {
          "bridges" : [
             {
@@ -11424,16 +11564,17 @@
       "parent" : {
          "bridges" : [
             {
-               "url" : "https://gateway.goerli.boba.network"
+               "url" : "https://gateway.boba.network"
             }
          ],
          "chain" : "eip155-5",
          "type" : "L2"
       },
       "rpc" : [
-         "https://goerli.boba.network/"
+         "https://goerli.boba.network/",
+         "wss://wss.goerli.boba.network/"
       ],
-      "shortName" : "Bobagoerli"
+      "shortName" : "BobaGoerli"
    },
    {
       "chain" : "BTY",
@@ -12004,6 +12145,60 @@
          "https://rpc.empirenetwork.io"
       ],
       "shortName" : "empire"
+   },
+   {
+      "chain" : "SPC",
+      "chainId" : 3698,
+      "explorers" : [
+         {
+            "name" : "SenjePowers",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.senjepowersscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.senjepowersscan.com"
+      ],
+      "icon" : "SenjePowers",
+      "infoURL" : "https://senjepowersscan.com",
+      "name" : "SenjePowers Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SenjePowers",
+         "symbol" : "SPC"
+      },
+      "networkId" : 3698,
+      "rpc" : [
+         "https://testnet-rpc.senjepowersscan.com"
+      ],
+      "shortName" : "SPCt"
+   },
+   {
+      "chain" : "SPC",
+      "chainId" : 3699,
+      "explorers" : [
+         {
+            "name" : "SenjePowers",
+            "standard" : "EIP3091",
+            "url" : "https://senjepowersscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.senjepowersscan.com"
+      ],
+      "icon" : "SenjePowers",
+      "infoURL" : "https://senjepowersscan.com",
+      "name" : "SenjePowers Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SenjePowers",
+         "symbol" : "SPC"
+      },
+      "networkId" : 3699,
+      "rpc" : [
+         "https://rpc.senjepowersscan.com"
+      ],
+      "shortName" : "SPCm"
    },
    {
       "chain" : "Crossbell",
@@ -12617,11 +12812,19 @@
          "symbol" : "BOBA"
       },
       "networkId" : 4328,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://gateway.boba.network"
+            }
+         ],
+         "chain" : "eip155-5",
+         "type" : "L2"
+      },
       "rpc" : [
          "https://testnet.avax.boba.network",
          "wss://wss.testnet.avax.boba.network",
-         "https://replica.testnet.avax.boba.network",
-         "wss://replica-wss.testnet.avax.boba.network"
+         "https://replica.testnet.avax.boba.network"
       ],
       "shortName" : "BobaFujiTestnet"
    },
@@ -13760,6 +13963,31 @@
       "shortName" : "planq"
    },
    {
+      "chain" : "Bitrock",
+      "chainId" : 7171,
+      "explorers" : [
+         {
+            "name" : "Bitrock Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.bit-rock.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bitrock",
+      "infoURL" : "https://bit-rock.io",
+      "name" : "Bitrock Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BITROCK",
+         "symbol" : "BROCK"
+      },
+      "networkId" : 7171,
+      "rpc" : [
+         "https://connect.bit-rock.io"
+      ],
+      "shortName" : "bitrock"
+   },
+   {
       "chain" : "KLY",
       "chainId" : 7331,
       "explorers" : [],
@@ -14027,6 +14255,33 @@
          "https://testnet-archive.plexnode.wtf"
       ],
       "shortName" : "TestnetCanto"
+   },
+   {
+      "chain" : "Bitrock",
+      "chainId" : 7771,
+      "explorers" : [
+         {
+            "name" : "Bitrock Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnetscan.bit-rock.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.bit-rock.io"
+      ],
+      "icon" : "bitrock",
+      "infoURL" : "https://bit-rock.io",
+      "name" : "Bitrock Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BITROCK",
+         "symbol" : "BROCK"
+      },
+      "networkId" : 7771,
+      "rpc" : [
+         "https://testnet.bit-rock.io"
+      ],
+      "shortName" : "tbitrock"
    },
    {
       "chain" : "nmactest",
@@ -14548,7 +14803,20 @@
    {
       "chain" : "ETH",
       "chainId" : 8453,
+      "explorers" : [
+         {
+            "name" : "basescan",
+            "standard" : "none",
+            "url" : "https://basescan.org"
+         },
+         {
+            "name" : "basescout",
+            "standard" : "none",
+            "url" : "https://base.blockscout.com"
+         }
+      ],
       "faucets" : [],
+      "icon" : "base",
       "infoURL" : "https://base.org",
       "name" : "Base",
       "nativeCurrency" : {
@@ -14557,9 +14825,11 @@
          "symbol" : "ETH"
       },
       "networkId" : 8453,
-      "rpc" : [],
+      "rpc" : [
+         "https://developer-access-mainnet.base.org/"
+      ],
       "shortName" : "base",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "TOKI",
@@ -15246,6 +15516,15 @@
          "symbol" : "BOBA"
       },
       "networkId" : 9728,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://gateway.boba.network"
+            }
+         ],
+         "chain" : "eip155-5",
+         "type" : "L2"
+      },
       "rpc" : [
          "https://testnet.bnb.boba.network",
          "wss://wss.testnet.bnb.boba.network",
@@ -16619,6 +16898,31 @@
       "title" : "Proof Of Memes Mainnet"
    },
    {
+      "chain" : "MXC zkEVM",
+      "chainId" : 18686,
+      "explorers" : [
+         {
+            "name" : "MXC zkEVM Mainnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.mxc.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "mxczkevm",
+      "infoURL" : "https://doc.mxc.com/docs/intro",
+      "name" : "MXC zkEVM Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MXC zkEVM Mainnet",
+         "symbol" : "MXC"
+      },
+      "networkId" : 18686,
+      "rpc" : [
+         "https://rpc.mxc.com"
+      ],
+      "shortName" : "MXCzkEVM"
+   },
+   {
       "chain" : "HOME Verse",
       "chainId" : 19011,
       "explorers" : [
@@ -16880,6 +17184,33 @@
       ],
       "shortName" : "map",
       "slip44" : 60
+   },
+   {
+      "chain" : "ABN",
+      "chainId" : 23006,
+      "explorers" : [
+         {
+            "name" : "Antofy Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://test.antofyscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.antofy.io"
+      ],
+      "icon" : "antofy",
+      "infoURL" : "https://antofy.io",
+      "name" : "Antofy Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Antofy",
+         "symbol" : "ABN"
+      },
+      "networkId" : 23006,
+      "rpc" : [
+         "https://testnet-rpc.antofy.io"
+      ],
+      "shortName" : "ABNt"
    },
    {
       "chain" : "Opside",
@@ -18270,6 +18601,34 @@
       "shortName" : "ISLMT"
    },
    {
+      "chain" : "Toronet",
+      "chainId" : 54321,
+      "ens" : {
+         "registry" : "0x059C474f26D65B0458F9da10A649a7322aB02C09"
+      },
+      "explorers" : [
+         {
+            "name" : "toronet_explorer",
+            "standard" : "none",
+            "url" : "https://testnet.toronet.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "toronet",
+      "infoURL" : "https://toronet.org",
+      "name" : "Toronet Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Toro",
+         "symbol" : "TORO"
+      },
+      "networkId" : 54321,
+      "rpc" : [
+         "http://testnet.toronet.org/rpc"
+      ],
+      "shortName" : "ToronetTestnet"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 55004,
       "explorers" : [
@@ -18367,11 +18726,22 @@
          "symbol" : "BOBA"
       },
       "networkId" : 56288,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://gateway.boba.network"
+            }
+         ],
+         "chain" : "eip155-5",
+         "type" : "L2"
+      },
       "rpc" : [
          "https://bnb.boba.network",
-         "wss://wss.bnb.boba.network",
+         "http://boba-bnb.gateway.tenderly.co/",
+         "http://gateway.tenderly.co/public/boba-bnb",
          "https://replica.bnb.boba.network",
-         "wss://replica-wss.bnb.boba.network"
+         "wss://boba-bnb.gateway.tenderly.co/",
+         "wss://gateway.tenderly.co/public/boba-bnb"
       ],
       "shortName" : "BobaBnb"
    },
@@ -18402,6 +18772,49 @@
          "wss://rpc-tanenbaum.rollux.com/wss"
       ],
       "shortName" : "tsys-rollux"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 58008,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.sepolia.publicgoods.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "publicGoodsNetwork",
+      "infoURL" : "https://publicgoods.network/",
+      "name" : "Sepolia PGN (Public Goods Network)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 58008,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://pgn-bridge.vercel.app/bridge"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://sepolia.publicgoods.network"
+      ],
+      "shortName" : "sepPGN"
    },
    {
       "chain" : "ETH",
@@ -19122,6 +19535,34 @@
       "shortName" : "vscm"
    },
    {
+      "chain" : "Toronet",
+      "chainId" : 77777,
+      "ens" : {
+         "registry" : "0x1f45a71f4aAD769E27c969c4359E0e250C67165c"
+      },
+      "explorers" : [
+         {
+            "name" : "toronet_explorer",
+            "standard" : "none",
+            "url" : "https://toronet.org/explorer"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "toronet",
+      "infoURL" : "https://toronet.org",
+      "name" : "Toronet Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Toro",
+         "symbol" : "TORO"
+      },
+      "networkId" : 77777,
+      "rpc" : [
+         "http://toronet.org/rpc"
+      ],
+      "shortName" : "Toronet"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 78110,
       "faucets" : [],
@@ -19396,6 +19837,7 @@
       "faucets" : [
          "https://www.coinbase.com/faucets/base-ethereum-goerli-faucet"
       ],
+      "icon" : "baseTestnet",
       "infoURL" : "https://base.org",
       "name" : "Base Goerli Testnet",
       "nativeCurrency" : {
@@ -20993,6 +21435,33 @@
       ],
       "shortName" : "gz-testnet",
       "slip44" : 266256
+   },
+   {
+      "chain" : "EGON",
+      "chainId" : 271271,
+      "explorers" : [
+         {
+            "name" : "EgonCoin Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.egcscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.egcscan.com"
+      ],
+      "icon" : "egonicon",
+      "infoURL" : "https://egcscan.com",
+      "name" : "EgonCoin Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EgonCoin",
+         "symbol" : "EGON"
+      },
+      "networkId" : 271271,
+      "rpc" : [
+         "https://rpctest.egcscan.com"
+      ],
+      "shortName" : "EGONt"
    },
    {
       "chain" : "SoChain",
@@ -23457,9 +23926,7 @@
          "symbol" : "NEON"
       },
       "networkId" : 245022934,
-      "rpc" : [
-         "https://mainnet.neonevm.org"
-      ],
+      "rpc" : [],
       "shortName" : "neonevm-mainnet"
    },
    {

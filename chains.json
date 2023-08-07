@@ -1444,7 +1444,8 @@
          "https://rpc.syscoin.org",
          "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}",
          "https://syscoin.public-rpc.com",
-         "wss://rpc.syscoin.org/wss"
+         "wss://rpc.syscoin.org/wss",
+         "https://syscoin-evm.publicnode.com"
       ],
       "shortName" : "sys"
    },
@@ -9308,7 +9309,7 @@
       "faucets" : [],
       "icon" : "kalarchain",
       "infoURL" : "https://kalarchain.tech",
-      "name" : "Kalar Chain Mainnet",
+      "name" : "Kalar Chain",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Kalar",
@@ -9316,7 +9317,7 @@
       },
       "networkId" : 1379,
       "rpc" : [
-         "http://rpc-api.kalarchain.tech"
+         "https://rpc-api.kalarchain.tech"
       ],
       "shortName" : "KLC"
    },
@@ -10102,6 +10103,31 @@
          "https://tsfapi.europool.me"
       ],
       "shortName" : "tsf"
+   },
+   {
+      "chain" : "WBT",
+      "chainId" : 1875,
+      "explorers" : [
+         {
+            "name" : "wb-explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.whitebit.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "whitebit",
+      "infoURL" : "https://whitebit.network",
+      "name" : "WhiteBIT Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "WhiteBIT Coin",
+         "symbol" : "WBT"
+      },
+      "networkId" : 1875,
+      "rpc" : [
+         "https://rpc.whitebit.network"
+      ],
+      "shortName" : "wbt"
    },
    {
       "chain" : "Gitshock Cartenz",
@@ -13870,7 +13896,8 @@
       "networkId" : 5700,
       "rpc" : [
          "https://rpc.tanenbaum.io",
-         "wss://rpc.tanenbaum.io/wss"
+         "wss://rpc.tanenbaum.io/wss",
+         "https://syscoin-tanenbaum-evm.publicnode.com"
       ],
       "shortName" : "tsys"
    },
@@ -16236,6 +16263,62 @@
       "shortName" : "carbon-testnet"
    },
    {
+      "chain" : "tIMP",
+      "chainId" : 9818,
+      "explorers" : [
+         {
+            "icon" : "timp",
+            "name" : "IMPERIUM TESTNET Explorer",
+            "standard" : "none",
+            "url" : "https://network.impscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.imperiumchain.com/"
+      ],
+      "icon" : "timp",
+      "infoURL" : "https://imperiumchain.com",
+      "name" : "IMPERIUM TESTNET",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "tIMP",
+         "symbol" : "tIMP"
+      },
+      "networkId" : 9818,
+      "rpc" : [
+         "https://data-aws-testnet.imperiumchain.com, https://data-aws2-testnet.imperiumchain.com"
+      ],
+      "shortName" : "tIMP"
+   },
+   {
+      "chain" : "IMP",
+      "chainId" : 9819,
+      "explorers" : [
+         {
+            "icon" : "imp",
+            "name" : "IMPERIUM Explorer",
+            "standard" : "none",
+            "url" : "https://impscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.imperiumchain.com/"
+      ],
+      "icon" : "imp",
+      "infoURL" : "https://imperiumchain.com",
+      "name" : "IMPERIUM MAINNET",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "IMP",
+         "symbol" : "IMP"
+      },
+      "networkId" : 9819,
+      "rpc" : [
+         "https://data-aws-mainnet.imperiumchain.com, https://data-aws2-mainnet.imperiumchain.com"
+      ],
+      "shortName" : "IMP"
+   },
+   {
       "chain" : "tMIND",
       "chainId" : 9977,
       "explorers" : [
@@ -16284,7 +16367,8 @@
       "networkId" : 9996,
       "rpc" : [
          "https://rpc-msc.mindchain.info/",
-         "https://seednode.mindchain.info"
+         "https://seednode.mindchain.info",
+         "wss://seednode.mindchain.info/ws"
       ],
       "shortName" : "MIND"
    },
@@ -17122,9 +17206,9 @@
       "explorers" : [
          {
             "icon" : "credit",
-            "name" : "CSC Scan",
+            "name" : "Creditscan",
             "standard" : "EIP3091",
-            "url" : "https://explorer.cscscan.io"
+            "url" : "https://scan.creditsmartchain.com"
          }
       ],
       "faucets" : [],
@@ -17138,15 +17222,15 @@
       ],
       "icon" : "credit",
       "infoURL" : "https://creditsmartchain.com",
-      "name" : "Credit Smartchain Mainnet",
+      "name" : "Credit Smart Chain",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Credit",
          "symbol" : "CREDIT"
       },
-      "networkId" : 1,
+      "networkId" : 13308,
       "rpc" : [
-         "https://mainnet-rpc.cscscan.io"
+         "https://rpc.creditsmartchain.com"
       ],
       "shortName" : "Credit"
    },
@@ -23789,6 +23873,39 @@
       "status" : "incubating"
    },
    {
+      "chain" : "Manta Pacific",
+      "chainId" : 3441005,
+      "explorers" : [
+         {
+            "name" : "manta-testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://manta-testnet.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "manta",
+      "infoURL" : "https://manta-testnet.caldera.dev/",
+      "name" : "Manta Pacific Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Manta",
+         "symbol" : "MANTA"
+      },
+      "networkId" : 3441005,
+      "rpc" : [
+         "https://manta-testnet.calderachain.xyz/http"
+      ],
+      "shortName" : "manta"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 4000003,
       "explorers" : [
@@ -25303,6 +25420,9 @@
    {
       "chain" : "Harmony",
       "chainId" : 1666600000,
+      "ens" : {
+         "registry" : "0x4cd2563118e57b19179d8dc033f2b0c5b5d69ff5"
+      },
       "explorers" : [
          {
             "name" : "Harmony Block Explorer",
@@ -25310,9 +25430,7 @@
             "url" : "https://explorer.harmony.one"
          }
       ],
-      "faucets" : [
-         "https://free-online-app.com/faucet-for-eth-evm-chains/"
-      ],
+      "faucets" : [],
       "infoURL" : "https://www.harmony.one/",
       "name" : "Harmony Mainnet Shard 0",
       "nativeCurrency" : {
@@ -25323,13 +25441,25 @@
       "networkId" : 1666600000,
       "rpc" : [
          "https://api.harmony.one",
-         "https://api.s0.t.hmny.io"
+         "https://a.api.s0.t.hmny.io",
+         "https://api.s0.t.hmny.io",
+         "https://rpc.ankr.com/harmony",
+         "https://harmony.api.onfinality.io/public",
+         "https://1rpc.io/one"
       ],
-      "shortName" : "hmy-s0"
+      "shortName" : "hmy-s0",
+      "slip44" : 1023
    },
    {
       "chain" : "Harmony",
       "chainId" : 1666600001,
+      "explorers" : [
+         {
+            "name" : "Harmony Block Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.harmony.one/blocks/shard/1"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://www.harmony.one/",
       "name" : "Harmony Mainnet Shard 1",
@@ -25342,11 +25472,19 @@
       "rpc" : [
          "https://api.s1.t.hmny.io"
       ],
-      "shortName" : "hmy-s1"
+      "shortName" : "hmy-s1",
+      "slip44" : 1023
    },
    {
       "chain" : "Harmony",
       "chainId" : 1666600002,
+      "explorers" : [
+         {
+            "name" : "Harmony Block Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.harmony.one/blocks/shard/2"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://www.harmony.one/",
       "name" : "Harmony Mainnet Shard 2",
@@ -25359,11 +25497,19 @@
       "rpc" : [
          "https://api.s2.t.hmny.io"
       ],
-      "shortName" : "hmy-s2"
+      "shortName" : "hmy-s2",
+      "slip44" : 1023
    },
    {
       "chain" : "Harmony",
       "chainId" : 1666600003,
+      "explorers" : [
+         {
+            "name" : "Harmony Block Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.harmony.one/blocks/shard/3"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://www.harmony.one/",
       "name" : "Harmony Mainnet Shard 3",
@@ -25376,7 +25522,8 @@
       "rpc" : [
          "https://api.s3.t.hmny.io"
       ],
-      "shortName" : "hmy-s3"
+      "shortName" : "hmy-s3",
+      "slip44" : 1023
    },
    {
       "chain" : "Harmony",
@@ -25385,7 +25532,7 @@
          {
             "name" : "Harmony Testnet Block Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.pops.one"
+            "url" : "https://explorer.testnet.harmony.one"
          }
       ],
       "faucets" : [
@@ -25407,7 +25554,16 @@
    {
       "chain" : "Harmony",
       "chainId" : 1666700001,
-      "faucets" : [],
+      "explorers" : [
+         {
+            "name" : "Harmony Block Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.testnet.harmony.one"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.pops.one"
+      ],
       "infoURL" : "https://www.harmony.one/",
       "name" : "Harmony Testnet Shard 1",
       "nativeCurrency" : {
@@ -25423,51 +25579,9 @@
    },
    {
       "chain" : "Harmony",
-      "chainId" : 1666700002,
-      "faucets" : [],
-      "infoURL" : "https://www.harmony.one/",
-      "name" : "Harmony Testnet Shard 2",
-      "nativeCurrency" : {
-         "decimals" : 18,
-         "name" : "ONE",
-         "symbol" : "ONE"
-      },
-      "networkId" : 1666700002,
-      "rpc" : [
-         "https://api.s2.b.hmny.io"
-      ],
-      "shortName" : "hmy-b-s2"
-   },
-   {
-      "chain" : "Harmony",
-      "chainId" : 1666700003,
-      "faucets" : [],
-      "infoURL" : "https://www.harmony.one/",
-      "name" : "Harmony Testnet Shard 3",
-      "nativeCurrency" : {
-         "decimals" : 18,
-         "name" : "ONE",
-         "symbol" : "ONE"
-      },
-      "networkId" : 1666700003,
-      "rpc" : [
-         "https://api.s3.b.hmny.io"
-      ],
-      "shortName" : "hmy-b-s3"
-   },
-   {
-      "chain" : "Harmony",
       "chainId" : 1666900000,
-      "explorers" : [
-         {
-            "name" : "Harmony Block Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://explorer.ps.hmny.io"
-         }
-      ],
-      "faucets" : [
-         "http://dev.faucet.easynode.one/"
-      ],
+      "explorers" : [],
+      "faucets" : [],
       "infoURL" : "https://www.harmony.one/",
       "name" : "Harmony Devnet Shard 0",
       "nativeCurrency" : {
@@ -25477,10 +25591,27 @@
       },
       "networkId" : 1666900000,
       "rpc" : [
-         "https://api.s1.ps.hmny.io",
-         "https://api.s1.ps.hmny.io"
+         "https://api.s0.ps.hmny.io"
       ],
       "shortName" : "hmy-ps-s0"
+   },
+   {
+      "chain" : "Harmony",
+      "chainId" : 1666900001,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://www.harmony.one/",
+      "name" : "Harmony Devnet Shard 1",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ONE",
+         "symbol" : "ONE"
+      },
+      "networkId" : 1666900001,
+      "rpc" : [
+         "https://api.s1.ps.hmny.io"
+      ],
+      "shortName" : "hmy-ps-s1"
    },
    {
       "chain" : "HOP",

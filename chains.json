@@ -5894,6 +5894,30 @@
       "slip44" : 674
    },
    {
+      "chain" : "PAW",
+      "chainId" : 542,
+      "explorers" : [
+         {
+            "name" : "PAWCHAIN Testnet",
+            "standard" : "none",
+            "url" : "https://pawscan.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://pawchainx.com/",
+      "name" : "PAWCHAIN Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PAW",
+         "symbol" : "PAW"
+      },
+      "networkId" : 542,
+      "rpc" : [
+         "https://pawchainx.com/"
+      ],
+      "shortName" : "PAW"
+   },
+   {
       "chain" : "VELA1",
       "chainId" : 555,
       "explorers" : [
@@ -6840,7 +6864,7 @@
             "icon" : "meer",
             "name" : "meerscan",
             "standard" : "none",
-            "url" : "https://evm.meerscan.com"
+            "url" : "https://qng.meerscan.io"
          }
       ],
       "faucets" : [],
@@ -6859,7 +6883,11 @@
          "https://evm-dataseed3.meerscan.io",
          "https://evm-dataseed.meerscan.com",
          "https://evm-dataseed1.meerscan.com",
-         "https://evm-dataseed2.meerscan.com"
+         "https://evm-dataseed2.meerscan.com",
+         "https://qng.rpc.qitmeer.io",
+         "https://mainnet.meerlabs.com",
+         "https://rpc.dimai.ai",
+         "https://rpc.woowow.io"
       ],
       "shortName" : "meer",
       "slip44" : 813
@@ -15192,10 +15220,12 @@
             "icon" : "meer",
             "name" : "meerscan testnet",
             "standard" : "none",
-            "url" : "https://testnet.qng.meerscan.io"
+            "url" : "https://qng-testnet.meerscan.io"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://faucet.qitmeer.io"
+      ],
       "icon" : "meer",
       "infoURL" : "https://github.com/Qitmeer",
       "name" : "Qitmeer Network Testnet",
@@ -15205,7 +15235,11 @@
          "symbol" : "MEER-T"
       },
       "networkId" : 8131,
-      "rpc" : [],
+      "rpc" : [
+         "https://testnet-qng.rpc.qitmeer.io",
+         "https://testnet.meerlabs.com",
+         "https://meer.testnet.meerfans.club"
+      ],
       "shortName" : "meertest"
    },
    {
@@ -16286,7 +16320,8 @@
       },
       "networkId" : 9818,
       "rpc" : [
-         "https://data-aws-testnet.imperiumchain.com, https://data-aws2-testnet.imperiumchain.com"
+         "https://data-aws-testnet.imperiumchain.com",
+         "https://data-aws2-testnet.imperiumchain.com"
       ],
       "shortName" : "tIMP"
    },
@@ -16314,7 +16349,8 @@
       },
       "networkId" : 9819,
       "rpc" : [
-         "https://data-aws-mainnet.imperiumchain.com, https://data-aws2-mainnet.imperiumchain.com"
+         "https://data-aws-mainnet.imperiumchain.com",
+         "https://data-aws2-mainnet.imperiumchain.com"
       ],
       "shortName" : "IMP"
    },
@@ -16489,6 +16525,31 @@
          "https://node4.mainnet.gon.network"
       ],
       "shortName" : "gon"
+   },
+   {
+      "chain" : "JOCT",
+      "chainId" : 10081,
+      "explorers" : [
+         {
+            "name" : "Testnet Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.japanopenchain.org"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.japanopenchain.org/",
+      "name" : "Japan Open Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Japan Open Chain Testnet Token",
+         "symbol" : "JOCT"
+      },
+      "networkId" : 10081,
+      "rpc" : [
+         "https://rpc-1.testnet.japanopenchain.org:8545",
+         "https://rpc-2.testnet.japanopenchain.org:8545"
+      ],
+      "shortName" : "joct"
    },
    {
       "chain" : "ETH",
@@ -17235,6 +17296,35 @@
       "shortName" : "Credit"
    },
    {
+      "chain" : "BEAM",
+      "chainId" : 13337,
+      "explorers" : [
+         {
+            "name" : "Beam Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets-test.avax.network/beam"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://gaming.meritcircle.io",
+      "name" : "Beam Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Merit Circle",
+         "symbol" : "MC"
+      },
+      "networkId" : 13337,
+      "rpc" : [
+         "https://subnets.avax.network/beam/testnet/rpc"
+      ],
+      "shortName" : "BEAM"
+   },
+   {
       "chain" : "Phoenix",
       "chainId" : 13381,
       "explorers" : [
@@ -17306,6 +17396,26 @@
          "https://www.3sps.net"
       ],
       "shortName" : "SPS-Test"
+   },
+   {
+      "chain" : "Humanode Testnet 5",
+      "chainId" : 14853,
+      "explorers" : [],
+      "faucets" : [
+         "https://t.me/HumanodeTestnet5FaucetBot"
+      ],
+      "infoURL" : "https://humanode.io",
+      "name" : "Humanode Testnet 5 Israfel",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "HMND",
+         "symbol" : "HMND"
+      },
+      "networkId" : 14853,
+      "rpc" : [
+         "https://explorer-rpc-http.testnet5.stages.humanode.io"
+      ],
+      "shortName" : "hmnd-t5"
    },
    {
       "chain" : "LoopNetwork",
@@ -22240,7 +22350,7 @@
       },
       "networkId" : 221231,
       "rpc" : [
-         "https://test-rpc.reapchain.org"
+         "https://test-eth.reapchain.org"
       ],
       "shortName" : "reap-testnet"
    },
@@ -23125,7 +23235,13 @@
    {
       "chain" : "ETH",
       "chainId" : 534351,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "Scroll Sepolia Testnet Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://sepolia-blockscout.scroll.io"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://scroll.io",
       "name" : "Scroll Sepolia Testnet",
@@ -23136,18 +23252,30 @@
       },
       "networkId" : 534351,
       "parent" : {
-         "bridges" : [],
+         "bridges" : [
+            {
+               "url" : "https://scroll.io/bridge"
+            }
+         ],
          "chain" : "eip155-11155111",
          "type" : "L2"
       },
-      "rpc" : [],
+      "rpc" : [
+         "https://sepolia-rpc.scroll.io/"
+      ],
       "shortName" : "scr-sepolia",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "ETH",
       "chainId" : 534352,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "Scroll Mainnet Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.scroll.io"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://scroll.io",
       "name" : "Scroll",
@@ -23158,11 +23286,17 @@
       },
       "networkId" : 534352,
       "parent" : {
-         "bridges" : [],
+         "bridges" : [
+            {
+               "url" : "https://scroll.io/bridge"
+            }
+         ],
          "chain" : "eip155-1",
          "type" : "L2"
       },
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.scroll.io"
+      ],
       "shortName" : "scr",
       "status" : "incubating"
    },
@@ -23173,12 +23307,7 @@
          {
             "name" : "Scroll Alpha Testnet Block Explorer",
             "standard" : "EIP3091",
-            "url" : "https://blockscout.scroll.io"
-         },
-         {
-            "name" : "Scroll Alpha Testnet Block Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://scrollscan.co"
+            "url" : "https://alpha-blockscout.scroll.io"
          }
       ],
       "faucets" : [],
@@ -23199,21 +23328,13 @@
          "https://alpha-rpc.scroll.io/l2"
       ],
       "shortName" : "scr-alpha",
-      "status" : "active"
+      "status" : "deprecated"
    },
    {
       "chain" : "ETH",
       "chainId" : 534354,
-      "explorers" : [
-         {
-            "name" : "Scroll L2 Block Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://l2scan.scroll.io"
-         }
-      ],
-      "faucets" : [
-         "https://prealpha.scroll.io/faucet"
-      ],
+      "explorers" : [],
+      "faucets" : [],
       "infoURL" : "https://scroll.io",
       "name" : "Scroll Pre-Alpha Testnet",
       "nativeCurrency" : {
@@ -23222,9 +23343,7 @@
          "symbol" : "TSETH"
       },
       "networkId" : 534354,
-      "rpc" : [
-         "https://prealpha-rpc.scroll.io/l2"
-      ],
+      "rpc" : [],
       "shortName" : "scr-prealpha",
       "status" : "deprecated"
    },
@@ -23379,6 +23498,31 @@
          "https://brnkc-test.bearnetwork.net"
       ],
       "shortName" : "BRNKCTEST"
+   },
+   {
+      "chain" : "MiexsSmartchain",
+      "chainId" : 761412,
+      "explorers" : [
+         {
+            "name" : "Miexs Smartchain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://miexs.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "miexs",
+      "infoURL" : "https://miexs.com",
+      "name" : "Miexs Smartchain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Miexs Coin",
+         "symbol" : "MIX"
+      },
+      "networkId" : 761412,
+      "rpc" : [
+         "https://mainnet-rpc.miexs.com"
+      ],
+      "shortName" : "Miexs"
    },
    {
       "chain" : "OCTA",

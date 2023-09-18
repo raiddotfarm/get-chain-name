@@ -3834,6 +3834,39 @@
       "slip44" : 60
    },
    {
+      "chain" : "Manta Pacific",
+      "chainId" : 169,
+      "explorers" : [
+         {
+            "name" : "manta-pacific Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://pacific-explorer.manta.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "manta",
+      "infoURL" : "https://pacific-info.manta.network",
+      "name" : "Manta Pacific Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 169,
+      "rpc" : [
+         "https://pacific-rpc.manta.network/http"
+      ],
+      "shortName" : "manta"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 170,
       "faucets" : [
@@ -5088,6 +5121,37 @@
       "shortName" : "ncnt"
    },
    {
+      "chain" : "WYZ",
+      "chainId" : 309,
+      "explorers" : [
+         {
+            "icon" : "wyzth",
+            "name" : "wyzth",
+            "standard" : "EIP3091",
+            "url" : "http://24.199.108.65:4000"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "wyzth_icon",
+      "infoURL" : "https://wyzth.org/",
+      "name" : "Wyzth Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Wyzth",
+         "symbol" : "WYZ"
+      },
+      "networkId" : 309,
+      "rpc" : [
+         "https://rpc-testnet3.wyzthchain.org/"
+      ],
+      "shortName" : "wyz"
+   },
+   {
       "chain" : "OMAX Chain",
       "chainId" : 311,
       "explorers" : [
@@ -5885,31 +5949,41 @@
       "title" : "Obscuro Sepolia Rollup Testnet"
    },
    {
-      "chain" : "tfren",
+      "chain" : "ETH",
       "chainId" : 444,
       "explorers" : [
          {
-            "icon" : "fren",
-            "name" : "blockscout",
+            "name" : "Synapse Chain Sepolia",
             "standard" : "EIP3091",
-            "url" : "https://testnet.frenscan.io"
+            "url" : "https://sepolia.synapsescan.com"
          }
       ],
       "faucets" : [],
-      "icon" : "fren",
-      "infoURL" : "https://frenchain.app",
-      "name" : "Frenchain Testnet",
+      "infoURL" : "https://synapseprotocol.com",
+      "name" : "Synapse Chain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "tFREN",
-         "symbol" : "FtREN"
+         "name" : "Sepolia ETH",
+         "symbol" : "ETH"
       },
       "networkId" : 444,
-      "rpc" : [
-         "https://rpc-01tn.frenchain.app"
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://docs.synapseprotocol.com/synapse-chain/using-synapse-chain/bridging-to-synapse-chain"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "redFlags" : [
+         "reusedChainId"
       ],
-      "shortName" : "tFREN",
-      "status" : "deprecated"
+      "rpc" : [
+         "https://sepolia.synapseprotocol.com"
+      ],
+      "shortName" : "synapse-sepolia",
+      "status" : "active"
    },
    {
       "chain" : "ARZIO",
@@ -7755,6 +7829,31 @@
          "https://sepolia.mode.network"
       ],
       "shortName" : "modesep"
+   },
+   {
+      "chain" : "Yidark",
+      "chainId" : 927,
+      "explorers" : [
+         {
+            "name" : "Yidarkscan",
+            "standard" : "EIP3091",
+            "url" : "https://yidarkscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ydk",
+      "infoURL" : "https://yidarkscan.com",
+      "name" : "Yidark Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Yidark",
+         "symbol" : "YDK"
+      },
+      "networkId" : 927,
+      "rpc" : [
+         "https://rpc.yidark.io"
+      ],
+      "shortName" : "ydk"
    },
    {
       "chain" : "tPLS",
@@ -17510,7 +17609,7 @@
          "https://faucet.mindchain.info/"
       ],
       "icon" : "mindchain",
-      "infoURL" : "https://mindscan.info",
+      "infoURL" : "https://mindchain.info",
       "name" : "Mind Smart Chain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -17525,6 +17624,31 @@
       "shortName" : "tMIND"
    },
    {
+      "chain" : "Agung",
+      "chainId" : 9990,
+      "explorers" : [
+         {
+            "name" : "Polkadot.js",
+            "standard" : "none",
+            "url" : "https://polkadot.js.org/apps/?rpc=wss://wsspc1-qa.agung.peaq.network#/explorer"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "agung",
+      "infoURL" : "https://www.peaq.network",
+      "name" : "Agung Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Agung",
+         "symbol" : "AGNG"
+      },
+      "networkId" : 9990,
+      "rpc" : [
+         "https://rpcpc1-qa.agung.peaq.network"
+      ],
+      "shortName" : "AGNG"
+   },
+   {
       "chain" : "MIND",
       "chainId" : 9996,
       "explorers" : [
@@ -17536,7 +17660,7 @@
       ],
       "faucets" : [],
       "icon" : "mindchain",
-      "infoURL" : "https://mindscan.info",
+      "infoURL" : "https://mindchain.info",
       "name" : "Mind Smart Chain Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -19403,8 +19527,8 @@
       "name" : "MAP Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "MAP",
-         "symbol" : "MAP"
+         "name" : "MAPO",
+         "symbol" : "MAPO"
       },
       "networkId" : 22776,
       "rpc" : [
@@ -25732,7 +25856,7 @@
       "rpc" : [
          "https://manta-testnet.calderachain.xyz/http"
       ],
-      "shortName" : "manta"
+      "shortName" : "mantaTestnet"
    },
    {
       "chain" : "ETH",

@@ -2612,7 +2612,9 @@
          "https://gnosis.blockpi.network/v1/rpc/public",
          "https://web3endpoints.com/gnosischain-mainnet",
          "https://gnosis.oat.farm",
-         "wss://rpc.gnosischain.com/wss"
+         "wss://rpc.gnosischain.com/wss",
+         "https://gnosis.publicnode.com",
+         "wss://gnosis.publicnode.com"
       ],
       "shortName" : "gno",
       "slip44" : 700
@@ -4255,7 +4257,9 @@
       },
       "networkId" : 204,
       "rpc" : [
-         "https://opbnb-mainnet-rpc.bnbchain.org"
+         "https://opbnb-mainnet-rpc.bnbchain.org",
+         "https://opbnb.publicnode.com",
+         "wss://opbnb.publicnode.com"
       ],
       "shortName" : "obnb",
       "slip44" : 714
@@ -6979,6 +6983,33 @@
       "shortName" : "tbcs"
    },
    {
+      "chain" : "HIGHBURY",
+      "chainId" : 710,
+      "explorers" : [
+         {
+            "icon" : "highbury",
+            "name" : "Furya EVM Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.furya.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "highbury",
+      "infoURL" : "https://www.fury.black",
+      "name" : "Highbury",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Fury",
+         "symbol" : "FURY"
+      },
+      "networkId" : 710,
+      "rpc" : [
+         "https://highbury.furya.io",
+         "https://rest.furya.io"
+      ],
+      "shortName" : "fury"
+   },
+   {
       "chain" : "Shibarium",
       "chainId" : 719,
       "explorers" : [
@@ -8026,6 +8057,39 @@
       "shortName" : "munode"
    },
    {
+      "chain" : "BTC20",
+      "chainId" : 963,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://scan.bitcoincode.technology"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "btc20",
+      "infoURL" : "https://bitcoincode.technology",
+      "name" : "BTC20 Smart Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BTCC",
+         "symbol" : "BTCC"
+      },
+      "networkId" : 963,
+      "rpc" : [
+         "https://rpc.bitcoincode.technology/"
+      ],
+      "shortName" : "btc20"
+   },
+   {
       "chain" : "Oort Mainnet",
       "chainId" : 970,
       "faucets" : [],
@@ -8331,8 +8395,9 @@
       "chainId" : 1003,
       "explorers" : [
          {
+            "icon" : "Tettoken256",
             "name" : "Tectum explorer",
-            "standard" : "none",
+            "standard" : "EIP3091",
             "url" : "https://explorer.tectum.io"
          }
       ],
@@ -8789,7 +8854,7 @@
             "name" : "EIP1559"
          }
       ],
-      "icon" : "humans",
+      "icon" : "humans-dark",
       "infoURL" : "https://humans.ai",
       "name" : "Humans.ai Mainnet",
       "nativeCurrency" : {
@@ -9644,7 +9709,9 @@
       "networkId" : 1284,
       "rpc" : [
          "https://rpc.api.moonbeam.network",
-         "wss://wss.api.moonbeam.network"
+         "wss://wss.api.moonbeam.network",
+         "https://moonbeam.publicnode.com",
+         "wss://moonbeam.publicnode.com"
       ],
       "shortName" : "mbeam"
    },
@@ -9669,7 +9736,9 @@
       "networkId" : 1285,
       "rpc" : [
          "https://rpc.api.moonriver.moonbeam.network",
-         "wss://wss.api.moonriver.moonbeam.network"
+         "wss://wss.api.moonriver.moonbeam.network",
+         "https://moonriver.publicnode.com",
+         "wss://moonriver.publicnode.com"
       ],
       "shortName" : "mriver"
    },
@@ -11989,6 +12058,35 @@
       "shortName" : "stos-mainnet"
    },
    {
+      "chain" : "MOVO",
+      "chainId" : 2049,
+      "explorers" : [
+         {
+            "icon" : "movoscan",
+            "name" : "movoscan",
+            "standard" : "none",
+            "url" : "https://movoscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "movo",
+      "infoURL" : "https://movo.uk",
+      "name" : "Movo Smart Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Movo Smart Chain",
+         "symbol" : "MOVO"
+      },
+      "networkId" : 2049,
+      "rpc" : [
+         "https://msc-rpc.movoscan.com",
+         "https://msc-rpc.movochain.org",
+         "https://msc-rpc.movoswap.com"
+      ],
+      "shortName" : "movo",
+      "slip44" : 2050
+   },
+   {
       "chain" : "Qkacoin",
       "chainId" : 2077,
       "explorers" : [
@@ -12557,7 +12655,7 @@
       "faucets" : [],
       "icon" : "krest",
       "infoURL" : "https://www.peaq.network",
-      "name" : "The Krest Network",
+      "name" : "Krest Network",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Krest",
@@ -14360,6 +14458,32 @@
       ],
       "shortName" : "aioz-testnet",
       "slip44" : 60
+   },
+   {
+      "chain" : "Humans Testnet",
+      "chainId" : 4139,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "humans-dark",
+      "infoURL" : "https://humans.ai",
+      "name" : "Humans.ai Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "HEART",
+         "symbol" : "HEART"
+      },
+      "networkId" : 4139,
+      "rpc" : [
+         "https://evm-rpc.testnet.humans.zone"
+      ],
+      "shortName" : "humans_testnet"
    },
    {
       "chain" : "TPBX",
@@ -16226,7 +16350,13 @@
       "rpc" : [
          "https://canto.slingshot.finance",
          "https://canto.neobase.one",
-         "https://mainnode.plexnode.org:8545"
+         "https://mainnode.plexnode.org:8545",
+         "https://canto.gravitychain.io/",
+         "https://canto.evm.chandrastation.com/",
+         "https://jsonrpc.canto.nodestake.top/",
+         "https://canto.dexvaults.com/",
+         "wss://canto.gravitychain.io:8546",
+         "wss://canto.dexvaults.com/ws"
       ],
       "shortName" : "canto"
    },
@@ -17782,6 +17912,11 @@
             "name" : "Polkadot.js",
             "standard" : "none",
             "url" : "https://polkadot.js.org/apps/?rpc=wss://wsspc1-qa.agung.peaq.network#/explorer"
+         },
+         {
+            "name" : "Subscan",
+            "standard" : "none",
+            "url" : "https://agung.subscan.io"
          }
       ],
       "faucets" : [],
@@ -18037,7 +18172,9 @@
       "rpc" : [
          "https://rpc.chiadochain.net",
          "https://rpc.chiado.gnosis.gateway.fm",
-         "wss://rpc.chiadochain.net/wss"
+         "wss://rpc.chiadochain.net/wss",
+         "https://gnosis-chiado.publicnode.com",
+         "wss://gnosis-chiado.publicnode.com"
       ],
       "shortName" : "chi"
    },
@@ -19234,6 +19371,18 @@
             "name" : "Holesky Explorer",
             "standard" : "EIP3091",
             "url" : "https://holesky.beaconcha.in"
+         },
+         {
+            "icon" : "ethereum",
+            "name" : "otterscan-holesky",
+            "standard" : "EIP3091",
+            "url" : "https://holesky.otterscan.io"
+         },
+         {
+            "icon" : "ethereum",
+            "name" : "Holesky Etherscan",
+            "standard" : "EIP3091",
+            "url" : "https://holesky.etherscan.io"
          }
       ],
       "faucets" : [
@@ -19250,7 +19399,9 @@
       },
       "networkId" : 17000,
       "rpc" : [
-         "https://rpc.holesky.ethpandaops.io"
+         "https://rpc.holesky.ethpandaops.io",
+         "https://ethereum-holesky.publicnode.com",
+         "wss://ethereum-holesky.publicnode.com"
       ],
       "shortName" : "holesky",
       "status" : "incubating"
@@ -20724,6 +20875,31 @@
          "wss://emerald.oasis.dev/ws"
       ],
       "shortName" : "emerald"
+   },
+   {
+      "chain" : "Gesoten Verse",
+      "chainId" : 42801,
+      "explorers" : [
+         {
+            "name" : "Gesoten Verse Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.verse.gesoten.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "gesoten",
+      "infoURL" : "https://gesoten.com/",
+      "name" : "Gesoten Verse Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OAS",
+         "symbol" : "OAS"
+      },
+      "networkId" : 42801,
+      "rpc" : [
+         "https://rpc.testnet.verse.gesoten.com/"
+      ],
+      "shortName" : "GST"
    },
    {
       "chain" : "ETH",
@@ -26648,7 +26824,9 @@
          "https://sepolia.infura.io/v3/${INFURA_API_KEY}",
          "wss://sepolia.infura.io/v3/${INFURA_API_KEY}",
          "https://sepolia.gateway.tenderly.co",
-         "wss://sepolia.gateway.tenderly.co"
+         "wss://sepolia.gateway.tenderly.co",
+         "https://ethereum-sepolia.publicnode.com",
+         "wss://ethereum-sepolia.publicnode.com"
       ],
       "shortName" : "sep",
       "title" : "Ethereum Testnet Sepolia"

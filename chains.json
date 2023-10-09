@@ -44,7 +44,8 @@
          "https://ethereum.publicnode.com",
          "wss://ethereum.publicnode.com",
          "https://mainnet.gateway.tenderly.co",
-         "wss://mainnet.gateway.tenderly.co"
+         "wss://mainnet.gateway.tenderly.co",
+         "https://rpc.blocknative.com/boost"
       ],
       "shortName" : "eth",
       "slip44" : 60
@@ -362,11 +363,16 @@
             "name" : "blockscout",
             "standard" : "EIP3091",
             "url" : "https://flare-explorer.flare.network"
+         },
+         {
+            "name" : "flarescan",
+            "standard" : "EIP3091",
+            "url" : "https://flarescan.com"
          }
       ],
       "faucets" : [],
       "icon" : "flare",
-      "infoURL" : "https://flare.xyz",
+      "infoURL" : "https://flare.network",
       "name" : "Flare Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -376,6 +382,7 @@
       "networkId" : 14,
       "rpc" : [
          "https://flare-api.flare.network/ext/C/rpc",
+         "https://flare.public-rpc.com",
          "https://rpc.ftso.au/flare"
       ],
       "shortName" : "flr"
@@ -4915,6 +4922,32 @@
       "shortName" : "Boba"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 291,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "orderlyscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.orderly.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "orderly",
+      "infoURL" : "www.orderly.network",
+      "name" : "Orderly Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 291,
+      "rpc" : [
+         "http://rpc.orderly.network"
+      ],
+      "shortName" : "orderly"
+   },
+   {
       "chain" : "Hedera",
       "chainId" : 295,
       "explorers" : [
@@ -7573,7 +7606,7 @@
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://fantasia.technology/",
+      "infoURL" : "https://fantasiachain.com/",
       "name" : "Fantasia Chain Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -8374,6 +8407,13 @@
    {
       "chain" : "KLAY",
       "chainId" : 1001,
+      "explorers" : [
+         {
+            "name" : "klaytnscope",
+            "standard" : "EIP3091",
+            "url" : "https://scope.klaytn.com"
+         }
+      ],
       "faucets" : [
          "https://baobab.wallet.klaytn.com/access?next=faucet"
       ],
@@ -15050,7 +15090,7 @@
       "shortName" : "tntest"
    },
    {
-      "chain" : "Fastex Chain (Bahamut)",
+      "chain" : "Bahamut",
       "chainId" : 5165,
       "explorers" : [
          {
@@ -15069,8 +15109,8 @@
          }
       ],
       "icon" : "bahamut",
-      "infoURL" : "https://fastexchain.com",
-      "name" : "Fastex Chain (Bahamut)",
+      "infoURL" : "https://bahamut.io",
+      "name" : "Bahamut",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "FTN",
@@ -15078,11 +15118,13 @@
       },
       "networkId" : 5165,
       "rpc" : [
-         "https://rpc1.sahara.bahamutchain.com",
-         "https://rpc2.sahara.bahamutchain.com"
+         "https://rpc1.bahamut.io",
+         "https://rpc2.bahamut.io",
+         "wss://ws1.sahara.bahamutchain.com",
+         "wss://ws2.sahara.bahamutchain.com"
       ],
       "shortName" : "ftn",
-      "title" : "Bahamut mainnet Sahara"
+      "title" : "Bahamut mainnet"
    },
    {
       "chain" : "TLC",
@@ -19407,6 +19449,33 @@
       "status" : "incubating"
    },
    {
+      "chain" : "G8C",
+      "chainId" : 17171,
+      "explorers" : [
+         {
+            "name" : "G8Chain",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet.oneg8.network"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.oneg8.network"
+      ],
+      "icon" : "G8Chain",
+      "infoURL" : "https://oneg8.one",
+      "name" : "G8Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "G8Chain",
+         "symbol" : "G8C"
+      },
+      "networkId" : 17171,
+      "rpc" : [
+         "https://mainnet-rpc.oneg8.network"
+      ],
+      "shortName" : "G8Cm"
+   },
+   {
       "chain" : "PLT",
       "chainId" : 17180,
       "explorers" : [
@@ -19548,6 +19617,33 @@
       ],
       "shortName" : "pom",
       "title" : "Proof Of Memes Mainnet"
+   },
+   {
+      "chain" : "G8C",
+      "chainId" : 18181,
+      "explorers" : [
+         {
+            "name" : "G8Chain",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.oneg8.network"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.oneg8.network"
+      ],
+      "icon" : "G8Chain",
+      "infoURL" : "https://oneg8.one",
+      "name" : "G8Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "G8Coin",
+         "symbol" : "G8C"
+      },
+      "networkId" : 18181,
+      "rpc" : [
+         "https://testnet-rpc.oneg8.network"
+      ],
+      "shortName" : "G8Ct"
    },
    {
       "chain" : "MXC zkEVM",
@@ -20436,6 +20532,33 @@
    },
    {
       "chain" : "ZIL",
+      "chainId" : 32990,
+      "explorers" : [
+         {
+            "name" : "Zilliqa EVM Isolated Server Explorer",
+            "standard" : "none",
+            "url" : "https://devex.zilliqa.com/?network=https://zilliqa-isolated-server.zilliqa.com"
+         }
+      ],
+      "faucets" : [
+         "https://dev-wallet.zilliqa.com/faucet?network=isolated_server"
+      ],
+      "icon" : "zilliqa",
+      "infoURL" : "https://www.zilliqa.com/",
+      "name" : "Zilliqa EVM Isolated Server",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zilliqa",
+         "symbol" : "ZIL"
+      },
+      "networkId" : 32990,
+      "rpc" : [
+         "https://zilliqa-isolated-server.zilliqa.com/"
+      ],
+      "shortName" : "zil-isolated-server"
+   },
+   {
+      "chain" : "ZIL",
       "chainId" : 33101,
       "explorers" : [
          {
@@ -20493,6 +20616,60 @@
          "https://rpc.avescoin.io"
       ],
       "shortName" : "avs"
+   },
+   {
+      "chain" : "ZIL",
+      "chainId" : 33385,
+      "explorers" : [
+         {
+            "name" : "Zilliqa EVM Devnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://otterscan.devnet.zilliqa.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.devnet.zilliqa.com/"
+      ],
+      "icon" : "zilliqa",
+      "infoURL" : "https://www.zilliqa.com/",
+      "name" : "Zilliqa EVM Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zilliqa",
+         "symbol" : "ZIL"
+      },
+      "networkId" : 33385,
+      "rpc" : [
+         "https://api.devnet.zilliqa.com/"
+      ],
+      "shortName" : "zil-devnet"
+   },
+   {
+      "chain" : "ZIL",
+      "chainId" : 33469,
+      "explorers" : [
+         {
+            "name" : "Zilliqa 2 EVM Devnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.zq2-devnet.zilstg.dev"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.zq2-devnet.zilstg.dev"
+      ],
+      "icon" : "zilliqa",
+      "infoURL" : "https://www.zilliqa.com/",
+      "name" : "Zilliqa 2 EVM Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zilliqa",
+         "symbol" : "ZIL"
+      },
+      "networkId" : 33469,
+      "rpc" : [
+         "https://api.zq2-devnet.zilstg.dev"
+      ],
+      "shortName" : "zq2-devnet"
    },
    {
       "chain" : "TARO",
@@ -21721,6 +21898,12 @@
             "name" : "Blockscout",
             "standard" : "EIP3091",
             "url" : "https://explorer.linea.build"
+         },
+         {
+            "icon" : "linea",
+            "name" : "L2scan",
+            "standard" : "EIP3091",
+            "url" : "https://linea.l2scan.co"
          }
       ],
       "faucets" : [],
@@ -25177,9 +25360,9 @@
       "chainId" : 421613,
       "explorers" : [
          {
-            "name" : "Arbitrum Goerli Rollup Explorer",
+            "name" : "Arbitrum Goerli Arbiscan",
             "standard" : "EIP3091",
-            "url" : "https://goerli-rollup-explorer.arbitrum.io"
+            "url" : "https://goerli.arbiscan.io"
          }
       ],
       "faucets" : [],
@@ -25512,9 +25695,14 @@
       "chainId" : 534352,
       "explorers" : [
          {
-            "name" : "Scroll Mainnet Block Explorer",
+            "name" : "Blockscout",
             "standard" : "EIP3091",
             "url" : "https://blockscout.scroll.io"
+         },
+         {
+            "name" : "Scrollscan",
+            "standard" : "EIP3091",
+            "url" : "https://scrollscan.com"
          }
       ],
       "faucets" : [],
@@ -25798,6 +25986,30 @@
          "https://mainnet-rpc.miexs.com"
       ],
       "shortName" : "Miexs"
+   },
+   {
+      "chain" : "EVMCC",
+      "chainId" : 776877,
+      "explorers" : [
+         {
+            "name" : "Tanssi Explorer",
+            "standard" : "none",
+            "url" : "https://tanssi-evmexplorer.netlify.app/?rpcUrl=https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.rmrk.app/",
+      "name" : "Modularium",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Modularium",
+         "symbol" : "MDM"
+      },
+      "networkId" : 776877,
+      "rpc" : [
+         "https://fraa-dancebox-3035-rpc.a.dancebox.tanssi.network"
+      ],
+      "shortName" : "mdlrm"
    },
    {
       "chain" : "OCTA",

@@ -51,7 +51,9 @@
          "wss://ethereum.publicnode.com",
          "https://mainnet.gateway.tenderly.co",
          "wss://mainnet.gateway.tenderly.co",
-         "https://rpc.blocknative.com/boost"
+         "https://rpc.blocknative.com/boost",
+         "https://rpc.flashbots.net",
+         "https://rpc.flashbots.net/fast"
       ],
       "shortName" : "eth",
       "slip44" : 60
@@ -850,24 +852,34 @@
       "shortName" : "GooD"
    },
    {
-      "chain" : "DTH",
+      "chain" : "SCAI",
       "chainId" : 34,
-      "faucets" : [
-         "https://faucet.dithereum.org"
+      "explorers" : [
+         {
+            "name" : "SecureChain Mainnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.securechain.ai"
+         }
       ],
-      "icon" : "dithereum",
-      "infoURL" : "https://dithereum.org",
-      "name" : "Dithereum Testnet",
+      "faucets" : [
+         "https://faucet.securechain.ai"
+      ],
+      "icon" : "SCAIIcon",
+      "infoURL" : "https://securechain.ai",
+      "name" : "SecureChain Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Dither",
-         "symbol" : "DTH"
+         "name" : "SecureChain",
+         "symbol" : "SCAI"
       },
       "networkId" : 34,
-      "rpc" : [
-         "https://node-testnet.dithereum.io"
+      "redFlags" : [
+         "reusedChainId"
       ],
-      "shortName" : "dth"
+      "rpc" : [
+         "https://mainnet-rpc.scai.network"
+      ],
+      "shortName" : "scai"
    },
    {
       "chain" : "TBWG",
@@ -4284,6 +4296,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "bnbchain",
       "infoURL" : "https://opbnb.bnbchain.org/en",
       "name" : "opBNB Mainnet",
       "nativeCurrency" : {
@@ -4294,11 +4307,41 @@
       "networkId" : 204,
       "rpc" : [
          "https://opbnb-mainnet-rpc.bnbchain.org",
+         "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+         "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3",
+         "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
+         "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
          "https://opbnb.publicnode.com",
          "wss://opbnb.publicnode.com"
       ],
       "shortName" : "obnb",
       "slip44" : 714
+   },
+   {
+      "chain" : "VinuChain",
+      "chainId" : 207,
+      "explorers" : [
+         {
+            "icon" : "vinuscan",
+            "name" : "VinuScan",
+            "standard" : "none",
+            "url" : "https://vinuscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "vitainu",
+      "infoURL" : "https://vitainu.org",
+      "name" : "VinuChain Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VinuChain",
+         "symbol" : "VС"
+      },
+      "networkId" : 207,
+      "rpc" : [
+         "https://vinuchain-rpc.com"
+      ],
+      "shortName" : "VC"
    },
    {
       "chain" : "utx",
@@ -13531,7 +13574,7 @@
          "https://public-02.mainnet.thebifrost.io/rpc"
       ],
       "shortName" : "bfc",
-      "title" : "The Bifrost Mainnet network"
+      "title" : "Bifrost Network Mainnet"
    },
    {
       "chain" : "EVMCC",
@@ -13551,6 +13594,25 @@
          "wss://fraa-dancebox-3043-rpc.a.dancebox.tanssi.network"
       ],
       "shortName" : "Immu3"
+   },
+   {
+      "chain" : "VFIEVMCC",
+      "chainId" : 3102,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://vulture.finance",
+      "name" : "Vulture EVM Beta",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VFI",
+         "symbol" : "VFI"
+      },
+      "networkId" : 3102,
+      "rpc" : [
+         "https://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network",
+         "wss://fraa-dancebox-3050-rpc.a.dancebox.tanssi.network"
+      ],
+      "shortName" : "VFI"
    },
    {
       "chain" : "FIL",
@@ -15506,6 +15568,7 @@
       "faucets" : [
          "https://testnet.bnbchain.org/faucet-smart"
       ],
+      "icon" : "bnbchain",
       "infoURL" : "https://opbnb.bnbchain.org/en",
       "name" : "opBNB Testnet",
       "nativeCurrency" : {
@@ -15515,7 +15578,11 @@
       },
       "networkId" : 5611,
       "rpc" : [
-         "https://opbnb-testnet-rpc.bnbchain.org"
+         "https://opbnb-testnet-rpc.bnbchain.org",
+         "https://opbnb-testnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+         "wss://opbnb-testnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3",
+         "https://opbnb-testnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5",
+         "wss://opbnb-testnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5"
       ],
       "shortName" : "obnbt"
    },
@@ -16131,7 +16198,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Zeta",
-         "symbol" : "aZETA"
+         "symbol" : "ZETA"
       },
       "networkId" : 7001,
       "rpc" : [
@@ -17634,6 +17701,7 @@
       },
       "networkId" : 9000,
       "rpc" : [
+         "https://evmos-testnet.lava.build",
          "https://eth.bd.evmos.dev:8545"
       ],
       "shortName" : "evmos-testnet"
@@ -17660,6 +17728,8 @@
       },
       "networkId" : 9001,
       "rpc" : [
+         "https://evmos.lava.build",
+         "wss://evmos.lava.build/websocket",
          "https://evmos-evm.publicnode.com",
          "wss://evmos-evm.publicnode.com"
       ],
@@ -21573,7 +21643,7 @@
          "https://public-02.testnet.thebifrost.io/rpc"
       ],
       "shortName" : "tbfc",
-      "title" : "The Bifrost Testnet network"
+      "title" : "Bifrost Network Testnet"
    },
    {
       "chain" : "NRG",
@@ -24536,6 +24606,30 @@
       "status" : "incubating"
    },
    {
+      "chain" : "BDCC",
+      "chainId" : 188710,
+      "explorers" : [
+         {
+            "name" : "Bitica DPOS Blockchain Explorer",
+            "standard" : "none",
+            "url" : "https://biticablockchain.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://biticablockchain.com/",
+      "name" : "Bitica Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Bitica Coin",
+         "symbol" : "BDCC"
+      },
+      "networkId" : 188710,
+      "rpc" : [
+         "https://mainnet-rpc.biticablockchain.com/"
+      ],
+      "shortName" : "bdcc"
+   },
+   {
       "chain" : "CONDOR",
       "chainId" : 188881,
       "explorers" : [
@@ -25946,7 +26040,8 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://rpc.scroll.io"
+         "https://rpc.scroll.io",
+         "https://rpc-scroll.icecreamswap.com"
       ],
       "shortName" : "scr",
       "status" : "incubating"

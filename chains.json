@@ -53,7 +53,11 @@
          "wss://mainnet.gateway.tenderly.co",
          "https://rpc.blocknative.com/boost",
          "https://rpc.flashbots.net",
-         "https://rpc.flashbots.net/fast"
+         "https://rpc.flashbots.net/fast",
+         "https://rpc.mevblocker.io",
+         "https://rpc.mevblocker.io/fast",
+         "https://rpc.mevblocker.io/noreverts",
+         "https://rpc.mevblocker.io/fullprivacy"
       ],
       "shortName" : "eth",
       "slip44" : 60
@@ -864,7 +868,7 @@
       "faucets" : [
          "https://faucet.securechain.ai"
       ],
-      "icon" : "SCAIIcon",
+      "icon" : "scaiIcon",
       "infoURL" : "https://securechain.ai",
       "name" : "SecureChain Mainnet",
       "nativeCurrency" : {
@@ -1290,7 +1294,7 @@
       "faucets" : [],
       "icon" : "xdc",
       "infoURL" : "https://xinfin.org",
-      "name" : "XinFin XDC Network",
+      "name" : "XDC Network",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "XinFin",
@@ -4316,6 +4320,32 @@
       ],
       "shortName" : "obnb",
       "slip44" : 714
+   },
+   {
+      "chain" : "VinuChain Testnet",
+      "chainId" : 206,
+      "explorers" : [
+         {
+            "icon" : "vinuscan-testnet",
+            "name" : "VinuScan Testnet",
+            "standard" : "none",
+            "url" : "https://testnet.vinuscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "vitainu-testnet",
+      "infoURL" : "https://vitainu.org",
+      "name" : "VinuChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VinuChain",
+         "symbol" : "VС"
+      },
+      "networkId" : 206,
+      "rpc" : [
+         "https://vinufoundation-rpc.com"
+      ],
+      "shortName" : "VCTEST"
    },
    {
       "chain" : "VinuChain",
@@ -13916,20 +13946,20 @@
       "shortName" : "pando-testnet"
    },
    {
-      "chain" : "BTC",
+      "chain" : "BOTANIX",
       "chainId" : 3636,
       "explorers" : [
          {
-            "name" : "Botanix",
+            "name" : "3xpl",
             "standard" : "EIP3091",
-            "url" : "https://testnet.btxtestchain.com"
+            "url" : "https://3xpl.com/botanix"
          }
       ],
       "faucets" : [
-         "https://faucet.btxtestchain.com"
+         "https://faucet.botanixlabs.dev"
       ],
       "icon" : "botanix",
-      "infoURL" : "https://btxtestchain.com",
+      "infoURL" : "https://botanixlabs.xyz",
       "name" : "Botanix Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -13938,9 +13968,9 @@
       },
       "networkId" : 3636,
       "rpc" : [
-         "https://testnet-rpc.btxtestchain.com"
+         "https://node.botanixlabs.dev"
       ],
-      "shortName" : "BTCt"
+      "shortName" : "BTNX"
    },
    {
       "chain" : "BTC",
@@ -13968,6 +13998,30 @@
          "https://rpc.btxtestchain.com"
       ],
       "shortName" : "BTCm"
+   },
+   {
+      "chain" : "iChain",
+      "chainId" : 3639,
+      "explorers" : [
+         {
+            "name" : "iChainscan",
+            "standard" : "EIP3091",
+            "url" : "https://ichainscan.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://islamicoin.finance",
+      "name" : "iChain Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ISLAMICOIN",
+         "symbol" : "ISLAMI"
+      },
+      "networkId" : 3639,
+      "rpc" : [
+         "https://rpc.ichainscan.com"
+      ],
+      "shortName" : "ISLAMI"
    },
    {
       "chain" : "Jouleverse",
@@ -17097,6 +17151,32 @@
          "https://pre-boc1.beonechain.com"
       ],
       "shortName" : "tBOC"
+   },
+   {
+      "chain" : "TQF",
+      "chainId" : 8194,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.torusscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "torus",
+      "infoURL" : "https://docs.toruschain.com",
+      "name" : "Torus Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "tTQF",
+         "symbol" : "TTQF"
+      },
+      "networkId" : 8194,
+      "rpc" : [
+         "https://rpc.testnet.toruschain.com"
+      ],
+      "shortName" : "ttqf"
    },
    {
       "chain" : "KLAY",
@@ -21715,9 +21795,9 @@
       "explorers" : [
          {
             "icon" : "opside-new",
-            "name" : "OpsideTestnetInfo",
+            "name" : "LumozTestnetInfo",
             "standard" : "EIP3091",
-            "url" : "https://pre-alpha.opside.info"
+            "url" : "https://lumoz.info"
          }
       ],
       "faucets" : [],
@@ -21730,19 +21810,19 @@
          }
       ],
       "icon" : "opside-new",
-      "infoURL" : "https://opsi.de/",
-      "name" : "Opside Testnet Pre-Alpha",
+      "infoURL" : "https://lumoz.org",
+      "name" : "Lumoz Testnet Alpha",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "IDE Test Token",
-         "symbol" : "IDE"
+         "name" : "Lumoz Test Token",
+         "symbol" : "MOZ"
       },
       "networkId" : 51178,
       "rpc" : [
-         "https://pre-alpha-us-http-geth.opside.network",
-         "https://pre-alpha-hk-http-geth.opside.network"
+         "https://alpha-us-http-geth.lumoz.org",
+         "https://alpha-hk-http-geth.lumoz.org"
       ],
-      "shortName" : "Opside-Testnet"
+      "shortName" : "Lumoz-Testnet"
    },
    {
       "chain" : "SRDX",
@@ -26011,14 +26091,14 @@
       "chainId" : 534352,
       "explorers" : [
          {
-            "name" : "Blockscout",
-            "standard" : "EIP3091",
-            "url" : "https://blockscout.scroll.io"
-         },
-         {
             "name" : "Scrollscan",
             "standard" : "EIP3091",
             "url" : "https://scrollscan.com"
+         },
+         {
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.scroll.io"
          }
       ],
       "faucets" : [],
@@ -26041,10 +26121,12 @@
       },
       "rpc" : [
          "https://rpc.scroll.io",
-         "https://rpc-scroll.icecreamswap.com"
+         "https://rpc-scroll.icecreamswap.com",
+         "https://rpc.ankr.com/scroll",
+         "https://scroll-mainnet.chainstacklabs.com"
       ],
       "shortName" : "scr",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "ETH",
@@ -26642,7 +26724,18 @@
    {
       "chain" : "ETH",
       "chainId" : 1261120,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "Blockscout zKatana chain explorer",
+            "standard" : "EIP3091",
+            "url" : "https://zkatana.blockscout.com"
+         },
+         {
+            "name" : "Startale zKatana chain explorer",
+            "standard" : "EIP3091",
+            "url" : "https://zkatana.explorer.startale.com"
+         }
+      ],
       "faucets" : [],
       "icon" : "astarzk",
       "infoURL" : "https://astar.network",
@@ -26654,13 +26747,23 @@
       },
       "networkId" : 1261120,
       "parent" : {
-         "bridges" : [],
+         "bridges" : [
+            {
+               "url" : "https://portal.astar.network"
+            },
+            {
+               "url" : "https://bridge.zkatana.gelato.digital"
+            }
+         ],
          "chain" : "eip155-11155111",
          "type" : "L2"
       },
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.zkatana.gelato.digital",
+         "https://rpc.startale.com/zkatana"
+      ],
       "shortName" : "azktn",
-      "status" : "incubating",
+      "status" : "active",
       "title" : "Astar zkEVM Testnet zKatana"
    },
    {
@@ -26897,6 +27000,23 @@
          "wss://devnet2openapi.platon.network/ws"
       ],
       "shortName" : "platondev2"
+   },
+   {
+      "chain" : "DPU",
+      "chainId" : 2611555,
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "DPU Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DGS",
+         "symbol" : "DGS"
+      },
+      "networkId" : 2611555,
+      "rpc" : [
+         "https://sc-rpc.dpu.ac.th"
+      ],
+      "shortName" : "DPU"
    },
    {
       "chain" : "FIL",
@@ -27844,6 +27964,33 @@
       "shortName" : "piccadilly-0"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 68840142,
+      "explorers" : [
+         {
+            "name" : "Frame Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.frame.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.triangleplatform.com/frame/testnet"
+      ],
+      "icon" : "frameTestnet",
+      "infoURL" : "https://www.frame.xyz/",
+      "name" : "Frame Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 68840142,
+      "rpc" : [
+         "https://rpc.testnet.frame.xyz/http"
+      ],
+      "shortName" : "frametest"
+   },
+   {
       "chain" : "TEAM",
       "chainId" : 88888888,
       "explorers" : [
@@ -28228,6 +28375,31 @@
          "wss://staging-v3.skalenodes.com/v1/ws/staging-faint-slimy-achird"
       ],
       "shortName" : "nebula-staging"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 999999999,
+      "explorers" : [
+         {
+            "name" : "Zora Sepolia Testnet Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://sepolia.explorer.zora.energy"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zoraSepoliaTestnet",
+      "infoURL" : "https://zora.energy",
+      "name" : "Zora Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 999999999,
+      "rpc" : [
+         "https://sepolia.rpc.zora.energy"
+      ],
+      "shortName" : "zsep"
    },
    {
       "chain" : "IPOS",

@@ -6647,8 +6647,7 @@
       "rpc" : [
          "https://rpc.rollux.com",
          "https://rollux.public-rpc.com",
-         "wss://rpc.rollux.com/wss",
-         "https://rpc.ankr.com/rollux/${ANKR_API_KEY}"
+         "wss://rpc.rollux.com/wss"
       ],
       "shortName" : "sys-rollux"
    },
@@ -10286,6 +10285,35 @@
       ],
       "shortName" : "ELSM",
       "title" : "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain created by VulcanForged"
+   },
+   {
+      "chain" : "BLITZ",
+      "chainId" : 1343,
+      "explorers" : [
+         {
+            "name" : "BLITZ Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets-test.avax.network/blitz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://blitz.gg",
+      "name" : "Blitz Subnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BLITZ GAS",
+         "symbol" : "BGAS"
+      },
+      "networkId" : 1343,
+      "rpc" : [
+         "https://subnets.avax.network/blitz/testnet/rpc"
+      ],
+      "shortName" : "blitz"
    },
    {
       "chain" : "CIC",
@@ -20986,6 +21014,35 @@
       "shortName" : "zil-testnet"
    },
    {
+      "chain" : "CLOUDVERSE",
+      "chainId" : 33210,
+      "explorers" : [
+         {
+            "name" : "CLOUDVERSE Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets.avax.network/cloudverse"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://muadao.build/",
+      "name" : "Cloudverse Subnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "XCLOUD",
+         "symbol" : "XCLOUD"
+      },
+      "networkId" : 33210,
+      "rpc" : [
+         "https://subnets.avax.network/cloudverse/mainnet/rpc"
+      ],
+      "shortName" : "cloudverse"
+   },
+   {
       "chain" : "AVS",
       "chainId" : 33333,
       "explorers" : [
@@ -22697,6 +22754,32 @@
          "https://mainnet-rpc.scolcoin.com"
       ],
       "shortName" : "SRC"
+   },
+   {
+      "chain" : "JanusNetwork",
+      "chainId" : 66988,
+      "explorers" : [
+         {
+            "name" : "JanusNetwork Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://beta.scan.janusnetwork.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "janusnetwork",
+      "infoURL" : "https://janus-network.gitbook.io/janus",
+      "name" : "Janus Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Janus",
+         "symbol" : "JNS"
+      },
+      "networkId" : 66988,
+      "rpc" : [
+         "https://rpc.test.janusnetwork.io"
+      ],
+      "shortName" : "janusnetwork-testnet",
+      "status" : "active"
    },
    {
       "chain" : "SIN",
@@ -26894,6 +26977,31 @@
       "slip44" : 1011
    },
    {
+      "chain" : "Ecrox Chain",
+      "chainId" : 988207,
+      "explorers" : [
+         {
+            "name" : "Ecrox Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://ecroxscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ecrox",
+      "infoURL" : "https://ecroxcoin.io/",
+      "name" : "Ecrox Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ECROX COIN",
+         "symbol" : "ECROX"
+      },
+      "networkId" : 988207,
+      "rpc" : [
+         "https://mainnet-rpc.ecroxscan.com/"
+      ],
+      "shortName" : "ecrox"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 1261120,
       "explorers" : [
@@ -27641,6 +27749,60 @@
       "rpc" : [],
       "shortName" : "quarix",
       "status" : "incubating"
+   },
+   {
+      "chain" : "XCAP",
+      "chainId" : 9322252,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://xcap-mainnet.explorer.xcap.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "xcap",
+      "infoURL" : "https://xcap.network/",
+      "name" : "XCAP",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gas",
+         "symbol" : "GAS"
+      },
+      "networkId" : 9322252,
+      "rpc" : [
+         "https://xcap-mainnet.relay.xcap.network/znzvh2ueyvm2yts5fv5gnul395jbkfb2/rpc1"
+      ],
+      "shortName" : "xcap",
+      "title" : "XCAP Mainnet"
+   },
+   {
+      "chain" : "XCAP",
+      "chainId" : 9322253,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://xcap-milvine.explorer.xcap.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "xcap",
+      "infoURL" : "https://xcap.network/",
+      "name" : "Milvine",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gas",
+         "symbol" : "GAS"
+      },
+      "networkId" : 9322253,
+      "rpc" : [
+         "https://xcap-milvine.relay.xcap.network/zj5l55ftsgi027kz4nf14vs8d89inego/rpc1"
+      ],
+      "shortName" : "milv",
+      "title" : "XCAP Testnet Milvine"
    },
    {
       "chain" : "Plian",

@@ -4126,44 +4126,45 @@
       "shortName" : "cem"
    },
    {
-      "chain" : "xgon",
+      "chain" : "X1",
       "chainId" : 195,
       "explorers" : [
          {
             "name" : "OKLink",
             "standard" : "EIP3091",
-            "url" : "https://www.oklink.com/okbc-test"
+            "url" : "https://www.oklink.com/x1-test"
          }
       ],
       "faucets" : [
-         "https://www.oklink.com/okbc-test"
+         "https://www.okx.com/x1/faucet"
       ],
       "features" : [],
-      "infoURL" : "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain",
-      "name" : "Xgon Testnet",
+      "infoURL" : "https://www.okx.com/x1",
+      "name" : "X1 Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Xgon Global Utility Token in testnet",
+         "name" : "X1 Global Utility Token in testnet",
          "symbol" : "OKB"
       },
       "networkId" : 195,
       "rpc" : [
-         "https://testrpc.xgon.io"
+         "https://testrpc.x1.tech",
+         "https://x1testrpc.okx.com"
       ],
       "shortName" : "tokb",
       "status" : "active"
    },
    {
-      "chain" : "xgon",
+      "chain" : "X1",
       "chainId" : 196,
       "explorers" : [],
       "faucets" : [],
       "features" : [],
-      "infoURL" : "https://www.okx.com/okbc/docs/dev/quick-start/introduction/introduction-to-okbchain",
-      "name" : "Xgon Mainnet",
+      "infoURL" : "https://www.okx.com/x1",
+      "name" : "X1 Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Xgon Global Utility Token",
+         "name" : "X1 Global Utility Token",
          "symbol" : "OKB"
       },
       "networkId" : 196,
@@ -12931,7 +12932,8 @@
       },
       "networkId" : 2241,
       "rpc" : [
-         "https://erpc-krest.peaq.network"
+         "https://erpc-krest.peaq.network",
+         "https://krest.unitedbloc.com"
       ],
       "shortName" : "KRST"
    },
@@ -15002,6 +15004,40 @@
       "shortName" : "beam"
    },
    {
+      "chain" : "CREDIT",
+      "chainId" : 4400,
+      "explorers" : [
+         {
+            "icon" : "credit",
+            "name" : "Creditscan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.creditsmartchain.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "credit",
+      "infoURL" : "https://creditsmartchain.com",
+      "name" : "Credit Smart Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Credit",
+         "symbol" : "CREDIT"
+      },
+      "networkId" : 4400,
+      "rpc" : [
+         "https://rpc.creditsmartchain.com"
+      ],
+      "shortName" : "CreditEdge"
+   },
+   {
       "chain" : "mainnet",
       "chainId" : 4444,
       "explorers" : [
@@ -15165,6 +15201,31 @@
          "https://testnet.blackfort.network/rpc"
       ],
       "shortName" : "TBXN"
+   },
+   {
+      "chain" : "GC",
+      "chainId" : 4893,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "none",
+            "url" : "https://gcscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "globelchain",
+      "infoURL" : "https://gcscan.io",
+      "name" : "Globel Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Globel Chain",
+         "symbol" : "GC"
+      },
+      "networkId" : 4893,
+      "rpc" : [
+         "https://rpc.gcscan.io"
+      ],
+      "shortName" : "GC"
    },
    {
       "chain" : "XVM",
@@ -15440,7 +15501,9 @@
          "https://rpc1.bahamut.io",
          "https://rpc2.bahamut.io",
          "wss://ws1.sahara.bahamutchain.com",
-         "wss://ws2.sahara.bahamutchain.com"
+         "wss://ws2.sahara.bahamutchain.com",
+         "https://bahamut.publicnode.com",
+         "wss://bahamut.publicnode.com"
       ],
       "shortName" : "ftn",
       "title" : "Bahamut mainnet"
@@ -16083,6 +16146,23 @@
          "https://node-api.uptn.io/v1/ext/rpc"
       ],
       "shortName" : "UPTN"
+   },
+   {
+      "chain" : "DGS",
+      "chainId" : 6363,
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "Digit Soul Smart Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Digit Coin",
+         "symbol" : "DGC"
+      },
+      "networkId" : 6363,
+      "rpc" : [
+         "http://dsc-rpc.digitsoul.co.th"
+      ],
+      "shortName" : "DGS"
    },
    {
       "chain" : "P2P",
@@ -18396,6 +18476,8 @@
       "rpc" : [
          "https://rpc-msc.mindchain.info/",
          "https://seednode.mindchain.info",
+         "https://archive.mindchain.info/",
+         "wss://archive.mindchain.info/ws",
          "wss://seednode.mindchain.info/ws"
       ],
       "shortName" : "MIND"
@@ -21129,6 +21211,31 @@
          "https://api.zq2-devnet.zilstg.dev"
       ],
       "shortName" : "zq2-devnet"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 34443,
+      "explorers" : [
+         {
+            "name" : "modescout",
+            "standard" : "none",
+            "url" : "https://explorer.mode.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "mode",
+      "infoURL" : "https://docs.mode.network/",
+      "name" : "Mode",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 34443,
+      "rpc" : [
+         "https://mainnet.mode.network"
+      ],
+      "shortName" : "mode"
    },
    {
       "chain" : "TARO",
@@ -25775,6 +25882,23 @@
          "https://testnet.bitfinity.network"
       ],
       "shortName" : "Bitfinity"
+   },
+   {
+      "chain" : "DS2",
+      "chainId" : 363636,
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "Digit Soul Smart Chain 2",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Digit Coin",
+         "symbol" : "DGC"
+      },
+      "networkId" : 363636,
+      "rpc" : [
+         "http://dgs-rpc.digitsoul.co.th"
+      ],
+      "shortName" : "DS2"
    },
    {
       "chain" : "HAPchain",

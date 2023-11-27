@@ -1186,7 +1186,6 @@
       "rpc" : [
          "https://rpc.darwinia.network",
          "https://darwinia-rpc.darwiniacommunitydao.xyz",
-         "https://darwinia2.api.onfinality.io/public-ws",
          "https://darwinia-rpc.dwellir.com"
       ],
       "shortName" : "darwinia"
@@ -6171,6 +6170,31 @@
       "shortName" : "zeeth"
    },
    {
+      "chain" : "Geso Verse",
+      "chainId" : 428,
+      "explorers" : [
+         {
+            "name" : "Geso Verse Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.verse.gesoten.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "gesoten",
+      "infoURL" : "https://gesoten.com/",
+      "name" : "Geso Verse",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OAS",
+         "symbol" : "OAS"
+      },
+      "networkId" : 428,
+      "rpc" : [
+         "https://rpc.verse.gesoten.com/"
+      ],
+      "shortName" : "GSV"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 443,
       "explorers" : [
@@ -6647,7 +6671,6 @@
       "networkId" : 570,
       "rpc" : [
          "https://rpc.rollux.com",
-         "https://rollux.public-rpc.com",
          "wss://rpc.rollux.com/wss"
       ],
       "shortName" : "sys-rollux"
@@ -10794,31 +10817,29 @@
       "shortName" : "bta"
    },
    {
-      "chain" : "Yuma",
+      "chain" : "LQC",
       "chainId" : 1662,
-      "explorers" : [],
-      "faucets" : [],
-      "features" : [
+      "explorers" : [
          {
-            "name" : "EIP155"
-         },
-         {
-            "name" : "EIP1559"
+            "name" : "Liquichain Mainnet",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet.liquichain.io"
          }
       ],
-      "icon" : "eon",
-      "infoURL" : "https://horizen.io/",
-      "name" : "Horizen Yuma Testnet Deprecated",
+      "faucets" : [],
+      "infoURL" : "https://liquichain.io/",
+      "name" : "Liquichain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Testnet Zen",
-         "symbol" : "tZEN"
+         "name" : "Licoin",
+         "symbol" : "LCN"
       },
       "networkId" : 1662,
+      "redFlags" : [
+         "reusedChainId"
+      ],
       "rpc" : [],
-      "shortName" : "Yuma",
-      "slip44" : 121,
-      "status" : "deprecated"
+      "shortName" : "Liquichain"
    },
    {
       "chain" : "Gobi",
@@ -11904,7 +11925,8 @@
       },
       "networkId" : 2016,
       "rpc" : [
-         "https://mainnet-rpc.mainnetz.io"
+         "https://mainnet-rpc.mainnetz.io",
+         "https://eu-rpc.mainnetz.io"
       ],
       "shortName" : "NetZm"
    },
@@ -16151,6 +16173,7 @@
       "chain" : "DGS",
       "chainId" : 6363,
       "faucets" : [],
+      "icon" : "pnet",
       "infoURL" : "",
       "name" : "Digit Soul Smart Chain",
       "nativeCurrency" : {
@@ -16160,7 +16183,7 @@
       },
       "networkId" : 6363,
       "rpc" : [
-         "http://dsc-rpc.digitsoul.co.th"
+         "https://dsc-rpc.digitsoul.co.th"
       ],
       "shortName" : "DGS"
    },
@@ -16899,6 +16922,34 @@
       "shortName" : "RiseOfTheWarbotsTestnet"
    },
    {
+      "chain" : "MaalChain Testnet",
+      "chainId" : 7860,
+      "explorers" : [
+         {
+            "name" : "maalscan testnet",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.maalscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet-testnet.maalscan.io/"
+      ],
+      "icon" : "maal-test",
+      "infoURL" : "https://www.maalchain.com/",
+      "name" : "MaalChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MAAL",
+         "symbol" : "MAAL"
+      },
+      "networkId" : 7860,
+      "rpc" : [
+         "https://node1.maalscan.io/",
+         "https://rpc-bntest.maalscan.io/"
+      ],
+      "shortName" : "maal-test"
+   },
+   {
       "chain" : "SCAS",
       "chainId" : 7878,
       "explorers" : [
@@ -17329,6 +17380,32 @@
          "https://pre-boc1.beonechain.com"
       ],
       "shortName" : "tBOC"
+   },
+   {
+      "chain" : "TQF",
+      "chainId" : 8192,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://toruscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "torus",
+      "infoURL" : "https://docs.toruschain.com",
+      "name" : "Torus Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TQF",
+         "symbol" : "TQF"
+      },
+      "networkId" : 8192,
+      "rpc" : [
+         "https://rpc.toruschain.com"
+      ],
+      "shortName" : "tqf"
    },
    {
       "chain" : "TQF",
@@ -25887,6 +25964,7 @@
       "chain" : "DS2",
       "chainId" : 363636,
       "faucets" : [],
+      "icon" : "pnet",
       "infoURL" : "",
       "name" : "Digit Soul Smart Chain 2",
       "nativeCurrency" : {
@@ -25896,7 +25974,7 @@
       },
       "networkId" : 363636,
       "rpc" : [
-         "http://dgs-rpc.digitsoul.co.th"
+         "https://dgs-rpc.digitsoul.co.th"
       ],
       "shortName" : "DS2"
    },
@@ -26890,12 +26968,14 @@
       "chainId" : 855456,
       "explorers" : [
          {
+            "icon" : "dodao",
             "name" : "Dodao Explorer",
-            "standard" : "none",
+            "standard" : "EIP3091",
             "url" : "https://tanssi-evmexplorer.netlify.app/?rpcUrl=https://fraa-dancebox-3041-rpc.a.dancebox.tanssi.network"
          }
       ],
       "faucets" : [],
+      "icon" : "dodao",
       "infoURL" : "https://dodao.dev/",
       "name" : "Dodao",
       "nativeCurrency" : {
@@ -27413,8 +27493,8 @@
       "name" : "DPU Chain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "DGS",
-         "symbol" : "DGS"
+         "name" : "DGC",
+         "symbol" : "DGC"
       },
       "networkId" : 2611555,
       "rpc" : [

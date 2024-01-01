@@ -6524,7 +6524,11 @@
       },
       "networkId" : 462,
       "rpc" : [
-         "https://testnet-rpc.areon.network"
+         "https://testnet-rpc.areon.network",
+         "https://testnet-rpc2.areon.network",
+         "https://testnet-rpc3.areon.network",
+         "https://testnet-rpc4.areon.network",
+         "https://testnet-rpc5.areon.network"
       ],
       "shortName" : "tarea",
       "slip44" : 1
@@ -7124,33 +7128,32 @@
       "slip44" : 1
    },
    {
-      "chain" : "PEER",
+      "chain" : "VINE",
       "chainId" : 601,
       "explorers" : [
          {
-            "icon" : "peer",
-            "name" : "PEER Explorer",
+            "icon" : "vine",
+            "name" : "Vine Explorer",
             "standard" : "none",
-            "url" : "https://testnet.peer.inc"
+            "url" : "https://vne.network/rose"
          }
       ],
       "faucets" : [
-         "https://testnet.peer.inc"
+         "https://vne.network/rose"
       ],
-      "icon" : "peer",
-      "infoURL" : "https://peer.inc",
-      "name" : "PEER Testnet",
+      "icon" : "vine",
+      "infoURL" : "https://www.peer.inc",
+      "name" : "Vine Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "PEER Token",
-         "symbol" : "PEER"
+         "name" : "VINE",
+         "symbol" : "VNE"
       },
       "networkId" : 601,
       "rpc" : [
-         "https://rpc-testnet.peer.inc"
+         "https://rpc-testnet.vne.network"
       ],
-      "shortName" : "PEER",
-      "slip44" : 1
+      "shortName" : "VINE"
    },
    {
       "chain" : "GLQ Blockchain",
@@ -12493,7 +12496,7 @@
       "name" : "MainnetZ Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "MainnetZ",
+         "name" : "mainnetz",
          "symbol" : "NetZ"
       },
       "networkId" : 2016,
@@ -17124,6 +17127,33 @@
       "shortName" : "pixie-chain"
    },
    {
+      "chain" : "LATEST",
+      "chainId" : 6660,
+      "explorers" : [
+         {
+            "name" : "Latest Chain",
+            "standard" : "EIP3091",
+            "url" : "http://testnet.latestchain.io"
+         }
+      ],
+      "faucets" : [
+         "http://faucet.latestchain.io"
+      ],
+      "icon" : "latestChain",
+      "infoURL" : "https://latestcoin.io",
+      "name" : "Latest Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Latest",
+         "symbol" : "LATEST"
+      },
+      "networkId" : 6660,
+      "rpc" : [
+         "https://testnet-rpc.latestcoin.io"
+      ],
+      "shortName" : "LATESTt"
+   },
+   {
       "chain" : "CYBA",
       "chainId" : 6661,
       "explorers" : [
@@ -17246,6 +17276,33 @@
          "wss://iris-evm.publicnode.com"
       ],
       "shortName" : "iris"
+   },
+   {
+      "chain" : "CPV",
+      "chainId" : 6779,
+      "explorers" : [
+         {
+            "name" : "cpvscan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.compverse.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "compverse",
+      "infoURL" : "https://compverse.io",
+      "name" : "Compverse Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "compverse",
+         "symbol" : "CPV"
+      },
+      "networkId" : 6779,
+      "rpc" : [
+         "https://rpc.compverse.io/",
+         "https://rpc-useast1.compverse.io/"
+      ],
+      "shortName" : "compverse",
+      "slip44" : 7779
    },
    {
       "chain" : "STAND",
@@ -18183,6 +18240,24 @@
       "shortName" : "BitEth"
    },
    {
+      "chain" : "USD",
+      "chainId" : 8087,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://e-dollar.org",
+      "name" : "E-Dollar",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "E-Dollar",
+         "symbol" : "USD"
+      },
+      "networkId" : 8087,
+      "rpc" : [
+         "https://rpc.e-dollar.org"
+      ],
+      "shortName" : "E-Dollar"
+   },
+   {
       "chain" : "StreamuX",
       "chainId" : 8098,
       "faucets" : [],
@@ -18920,6 +18995,7 @@
             "name" : "EIP1559"
          }
       ],
+      "icon" : "jbc",
       "infoURL" : "https://jibchain.net",
       "name" : "JIBCHAIN L1",
       "nativeCurrency" : {
@@ -19488,6 +19564,31 @@
       ],
       "shortName" : "tMIND",
       "slip44" : 1
+   },
+   {
+      "chain" : "Combo",
+      "chainId" : 9980,
+      "explorers" : [
+         {
+            "name" : "combotrace explorer",
+            "standard" : "EIP3091",
+            "url" : "https://combotrace.nodereal.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "combo",
+      "infoURL" : "https://combonetwork.io",
+      "name" : "Combo Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BNB Chain Native Token",
+         "symbol" : "BNB"
+      },
+      "networkId" : 9980,
+      "rpc" : [
+         "https://rpc.combonetwork.io"
+      ],
+      "shortName" : "combo-mainnet"
    },
    {
       "chain" : "Agung",
@@ -25472,6 +25573,31 @@
       "title" : "Nautilus Trition Testnet"
    },
    {
+      "chain" : "Combo",
+      "chainId" : 91715,
+      "explorers" : [
+         {
+            "name" : "combotrace explorer",
+            "standard" : "EIP3091",
+            "url" : "https://combotrace-testnet.nodereal.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "combo",
+      "infoURL" : "https://combonetwork.io",
+      "name" : "Combo Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BNB Chain Native Token",
+         "symbol" : "tcBNB"
+      },
+      "networkId" : 91715,
+      "rpc" : [
+         "https://test-rpc.combonetwork.io"
+      ],
+      "shortName" : "combo-testnet"
+   },
+   {
       "chain" : "Lambda",
       "chainId" : 92001,
       "explorers" : [
@@ -29589,6 +29715,31 @@
       "shortName" : "plian-mainnet-l2"
    },
    {
+      "chain" : "Hokum",
+      "chainId" : 8080808,
+      "explorers" : [
+         {
+            "name" : "Hokum Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.hokum.gg"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "hokum",
+      "infoURL" : "https://hokum.gg",
+      "name" : "Hokum",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 8080808,
+      "rpc" : [
+         "https://mainnet.hokum.gg"
+      ],
+      "shortName" : "hokum"
+   },
+   {
       "chain" : "HAPchain",
       "chainId" : 8794598,
       "explorers" : [
@@ -29995,6 +30146,31 @@
          "https://node3.pegorpc.com"
       ],
       "shortName" : "pg"
+   },
+   {
+      "chain" : "HokumTestnet",
+      "chainId" : 20482050,
+      "explorers" : [
+         {
+            "name" : "Hokum Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-explorer.hokum.gg"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "hokum",
+      "infoURL" : "https://hokum.gg",
+      "name" : "Hokum Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 20482050,
+      "rpc" : [
+         "https://testnet.hokum.gg"
+      ],
+      "shortName" : "hokum-testnet"
    },
    {
       "chain" : "XLON",

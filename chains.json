@@ -2796,7 +2796,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Worldland",
-         "symbol" : "WL"
+         "symbol" : "WLC"
       },
       "networkId" : 103,
       "rpc" : [
@@ -3729,7 +3729,7 @@
       "faucets" : [],
       "icon" : "shimmerevm",
       "infoURL" : "https://shimmer.network",
-      "name" : "ShimmerEVM Mainnet",
+      "name" : "ShimmerEVM",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "SMR",
@@ -3739,8 +3739,8 @@
       "rpc" : [
          "https://json-rpc.evm.shimmer.network"
       ],
-      "shortName" : "shimmerevm-mainnet",
-      "title" : "ShimmerEVM Mainnet"
+      "shortName" : "shimmerevm",
+      "title" : "ShimmerEVM"
    },
    {
       "chain" : "FIVENET",
@@ -6410,14 +6410,14 @@
       "chainId" : 443,
       "explorers" : [
          {
-            "name" : "Obscuro Sepolia Rollup Explorer",
+            "name" : "Ten Sepolia Rollup Explorer",
             "standard" : "none",
-            "url" : "https://testnet.obscuroscan.io"
+            "url" : "https://tenscan.io"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://obscu.ro",
-      "name" : "Obscuro Testnet",
+      "infoURL" : "https://ten.xyz",
+      "name" : "Ten Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Sepolia Ether",
@@ -6427,18 +6427,18 @@
       "parent" : {
          "bridges" : [
             {
-               "url" : "https://bridge.obscu.ro"
+               "url" : "https://bridge.ten.xyz"
             }
          ],
          "chain" : "eip155-5",
          "type" : "L2"
       },
       "rpc" : [
-         "https://testnet.obscu.ro"
+         "https://testnet.ten.xyz"
       ],
-      "shortName" : "obs-testnet",
+      "shortName" : "ten-testnet",
       "slip44" : 1,
-      "title" : "Obscuro Sepolia Rollup Testnet"
+      "title" : "Ten Sepolia Rollup Testnet"
    },
    {
       "chain" : "ETH",
@@ -8718,7 +8718,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Oort",
-         "symbol" : "CCN"
+         "symbol" : "OORT"
       },
       "networkId" : 970,
       "rpc" : [
@@ -10322,6 +10322,30 @@
       "shortName" : "om"
    },
    {
+      "chain" : "Dogether",
+      "chainId" : 1248,
+      "explorers" : [
+         {
+            "name" : "DogetherExplorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.dogether.dog"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.dogether.dog/",
+      "name" : "Dogether Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dogether",
+         "symbol" : "dogeth"
+      },
+      "networkId" : 1248,
+      "rpc" : [
+         "https://rpc.dogether.dog/"
+      ],
+      "shortName" : "Dogether"
+   },
+   {
       "chain" : "CICT",
       "chainId" : 1252,
       "explorers" : [
@@ -11642,6 +11666,34 @@
       "slip44" : 1
    },
    {
+      "chain" : "RUBY",
+      "chainId" : 1821,
+      "explorers" : [
+         {
+            "icon" : "ruby",
+            "name" : "RUBY Smart Chain MAINNET Explorer",
+            "standard" : "none",
+            "url" : "https://rubyscan.net"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ruby",
+      "infoURL" : "https://rubychain.io",
+      "name" : "Ruby Smart Chain MAINNET",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RUBY Smart Chain Native Token",
+         "symbol" : "RUBY"
+      },
+      "networkId" : 1821,
+      "rpc" : [
+         "https://mainnet-data.rubychain.io/",
+         "https://mainnet.rubychain.io/"
+      ],
+      "shortName" : "RUBY",
+      "slip44" : 1
+   },
+   {
       "chain" : "TSF",
       "chainId" : 1856,
       "faucets" : [],
@@ -11934,6 +11986,35 @@
          "https://rpc.scalind.com"
       ],
       "shortName" : "scal"
+   },
+   {
+      "chain" : "RUBY",
+      "chainId" : 1912,
+      "explorers" : [
+         {
+            "icon" : "ruby",
+            "name" : "RUBY Smart Chain Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://testnet.rubyscan.net"
+         }
+      ],
+      "faucets" : [
+         "https://claim-faucet.rubychain.io/"
+      ],
+      "icon" : "ruby",
+      "infoURL" : "https://rubychain.io",
+      "name" : "Ruby Smart Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RUBY Smart Chain Native Token",
+         "symbol" : "tRUBY"
+      },
+      "networkId" : 1912,
+      "rpc" : [
+         "https://testnet-rchain.rubychain.io/"
+      ],
+      "shortName" : "tRUBY",
+      "slip44" : 1
    },
    {
       "chain" : "onus",
@@ -12725,6 +12806,7 @@
       "chainId" : 2031,
       "explorers" : [
          {
+            "icon" : "subscan",
             "name" : "subscan",
             "standard" : "EIP3091",
             "url" : "https://centrifuge.subscan.io"
@@ -12739,6 +12821,7 @@
             "name" : "EIP1559"
          }
       ],
+      "icon" : "centrifuge",
       "infoURL" : "https://centrifuge.io",
       "name" : "Centrifuge",
       "nativeCurrency" : {
@@ -12748,7 +12831,10 @@
       },
       "networkId" : 2031,
       "rpc" : [
-         "wss://fullnode.parachain.centrifuge.io"
+         "wss://fullnode.parachain.centrifuge.io",
+         "wss://centrifuge-parachain.api.onfinality.io/public-ws",
+         "wss://centrifuge-rpc.dwellir.com",
+         "wss://rpc-centrifuge.luckyfriday.io"
       ],
       "shortName" : "cfg"
    },
@@ -12776,6 +12862,21 @@
          "wss://fullnode.catalyst.cntrfg.com"
       ],
       "shortName" : "ncfg"
+   },
+   {
+      "chain" : "PHA",
+      "chainId" : 2035,
+      "faucets" : [],
+      "infoURL" : "https://phala.network",
+      "name" : "Phala Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Phala",
+         "symbol" : "PHA"
+      },
+      "networkId" : 2035,
+      "rpc" : [],
+      "shortName" : "pha"
    },
    {
       "chain" : "KIWI",
@@ -12996,6 +13097,7 @@
             "name" : "EIP1559"
          }
       ],
+      "icon" : "altair",
       "infoURL" : "https://centrifuge.io",
       "name" : "Altair",
       "nativeCurrency" : {
@@ -13005,7 +13107,8 @@
       },
       "networkId" : 2088,
       "rpc" : [
-         "wss://fullnode.altair.centrifuge.io"
+         "wss://fullnode.altair.centrifuge.io",
+         "wss://altair.api.onfinality.io/public-ws"
       ],
       "shortName" : "air"
    },
@@ -13032,7 +13135,8 @@
       "rpc" : [
          "wss://fullnode.algol.cntrfg.com"
       ],
-      "shortName" : "algl"
+      "shortName" : "algl",
+      "status" : "deprecated"
    },
    {
       "chain" : "ECO",
@@ -16356,6 +16460,30 @@
       "title" : "Bahamut mainnet"
    },
    {
+      "chain" : "SLN",
+      "chainId" : 5169,
+      "explorers" : [
+         {
+            "name" : "SLN Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.main.smartlayer.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.smartlayer.network/",
+      "name" : "Smart Layer Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Service Unit Token",
+         "symbol" : "SU"
+      },
+      "networkId" : 5169,
+      "rpc" : [
+         "https://rpc.main.smartlayer.network"
+      ],
+      "shortName" : "SLN"
+   },
+   {
       "chain" : "TLC",
       "chainId" : 5177,
       "explorers" : [
@@ -17527,6 +17655,24 @@
       "title" : "Nume"
    },
    {
+      "chain" : "mainnet",
+      "chainId" : 7118,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "hth",
+      "infoURL" : "https://hth.world",
+      "name" : "Help The Homeless",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Help The Homeless Coin",
+         "symbol" : "HTH"
+      },
+      "networkId" : 7118,
+      "rpc" : [],
+      "shortName" : "hth",
+      "status" : "incubating"
+   },
+   {
       "chain" : "Bitrock",
       "chainId" : 7171,
       "explorers" : [
@@ -18222,22 +18368,22 @@
       "shortName" : "Sphinx10"
    },
    {
-      "chain" : "BTE",
+      "chain" : "BTC",
       "chainId" : 8086,
       "explorers" : [],
       "faucets" : [],
       "infoURL" : "https://biteth.org",
-      "name" : "BitEth",
+      "name" : "Bitcoin Chain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "BitEth",
-         "symbol" : "BTE"
+         "name" : "Bitcoin",
+         "symbol" : "BTC"
       },
       "networkId" : 8086,
       "rpc" : [
          "https://rpc.biteth.org"
       ],
-      "shortName" : "BitEth"
+      "shortName" : "Bitcoin"
    },
    {
       "chain" : "USD",
@@ -18713,6 +18859,56 @@
       ],
       "shortName" : "tolo",
       "slip44" : 1
+   },
+   {
+      "chain" : "Storagechain",
+      "chainId" : 8726,
+      "explorers" : [
+         {
+            "name" : "Storscan",
+            "standard" : "none",
+            "url" : "https://explorer-storagechain.invo.zone/?network=StorageChain"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "storagechain",
+      "infoURL" : "https://storagechain.io/about-us",
+      "name" : "Storagechain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Storagechain",
+         "symbol" : "STOR"
+      },
+      "networkId" : 8726,
+      "rpc" : [
+         "https://mainnet-validator.storagechain.io"
+      ],
+      "shortName" : "stor"
+   },
+   {
+      "chain" : "Storagechain",
+      "chainId" : 8727,
+      "explorers" : [
+         {
+            "name" : "Storscan",
+            "standard" : "none",
+            "url" : "https://explorer-storagechain.invo.zone/?network=StorageChain%20Testnet"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "storagechain",
+      "infoURL" : "https://storagechain.io/about-us",
+      "name" : "Storagechain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Storagechain",
+         "symbol" : "STOR"
+      },
+      "networkId" : 8727,
+      "rpc" : [
+         "https://testnet-validator.storagechain.io"
+      ],
+      "shortName" : "tstor"
    },
    {
       "chain" : "ALPH",
@@ -19336,7 +19532,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Oort",
-         "symbol" : "CCN"
+         "symbol" : "OORT"
       },
       "networkId" : 9700,
       "rpc" : [
@@ -19535,6 +19731,30 @@
          "https://data-aws2-mainnet.imperiumchain.com"
       ],
       "shortName" : "IMP"
+   },
+   {
+      "chain" : "Dogelayer",
+      "chainId" : 9888,
+      "explorers" : [
+         {
+            "name" : "Dogelayer mainnet explorer",
+            "standard" : "EIP3091",
+            "url" : "https://dl-explorer.dogelayer.org"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://dogelayer.org",
+      "name" : "Dogelayer Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dogecoin",
+         "symbol" : "DOGE"
+      },
+      "networkId" : 9888,
+      "rpc" : [
+         "https://dl-rpc.dogelayer.org"
+      ],
+      "shortName" : "Dogelayer"
    },
    {
       "chain" : "tMIND",
@@ -19903,6 +20123,33 @@
    },
    {
       "chain" : "AA",
+      "chainId" : 10242,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.arthera.net"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "arthera",
+      "infoURL" : "https://docs.arthera.net/build/developing-sc/using-hardhat",
+      "name" : "Arthera Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Arthera",
+         "symbol" : "AA"
+      },
+      "networkId" : 10242,
+      "rpc" : [
+         "https://rpc.arthera.net"
+      ],
+      "shortName" : "aa",
+      "slip44" : 10242
+   },
+   {
+      "chain" : "AA",
       "chainId" : 10243,
       "explorers" : [
          {
@@ -19927,7 +20174,7 @@
       "rpc" : [
          "https://rpc-test.arthera.net"
       ],
-      "shortName" : "aa",
+      "shortName" : "aat",
       "slip44" : 1
    },
    {
@@ -19971,7 +20218,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Worldland",
-         "symbol" : "WL"
+         "symbol" : "WLC"
       },
       "networkId" : 10395,
       "rpc" : [
@@ -21755,6 +22002,32 @@
       "shortName" : "NAUTCHAIN"
    },
    {
+      "chain" : "GoldXTestnet",
+      "chainId" : 22324,
+      "explorers" : [
+         {
+            "name" : "GoldXChain Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-explorer.goldxchain.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.goldxchain.io"
+      ],
+      "infoURL" : "https://goldxchain.io",
+      "name" : "GoldXChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GoldX",
+         "symbol" : "GOLDX"
+      },
+      "networkId" : 22324,
+      "rpc" : [
+         "https://testnet-rpc.goldxchain.io"
+      ],
+      "shortName" : "goldx-testnet"
+   },
+   {
       "chain" : "MAP",
       "chainId" : 22776,
       "explorers" : [
@@ -23005,6 +23278,30 @@
          "wss://emerald.oasis.dev/ws"
       ],
       "shortName" : "emerald"
+   },
+   {
+      "chain" : "GoldX",
+      "chainId" : 42355,
+      "explorers" : [
+         {
+            "name" : "GoldXChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.goldxchain.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://goldxchain.io",
+      "name" : "GoldXChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GoldX",
+         "symbol" : "GOLDX"
+      },
+      "networkId" : 42355,
+      "rpc" : [
+         "https://mainnet-rpc.goldxchain.io"
+      ],
+      "shortName" : "goldx"
    },
    {
       "chain" : "ZKFair",
@@ -25317,6 +25614,30 @@
          "https://rpc.quantumscan.org"
       ],
       "shortName" : "qnet"
+   },
+   {
+      "chain" : "SLN",
+      "chainId" : 82459,
+      "explorers" : [
+         {
+            "name" : "SLN Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.test.smartlayer.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.smartlayer.network/",
+      "name" : "Smart Layer Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Service Unit Token",
+         "symbol" : "SU"
+      },
+      "networkId" : 82459,
+      "rpc" : [
+         "https://rpc.test.smartlayer.network"
+      ],
+      "shortName" : "tSLN"
    },
    {
       "chain" : "ETH",

@@ -878,9 +878,7 @@
             "url" : "https://explorer.securechain.ai"
          }
       ],
-      "faucets" : [
-         "https://faucet.securechain.ai"
-      ],
+      "faucets" : [],
       "icon" : "scaiIcon",
       "infoURL" : "https://securechain.ai",
       "name" : "SecureChain Mainnet",
@@ -5171,9 +5169,7 @@
             "url" : "https://egonscan.com"
          }
       ],
-      "faucets" : [
-         "https://faucet.egonscan.com"
-      ],
+      "faucets" : [],
       "icon" : "egonicon",
       "infoURL" : "https://egonscan.com",
       "name" : "EgonCoin Mainnet",
@@ -11253,14 +11249,15 @@
       "chainId" : 1501,
       "explorers" : [
          {
-            "name" : "bevm scan",
+            "name" : "bevm canary scan",
             "standard" : "none",
-            "url" : "https://scan.bevm.io"
+            "url" : "https://scan-canary.bevm.io"
          }
       ],
       "faucets" : [],
+      "icon" : "bevmcanary",
       "infoURL" : "https://chainx.org",
-      "name" : "BEVM",
+      "name" : "BEVM Canary",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "BTC",
@@ -11268,8 +11265,8 @@
       },
       "networkId" : 1501,
       "rpc" : [
-         "https://rpc-1.bevm.io/",
-         "https://rpc-2.bevm.io/"
+         "https://rpc-canary-1.bevm.io/",
+         "https://rpc-canary-2.bevm.io/"
       ],
       "shortName" : "chainx"
    },
@@ -12701,15 +12698,13 @@
             "url" : "https://explorer.mainnetz.io"
          }
       ],
-      "faucets" : [
-         "https://faucet.mainnetz.io"
-      ],
+      "faucets" : [],
       "icon" : "mainnetz",
       "infoURL" : "https://mainnetz.io",
       "name" : "MainnetZ Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "mainnetz",
+         "name" : "MainnetZ",
          "symbol" : "NetZ"
       },
       "networkId" : 2016,
@@ -12717,7 +12712,7 @@
          "https://mainnet-rpc.mainnetz.io",
          "https://eu-rpc.mainnetz.io"
       ],
-      "shortName" : "NetZm"
+      "shortName" : "netz"
    },
    {
       "chain" : "PublicMint",
@@ -22866,6 +22861,33 @@
       "status" : "deprecated"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 32001,
+      "explorers" : [
+         {
+            "icon" : "web3games",
+            "name" : "W3Gamez Holesky Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://w3gamez-holesky.web3games.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "w3gamez",
+      "infoURL" : "https://web3games.com/",
+      "name" : "W3Gamez Holesky Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "W3Gamez Testnet Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 32001,
+      "rpc" : [
+         "https://rpc-holesky.w3gamez.network"
+      ],
+      "shortName" : "w3gamez",
+      "slip44" : 1
+   },
+   {
       "chain" : "Brise",
       "chainId" : 32520,
       "explorers" : [
@@ -31354,6 +31376,12 @@
             "icon" : "meld",
             "name" : "explorer",
             "standard" : "EIP3091",
+            "url" : "https://testnet.meldscan.io"
+         },
+         {
+            "icon" : "meld",
+            "name" : "explorer",
+            "standard" : "EIP3091",
             "url" : "https://subnets-test.avax.network/meld"
          }
       ],
@@ -31369,7 +31397,7 @@
       },
       "networkId" : 222000222,
       "rpc" : [
-         "https://subnets.avax.network/meld/testnet/rpc"
+         "https://testnet-rpc.meld.com"
       ],
       "shortName" : "kanazawa",
       "slip44" : 1,
@@ -31530,6 +31558,12 @@
             "icon" : "meld",
             "name" : "explorer",
             "standard" : "EIP3091",
+            "url" : "https://meldscan.io"
+         },
+         {
+            "icon" : "meld",
+            "name" : "explorer",
+            "standard" : "EIP3091",
             "url" : "https://subnets.avax.network/meld"
          }
       ],
@@ -31545,7 +31579,7 @@
       },
       "networkId" : 333000333,
       "rpc" : [
-         "https://subnets.avax.network/meld/mainnet/rpc"
+         "https://rpc-1.meld.com"
       ],
       "shortName" : "meld",
       "title" : "Meld Mainnet"

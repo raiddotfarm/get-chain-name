@@ -3418,36 +3418,31 @@
       "slip44" : 1010
    },
    {
-      "chain" : "Jumbo",
+      "chain" : "INNOVATOR",
       "chainId" : 129,
       "explorers" : [
          {
-            "name" : "ProtoJumbo",
-            "standard" : "EIP3091",
-            "url" : "https://protojumbo.jumbochain.org"
+            "icon" : "blockscout",
+            "name" : "Innovator Explorer",
+            "standard" : "none",
+            "url" : "https://evm.innovatorchain.com"
          }
       ],
-      "faucets" : [
-         "https://protojumbo.jumbochain.org/faucet-smart"
-      ],
-      "features" : [
-         {
-            "name" : "EIP155"
-         }
-      ],
-      "infoURL" : "https://jumbochain.org",
-      "name" : "ProtoJumbo Testnet",
+      "faucets" : [],
+      "features" : [],
+      "icon" : "innovator",
+      "infoURL" : "https://innovatorchain.com",
+      "name" : "Innovator Chain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "JNFTC",
-         "symbol" : "JNFTC"
+         "name" : "INOV8",
+         "symbol" : "INOV8"
       },
       "networkId" : 129,
       "rpc" : [
-         "https://testnode.jumbochain.org"
+         "https://rpc.innovatorchain.com"
       ],
-      "shortName" : "ProtoJumbo",
-      "slip44" : 1
+      "shortName" : "Innovator"
    },
    {
       "chain" : "tGRAM",
@@ -5796,6 +5791,31 @@
       "slip44" : 1
    },
    {
+      "chain" : "CVM",
+      "chainId" : 323,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.cosvm.net"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://cosvm.network",
+      "name" : "Cosvm Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Cosvm",
+         "symbol" : "CVM"
+      },
+      "networkId" : 323,
+      "rpc" : [
+         "https://rpc.cosvm.net"
+      ],
+      "shortName" : "cvm"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 324,
       "explorers" : [
@@ -6117,6 +6137,77 @@
       ],
       "shortName" : "tCNT",
       "slip44" : 1
+   },
+   {
+      "chain" : "FIL",
+      "chainId" : 380,
+      "explorers" : [
+         {
+            "icon" : "zkamoeba-micro",
+            "name" : "ZKAmoeba Test Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnetexplorer.zkamoeba.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zkamoeba-micro",
+      "infoURL" : "https://testnet.zkamoeba.com",
+      "name" : "ZKAmoeba Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "filecoin",
+         "symbol" : "FIL"
+      },
+      "networkId" : 380,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://testnet.zkamoeba.com/en/bridge"
+            }
+         ],
+         "chain" : "eip155-314",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.testnet.zkamoeba.com:4050/",
+         "https://rpc1.testnet.zkamoeba.com:4050/"
+      ],
+      "shortName" : "zkamoeba-test"
+   },
+   {
+      "chain" : "FIL",
+      "chainId" : 381,
+      "explorers" : [
+         {
+            "icon" : "zkamoeba-micro",
+            "name" : "ZKAmoeba Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.zkamoeba.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zkamoeba-micro",
+      "infoURL" : "https://www.zkamoeba.com",
+      "name" : "ZKAmoeba Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "filecoin",
+         "symbol" : "FIL"
+      },
+      "networkId" : 381,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://www.zkamoeba.com/en/bridge"
+            }
+         ],
+         "chain" : "eip155-314",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.mainnet.zkamoeba.com/rpc"
+      ],
+      "shortName" : "zkamoeba"
    },
    {
       "chain" : "CRO",
@@ -7220,6 +7311,31 @@
          "https://rpc-testnet.vne.network"
       ],
       "shortName" : "VINE"
+   },
+   {
+      "chain" : "EIOB",
+      "chainId" : 612,
+      "explorers" : [
+         {
+            "name" : "EIOB Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.eiob.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "eiob",
+      "infoURL" : "",
+      "name" : "EIOB Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EIOB",
+         "symbol" : "EIOB"
+      },
+      "networkId" : 612,
+      "rpc" : [
+         "https://rpc.eiob.xyz"
+      ],
+      "shortName" : "eiob"
    },
    {
       "chain" : "GLQ Blockchain",
@@ -13716,7 +13832,10 @@
          "https://kava-evm.rpc.thirdweb.com",
          "wss://wevm.kava.io",
          "https://kava-evm.publicnode.com",
-         "wss://kava-evm.publicnode.com"
+         "wss://kava-evm.publicnode.com",
+         "https://evm.kava-rpc.com",
+         "https://rpc.ankr.com/kava_evm",
+         "wss://wevm.kava-rpc.com"
       ],
       "shortName" : "kava"
    },
@@ -15261,6 +15380,7 @@
       "chainId" : 3797,
       "explorers" : [
          {
+            "icon" : "alveychain",
             "name" : "AlveyScan",
             "standard" : "EIP3091",
             "url" : "https://alveyscan.com"
@@ -15268,7 +15388,7 @@
       ],
       "faucets" : [],
       "icon" : "alveychain",
-      "infoURL" : "https://alveyscan.com/rpc",
+      "infoURL" : "https://alveychain.com/",
       "name" : "AlveyChain Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -15277,8 +15397,9 @@
       },
       "networkId" : 3797,
       "rpc" : [
-         "https://rpc.alveychain.com/rpc",
-         "https://rpc2.alvey.io/rpc"
+         "https://elves-core1.alvey.io",
+         "https://elves-core2.alvey.io",
+         "https://elves-core3.alvey.io"
       ],
       "shortName" : "alv"
    },
@@ -17784,6 +17905,31 @@
       "status" : "active"
    },
    {
+      "chain" : "BSTC",
+      "chainId" : 7007,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://bstscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bstc",
+      "infoURL" : "https://bstchain.io",
+      "name" : "BST Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BST Chain",
+         "symbol" : "BSTC"
+      },
+      "networkId" : 7007,
+      "rpc" : [
+         "https://rpc.bstchain.io/"
+      ],
+      "shortName" : "BSTC"
+   },
+   {
       "chain" : "ella",
       "chainId" : 7027,
       "explorers" : [
@@ -18348,6 +18494,33 @@
       ],
       "shortName" : "tscas",
       "slip44" : 1
+   },
+   {
+      "chain" : "Kinto Mainnet",
+      "chainId" : 7887,
+      "explorers" : [
+         {
+            "icon" : "kinto",
+            "name" : "Kinto Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.kinto.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "kinto",
+      "infoURL" : "https://kinto.xyz",
+      "name" : "Kinto Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ethereum",
+         "symbol" : "ETH"
+      },
+      "networkId" : 7887,
+      "rpc" : [
+         "https://rpc.kinto.xyz/http",
+         "https://kinto-mainnet.calderachain.xyz/http"
+      ],
+      "shortName" : "kintoMainnet"
    },
    {
       "chain" : "ATHENA",
@@ -19548,6 +19721,34 @@
          "https://mainnet.berylbit.io"
       ],
       "shortName" : "brb"
+   },
+   {
+      "chain" : "Nexa",
+      "chainId" : 9024,
+      "explorers" : [
+         {
+            "icon" : "nexaChain",
+            "name" : "Nexablock Explorer",
+            "standard" : "none",
+            "url" : "https://nexablockscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://nexablockscan.io/faucet"
+      ],
+      "icon" : "nexaChain",
+      "infoURL" : "https://www.nexablock.io/",
+      "name" : "Nexa Block",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Nexa Token",
+         "symbol" : "NEXB"
+      },
+      "networkId" : 9024,
+      "rpc" : [
+         "https://rpc-testnet-nodes.nexablockscan.io"
+      ],
+      "shortName" : "Nexa"
    },
    {
       "chain" : "Genesis",
@@ -21750,6 +21951,35 @@
       "shortName" : "G8Cm"
    },
    {
+      "chain" : "ECLIPSE",
+      "chainId" : 17172,
+      "explorers" : [
+         {
+            "name" : "ECLIPSE Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets-test.avax.network/eclipse"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "http://eclipsenet.io",
+      "name" : "Eclipse Subnet",
+      "nativeCurrency" : {
+         "decimals" : 16,
+         "name" : "Eclipse",
+         "symbol" : "ECLP"
+      },
+      "networkId" : 17172,
+      "rpc" : [
+         "https://subnets.avax.network/eclipse/testnet/rpc"
+      ],
+      "shortName" : "eclipse"
+   },
+   {
       "chain" : "PLT",
       "chainId" : 17180,
       "explorers" : [
@@ -21977,6 +22207,24 @@
       "shortName" : "HMV"
    },
    {
+      "chain" : "Magnet",
+      "chainId" : 19527,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://magnet.magport.io/",
+      "name" : "Magnet Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Magnet Network",
+         "symbol" : "DOT"
+      },
+      "networkId" : 19527,
+      "rpc" : [
+         "https://magnet-rpc.magport.io/"
+      ],
+      "shortName" : "mgt"
+   },
+   {
       "chain" : "BTCIX",
       "chainId" : 19845,
       "explorers" : [
@@ -22077,6 +22325,63 @@
          "https://rpc-chain.p12.games"
       ],
       "shortName" : "p12"
+   },
+   {
+      "chain" : "JONO11",
+      "chainId" : 20765,
+      "explorers" : [
+         {
+            "name" : "JONO11 Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets-test.avax.network/jono11"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "jono11",
+      "infoURL" : "",
+      "name" : "Jono11 Subnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Jono11 Token",
+         "symbol" : "JONO"
+      },
+      "networkId" : 20765,
+      "rpc" : [
+         "https://subnets.avax.network/jono11/testnet/rpc"
+      ],
+      "shortName" : "jono11"
+   },
+   {
+      "chain" : "AAH",
+      "chainId" : 21133,
+      "explorers" : [
+         {
+            "icon" : "aah",
+            "name" : "AAH Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://exp.c4ex.net"
+         }
+      ],
+      "faucets" : [
+         "https://t.me/c4eiAirdrop"
+      ],
+      "infoURL" : "https://c4ex.net",
+      "name" : "All About Healthy",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "AAH",
+         "symbol" : "AAH"
+      },
+      "networkId" : 21133,
+      "rpc" : [
+         "https://rpc.c4ex.net"
+      ],
+      "shortName" : "aah"
    },
    {
       "chain" : "CENNZnet",
@@ -22455,6 +22760,31 @@
          "https://node1.mintme.com"
       ],
       "shortName" : "mintme"
+   },
+   {
+      "chain" : "LiquidLayer",
+      "chainId" : 25186,
+      "explorers" : [
+         {
+            "name" : "LiquidLayer Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.liquidlayer.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "lila",
+      "infoURL" : "https://scan.liquidlayer.network",
+      "name" : "LiquidLayer Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "LiquidLayer",
+         "symbol" : "LILA"
+      },
+      "networkId" : 25186,
+      "rpc" : [
+         "https://mainnet.liquidlayer.network"
+      ],
+      "shortName" : "LILA"
    },
    {
       "chain" : "HammerChain",
@@ -25728,6 +26058,35 @@
       "title" : "Polygon Testnet Mumbai"
    },
    {
+      "chain" : "Berachain Artio",
+      "chainId" : 80085,
+      "explorers" : [
+         {
+            "icon" : "berachain",
+            "name" : "Beratrail",
+            "standard" : "none",
+            "url" : "https://artio.beratrail.io"
+         }
+      ],
+      "faucets" : [
+         "https://artio.faucet.berachain.com"
+      ],
+      "icon" : "berachain",
+      "infoURL" : "https://www.berachain.com",
+      "name" : "Berachain Artio",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BERA Token",
+         "symbol" : "BERA"
+      },
+      "networkId" : 80085,
+      "rpc" : [
+         "https://artio.rpc.berachain.com",
+         "https://rpc.ankr.com/berachain_testnet"
+      ],
+      "shortName" : "berachainArtio"
+   },
+   {
       "chain" : "Nordek",
       "chainId" : 81041,
       "explorers" : [
@@ -26264,6 +26623,33 @@
       ],
       "shortName" : "lambda-testnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "LILA",
+      "chainId" : 93572,
+      "explorers" : [
+         {
+            "name" : "LiquidLayer Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-scan.liquidlayer.network"
+         }
+      ],
+      "faucets" : [
+         "https://claim.liquidlayer.network"
+      ],
+      "icon" : "lila",
+      "infoURL" : "https://testnet-scan.liquidlayer.network",
+      "name" : "LiquidLayer Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "LiquidLayer Testnet",
+         "symbol" : "LILA"
+      },
+      "networkId" : 93572,
+      "rpc" : [
+         "https://testnet.liquidlayer.network"
+      ],
+      "shortName" : "tLILA"
    },
    {
       "chain" : "Mantis",
@@ -29553,11 +29939,11 @@
          {
             "name" : "Astria EVM Dusknet Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.evm.dusk-2.devnet.astria.org"
+            "url" : "https://explorer.evm.dusk-3.devnet.astria.org"
          }
       ],
       "faucets" : [
-         "https://faucet.evm.dusk-2.devnet.astria.org/"
+         "https://faucet.evm.dusk-3.devnet.astria.org/"
       ],
       "icon" : "astria",
       "infoURL" : "https://docs.astria.org",
@@ -29569,7 +29955,7 @@
       },
       "networkId" : 912559,
       "rpc" : [
-         "https://rpc.evm.dusk-2.devnet.astria.org"
+         "https://rpc.evm.dusk-3.devnet.astria.org"
       ],
       "shortName" : "ria-dev"
    },
@@ -29653,6 +30039,36 @@
       ],
       "shortName" : "tFNCY",
       "slip44" : 1
+   },
+   {
+      "chain" : "JONO12",
+      "chainId" : 955081,
+      "explorers" : [
+         {
+            "name" : "JONO12 Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets-test.avax.network/jono12"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "jono12",
+      "infoURL" : "",
+      "name" : "Jono12 Subnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Jono12 Token",
+         "symbol" : "JONO"
+      },
+      "networkId" : 955081,
+      "rpc" : [
+         "https://subnets.avax.network/jono12/testnet/rpc"
+      ],
+      "shortName" : "jono12"
    },
    {
       "chain" : "Eluvio",
@@ -31343,6 +31759,38 @@
       "slip44" : 1
    },
    {
+      "chain" : "ETH",
+      "chainId" : 168587773,
+      "explorers" : [
+         {
+            "icon" : "blast",
+            "name" : "Blast Sepolia Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.blastscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.quicknode.com/blast/sepolia"
+      ],
+      "icon" : "blast",
+      "infoURL" : "https://blast.io/",
+      "name" : "Blast Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 168587773,
+      "parent" : {
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://sepolia.blast.io"
+      ],
+      "shortName" : "blastsepolia"
+   },
+   {
       "chain" : "GTH",
       "chainId" : 192837465,
       "explorers" : [
@@ -31721,6 +32169,31 @@
       ],
       "shortName" : "nebula-testnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "Ancient8",
+      "chainId" : 888888888,
+      "explorers" : [
+         {
+            "name" : "Ancient8 Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.ancient8.gg"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ancient8",
+      "infoURL" : "https://ancient8.gg/",
+      "name" : "Ancient8",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 888888888,
+      "rpc" : [
+         "https://rpc.ancient8.gg"
+      ],
+      "shortName" : "ancient8"
    },
    {
       "chain" : "ETH",

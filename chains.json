@@ -5636,6 +5636,33 @@
       "slip44" : 1
    },
    {
+      "chain" : "ZKSats",
+      "chainId" : 305,
+      "explorers" : [
+         {
+            "icon" : "zksats",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.zksats.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zksats",
+      "infoURL" : "https://zksats.io",
+      "name" : "ZKSats Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BTC",
+         "symbol" : "BTC"
+      },
+      "networkId" : 305,
+      "rpc" : [
+         "https://mainnet.zksats.io"
+      ],
+      "shortName" : "ZKSats-Mainnet",
+      "title" : "ZKSats Mainnet"
+   },
+   {
       "chain" : "Lovely",
       "chainId" : 307,
       "explorers" : [
@@ -6820,6 +6847,26 @@
       ],
       "shortName" : "Columbus",
       "slip44" : 1
+   },
+   {
+      "chain" : "Syndicate",
+      "chainId" : 510,
+      "faucets" : [],
+      "icon" : "syndicate",
+      "infoURL" : "https://syndicate.io",
+      "name" : "Syndicate Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 510,
+      "rpc" : [
+         "https://rpc-mainnet.syndicate.io"
+      ],
+      "shortName" : "syndicate-chain-mainnet",
+      "status" : "incubating",
+      "title" : "Syndicate Chain"
    },
    {
       "chain" : "AAC",
@@ -9948,8 +9995,15 @@
    {
       "chain" : "Dymension",
       "chainId" : 1100,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "dym.fyi",
+            "standard" : "EIP3091",
+            "url" : "https://dym.fyi"
+         }
+      ],
       "faucets" : [],
+      "icon" : "dymension",
       "infoURL" : "https://dymension.xyz",
       "name" : "Dymension",
       "nativeCurrency" : {
@@ -9961,8 +10015,7 @@
       "rpc" : [
          "https://dymension-evm.blockpi.network/v1/rpc/public"
       ],
-      "shortName" : "dymension",
-      "status" : "incubating"
+      "shortName" : "dymension"
    },
    {
       "chain" : "Polygon",
@@ -13205,6 +13258,23 @@
       "slip44" : 1
    },
    {
+      "chain" : "SWAN",
+      "chainId" : 2024,
+      "faucets" : [],
+      "infoURL" : "https://swanchain.io/",
+      "name" : "Swan Saturn Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SWANETH",
+         "symbol" : "SWAN"
+      },
+      "networkId" : 2024,
+      "rpc" : [
+         "https://saturn-rpc.swanchain.io"
+      ],
+      "shortName" : "swan"
+   },
+   {
       "chain" : "Rangers",
       "chainId" : 2025,
       "explorers" : [
@@ -14737,6 +14807,32 @@
       ],
       "shortName" : "k-laos",
       "title" : "K-LAOS: LAOS on Kusama"
+   },
+   {
+      "chain" : "Elizabeth",
+      "chainId" : 2731,
+      "explorers" : [
+         {
+            "icon" : "timenet",
+            "name" : "Time Network Explorer",
+            "standard" : "none",
+            "url" : "https://testnet-scanner.timenetwork.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "timenet",
+      "infoURL" : "https://whitepaper.anttime.net/overview/anttime",
+      "name" : "Elizabeth Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TIME",
+         "symbol" : "TIME"
+      },
+      "networkId" : 2731,
+      "rpc" : [
+         "https://testnet-rpc.timenetwork.io"
+      ],
+      "shortName" : "TIME"
    },
    {
       "chain" : "ETH",
@@ -16307,6 +16403,33 @@
       "shortName" : "PHIv1"
    },
    {
+      "chain" : "Merlin",
+      "chainId" : 4200,
+      "explorers" : [
+         {
+            "icon" : "merlin",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://scan.merlinchain.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "merlin",
+      "infoURL" : "https://merlinchain.io",
+      "name" : "Merlin Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BTC",
+         "symbol" : "BTC"
+      },
+      "networkId" : 4200,
+      "rpc" : [
+         "https://rpc.merlinchain.io"
+      ],
+      "shortName" : "Merlin-Mainnet",
+      "title" : "Merlin Mainnet"
+   },
+   {
       "chain" : "LUKSO Testnet",
       "chainId" : 4201,
       "explorers" : [
@@ -16488,6 +16611,8 @@
       },
       "networkId" : 4337,
       "rpc" : [
+         "https://build.onbeam.com/rpc",
+         "wss://build.onbeam.com/ws",
          "https://subnets.avax.network/beam/mainnet/rpc",
          "wss://subnets.avax.network/beam/mainnet/ws"
       ],
@@ -16966,6 +17091,46 @@
       ],
       "shortName" : "tntest",
       "slip44" : 1
+   },
+   {
+      "chain" : "Syndicate",
+      "chainId" : 5100,
+      "faucets" : [],
+      "icon" : "syndicate",
+      "infoURL" : "https://syndicate.io",
+      "name" : "Syndicate Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "S-Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 5100,
+      "rpc" : [
+         "https://rpc-testnet.syndicate.io"
+      ],
+      "shortName" : "syndicate-chain-testnet",
+      "status" : "incubating",
+      "title" : "Syndicate Testnet"
+   },
+   {
+      "chain" : "Syndicate Frame",
+      "chainId" : 5101,
+      "faucets" : [],
+      "icon" : "syndicate",
+      "infoURL" : "https://syndicate.io",
+      "name" : "Syndicate Frame Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 5101,
+      "rpc" : [
+         "https://rpc-frame.syndicate.io"
+      ],
+      "shortName" : "syndicate-chain-frame",
+      "status" : "incubating",
+      "title" : "Syndicate Frame Chain"
    },
    {
       "chain" : "Bahamut",
@@ -19965,30 +20130,56 @@
       "shortName" : "brb"
    },
    {
-      "chain" : "Nexa",
+      "chain" : "Nexa Testnet",
       "chainId" : 9024,
       "explorers" : [
          {
             "icon" : "nexaChain",
-            "name" : "Nexablock Explorer",
+            "name" : "Nexablock Testnet Explorer",
             "standard" : "none",
-            "url" : "https://nexablockscan.io"
+            "url" : "https://testnet.nexablockscan.io"
          }
       ],
       "faucets" : [
-         "https://nexablockscan.io/faucet"
+         "https://testnet.nexablockscan.io/faucet"
       ],
       "icon" : "nexaChain",
-      "infoURL" : "https://www.nexablock.io/",
-      "name" : "Nexa Block",
+      "infoURL" : "https://www.nexablock.io",
+      "name" : "Nexa Testnet Block",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Nexa Token",
+         "name" : "Nexa Testnet Token",
          "symbol" : "NEXB"
       },
       "networkId" : 9024,
       "rpc" : [
          "https://rpc-testnet-nodes.nexablockscan.io"
+      ],
+      "shortName" : "NexaTestnet"
+   },
+   {
+      "chain" : "Nexa Mainnet",
+      "chainId" : 9025,
+      "explorers" : [
+         {
+            "icon" : "nexaChain",
+            "name" : "Nexablock Mainnet Explorer",
+            "standard" : "none",
+            "url" : "https://nexablockscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "nexaChain",
+      "infoURL" : "https://www.nexablock.io",
+      "name" : "Nexa Mainnet Block",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Nexa Mainnet Token",
+         "symbol" : "NEXB"
+      },
+      "networkId" : 9025,
+      "rpc" : [
+         "https://rpc-nodes.nexablockscan.io"
       ],
       "shortName" : "Nexa"
    },
@@ -21355,6 +21546,34 @@
       "shortName" : "sats"
    },
    {
+      "chain" : "Aternos",
+      "chainId" : 12020,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.aternoschain.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.aternoschain.com"
+      ],
+      "icon" : "aternos",
+      "infoURL" : "https://aternoschain.com",
+      "name" : "Aternos",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Aternos",
+         "symbol" : "ATR"
+      },
+      "networkId" : 12020,
+      "rpc" : [
+         "https://rpc.aternoschain.com"
+      ],
+      "shortName" : "ATR"
+   },
+   {
       "chain" : "ZERO",
       "chainId" : 12051,
       "explorers" : [
@@ -21694,6 +21913,8 @@
       },
       "networkId" : 13337,
       "rpc" : [
+         "https://build.onbeam.com/rpc/testnet",
+         "wss://build.onbeam.com/ws/testnet",
          "https://subnets.avax.network/beam/testnet/rpc",
          "wss://subnets.avax.network/beam/testnet/ws"
       ],
@@ -22418,6 +22639,44 @@
       ],
       "shortName" : "G8Ct",
       "slip44" : 1
+   },
+   {
+      "chain" : "unreal",
+      "chainId" : 18231,
+      "explorers" : [
+         {
+            "icon" : "unreal",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://unreal.blockscout.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "unreal",
+      "infoURL" : "https://raas.gelato.network/rollups/details/public/unreal",
+      "name" : "unreal",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "unreal Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 18231,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.unreal.gelato.digital"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.unreal.gelato.digital",
+         "wss://ws.unreal.gelato.digital"
+      ],
+      "shortName" : "unreal",
+      "slip44" : 60,
+      "title" : "unreal testnet for re.al"
    },
    {
       "chain" : "MXC zkEVM",
@@ -26422,6 +26681,31 @@
       "shortName" : "berachainArtio"
    },
    {
+      "chain" : "HZC",
+      "chainId" : 80096,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "none",
+            "url" : "https://hizoco.net:38443"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "hizoco",
+      "infoURL" : "http://hizoco.net",
+      "name" : "Hizoco mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Hizoco",
+         "symbol" : "HZC"
+      },
+      "networkId" : 80096,
+      "rpc" : [
+         "https://hizoco.net/rpc"
+      ],
+      "shortName" : "hzc"
+   },
+   {
       "chain" : "Nordek",
       "chainId" : 81041,
       "explorers" : [
@@ -28131,7 +28415,8 @@
       },
       "networkId" : 167008,
       "rpc" : [
-         "https://rpc.katla.taiko.xyz"
+         "https://rpc.katla.taiko.xyz",
+         "wss://rpc.katla.taiko.xyz"
       ],
       "shortName" : "tko-katla",
       "status" : "active"
@@ -32270,6 +32555,43 @@
    },
    {
       "chain" : "ETH",
+      "chainId" : 161221135,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://plume-testnet.explorer.caldera.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "plume",
+      "infoURL" : "https://www.plumenetwork.xyz/",
+      "name" : "Plume Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Plume Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 161221135,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://plume-testnet.calderabridge.xyz"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://plume-testnet.rpc.caldera.xyz/http"
+      ],
+      "shortName" : "plume-testnet",
+      "slip44" : 1,
+      "title" : "Plume Sepolia Rollup Testnet"
+   },
+   {
+      "chain" : "ETH",
       "chainId" : 168587773,
       "explorers" : [
          {
@@ -33453,6 +33775,28 @@
          "https://palm-mainnet.public.blastapi.io"
       ],
       "shortName" : "palm"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 107107114116,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "kakarot",
+      "infoURL" : "https://kakarot.org",
+      "name" : "Kakarot Sepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 107107114116,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [],
+      "shortName" : "kkrt-sepolia"
    },
    {
       "chain" : "Alphabet Network",

@@ -1570,8 +1570,8 @@
          "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}",
          "https://syscoin.public-rpc.com",
          "wss://rpc.syscoin.org/wss",
-         "https://syscoin-evm-rpc.publicnode.com",
-         "wss://syscoin-evm-rpc.publicnode.com"
+         "https://syscoin-evm.publicnode.com",
+         "wss://syscoin-evm.publicnode.com"
       ],
       "shortName" : "sys"
    },
@@ -7336,7 +7336,9 @@
       "networkId" : 570,
       "rpc" : [
          "https://rpc.rollux.com",
-         "wss://rpc.rollux.com/wss"
+         "wss://rpc.rollux.com/wss",
+         "https://rollux.rpc.syscoin.org",
+         "wss://rollux.rpc.syscoin.org/wss"
       ],
       "shortName" : "sys-rollux"
    },
@@ -7681,6 +7683,33 @@
          "https://rpc.avocado.instadapp.io"
       ],
       "shortName" : "avocado"
+   },
+   {
+      "chain" : "FlowEVM",
+      "chainId" : 646,
+      "explorers" : [
+         {
+            "name" : "Flow Diver",
+            "standard" : "none",
+            "url" : "https://previewnet.flowdiver.io"
+         }
+      ],
+      "faucets" : [
+         "https://previewnet-faucet.onflow.org"
+      ],
+      "icon" : "flowevm",
+      "infoURL" : "https://developers.flow.com/evm/about",
+      "name" : "FlowEVM PreviewNet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FLOW",
+         "symbol" : "FLOW"
+      },
+      "networkId" : 646,
+      "rpc" : [
+         "https://previewnet.evm.nodes.onflow.org"
+      ],
+      "shortName" : "flowevm-preview"
    },
    {
       "chain" : "SX",
@@ -8228,6 +8257,31 @@
       ],
       "shortName" : "SPAY",
       "slip44" : 1
+   },
+   {
+      "chain" : "FlowEVM",
+      "chainId" : 747,
+      "explorers" : [
+         {
+            "name" : "Flow Diver",
+            "standard" : "none",
+            "url" : "https://flowdiver.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "flowevm",
+      "infoURL" : "https://developers.flow.com/evm/about",
+      "name" : "FlowEVM Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FLOW",
+         "symbol" : "FLOW"
+      },
+      "networkId" : 747,
+      "rpc" : [
+         "https://mainnet.evm.nodes.onflow.org"
+      ],
+      "shortName" : "flowevm-mainnet"
    },
    {
       "chain" : "QOM",
@@ -15094,6 +15148,26 @@
       "status" : "active"
    },
    {
+      "chain" : "inEVM",
+      "chainId" : 2525,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "inevm",
+      "infoURL" : "https://inevm.com",
+      "name" : "inEVM Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Injective",
+         "symbol" : "INJ"
+      },
+      "networkId" : 2525,
+      "rpc" : [
+         "https://mainnet.rpc.inevm.com/http"
+      ],
+      "shortName" : "inevm",
+      "status" : "active"
+   },
+   {
       "chain" : "Kortho Chain",
       "chainId" : 2559,
       "faucets" : [],
@@ -15603,12 +15677,12 @@
          {
             "name" : "explorer-thebifrost",
             "standard" : "EIP3091",
-            "url" : "https://explorer.mainnet.thebifrost.io"
+            "url" : "https://explorer.mainnet.bifrostnetwork.com"
          }
       ],
       "faucets" : [],
       "icon" : "bifrost",
-      "infoURL" : "https://thebifrost.io",
+      "infoURL" : "https://bifrostnetwork.com",
       "name" : "Bifrost Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -15617,8 +15691,8 @@
       },
       "networkId" : 3068,
       "rpc" : [
-         "https://public-01.mainnet.thebifrost.io/rpc",
-         "https://public-02.mainnet.thebifrost.io/rpc"
+         "https://public-01.mainnet.bifrostnetwork.com/rpc",
+         "https://public-02.mainnet.bifrostnetwork.com/rpc"
       ],
       "shortName" : "bfc",
       "title" : "Bifrost Network Mainnet"
@@ -16240,9 +16314,15 @@
    {
       "chain" : "ETH",
       "chainId" : 3776,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "Blockscout Astar zkEVM explorer",
+            "standard" : "EIP3091",
+            "url" : "https://astar-zkevm.explorer.startale.com"
+         }
+      ],
       "faucets" : [],
-      "icon" : "astarzk",
+      "icon" : "astar",
       "infoURL" : "https://astar.network",
       "name" : "Astar zkEVM",
       "nativeCurrency" : {
@@ -16252,13 +16332,18 @@
       },
       "networkId" : 3776,
       "parent" : {
-         "bridges" : [],
+         "bridges" : [
+            {
+               "url" : "https://portal.astar.network"
+            }
+         ],
          "chain" : "eip155-1",
          "type" : "L2"
       },
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.startale.com/astar-zkevm"
+      ],
       "shortName" : "astrzk",
-      "status" : "incubating",
       "title" : "Astar zkEVM Mainnet"
    },
    {
@@ -16986,6 +17071,32 @@
       ],
       "shortName" : "TPBXt",
       "slip44" : 1
+   },
+   {
+      "chain" : "XFI",
+      "chainId" : 4157,
+      "explorers" : [
+         {
+            "name" : "CrossFi Testnet Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.testnet.ms"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://crossfi.org/",
+      "name" : "CrossFi Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "XFI",
+         "symbol" : "XFI"
+      },
+      "networkId" : 4157,
+      "rpc" : [
+         "https://rpc.testnet.ms"
+      ],
+      "shortName" : "crossfi-testnet",
+      "slip44" : 1,
+      "title" : "CrossFi Testnet"
    },
    {
       "chain" : "PHI V1",
@@ -18217,8 +18328,8 @@
       "rpc" : [
          "https://rpc.tanenbaum.io",
          "wss://rpc.tanenbaum.io/wss",
-         "https://syscoin-tanenbaum-evm-rpc.publicnode.com",
-         "wss://syscoin-tanenbaum-evm-rpc.publicnode.com"
+         "https://syscoin-tanenbaum-evm.publicnode.com",
+         "wss://syscoin-tanenbaum-evm.publicnode.com"
       ],
       "shortName" : "tsys",
       "slip44" : 1
@@ -19377,18 +19488,13 @@
       "chainId" : 7700,
       "explorers" : [
          {
-            "name" : "Canto EVM Explorer (Blockscout)",
-            "standard" : "none",
-            "url" : "https://evm.explorer.canto.io"
-         },
-         {
-            "name" : "Canto Cosmos Explorer",
-            "standard" : "none",
-            "url" : "https://cosmos-explorers.neobase.one"
+            "name" : "Canto Explorer (OKLink)",
+            "standard" : "EIP3091",
+            "url" : "https://www.oklink.com/canto"
          },
          {
             "name" : "Canto EVM Explorer (Blockscout)",
-            "standard" : "none",
+            "standard" : "EIP3091",
             "url" : "https://tuber.build"
          },
          {
@@ -19409,14 +19515,9 @@
       "networkId" : 7700,
       "rpc" : [
          "https://canto.slingshot.finance",
-         "https://canto.neobase.one",
+         "https://canto-rpc.ansybl.io",
          "https://mainnode.plexnode.org:8545",
-         "https://canto.gravitychain.io/",
-         "https://canto.evm.chandrastation.com/",
-         "https://jsonrpc.canto.nodestake.top/",
-         "https://canto.dexvaults.com/",
-         "wss://canto.gravitychain.io:8546",
-         "wss://canto.dexvaults.com/ws"
+         "https://canto.gravitychain.io/"
       ],
       "shortName" : "canto"
    },
@@ -25758,12 +25859,12 @@
          {
             "name" : "explorer-thebifrost",
             "standard" : "EIP3091",
-            "url" : "https://explorer.testnet.thebifrost.io"
+            "url" : "https://explorer.testnet.bifrostnetwork.com"
          }
       ],
       "faucets" : [],
       "icon" : "bifrost",
-      "infoURL" : "https://thebifrost.io",
+      "infoURL" : "https://bifrostnetwork.com",
       "name" : "Bifrost Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -25772,8 +25873,8 @@
       },
       "networkId" : 49088,
       "rpc" : [
-         "https://public-01.testnet.thebifrost.io/rpc",
-         "https://public-02.testnet.thebifrost.io/rpc"
+         "https://public-01.testnet.bifrostnetwork.com/rpc",
+         "https://public-02.testnet.bifrostnetwork.com/rpc"
       ],
       "shortName" : "tbfc",
       "slip44" : 1,
@@ -26352,7 +26453,9 @@
       "rpc" : [
          "https://rpc-tanenbaum.rollux.com",
          "https://rpc.ankr.com/rollux_testnet/${ANKR_API_KEY}",
-         "wss://rpc-tanenbaum.rollux.com/wss"
+         "wss://rpc-tanenbaum.rollux.com/wss",
+         "https://rollux.rpc.tanenbaum.io",
+         "wss://rollux.rpc.tanenbaum.io/wss"
       ],
       "shortName" : "tsys-rollux",
       "slip44" : 1
@@ -31203,28 +31306,28 @@
       "slip44" : 1
    },
    {
-      "chain" : "ETHF",
+      "chain" : "DIS",
       "chainId" : 513100,
       "explorers" : [
          {
-            "name" : "etherfair",
+            "name" : "DisChain",
             "standard" : "EIP3091",
-            "url" : "https://www.oklink.com/ethf"
+            "url" : "https://www.oklink.com/dis"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://etherfair.org",
-      "name" : "ethereum Fair",
+      "infoURL" : "https://dischain.xyz",
+      "name" : "DisChain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "EthereumFair",
-         "symbol" : "ETHF"
+         "name" : "DisChain",
+         "symbol" : "DIS"
       },
       "networkId" : 513100,
       "rpc" : [
-         "https://rpc.etherfair.org"
+         "https://rpc.dischain.xyz"
       ],
-      "shortName" : "ethf"
+      "shortName" : "dis"
    },
    {
       "chain" : "ETH",
@@ -31718,6 +31821,80 @@
          "wss://rpc.octa.space"
       ],
       "shortName" : "octa"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 810180,
+      "explorers" : [
+         {
+            "icon" : "zklink-nova",
+            "name" : "zkLink Nova Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.zklink.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zklink-nova",
+      "infoURL" : "https://zklink.io",
+      "name" : "zkLink Nova Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 810180,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://portal.zklink.io"
+            }
+         ],
+         "chain" : "eip155-59144",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.zklink.io",
+         "wss://rpc.zklink.io"
+      ],
+      "shortName" : "zklink-nova",
+      "slip44" : 1
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 810182,
+      "explorers" : [
+         {
+            "icon" : "zklink-nova",
+            "name" : "zkLink Nova Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://goerli.explorer.zklink.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zklink-nova",
+      "infoURL" : "https://zklink.io",
+      "name" : "zkLink Nova Goerli Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 810182,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://goerli.portal.zklink.io"
+            }
+         ],
+         "chain" : "eip155-59140",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://goerli.rpc.zklink.io",
+         "wss://goerli.rpc.zklink.io"
+      ],
+      "shortName" : "zklink-nova-goerli",
+      "slip44" : 1
    },
    {
       "chain" : "CURVE",
@@ -32682,7 +32859,7 @@
       "chainId" : 6038361,
       "explorers" : [
          {
-            "name" : "Blockscout zKyoto chain explorer",
+            "name" : "Blockscout zKyoto explorer",
             "standard" : "EIP3091",
             "url" : "https://astar-zkyoto.blockscout.com"
          }
@@ -32714,7 +32891,6 @@
          "https://rpc.zkyoto.gelato.digital"
       ],
       "shortName" : "azkyt",
-      "status" : "incubating",
       "title" : "Astar zkEVM Testnet zKyoto"
    },
    {
@@ -33725,11 +33901,36 @@
          "symbol" : "ATN"
       },
       "networkId" : 65100001,
+      "rpc" : [],
+      "shortName" : "piccadilly-01",
+      "slip44" : 1,
+      "status" : "deprecated"
+   },
+   {
+      "chain" : "AUT",
+      "chainId" : 65100002,
+      "explorers" : [
+         {
+            "name" : "autonity-blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://piccadilly.autonity.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "autonity",
+      "infoURL" : "https://autonity.org/",
+      "name" : "Autonity Piccadilly (Sumida) Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Piccadilly Auton",
+         "symbol" : "ATN"
+      },
+      "networkId" : 65100002,
       "rpc" : [
          "https://rpc1.piccadilly.autonity.org/",
          "wss://rpc1.piccadilly.autonity.org/ws/"
       ],
-      "shortName" : "piccadilly-01",
+      "shortName" : "piccadilly-02",
       "slip44" : 1
    },
    {

@@ -1,6 +1,6 @@
 {
   "name": "@raiddotfarm/get-chain-name",
-  "version": "0.1.100",
+  "version": "0.1.101",
   "main": "index.js",
   "scripts": {
     "test": "node tests/test.js"

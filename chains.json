@@ -3811,6 +3811,50 @@
       "shortName" : "PHI"
    },
    {
+      "chain" : "SETH",
+      "chainId" : 145,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.soraai.bot"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "ethereum",
+      "infoURL" : "https://soraai.bot",
+      "name" : "SoraAI Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SoraETH",
+         "symbol" : "SETH"
+      },
+      "networkId" : 145,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.soraai.bot"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-testnet.soraai.bot"
+      ],
+      "shortName" : "SETH",
+      "slip44" : 1
+   },
+   {
       "chain" : "ShimmerEVM",
       "chainId" : 148,
       "explorers" : [
@@ -8658,7 +8702,7 @@
       "faucets" : [],
       "icon" : "meer",
       "infoURL" : "https://github.com/Qitmeer",
-      "name" : "Qitmeer",
+      "name" : "Qitmeer Network Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Qitmeer",
@@ -9023,6 +9067,41 @@
       ],
       "shortName" : "wan",
       "slip44" : 5718350
+   },
+   {
+      "chain" : "MAXI",
+      "chainId" : 898,
+      "explorers" : [
+         {
+            "name" : "Maxi Chain Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.maxi.network"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.maxi.network"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "maxi",
+      "infoURL" : "https://maxi.network",
+      "name" : "MAXI Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MAXICOIN",
+         "symbol" : "MAXI"
+      },
+      "networkId" : 898,
+      "rpc" : [
+         "https://rpc-testnet.maxi.network"
+      ],
+      "shortName" : "maxi-testnet"
    },
    {
       "chain" : "GAR",
@@ -20828,6 +20907,33 @@
       "shortName" : "tmy"
    },
    {
+      "chain" : "IOTA EVM",
+      "chainId" : 8822,
+      "explorers" : [
+         {
+            "icon" : "iotaevm",
+            "name" : "explorer",
+            "standard" : "EIP3091",
+            "url" : "https://iota-evm.blockscout.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "iotaevm",
+      "infoURL" : "https://www.iota.org",
+      "name" : "IOTA EVM",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "IOTA",
+         "symbol" : "IOTA"
+      },
+      "networkId" : 8822,
+      "rpc" : [
+         "https://json-rpc.evm.iotaledger.net"
+      ],
+      "shortName" : "iotaevm",
+      "title" : "IOTA EVM"
+   },
+   {
       "chain" : "MARO Blockchain",
       "chainId" : 8848,
       "explorers" : [
@@ -21318,7 +21424,9 @@
       },
       "networkId" : 9025,
       "rpc" : [
-         "https://rpc-nodes.nexablockscan.io"
+         "https://rpc-nodes.nexablockscan.io",
+         "wss://wss-nodes.nexablockscan.io",
+         "https://rpc-nodes-delta.nexablockscan.io"
       ],
       "shortName" : "Nexa"
    },
@@ -26178,6 +26286,32 @@
       "shortName" : "AutobahnNetwork"
    },
    {
+      "chain" : "SWP",
+      "chainId" : 45454,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://swamps-explorer.tc.l2aas.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "swamps",
+      "infoURL" : "https://www.swamps.fi",
+      "name" : "Swamps L2",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SWP",
+         "symbol" : "SWP"
+      },
+      "networkId" : 45454,
+      "rpc" : [
+         "https://swamps.tc.l2aas.com"
+      ],
+      "shortName" : "SWP"
+   },
+   {
       "chain" : "DEE",
       "chainId" : 45510,
       "explorers" : [
@@ -28129,6 +28263,35 @@
       "title" : "Polygon Testnet Mumbai"
    },
    {
+      "chain" : "Polygon",
+      "chainId" : 80002,
+      "explorers" : [
+         {
+            "name" : "polygonamoy",
+            "standard" : "EIP3091",
+            "url" : "https://www.oklink.com/amoy"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.polygon.technology/"
+      ],
+      "icon" : "polygon",
+      "infoURL" : "https://polygon.technology/",
+      "name" : "Amoy",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MATIC",
+         "symbol" : "MATIC"
+      },
+      "networkId" : 80002,
+      "rpc" : [
+         "https://rpc-amoy.polygon.technology"
+      ],
+      "shortName" : "polygonamoy",
+      "slip44" : 1,
+      "title" : "Polygon Amoy Testnet"
+   },
+   {
       "chain" : "Berachain Artio",
       "chainId" : 80085,
       "explorers" : [
@@ -29283,6 +29446,40 @@
          "https://gtn.stabilityprotocol.com"
       ],
       "shortName" : "stabilityprotocol"
+   },
+   {
+      "chain" : "CTC",
+      "chainId" : 102031,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://creditcoin-testnet.blockscout.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "creditcoin",
+      "infoURL" : "https://creditcoin.org",
+      "name" : "Creditcoin Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet CTC",
+         "symbol" : "tCTC"
+      },
+      "networkId" : 102031,
+      "rpc" : [
+         "https://rpc.cc3-testnet.creditcoin.network"
+      ],
+      "shortName" : "ctctest"
    },
    {
       "chain" : "crystal",
@@ -34524,6 +34721,50 @@
          "https://rpc.testnet.frame.xyz/http"
       ],
       "shortName" : "frametest",
+      "slip44" : 1
+   },
+   {
+      "chain" : "HETH",
+      "chainId" : 77787778,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://test.0xhashscan.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "ethereum",
+      "infoURL" : "https://0xhash.io",
+      "name" : "0xHash Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "0xHash",
+         "symbol" : "HETH"
+      },
+      "networkId" : 77787778,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://app.optimism.io/bridge/deposit"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-test.0xhash.io"
+      ],
+      "shortName" : "HETH",
       "slip44" : 1
    },
    {

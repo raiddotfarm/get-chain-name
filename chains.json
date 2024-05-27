@@ -1730,11 +1730,8 @@
       "rpc" : [
          "https://etc.rivet.link",
          "https://besu-at.etc-network.info",
-         "https://besu-de.etc-network.info",
          "https://geth-at.etc-network.info",
-         "https://geth-de.etc-network.info",
          "https://etc.etcdesktop.com",
-         "https://rpc.etcinscribe.com",
          "https://etc.mytokenpocket.vip"
       ],
       "shortName" : "etc",
@@ -3798,6 +3795,25 @@
       "shortName" : "woop"
    },
    {
+      "chain" : "Eter",
+      "chainId" : 140,
+      "faucets" : [],
+      "icon" : "eternal",
+      "infoURL" : "https://eternalcoin.io",
+      "name" : "EternalCoin Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Eternal",
+         "symbol" : "Eter"
+      },
+      "networkId" : 140,
+      "rpc" : [
+         "https://mainnet.eternalcoin.io/v1",
+         "ws://mainnet.eternalcoin.io/v1/ws"
+      ],
+      "shortName" : "Eter"
+   },
+   {
       "chain" : "OPENPIECE",
       "chainId" : 141,
       "explorers" : [
@@ -4552,7 +4568,9 @@
       },
       "networkId" : 185,
       "rpc" : [
-         "https://rpc.mintchain.io"
+         "https://rpc.mintchain.io",
+         "https://global.rpc.mintchain.io",
+         "https://asia.rpc.mintchain.io"
       ],
       "shortName" : "mint"
    },
@@ -9061,7 +9079,12 @@
       },
       "networkId" : 721,
       "rpc" : [
-         "https://rpc.lycanchain.com/"
+         "https://rpc.lycanchain.com/",
+         "https://us-east.lycanchain.com",
+         "https://us-west.lycanchain.com",
+         "https://eu-north.lycanchain.com",
+         "https://eu-west.lycanchain.com",
+         "https://asia-southeast.lycanchain.com"
       ],
       "shortName" : "LYC"
    },
@@ -13549,6 +13572,51 @@
       "slip44" : 1620
    },
    {
+      "chain" : "Gravity",
+      "chainId" : 1625,
+      "explorers" : [
+         {
+            "name" : "Gravity Alpha Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.gravity.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP1108"
+         }
+      ],
+      "icon" : "gravity",
+      "infoURL" : "https://gravity.xyz",
+      "name" : "Gravity Alpha Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gravity",
+         "symbol" : "G."
+      },
+      "networkId" : 1625,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.gravity.xyz"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.gravity.xyz"
+      ],
+      "shortName" : "gravity"
+   },
+   {
       "chain" : "btachain",
       "chainId" : 1657,
       "faucets" : [],
@@ -14965,6 +15033,31 @@
       ],
       "shortName" : "edx",
       "slip44" : 1
+   },
+   {
+      "chain" : "Sanko",
+      "chainId" : 1996,
+      "explorers" : [
+         {
+            "name" : "Sanko Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.sanko.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "sanko",
+      "infoURL" : "https://sanko.xyz/",
+      "name" : "Sanko",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DMT",
+         "symbol" : "DMT"
+      },
+      "networkId" : 1996,
+      "rpc" : [
+         "https://mainnet.sanko.xyz"
+      ],
+      "shortName" : "Sanko"
    },
    {
       "chain" : "KYOTO",
@@ -18256,6 +18349,24 @@
       "shortName" : "w3q-g"
    },
    {
+      "chain" : "EthStorage",
+      "chainId" : 3335,
+      "faucets" : [],
+      "infoURL" : "https://ethstorage.io/",
+      "name" : "EthStorage Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 3335,
+      "rpc" : [
+         "http://mainnet.ethstorage.io:9540"
+      ],
+      "shortName" : "es-m",
+      "slip44" : 1
+   },
+   {
       "chain" : "PRB",
       "chainId" : 3400,
       "explorers" : [
@@ -18435,6 +18546,23 @@
       ],
       "shortName" : "pando-testnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "TYCON",
+      "chainId" : 3630,
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "Tycooncoin",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Tycooncoin",
+         "symbol" : "TYCO"
+      },
+      "networkId" : 3630,
+      "rpc" : [
+         "https://mainnet-rpc.tycoscan.com"
+      ],
+      "shortName" : "TYCON"
    },
    {
       "chain" : "BOTANIX",
@@ -19172,6 +19300,36 @@
          "https://x1-fastnet.xen.network"
       ],
       "shortName" : "x1-fastnet",
+      "slip44" : 1
+   },
+   {
+      "chain" : "CBR",
+      "chainId" : 4040,
+      "explorers" : [
+         {
+            "icon" : "cbr",
+            "name" : "Carbonium Network tesnet Explorer",
+            "standard" : "none",
+            "url" : "https://testnet.carboniumscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://getfaucet.carbonium.network"
+      ],
+      "icon" : "cbr",
+      "infoURL" : "https://carbonium.network",
+      "name" : "Carbonium Testnet Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Carbonium",
+         "symbol" : "tCBR"
+      },
+      "networkId" : 4040,
+      "rpc" : [
+         "https://rpc-dev.carbonium.network/",
+         "https://server-testnet.carbonium.network"
+      ],
+      "shortName" : "tcbr",
       "slip44" : 1
    },
    {
@@ -21933,6 +22091,33 @@
       "shortName" : "STANDm"
    },
    {
+      "chain" : "Pools",
+      "chainId" : 6868,
+      "explorers" : [
+         {
+            "icon" : "POOLS",
+            "name" : "poolsscan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.poolsmobility.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "POOLS",
+      "infoURL" : "https://www.poolschain.org",
+      "name" : "Pools Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "POOLS Native Token",
+         "symbol" : "POOLS"
+      },
+      "networkId" : 6868,
+      "rpc" : [
+         "https://rpc.poolsmobility.com"
+      ],
+      "shortName" : "POOLS",
+      "slip44" : 6868
+   },
+   {
       "chain" : "Tomb Chain",
       "chainId" : 6969,
       "explorers" : [
@@ -24011,6 +24196,118 @@
       "shortName" : "jbc"
    },
    {
+      "chain" : "ALG",
+      "chainId" : 8911,
+      "explorers" : [
+         {
+            "icon" : "alg",
+            "name" : "algscan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.algen.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "alg",
+      "infoURL" : "https://www.algen.network",
+      "name" : "Algen",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ALG",
+         "symbol" : "ALG"
+      },
+      "networkId" : 8911,
+      "rpc" : [
+         "https://rpc.algen.network"
+      ],
+      "shortName" : "alg"
+   },
+   {
+      "chain" : "ALG",
+      "chainId" : 8912,
+      "explorers" : [
+         {
+            "icon" : "alg",
+            "name" : "algscan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.test.algen.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "alg",
+      "infoURL" : "https://www.algen.network",
+      "name" : "Algen Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ALG",
+         "symbol" : "ALG"
+      },
+      "networkId" : 8912,
+      "rpc" : [
+         "https://rpc.test.algen.network"
+      ],
+      "shortName" : "algTest"
+   },
+   {
+      "chain" : "ALG L2",
+      "chainId" : 8921,
+      "explorers" : [
+         {
+            "icon" : "algl2",
+            "name" : "algl2scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.alg2.algen.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "algl2",
+      "infoURL" : "https://www.algen.network",
+      "name" : "Algen Layer2",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ALG",
+         "symbol" : "ALG"
+      },
+      "networkId" : 8921,
+      "parent" : {
+         "chain" : "eip155-8911",
+         "type" : "shard"
+      },
+      "rpc" : [
+         "https://rpc.alg2.algen.network"
+      ],
+      "shortName" : "algl2"
+   },
+   {
+      "chain" : "ALG L2",
+      "chainId" : 8922,
+      "explorers" : [
+         {
+            "icon" : "algl2",
+            "name" : "algl2scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.alg2-test.algen.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "algl2",
+      "infoURL" : "https://www.algen.network",
+      "name" : "Algen Layer2 Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ALG",
+         "symbol" : "ALG"
+      },
+      "networkId" : 8922,
+      "parent" : {
+         "chain" : "eip155-8921",
+         "type" : "shard"
+      },
+      "rpc" : [
+         "https://rpc.alg2-test.algen.network"
+      ],
+      "shortName" : "algl2Test"
+   },
+   {
       "chain" : "GMMT",
       "chainId" : 8989,
       "explorers" : [
@@ -25269,6 +25566,31 @@
          "https://node.0xtchain.com"
       ],
       "shortName" : "0xt"
+   },
+   {
+      "chain" : "TAO EVM",
+      "chainId" : 10321,
+      "explorers" : [
+         {
+            "name" : "TAO Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://taoscan.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "taoevmIcon",
+      "infoURL" : "https://taoevm.io",
+      "name" : "TAO EVM Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TAO",
+         "symbol" : "TAO"
+      },
+      "networkId" : 10321,
+      "rpc" : [
+         "https://rpc.taoevm.io"
+      ],
+      "shortName" : "TAOm"
    },
    {
       "chain" : "TAO EVM",
@@ -27768,6 +28090,33 @@
          "https://rpc.dcpay.io"
       ],
       "shortName" : "DCPm"
+   },
+   {
+      "chain" : "DCpay",
+      "chainId" : 21224,
+      "explorers" : [
+         {
+            "name" : "DCpay Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.dcpay.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.dcpay.io"
+      ],
+      "icon" : "dcpayIcon",
+      "infoURL" : "https://dcpay.io",
+      "name" : "DCpay Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DCP",
+         "symbol" : "DCP"
+      },
+      "networkId" : 21224,
+      "rpc" : [
+         "https://testnet-rpc.dcpay.io"
+      ],
+      "shortName" : "DCPt"
    },
    {
       "chain" : "CENNZnet",
@@ -33278,6 +33627,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "inoai",
       "infoURL" : "https://inoai.info",
       "name" : "Inoai Network",
       "nativeCurrency" : {
@@ -33760,6 +34110,25 @@
          "https://node.greenchain.app/rpc/"
       ],
       "shortName" : "greenchain"
+   },
+   {
+      "chain" : "Ebi",
+      "chainId" : 98881,
+      "faucets" : [],
+      "infoURL" : "https://ebi.xyz",
+      "name" : "Ebi Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 98881,
+      "rpc" : [
+         "https://rpc.ebi.xyz"
+      ],
+      "shortName" : "ebi",
+      "status" : "incubating",
+      "title" : "Ebi Chain"
    },
    {
       "chain" : "$EL",
@@ -36648,7 +37017,7 @@
             "icon" : "bitfinity",
             "name" : "Bitfinity Mainnet Block Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.testnet.bitfinity.network"
+            "url" : "https://explorer.mainnet.bitfinity.network"
          }
       ],
       "faucets" : [],
@@ -36713,6 +37082,32 @@
          "https://testnet.bitfinity.network"
       ],
       "shortName" : "bitfinity-testnet"
+   },
+   {
+      "chain" : "LAVITA",
+      "chainId" : 360890,
+      "explorers" : [
+         {
+            "icon" : "lavita",
+            "name" : "LAVITA Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://tsub360890-explorer.thetatoken.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "lavita",
+      "infoURL" : "https://www.lavita.ai",
+      "name" : "LAVITA Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "vTFUEL",
+         "symbol" : "vTFUEL"
+      },
+      "networkId" : 360890,
+      "rpc" : [
+         "https://tsub360890-eth-rpc.thetatoken.org/rpc"
+      ],
+      "shortName" : "lavita-mainnet"
    },
    {
       "chain" : "DS2",
@@ -42876,5 +43271,39 @@
       ],
       "shortName" : "dchaint",
       "title" : "DCHAIN Testnet"
+   },
+   {
+      "chain" : "dchainmainnet",
+      "chainId" : 2716446429837000,
+      "explorers" : [
+         {
+            "name" : "dchain scan",
+            "standard" : "EIP3091",
+            "url" : "https://dchain-2716446429837000-1.sagaexplorer.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "dchainmainnet",
+      "infoURL" : "https://www.dchain.foundation/",
+      "name" : "DCHAIN",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 2716446429837000,
+      "rpc" : [
+         "https://dchain-2716446429837000-1.jsonrpc.sagarpc.io"
+      ],
+      "shortName" : "dchainmainnet",
+      "title" : "DCHAIN Mainnet"
    }
 ]

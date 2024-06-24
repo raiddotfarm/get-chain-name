@@ -6966,6 +6966,22 @@
       "shortName" : "TSC"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 360,
+      "faucets" : [],
+      "infoURL" : "https://shape.us",
+      "name" : "Shape",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 360,
+      "rpc" : [],
+      "shortName" : "shape",
+      "status" : "incubating"
+   },
+   {
       "chain" : "Theta",
       "chainId" : 361,
       "explorers" : [
@@ -7847,6 +7863,22 @@
          "https://mainnet-rpc5.areon.network"
       ],
       "shortName" : "area"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 480,
+      "faucets" : [],
+      "infoURL" : "https://worldcoin.org",
+      "name" : "World Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 480,
+      "rpc" : [],
+      "shortName" : "wc",
+      "status" : "incubating"
    },
    {
       "chain" : "RUPX",
@@ -10793,6 +10825,31 @@
       "shortName" : "memochain"
    },
    {
+      "chain" : "BinaryChain",
+      "chainId" : 987,
+      "explorers" : [
+         {
+            "name" : "BinaryChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.binarychain.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "binary",
+      "infoURL" : "https://binarychain.org",
+      "name" : "BinaryChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BINARY",
+         "symbol" : "BNRY"
+      },
+      "networkId" : 987,
+      "rpc" : [
+         "https://rpc.binarychain.org"
+      ],
+      "shortName" : "binary"
+   },
+   {
       "chain" : "TOP",
       "chainId" : 989,
       "explorers" : [
@@ -12256,6 +12313,33 @@
          "https://dataseed.iorachain.com"
       ],
       "shortName" : "iora"
+   },
+   {
+      "chain" : "CuckooAI",
+      "chainId" : 1200,
+      "explorers" : [
+         {
+            "name" : "Cuckoo Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet-scan.cuckoo.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "cuckoo-ai",
+      "infoURL" : "https://cuckoo.network",
+      "name" : "Cuckoo Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CuckooAI",
+         "symbol" : "CAI"
+      },
+      "networkId" : 1200,
+      "rpc" : [
+         "https://mainnet-rpc.cuckoo.network",
+         "wss://mainnet-rpc.cuckoo.network"
+      ],
+      "shortName" : "cai",
+      "title" : "Cuckoo Chain"
    },
    {
       "chain" : "Evanesco Testnet",
@@ -15460,6 +15544,36 @@
          "https://mainnet.sanko.xyz"
       ],
       "shortName" : "Sanko"
+   },
+   {
+      "chain" : "KYOTO",
+      "chainId" : 1997,
+      "explorers" : [
+         {
+            "name" : "Kyotoscan",
+            "standard" : "EIP3091",
+            "url" : "https://kyotoscan.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://kyotoprotocol.io",
+      "name" : "Kyoto",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Kyoto",
+         "symbol" : "KYOTO"
+      },
+      "networkId" : 1997,
+      "rpc" : [
+         "https://rpc.kyotochain.io"
+      ],
+      "shortName" : "kyoto",
+      "slip44" : 1
    },
    {
       "chain" : "KYOTO",
@@ -18984,6 +19098,33 @@
          "https://testnet-rpc.layeredge.io"
       ],
       "shortName" : "LayerEdge-testnet"
+   },
+   {
+      "chain" : "GTC",
+      "chainId" : 3490,
+      "explorers" : [
+         {
+            "icon" : "gtc",
+            "name" : "GTCScan Explorer",
+            "standard" : "none",
+            "url" : "https://gtcscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "gtc",
+      "infoURL" : "https://gtcscan.io/",
+      "name" : "GTCSCAN",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GTC",
+         "symbol" : "GTC"
+      },
+      "networkId" : 3490,
+      "rpc" : [
+         "https://gtc-dataseed.gtcscan.io/"
+      ],
+      "shortName" : "gtc",
+      "slip44" : 1
    },
    {
       "chain" : "PRB",
@@ -26006,6 +26147,33 @@
       "shortName" : "IMP"
    },
    {
+      "chain" : "BinaryChain",
+      "chainId" : 9876,
+      "explorers" : [
+         {
+            "name" : "BinaryChain Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.binarychain.org"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.testnet.binarychain.org"
+      ],
+      "icon" : "binary",
+      "infoURL" : "https://binarychain.org",
+      "name" : "BinaryChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BINARY",
+         "symbol" : "BNRY"
+      },
+      "networkId" : 9876,
+      "rpc" : [
+         "https://rpctestnet.binarychain.org"
+      ],
+      "shortName" : "binarytestnet"
+   },
+   {
       "chain" : "Dogelayer",
       "chainId" : 9888,
       "explorers" : [
@@ -27180,6 +27348,30 @@
       ],
       "shortName" : "SRDXt",
       "slip44" : 1
+   },
+   {
+      "chain" : "Artela",
+      "chainId" : 11822,
+      "explorers" : [
+         {
+            "name" : "ArtelaScan",
+            "standard" : "EIP3091",
+            "url" : "https://betanet-scan.artela.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://artela.network/",
+      "name" : "Artela Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ART",
+         "symbol" : "ART"
+      },
+      "networkId" : 11822,
+      "rpc" : [
+         "https://betanet-rpc1.artela.network"
+      ],
+      "shortName" : "Artela"
    },
    {
       "chain" : "Santiment Intelligence Network DEPRECATED",
@@ -30939,6 +31131,33 @@
       ],
       "shortName" : "zil-testnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "ZIL",
+      "chainId" : 33103,
+      "explorers" : [
+         {
+            "name" : "Zilliqa 2 EVM proto-testnet explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.zq2-prototestnet.zilliqa.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.zq2-prototestnet.zilliqa.com"
+      ],
+      "icon" : "zilliqa",
+      "infoURL" : "https://www.zilliqa.com/",
+      "name" : "Zilliqa 2 EVM proto-testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zilliqa",
+         "symbol" : "ZIL"
+      },
+      "networkId" : 33103,
+      "rpc" : [
+         "https://api.zq2-prototestnet.zilliqa.com"
+      ],
+      "shortName" : "zq2-proto-testnet"
    },
    {
       "chain" : "NGL",
@@ -34702,7 +34921,9 @@
       },
       "networkId" : 80084,
       "rpc" : [
-         "https://bartio.rpc.berachain.com"
+         "https://bartio.rpc.berachain.com",
+         "https://bera-testnet.nodeinfra.com",
+         "https://bartio.rpc.b-harvest.io"
       ],
       "shortName" : "berachainbArtio"
    },
@@ -39452,6 +39673,39 @@
       "shortName" : "oc"
    },
    {
+      "chain" : "TATC",
+      "chainId" : 490000,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "astral",
+            "standard" : "EIP3091",
+            "url" : "https://nova.subspace.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://www.autonomys.net",
+      "name" : "Autonomys Testnet Nova Domain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Test Auto Coin",
+         "symbol" : "TATC"
+      },
+      "networkId" : 490000,
+      "rpc" : [
+         "https://nova-0.gemini-3h.subspace.network/ws"
+      ],
+      "shortName" : "ATN"
+   },
+   {
       "chain" : "PDA",
       "chainId" : 504441,
       "explorers" : [
@@ -41201,6 +41455,33 @@
          "https://subnets.avax.network/tiltyard/testnet/rpc"
       ],
       "shortName" : "tiltyard"
+   },
+   {
+      "chain" : "SHARECLE",
+      "chainId" : 1234567,
+      "explorers" : [
+         {
+            "icon" : "sharecle",
+            "name" : "Etherscan",
+            "standard" : "none",
+            "url" : "https://etherscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "sharecle",
+      "infoURL" : "https://sharecle.com/",
+      "name" : "Sharecle Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SHARECLE COIN",
+         "symbol" : "SHR"
+      },
+      "networkId" : 1234567,
+      "rpc" : [
+         "https://mainnet.sharecle.com"
+      ],
+      "shortName" : "shr",
+      "slip44" : 1
    },
    {
       "chain" : "ETH",

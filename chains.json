@@ -13085,6 +13085,24 @@
       "status" : "active"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 1228,
+      "faucets" : [],
+      "icon" : "cycle",
+      "infoURL" : "https://www.cyclenetwork.io/",
+      "name" : "Cycle Network Testnet Cuttlefish",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 1228,
+      "rpc" : [
+         "https://cuttlefish-rpc-testnet.cyclenetwork.io"
+      ],
+      "shortName" : "cyclec"
+   },
+   {
       "chain" : "EXZO",
       "chainId" : 1229,
       "explorers" : [
@@ -21117,23 +21135,25 @@
       "chainId" : 4080,
       "explorers" : [
          {
-            "name" : "tobescan",
+            "name" : "tobescan testnet",
             "standard" : "EIP3091",
-            "url" : "https://tobescan.com"
+            "url" : "https://testnet.tobescan.com"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://faucet.tobescan.com/faucet"
+      ],
       "icon" : "tobe",
       "infoURL" : "https://tobechain.net",
-      "name" : "Tobe Chain",
+      "name" : "Tobe Chain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Tobe Coin",
-         "symbol" : "TBC"
+         "symbol" : "TOBE"
       },
       "networkId" : 4080,
       "rpc" : [
-         "https://rpc.tobescan.com"
+         "https://rpc-testnet.tobescan.com"
       ],
       "shortName" : "tbc"
    },
@@ -23981,7 +24001,7 @@
       "name" : "Edge Matrix Chain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "EdgaMatrix Chain Token",
+         "name" : "Edge Matrix Chain Token",
          "symbol" : "EMC"
       },
       "networkId" : 6678,
@@ -24519,6 +24539,25 @@
    },
    {
       "chain" : "Nibiru",
+      "chainId" : 7210,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "nibiru",
+      "infoURL" : "https://nibiru.fi",
+      "name" : "Nibiru Testnet-1",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "NIBI",
+         "symbol" : "NIBI"
+      },
+      "networkId" : 7210,
+      "rpc" : [
+         "https://evm-rpc.testnet-1.nibiru.fi"
+      ],
+      "shortName" : "nibiru-testnet-1"
+   },
+   {
+      "chain" : "Nibiru",
       "chainId" : 7222,
       "explorers" : [],
       "faucets" : [],
@@ -24534,7 +24573,7 @@
       "rpc" : [
          "https://evm-rpc.devnet-3.nibiru.fi"
       ],
-      "shortName" : "nibiru"
+      "shortName" : "nibiru-devnet-3"
    },
    {
       "chain" : "tZEUS",
@@ -27858,6 +27897,36 @@
          "https://rpc.escscan.com/"
       ],
       "shortName" : "spent"
+   },
+   {
+      "chain" : "UXER",
+      "chainId" : 9966,
+      "explorers" : [
+         {
+            "icon" : "uxer",
+            "name" : "UXER TESTNET EXPLORER",
+            "standard" : "none",
+            "url" : "https://testnet.uxer.network"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.uxer.network"
+      ],
+      "icon" : "uxer",
+      "infoURL" : "https://uxer.network",
+      "name" : "UXER TESTNET NETWORK",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "UXER",
+         "symbol" : "tUXER"
+      },
+      "networkId" : 9966,
+      "rpc" : [
+         "https://dev-testnet.uxer.network",
+         "https://data-cloud-testnet.uxer.network"
+      ],
+      "shortName" : "uxer",
+      "slip44" : 1
    },
    {
       "chain" : "tMIND",
@@ -31629,6 +31698,32 @@
       "shortName" : "cennz-a"
    },
    {
+      "chain" : "LETH",
+      "chainId" : 21363,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Lestnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explore.lestnet.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "lestnet",
+      "infoURL" : "https://lestnet.org",
+      "name" : "Lestnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Lestnet Ether",
+         "symbol" : "LETH"
+      },
+      "networkId" : 21363,
+      "rpc" : [
+         "https://service.lestnet.org"
+      ],
+      "shortName" : "leth"
+   },
+   {
       "chain" : "OML",
       "chainId" : 21816,
       "explorers" : [
@@ -35253,7 +35348,7 @@
       },
       "networkId" : 54321,
       "rpc" : [
-         "http://testnet.toronet.org/rpc"
+         "https://testnet.toronet.org/rpc"
       ],
       "shortName" : "ToronetTestnet",
       "slip44" : 1
@@ -35641,6 +35736,41 @@
          "https://sepolia.publicgoods.network"
       ],
       "shortName" : "sepPGN"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 58680,
+      "explorers" : [
+         {
+            "icon" : "opside-new",
+            "name" : "LumozQuidditchTestnetInfo",
+            "standard" : "EIP3091",
+            "url" : "https://quidditch.lumoz.info"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "opside-new",
+      "infoURL" : "https://lumoz.org",
+      "name" : "Lumoz Quidditch Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Lumoz Quidditch Testnet Token",
+         "symbol" : "MOZ"
+      },
+      "networkId" : 58680,
+      "rpc" : [
+         "https://quidditch-rpc.lumoz.org"
+      ],
+      "shortName" : "Lumoz-Quidditch-Testnet",
+      "slip44" : 1
    },
    {
       "chain" : "ETH",
@@ -38753,7 +38883,7 @@
       "name" : "Edge Matrix Chain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "EdgaMatrix Chain Token",
+         "name" : "Edge Matrix Chain Token",
          "symbol" : "EMC"
       },
       "networkId" : 99876,
@@ -40258,6 +40388,29 @@
       "status" : "active"
    },
    {
+      "chain" : "FAIR",
+      "chainId" : 171000,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://xfair.ai",
+      "name" : "Fair Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FAIR",
+         "symbol" : "FAIR"
+      },
+      "networkId" : 171000,
+      "rpc" : [
+         "https://rpc-testnet.xfair.ai",
+         "wss://rpc-testnet.xfair.ai"
+      ],
+      "shortName" : "fairt"
+   },
+   {
       "chain" : "LPC",
       "chainId" : 175177,
       "explorers" : [
@@ -40869,6 +41022,34 @@
          "wss://openapi2.platon.network/ws"
       ],
       "shortName" : "platon"
+   },
+   {
+      "chain" : "Litentry",
+      "chainId" : 212013,
+      "explorers" : [
+         {
+            "name" : "litentry statescan",
+            "standard" : "none",
+            "url" : "https://litentry.statescan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "litentry",
+      "infoURL" : "https://litentry.com",
+      "name" : "Litentry",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Litentry",
+         "symbol" : "LIT"
+      },
+      "networkId" : 212013,
+      "rpc" : [
+         "https://rpc.litentry-parachain.litentry.io",
+         "wss://rpc.litentry-parachain.litentry.io",
+         "https://litentry-rpc.dwellir.com",
+         "wss://litentry-rpc.dwellir.com"
+      ],
+      "shortName" : "litentry"
    },
    {
       "chain" : "MAS",
@@ -46000,6 +46181,35 @@
       "title" : "XCAP Testnet Milvine"
    },
    {
+      "chain" : "Fluence",
+      "chainId" : 9999999,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.mainnet.fluence.dev"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://fluence.network/",
+      "name" : "Fluence",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FLT",
+         "symbol" : "FLT"
+      },
+      "networkId" : 9999999,
+      "parent" : {
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.mainnet.fluence.dev/",
+         "wss://ws.mainnet.fluence.dev/"
+      ],
+      "shortName" : "fluence"
+   },
+   {
       "chain" : "Plian",
       "chainId" : 10067275,
       "explorers" : [
@@ -46278,19 +46488,19 @@
       "status" : "deprecated"
    },
    {
-      "chain" : "NeoX",
+      "chain" : "Neo X",
       "chainId" : 12227332,
       "explorers" : [
          {
             "name" : "neox-scan",
             "standard" : "EIP3091",
-            "url" : "https://testnet.scan.banelabs.org"
+            "url" : "https://xt4scan.ngd.network"
          }
       ],
       "faucets" : [],
       "icon" : "neox",
       "infoURL" : "https://neo.org/",
-      "name" : "NeoX Testnet T4",
+      "name" : "Neo X Testnet T4",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Gas",
@@ -46933,6 +47143,40 @@
       "status" : "incubating"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 33626250,
+      "explorers" : [
+         {
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.toliman.suave.flashbots.net"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.toliman.suave.flashbots.net"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://suave-alpha.flashbots.net/toliman",
+      "name" : "Toliman Suave Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SUAVE Toliman Eth",
+         "symbol" : "TEEth"
+      },
+      "networkId" : 33626250,
+      "rpc" : [
+         "https://rpc.toliman.suave.flashbots.net"
+      ],
+      "shortName" : "suave-toliman"
+   },
+   {
       "chain" : "JOYS",
       "chainId" : 35855456,
       "faucets" : [],
@@ -47032,6 +47276,35 @@
       ],
       "shortName" : "mais",
       "slip44" : 1
+   },
+   {
+      "chain" : "Fluence Testnet",
+      "chainId" : 52164803,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.testnet.fluence.dev"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://fluence.network/",
+      "name" : "Fluence Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "tFLT",
+         "symbol" : "tFLT"
+      },
+      "networkId" : 52164803,
+      "parent" : {
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.testnet.fluence.dev/",
+         "wss://ws.testnet.fluence.dev/"
+      ],
+      "shortName" : "fluence-testnet"
    },
    {
       "chain" : "AQUA",

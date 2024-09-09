@@ -8551,17 +8551,17 @@
       "chainId" : 545,
       "explorers" : [
          {
-            "name" : "FlowScan: Testnet",
+            "name" : "FlowScan Testnet",
             "standard" : "EIP3091",
             "url" : "https://evm-testnet.flowscan.io"
          }
       ],
       "faucets" : [
-         "https://testnet-faucet.onflow.org"
+         "https://faucet.flow.com/fund-account"
       ],
       "icon" : "flowevm",
       "infoURL" : "https://developers.flow.com/evm/about",
-      "name" : "Testnet",
+      "name" : "EVM on Flow Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "FLOW",
@@ -9145,7 +9145,8 @@
       "rpc" : [
          "https://previewnet.evm.nodes.onflow.org"
       ],
-      "shortName" : "flow-previewnet"
+      "shortName" : "flow-previewnet",
+      "status" : "deprecated"
    },
    {
       "chain" : "SX",
@@ -9576,6 +9577,62 @@
       "shortName" : "fury"
    },
    {
+      "chain" : "Tucana",
+      "chainId" : 711,
+      "explorers" : [
+         {
+            "name" : "Tucana Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.tucana.zone"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "tucana",
+      "infoURL" : "https://tucana.zone",
+      "name" : "Tucana",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Tucana",
+         "symbol" : "TUC"
+      },
+      "networkId" : 711,
+      "rpc" : [
+         "https://evm-rpc.tucana.zone",
+         "wss://evm-ws.tucana.zone"
+      ],
+      "shortName" : "tuc",
+      "slip44" : 1,
+      "title" : "Tucana Testnet"
+   },
+   {
+      "chain" : "Tucana",
+      "chainId" : 712,
+      "explorers" : [
+         {
+            "name" : "Birdee-2 Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.birdee-2.tucana.zone"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "tucana",
+      "infoURL" : "https://tucana.zone",
+      "name" : "Birdee-2",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Tucana",
+         "symbol" : "TUC"
+      },
+      "networkId" : 712,
+      "rpc" : [
+         "https://evm-rpc.birdee-2.tucana.zone",
+         "wss://evm-ws.birdee-2.tucana.zone"
+      ],
+      "shortName" : "birdee-2",
+      "slip44" : 1,
+      "title" : "Tucana Testnet"
+   },
+   {
       "chain" : "VRC",
       "chainId" : 713,
       "explorers" : [
@@ -9790,15 +9847,15 @@
       "chainId" : 747,
       "explorers" : [
          {
-            "name" : "Flow Diver",
-            "standard" : "none",
-            "url" : "https://flowdiver.io"
+            "name" : "FlowScan",
+            "standard" : "EIP3091",
+            "url" : "https://evm.flowscan.io"
          }
       ],
       "faucets" : [],
       "icon" : "flowevm",
       "infoURL" : "https://developers.flow.com/evm/about",
-      "name" : "Mainnet",
+      "name" : "EVM on Flow",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "FLOW",
@@ -11013,6 +11070,33 @@
       "status" : "active"
    },
    {
+      "chain" : "Bittensor",
+      "chainId" : 945,
+      "explorers" : [
+         {
+            "icon" : "bittensor",
+            "name" : "Subtensor EVM Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://evm-testscan.dev.opentensor.ai"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bittensor",
+      "infoURL" : "https://bittensor.com/",
+      "name" : "Subtensor EVM Testnet",
+      "nativeCurrency" : {
+         "decimals" : 9,
+         "name" : "testTAO",
+         "symbol" : "TAO"
+      },
+      "networkId" : 945,
+      "rpc" : [
+         "https://evm-testnet.dev.opentensor.ai"
+      ],
+      "shortName" : "bittensor-evm-testnet",
+      "slip44" : 1005
+   },
+   {
       "chain" : "munode",
       "chainId" : 956,
       "faucets" : [],
@@ -11406,7 +11490,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "5ire Token",
-         "symbol" : "5IRE"
+         "symbol" : "5ire"
       },
       "networkId" : 995,
       "rpc" : [
@@ -11433,22 +11517,22 @@
       "shortName" : "bnc"
    },
    {
-      "chain" : "5ireChain Testnet",
+      "chain" : "5ireChain",
       "chainId" : 997,
       "explorers" : [
          {
             "icon" : "5ireChain",
-            "name" : "5ireChain Explorer",
+            "name" : "5ireChain Testnet Explorer",
             "standard" : "none",
-            "url" : "https://explorer.5ire.network"
+            "url" : "https://testnet.5irescan.io"
          }
       ],
       "faucets" : [
-         "https://explorer.5ire.network/faucet"
+         "https://testnet.5irescan.io/faucet"
       ],
       "icon" : "5ireChain",
       "infoURL" : "https://5ire.org",
-      "name" : "5ireChain Thunder",
+      "name" : "5ireChain Thunder Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "5ire Testnet Token",
@@ -11456,7 +11540,7 @@
       },
       "networkId" : 997,
       "rpc" : [
-         "https://rpc-testnet.5ire.network"
+         "https://rpc.testnet.5ire.network"
       ],
       "shortName" : "T5ire"
    },
@@ -14777,6 +14861,11 @@
             "name" : "Gravity Alpha Mainnet Explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.gravity.xyz"
+         },
+         {
+            "name" : "gscan",
+            "standard" : "EIP3091",
+            "url" : "https://gscan.xyz"
          }
       ],
       "faucets" : [],
@@ -17189,20 +17278,20 @@
       "slip44" : 1
    },
    {
-      "chain" : "Aleph Zero Testnet",
+      "chain" : "Aleph Zero",
       "chainId" : 2039,
       "explorers" : [
          {
             "icon" : "aleph",
-            "name" : "Aleph Zero Testnet",
+            "name" : "Aleph Zero",
             "standard" : "none",
-            "url" : "https://test.azero.dev/#/explorer"
+            "url" : "https://evm-explorer-testnet.alephzero.org"
          }
       ],
       "faucets" : [],
       "icon" : "aleph",
-      "infoURL" : "https://testnet.alephzero.org",
-      "name" : "Aleph Zero Testnet",
+      "infoURL" : "https://alephzero.org/",
+      "name" : "Aleph Zero",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "TZERO",
@@ -17914,6 +18003,32 @@
          "https://rpc.kanda.animechain.ai"
       ],
       "shortName" : "animechaint"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 2192,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.snaxchain.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "snax",
+      "infoURL" : "https://synthetix.io",
+      "name" : "SnaxChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 2192,
+      "rpc" : [
+         "https://mainnet.snaxchain.io"
+      ],
+      "shortName" : "snax"
    },
    {
       "chain" : "MSN",
@@ -18786,6 +18901,38 @@
       "shortName" : "hrc"
    },
    {
+      "chain" : "6DO",
+      "chainId" : 2477,
+      "explorers" : [
+         {
+            "name" : "6Degree Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.6do.world"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://6do.world",
+      "name" : "6Degree of Outreach",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "6Degree Coin",
+         "symbol" : "6DO"
+      },
+      "networkId" : 2477,
+      "rpc" : [
+         "https://rpc.6do.world"
+      ],
+      "shortName" : "6do"
+   },
+   {
       "chain" : "u2u",
       "chainId" : 2484,
       "explorers" : [
@@ -19348,7 +19495,9 @@
             "url" : "https://explorer-holesky.morphl2.io"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://morphfaucet.com/"
+      ],
       "infoURL" : "https://morphl2.io",
       "name" : "Morph Holesky",
       "nativeCurrency" : {
@@ -21313,6 +21462,32 @@
          "https://rpc-testnet.tobescan.com"
       ],
       "shortName" : "tbc"
+   },
+   {
+      "chain" : "ZRH",
+      "chainId" : 4088,
+      "explorers" : [
+         {
+            "icon" : "zeroth",
+            "name" : "Zeroth Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.zeroth.run"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zeroth",
+      "infoURL" : "https://www.zeroth.foundation",
+      "name" : "Zeroth Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRH",
+         "symbol" : "ZRH"
+      },
+      "networkId" : 4088,
+      "rpc" : [
+         "https://my.zeroth.run"
+      ],
+      "shortName" : "ZRH"
    },
    {
       "chain" : "Fastex Chain (Bahamut)",
@@ -24806,7 +24981,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "The ZEUS Token",
-         "symbol" : "ZEUS"
+         "symbol" : "ZEUSX"
       },
       "networkId" : 7244,
       "rpc" : [
@@ -28963,6 +29138,35 @@
       "slip44" : 1
    },
    {
+      "chain" : "KB",
+      "chainId" : 11000,
+      "explorers" : [
+         {
+            "name" : "KBC Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.kbcfoundation.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://kbcfoundation.com",
+      "name" : "KBC Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "KBC",
+         "symbol" : "KBC"
+      },
+      "networkId" : 11000,
+      "rpc" : [
+         "https://mainnet-rpc.kbcfoundation.com"
+      ],
+      "shortName" : "KBC"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 11011,
       "explorers" : [
@@ -30232,6 +30436,32 @@
       ],
       "shortName" : "SPS-Test",
       "slip44" : 1
+   },
+   {
+      "chain" : "Zeroth",
+      "chainId" : 14088,
+      "explorers" : [
+         {
+            "icon" : "zeroth",
+            "name" : "Zeroth Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://test-scan.zeroth.run"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zeroth",
+      "infoURL" : "https://www.zeroth.foundation",
+      "name" : "Zeroth Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zeroth",
+         "symbol" : "ZRHt"
+      },
+      "networkId" : 14088,
+      "rpc" : [
+         "https://test-my.zeroth.run"
+      ],
+      "shortName" : "ZRHt"
    },
    {
       "chain" : "EVO",
@@ -32961,6 +33191,36 @@
       "shortName" : "MCHV"
    },
    {
+      "chain" : "qChain",
+      "chainId" : 30000,
+      "explorers" : [
+         {
+            "name" : "qChain explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.qchain.kr"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "qchain",
+      "infoURL" : "https://www.qchain.kr",
+      "name" : "qChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "QCO",
+         "symbol" : "QCO"
+      },
+      "networkId" : 30000,
+      "rpc" : [
+         "https://rpc.qchain.kr"
+      ],
+      "shortName" : "qchain"
+   },
+   {
       "chain" : "PieceNetwork",
       "chainId" : 30067,
       "explorers" : [
@@ -33830,7 +34090,7 @@
       "shortName" : "mode"
    },
    {
-      "chain" : "ZEUS",
+      "chain" : "ZEUSX",
       "chainId" : 34504,
       "explorers" : [
          {
@@ -33847,13 +34107,13 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "The ZEUS Token",
-         "symbol" : "ZEUS"
+         "symbol" : "ZEUSX"
       },
       "networkId" : 34504,
       "rpc" : [
          "https://mainnet-rpc.zeuschainscan.io"
       ],
-      "shortName" : "ZEUS"
+      "shortName" : "ZEUSX"
    },
    {
       "chain" : "TARO",
@@ -35565,6 +35825,31 @@
       "shortName" : "DFK"
    },
    {
+      "chain" : "OverProtocol",
+      "chainId" : 54176,
+      "explorers" : [
+         {
+            "name" : "OverView",
+            "standard" : "EIP3091",
+            "url" : "https://view.over.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "overIcon",
+      "infoURL" : "https://docs.over.network",
+      "name" : "OverProtocol Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Over",
+         "symbol" : "OVER"
+      },
+      "networkId" : 54176,
+      "rpc" : [
+         "https://public.rpc.overprotocol.com"
+      ],
+      "shortName" : "overprotocol"
+   },
+   {
       "chain" : "TestEdge2",
       "chainId" : 54211,
       "explorers" : [
@@ -36830,7 +37115,7 @@
       },
       "networkId" : 63002,
       "rpc" : [
-         "http://rpc.tst.esync.network"
+         "https://rpc.tst.esync.network"
       ],
       "shortName" : "esync-testnet",
       "slip44" : 1,
@@ -39597,6 +39882,40 @@
    },
    {
       "chain" : "CTC",
+      "chainId" : 102030,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://creditcoin.blockscout.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "creditcoin",
+      "infoURL" : "https://creditcoin.org",
+      "name" : "Creditcoin",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CTC",
+         "symbol" : "CTC"
+      },
+      "networkId" : 102030,
+      "rpc" : [
+         "https://mainnet3.creditcoin.network"
+      ],
+      "shortName" : "ctc"
+   },
+   {
+      "chain" : "CTC",
       "chainId" : 102031,
       "explorers" : [
          {
@@ -41203,6 +41522,40 @@
       ],
       "shortName" : "tDSC",
       "slip44" : 1
+   },
+   {
+      "chain" : "DuckChain",
+      "chainId" : 202105,
+      "explorers" : [
+         {
+            "icon" : "duckchain",
+            "name" : "DuckChain Scan",
+            "standard" : "EIP3091",
+            "url" : "https://www.okx.com/web3/explorer/duckchain-testnet"
+         },
+         {
+            "icon" : "duckchain",
+            "name" : "DuckChain Scan",
+            "standard" : "EIP3091",
+            "url" : "https://www.oklink.com/duckchain-testnet"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "duckchain",
+      "infoURL" : "https://duckchain.io",
+      "name" : "DuckChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TON",
+         "symbol" : "TON"
+      },
+      "networkId" : 202105,
+      "rpc" : [
+         "https://testnet-rpc.duckchain.io",
+         "https://testnet-rpc-hk.duckchain.io"
+      ],
+      "shortName" : "Duck-Chain-Testnet",
+      "title" : "DuckChain Testnet"
    },
    {
       "chain" : "X1",
@@ -43588,6 +43941,31 @@
       "title" : "BESC Mainnet"
    },
    {
+      "chain" : "OverProtocol",
+      "chainId" : 541764,
+      "explorers" : [
+         {
+            "name" : "OverView Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://dolphin.view.over.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "overIcon",
+      "infoURL" : "https://docs.over.network",
+      "name" : "OverProtocol Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Over",
+         "symbol" : "OVER"
+      },
+      "networkId" : 541764,
+      "rpc" : [
+         "https://wallet-dolphin.rpc.over.network"
+      ],
+      "shortName" : "overprotocol-testnet"
+   },
+   {
       "chain" : "One World Chain",
       "chainId" : 552981,
       "explorers" : [
@@ -43678,6 +44056,39 @@
          "https://subnets.avax.network/eclipsecha/testnet/rpc"
       ],
       "shortName" : "eclipset"
+   },
+   {
+      "chain" : "DUSTBOY",
+      "chainId" : 555888,
+      "explorers" : [
+         {
+            "icon" : "dustboy",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://dustboy.jibl2.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "dustboy",
+      "infoURL" : "https://www.cmuccdc.org/",
+      "name" : "DustBoy IoT",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "DST"
+      },
+      "networkId" : 555888,
+      "parent" : {
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://dustboy-rpc.jibl2.com/"
+      ],
+      "shortName" : "DustBoy_IoT",
+      "slip44" : 1,
+      "status" : "active",
+      "title" : "DustBoy IoT"
    },
    {
       "chain" : "HYP",
@@ -50119,7 +50530,7 @@
          {
             "name" : "blockscout",
             "standard" : "EIP3091",
-            "url" : "https://blockscout-123420000220.raas-testnet.gelato.digital"
+            "url" : "https://blockscout.stage.fluence.dev"
          }
       ],
       "faucets" : [],
@@ -50136,8 +50547,8 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://rpc-123420000220.raas-testnet.gelato.digital/",
-         "wss://ws-123420000220.raas-testnet.gelato.digital/"
+         "https://rpc.stage.fluence.dev",
+         "wss://ws.stage.fluence.dev"
       ],
       "shortName" : "fluence-stage"
    },

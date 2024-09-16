@@ -4701,6 +4701,30 @@
       "shortName" : "water"
    },
    {
+      "chain" : "Ethernity",
+      "chainId" : 183,
+      "explorers" : [
+         {
+            "name" : "Ethernity Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://ernscan.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.ethernity.io",
+      "name" : "Ethernity Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 183,
+      "rpc" : [
+         "https://mainnet.ethernitychain.io"
+      ],
+      "shortName" : "ethernity-mainnet"
+   },
+   {
       "chain" : "Dojima",
       "chainId" : 184,
       "explorers" : [
@@ -13516,6 +13540,32 @@
       "slip44" : 1
    },
    {
+      "chain" : "Metacces Testnet",
+      "chainId" : 1260,
+      "explorers" : [
+         {
+            "icon" : "metacces",
+            "name" : "accesscan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.accesscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "metacces",
+      "infoURL" : "https://metacces.com",
+      "name" : "Metacces Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Metacces",
+         "symbol" : "ACCES"
+      },
+      "networkId" : 1260,
+      "rpc" : [
+         "https://tapi.accesscan.io"
+      ],
+      "shortName" : "ACCESt"
+   },
+   {
       "chain" : "HALO",
       "chainId" : 1280,
       "explorers" : [
@@ -14279,7 +14329,7 @@
       "faucets" : [],
       "icon" : "silicon",
       "infoURL" : "",
-      "name" : "Silicon zkEVM Sepolia Testnet",
+      "name" : "Silicon zkEVM Sepolia Testnet(Deprecated)",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Sepolia Ether",
@@ -14292,9 +14342,9 @@
          "type" : "L2"
       },
       "rpc" : [],
-      "shortName" : "silicon-sepolia-testnet",
-      "status" : "incubating",
-      "title" : "Silicon zkEVM Sepolia Testnet"
+      "shortName" : "silicon-sepolia-testnet-deprecated",
+      "status" : "deprecated",
+      "title" : "Silicon zkEVM Sepolia Testnet(Deprecated)"
    },
    {
       "chain" : "Polygon",
@@ -17479,6 +17529,32 @@
       "slip44" : 2050
    },
    {
+      "chain" : "Metacces Mainnet",
+      "chainId" : 2071,
+      "explorers" : [
+         {
+            "icon" : "metacces",
+            "name" : "accesscan",
+            "standard" : "EIP3091",
+            "url" : "https://accesscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "metacces",
+      "infoURL" : "https://metacces.com",
+      "name" : "Metacces Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Metacces",
+         "symbol" : "ACCES"
+      },
+      "networkId" : 2071,
+      "rpc" : [
+         "https://oli.accesscan.io"
+      ],
+      "shortName" : "ACCES"
+   },
+   {
       "chain" : "Qkacoin",
       "chainId" : 2077,
       "explorers" : [
@@ -18542,10 +18618,16 @@
    {
       "chain" : "Silicon",
       "chainId" : 2355,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "siliconscope",
+            "standard" : "EIP3091",
+            "url" : "https://scope.silicon.network"
+         }
+      ],
       "faucets" : [],
       "icon" : "silicon",
-      "infoURL" : "",
+      "infoURL" : "https://docs.silicon.network",
       "name" : "Silicon zkEVM",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -18554,13 +18636,23 @@
       },
       "networkId" : 2355,
       "parent" : {
-         "bridges" : [],
+         "bridges" : [
+            {
+               "url" : "https://bridge.silicon.network"
+            },
+            {
+               "url" : "https://bridge.orbitchain.io"
+            }
+         ],
          "chain" : "eip155-1",
          "type" : "L2"
       },
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.silicon.network",
+         "https://silicon-mainnet.nodeinfra.com"
+      ],
       "shortName" : "silicon-zk",
-      "status" : "incubating",
+      "status" : "active",
       "title" : "Silicon zkEVM Mainnet"
    },
    {
@@ -18919,6 +19011,7 @@
             "name" : "EIP1559"
          }
       ],
+      "icon" : "6do",
       "infoURL" : "https://6do.world",
       "name" : "6Degree of Outreach",
       "nativeCurrency" : {
@@ -24345,6 +24438,32 @@
       "shortName" : "tcyba"
    },
    {
+      "chain" : "STR",
+      "chainId" : 6667,
+      "explorers" : [
+         {
+            "icon" : "str",
+            "name" : "storscan",
+            "standard" : "none",
+            "url" : "https://scan.storchain.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "str",
+      "infoURL" : "https://storchain.io",
+      "name" : "Storchain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Storchain",
+         "symbol" : "STR"
+      },
+      "networkId" : 6667,
+      "rpc" : [
+         "https://rpc.storchain.io"
+      ],
+      "shortName" : "str"
+   },
+   {
       "chain" : "EMC",
       "chainId" : 6678,
       "explorers" : [
@@ -24604,6 +24723,31 @@
       ],
       "shortName" : "POOLS",
       "slip44" : 6868
+   },
+   {
+      "chain" : "MTT",
+      "chainId" : 6880,
+      "explorers" : [
+         {
+            "name" : "Mtt explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.mtt.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "mttnetwork",
+      "infoURL" : "https://mtt.network",
+      "name" : "Mtt Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Mtt mainnet native coin",
+         "symbol" : "MTT"
+      },
+      "networkId" : 6880,
+      "rpc" : [
+         "https://evm-rpc.mtt.network"
+      ],
+      "shortName" : "mtt-mainnet"
    },
    {
       "chain" : "LAIKA",
@@ -25899,6 +26043,41 @@
          "https://rpc.polynomial.fi"
       ],
       "shortName" : "polynomial"
+   },
+   {
+      "chain" : "iSunCoin",
+      "chainId" : 8017,
+      "explorers" : [
+         {
+            "icon" : "isuncoin",
+            "name" : "iSunCoin Explorer",
+            "standard" : "none",
+            "url" : "https://baifa.io/app/chains/8017"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "isuncoin",
+      "infoURL" : "https://isuncoin.com",
+      "name" : "iSunCoin Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ISC",
+         "symbol" : "ISC"
+      },
+      "networkId" : 8017,
+      "rpc" : [
+         "https://mainnet.isuncoin.com"
+      ],
+      "shortName" : "isc",
+      "slip44" : 8017
    },
    {
       "chain" : "MDGL",
@@ -29154,7 +29333,7 @@
          }
       ],
       "infoURL" : "https://kbcfoundation.com",
-      "name" : "KBC Chain",
+      "name" : "KB Chain",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "KBC",
@@ -33663,7 +33842,7 @@
       },
       "networkId" : 32520,
       "rpc" : [
-         "https://rpc.icecreamswap.com",
+         "https://rpc-bitgert.icecreamswap.com",
          "https://mainnet-rpc.brisescan.com",
          "https://chainrpc.com",
          "https://serverrpc.com"
@@ -34643,7 +34822,7 @@
       "shortName" : "goldx"
    },
    {
-      "chain" : "RWA",
+      "chain" : "Asset Chain",
       "chainId" : 42421,
       "explorers" : [
          {
@@ -34657,7 +34836,7 @@
       ],
       "icon" : "assetchain",
       "infoURL" : "https://docs.assetchain.org",
-      "name" : "AssetChain Testnet",
+      "name" : "Asset Chain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Real World Asset",
@@ -37223,6 +37402,31 @@
       "networkId" : 65536,
       "rpc" : [],
       "shortName" : "automatamainnet"
+   },
+   {
+      "chain" : "creatorchain",
+      "chainId" : 66665,
+      "explorers" : [
+         {
+            "name" : "creatorchainscan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.creatorchain.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "creatorchain",
+      "infoURL" : "https://docs.creatorchain.io/",
+      "name" : "Creator Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CreatorETH",
+         "symbol" : "CETH"
+      },
+      "networkId" : 66665,
+      "rpc" : [
+         "https://rpc.creatorchain.io"
+      ],
+      "shortName" : "ceth"
    },
    {
       "chain" : "JanusNetwork",
@@ -50078,6 +50282,43 @@
          "https://api.s1.ps.hmny.io"
       ],
       "shortName" : "hmy-ps-s1"
+   },
+   {
+      "chain" : "Silicon",
+      "chainId" : 1722641160,
+      "explorers" : [
+         {
+            "name" : "siliconscope-sepolia",
+            "standard" : "EIP3091",
+            "url" : "https://scope-sepolia.silicon.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "silicon",
+      "infoURL" : "https://docs.silicon.network",
+      "name" : "Silicon zkEVM Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 1722641160,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge-sepolia.silicon.network"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-sepolia.silicon.network",
+         "https://silicon-testnet.nodeinfra.com"
+      ],
+      "shortName" : "silicon-sepolia-testnet",
+      "status" : "active",
+      "title" : "Silicon zkEVM Sepolia Testnet"
    },
    {
       "chain" : "ETH",

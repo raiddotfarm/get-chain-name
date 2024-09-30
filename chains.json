@@ -7323,7 +7323,15 @@
    {
       "chain" : "ETH",
       "chainId" : 360,
+      "explorers" : [
+         {
+            "name" : "shapescan",
+            "standard" : "EIP3091",
+            "url" : "https://shapescan.xyz"
+         }
+      ],
       "faucets" : [],
+      "icon" : "shape",
       "infoURL" : "https://shape.network",
       "name" : "Shape",
       "nativeCurrency" : {
@@ -7333,10 +7341,11 @@
       },
       "networkId" : 360,
       "rpc" : [
-         "https://mainnet.shape.network"
+         "https://mainnet.shape.network",
+         "https://shape-mainnet.g.alchemy.com/public"
       ],
       "shortName" : "shape",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "Theta",
@@ -14969,6 +14978,11 @@
             "name" : "gscan",
             "standard" : "EIP3091",
             "url" : "https://gscan.xyz"
+         },
+         {
+            "name" : "OKLink",
+            "standard" : "EIP3091",
+            "url" : "https://www.oklink.com/gravity-alpha"
          }
       ],
       "faucets" : [],
@@ -16170,6 +16184,13 @@
    {
       "chain" : "tSEL",
       "chainId" : 1953,
+      "explorers" : [
+         {
+            "name" : "Selendra Portal",
+            "standard" : "none",
+            "url" : "https://portal.selendra.org"
+         }
+      ],
       "faucets" : [],
       "icon" : "selendra",
       "infoURL" : "https://selendra.org",
@@ -16181,8 +16202,7 @@
       },
       "networkId" : 1953,
       "rpc" : [
-         "https://rpc0-testnet.selendra.org",
-         "https://rpc1-testnet.selendra.org"
+         "https://rpc-testnet.selendra.org"
       ],
       "shortName" : "tSEL"
    },
@@ -16251,9 +16271,9 @@
       "chainId" : 1961,
       "explorers" : [
          {
-            "name" : "Selendra Scan",
+            "name" : "Selendra Portal",
             "standard" : "none",
-            "url" : "https://scan.selendra.org"
+            "url" : "https://portal.selendra.org"
          }
       ],
       "faucets" : [],
@@ -16267,8 +16287,8 @@
       },
       "networkId" : 1961,
       "rpc" : [
-         "https://rpc0.selendra.org",
-         "https://rpc1.selendra.org"
+         "https://rpc.selendra.org",
+         "https://rpc2.selendra.org"
       ],
       "shortName" : "SEL"
    },
@@ -24087,6 +24107,39 @@
       "shortName" : "bouncebit-mainnet"
    },
    {
+      "chain" : "BC Hyper Chain",
+      "chainId" : 6060,
+      "explorers" : [
+         {
+            "name" : "bcexplorer testnet",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.bchscan.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "bchyper",
+      "infoURL" : "https://www.versatizecoin.com/",
+      "name" : "BC Hyper Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TEST VERSATIZE COIN",
+         "symbol" : "TVTCN"
+      },
+      "networkId" : 6060,
+      "rpc" : [
+         "https://rpc.bchscan.io"
+      ],
+      "shortName" : "BCH"
+   },
+   {
       "chain" : "TresLeches",
       "chainId" : 6065,
       "explorers" : [
@@ -26506,6 +26559,33 @@
       "shortName" : "StreamuX"
    },
    {
+      "chain" : "ZCX",
+      "chainId" : 8108,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "zenchain",
+      "infoURL" : "https://zenchain.io",
+      "name" : "Zenchain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZCX",
+         "symbol" : "ZCX"
+      },
+      "networkId" : 8108,
+      "rpc" : [],
+      "shortName" : "zen",
+      "slip44" : 60,
+      "status" : "incubating"
+   },
+   {
       "chain" : "MEER",
       "chainId" : 8131,
       "explorers" : [
@@ -26885,6 +26965,44 @@
       ],
       "shortName" : "fuck",
       "title" : "The Dracones Mainnet"
+   },
+   {
+      "chain" : "ZCX",
+      "chainId" : 8408,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "zentrace",
+            "standard" : "EIP3091",
+            "url" : "https://zentrace.io"
+         }
+      ],
+      "faucets" : [
+         "https://facuet.zenchain.io"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "zenchain",
+      "infoURL" : "https://zenchain.io",
+      "name" : "Zenchain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZCX",
+         "symbol" : "ZCX"
+      },
+      "networkId" : 8408,
+      "rpc" : [
+         "https://zenchain-testnet.api.onfinality.io/public",
+         "wss://zenchain-testnet.api.onfinality.io/public-ws"
+      ],
+      "shortName" : "zentest",
+      "slip44" : 60
    },
    {
       "chain" : "THAT",
@@ -29628,6 +29746,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "shapeTestnet",
       "infoURL" : "https://shape.network",
       "name" : "Shape Sepolia Testnet",
       "nativeCurrency" : {
@@ -34082,23 +34201,32 @@
       "shortName" : "tmthn"
    },
    {
-      "chain" : "FIL",
+      "chain" : "WirexPay",
       "chainId" : 31415,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "Wirex Pay Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.wirexpaychain.com"
+         }
+      ],
       "faucets" : [],
-      "icon" : "filecoin",
-      "infoURL" : "https://filecoin.io",
-      "name" : "Filecoin - Wallaby testnet",
+      "icon" : "wpay",
+      "infoURL" : "https://docs.wirexpaychain.com/tech/wirex-pay-chain",
+      "name" : "Wirex Pay Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "testnet filecoin",
-         "symbol" : "tFIL"
+         "name" : "Ethereum",
+         "symbol" : "ETH"
       },
       "networkId" : 31415,
-      "rpc" : [],
-      "shortName" : "filecoin-wallaby",
-      "slip44" : 1,
-      "status" : "deprecated"
+      "redFlags" : [
+         "reusedChainId"
+      ],
+      "rpc" : [
+         "https://rpc.wirexpaychain.com"
+      ],
+      "shortName" : "wpay"
    },
    {
       "chain" : "Xchain",
@@ -35213,6 +35341,33 @@
          "https://mainnet-rpc.goldxchain.io"
       ],
       "shortName" : "goldx"
+   },
+   {
+      "chain" : "Asset Chain",
+      "chainId" : 42420,
+      "explorers" : [
+         {
+            "name" : "Asset Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.assetchain.org"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.assetchain.org"
+      ],
+      "icon" : "assetchain",
+      "infoURL" : "https://docs.assetchain.org",
+      "name" : "Asset Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Real World Asset",
+         "symbol" : "RWA"
+      },
+      "networkId" : 42420,
+      "rpc" : [
+         "https://mainnet-rpc.assetchain.org"
+      ],
+      "shortName" : "assetchain"
    },
    {
       "chain" : "Asset Chain",
@@ -36501,6 +36656,35 @@
          "wss://rpc.titan.tokamak.network"
       ],
       "shortName" : "teth"
+   },
+   {
+      "chain" : "Superposition",
+      "chainId" : 55244,
+      "explorers" : [
+         {
+            "name" : "Superposition Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.superposition.so"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://superposition.so",
+      "name" : "Superposition",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 55244,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-42161",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.superposition.so"
+      ],
+      "shortName" : "spn"
    },
    {
       "chain" : "Photon",
@@ -47900,6 +48084,38 @@
          "wss://ws.mainnet.fluence.dev/"
       ],
       "shortName" : "fluence"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 10058111,
+      "faucets" : [],
+      "infoURL" : "https://spotlightchain.com/",
+      "name" : "Spotlight",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 10058111,
+      "rpc" : [],
+      "shortName" : "spotlight",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 10058112,
+      "faucets" : [],
+      "infoURL" : "https://spotlightchain.com/",
+      "name" : "Spotlight Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 10058112,
+      "rpc" : [],
+      "shortName" : "spotlightsep",
+      "status" : "incubating"
    },
    {
       "chain" : "Plian",

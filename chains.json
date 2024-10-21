@@ -4727,6 +4727,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "ethernity",
       "infoURL" : "https://www.ethernity.io",
       "name" : "Ethernity",
       "nativeCurrency" : {
@@ -11294,6 +11295,47 @@
       "shortName" : "ydk"
    },
    {
+      "chain" : "Haust",
+      "chainId" : 938,
+      "explorers" : [
+         {
+            "icon" : "haust",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://haust-network-blockscout.eu-north-2.gateway.fm"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "haust",
+      "infoURL" : "https://haust.network/",
+      "name" : "Haust Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "HAUST",
+         "symbol" : "HAUST"
+      },
+      "networkId" : 938,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://haust-network-bridge.eu-north-2.gateway.fm"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://haust-network-rpc.eu-north-2.gateway.fm"
+      ],
+      "shortName" : "haust",
+      "title" : "Haust Mainnet"
+   },
+   {
       "chain" : "tPLS",
       "chainId" : 940,
       "faucets" : [
@@ -11977,14 +12019,14 @@
       "chainId" : 1001,
       "explorers" : [
          {
-            "name" : "Klaytnscope",
+            "name" : "Kaiascope",
             "standard" : "EIP3091",
-            "url" : "https://baobab.klaytnscope.com"
+            "url" : "https://kairos.kaiascope.com"
          },
          {
-            "name" : "Klaytnfinder",
+            "name" : "Kaiascan",
             "standard" : "EIP3091",
-            "url" : "https://baobab.klaytnfinder.io"
+            "url" : "https://kairos.kaiascan.io"
          }
       ],
       "faucets" : [
@@ -11995,7 +12037,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "KAIA",
-         "symbol" : "KLAY"
+         "symbol" : "KAIA"
       },
       "networkId" : 1001,
       "rpc" : [
@@ -18527,6 +18569,39 @@
          "https://rpc.kanda.animechain.ai"
       ],
       "shortName" : "animechaint"
+   },
+   {
+      "chain" : "Game7",
+      "chainId" : 2187,
+      "explorers" : [
+         {
+            "icon" : "game7",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet.game7.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "game7",
+      "infoURL" : "https://game7.io/",
+      "name" : "Game7",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "G7",
+         "symbol" : "G7"
+      },
+      "networkId" : 2187,
+      "rpc" : [
+         "https://mainnet-rpc.game7.io",
+         "wss://mainnet-rpc.game7.io"
+      ],
+      "shortName" : "g7",
+      "title" : "Game7"
    },
    {
       "chain" : "ETH",
@@ -25714,10 +25789,10 @@
       "faucets" : [],
       "icon" : "exsat",
       "infoURL" : "https://exsat.network/",
-      "name" : "exSat Network",
+      "name" : "exSat Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "BTC",
+         "name" : "Bitcoin",
          "symbol" : "BTC"
       },
       "networkId" : 7200,
@@ -27226,14 +27301,14 @@
       "chainId" : 8217,
       "explorers" : [
          {
-            "name" : "Klaytnscope",
+            "name" : "Kaiascope",
             "standard" : "EIP3091",
-            "url" : "https://scope.klaytn.com"
+            "url" : "https://kaiascope.com"
          },
          {
-            "name" : "Klaytnfinder",
+            "name" : "Kaiascan",
             "standard" : "EIP3091",
-            "url" : "https://klaytnfinder.io"
+            "url" : "https://kaiascan.io"
          }
       ],
       "faucets" : [],
@@ -27242,7 +27317,7 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "KAIA",
-         "symbol" : "KLAY"
+         "symbol" : "KAIA"
       },
       "networkId" : 8217,
       "rpc" : [
@@ -27782,7 +27857,7 @@
       "networkId" : 8822,
       "rpc" : [
          "https://json-rpc.evm.iotaledger.net",
-         "https://ws.json-rpc.evm.iotaledger.net"
+         "wss://ws.json-rpc.evm.iotaledger.net"
       ],
       "shortName" : "iotaevm",
       "title" : "IOTA EVM"
@@ -29268,6 +29343,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "arena-z",
       "infoURL" : "https://raas.gelato.network/rollups/details/public/arena-z-testnet",
       "name" : "arena-z-testnet",
       "nativeCurrency" : {
@@ -31527,6 +31603,39 @@
       "title" : "Kronobit Mainnet"
    },
    {
+      "chain" : "Game7",
+      "chainId" : 13746,
+      "explorers" : [
+         {
+            "icon" : "game7testnet",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.game7.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "game7testnet",
+      "infoURL" : "https://game7.io",
+      "name" : "Game7 Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TG7T",
+         "symbol" : "TG7T"
+      },
+      "networkId" : 13746,
+      "rpc" : [
+         "https://testnet-rpc.game7.io",
+         "wss://testnet-rpc.game7.io"
+      ],
+      "shortName" : "g7t",
+      "title" : "Game7 Testnet"
+   },
+   {
       "chain" : "SUS",
       "chainId" : 13812,
       "explorers" : [
@@ -33039,6 +33148,32 @@
       ],
       "shortName" : "LBRY",
       "slip44" : 140
+   },
+   {
+      "chain" : "Astra Sepolia",
+      "chainId" : 19777,
+      "explorers" : [
+         {
+            "name" : "Astra Sepolia Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-astra-9on2f72wzn.t.conduit.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "astrasepolia",
+      "infoURL" : "https://explorer-astra-9on2f72wzn.t.conduit.xyz",
+      "name" : "Astra Sepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Astra",
+         "symbol" : "ATX"
+      },
+      "networkId" : 19777,
+      "rpc" : [
+         "https://rpc-astra-9on2f72wzn.t.conduit.xyz"
+      ],
+      "shortName" : "astra-sepolia",
+      "slip44" : 1
    },
    {
       "chain" : "BTCIX",
@@ -36665,7 +36800,7 @@
       },
       "networkId" : 48899,
       "rpc" : [
-         "http://zircuit1-testnet.p2pify.com/"
+         "https://zircuit1-testnet.p2pify.com/"
       ],
       "shortName" : "zircuit-testnet"
    },
@@ -38264,6 +38399,32 @@
          "https://rpc-mainnet-2.optopia.ai"
       ],
       "shortName" : "Optopia"
+   },
+   {
+      "chain" : "tTTX",
+      "chainId" : 62092,
+      "explorers" : [
+         {
+            "name" : "TikTrix Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://tiktrix.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "tiktrix",
+      "infoURL" : "https://tiktrix.gg",
+      "name" : "TikTrix Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "tTTX",
+         "symbol" : "tTTX"
+      },
+      "networkId" : 62092,
+      "rpc" : [
+         "https://tiktrix-rpc.xyz"
+      ],
+      "shortName" : "tiktrix-testnet",
+      "slip44" : 1
    },
    {
       "chain" : "Citrea",
@@ -43507,6 +43668,34 @@
       "shortName" : "sorian"
    },
    {
+      "chain" : "tSOR",
+      "chainId" : 210210,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "sorianTestnet",
+      "infoURL" : "https://mint.sorian.io",
+      "name" : "Sorian Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sorian Testnet",
+         "symbol" : "tSOR"
+      },
+      "networkId" : 210210,
+      "rpc" : [
+         "https://testnet-rpc.sorian.io",
+         "https://testnet.rpc.sorian.io"
+      ],
+      "shortName" : "sorianTestnet"
+   },
+   {
       "chain" : "PlatON",
       "chainId" : 210425,
       "explorers" : [
@@ -44377,6 +44566,52 @@
          "https://testnet-rpc.bloomgenesis.com"
       ],
       "shortName" : "BGBC-Testnet"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 325000,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://camp-network-testnet.blockscout.com"
+         }
+      ],
+      "faucets" : [
+         "https://www.campnetwork.xyz/faucet"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "camp",
+      "infoURL" : "https://docs.campnetwork.xyz/",
+      "name" : "Camp Network Testnet V2",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ethereum",
+         "symbol" : "ETH"
+      },
+      "networkId" : 325000,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.gelato.network/bridge/camp-network-testnet"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-campnetwork.xyz"
+      ],
+      "shortName" : "CampV2",
+      "slip44" : 1
    },
    {
       "chain" : "WABA Testnet",
@@ -46575,6 +46810,37 @@
       "shortName" : "mdlrm"
    },
    {
+      "chain" : "ZEBRO",
+      "chainId" : 786786,
+      "explorers" : [
+         {
+            "name" : "Zebrocoin Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.zebrocoin.app"
+         },
+         {
+            "name" : "Zebrocoin Explorer1",
+            "standard" : "EIP3091",
+            "url" : "https://explorer1.zebrocoin.app"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zebrocoin",
+      "infoURL" : "https://zebrocoin.app",
+      "name" : "Zebro Smart Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zebrocoin",
+         "symbol" : "ZEBRO"
+      },
+      "networkId" : 786786,
+      "rpc" : [
+         "https://rpc.zebrocoin.app",
+         "https://rpc1.zebrocoin.app"
+      ],
+      "shortName" : "zebro"
+   },
+   {
       "chain" : "OCTA",
       "chainId" : 800001,
       "explorers" : [
@@ -46891,6 +47157,40 @@
       "shortName" : "prmtest"
    },
    {
+      "chain" : "exSat",
+      "chainId" : 839999,
+      "explorers" : [
+         {
+            "name" : "exSat Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan-testnet.exsat.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "exsat",
+      "infoURL" : "https://exsat.network/",
+      "name" : "exSat Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Bitcoin",
+         "symbol" : "BTC"
+      },
+      "networkId" : 839999,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : ""
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://evm-tst3.exsat.network"
+      ],
+      "shortName" : "txsat"
+   },
+   {
       "chain" : "RuneVM",
       "chainId" : 840000,
       "explorers" : [
@@ -47086,6 +47386,39 @@
          "https://api.s0.t.posichain.org"
       ],
       "shortName" : "psc-t-s0"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 911867,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "odyssey explorer",
+            "standard" : "EIP3091",
+            "url" : "https://odyssey-explorer.ithaca.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://ithaca.xyz",
+      "name" : "Odyssey Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 911867,
+      "rpc" : [
+         "https://odyssey.ithaca.xyz"
+      ],
+      "shortName" : "odyssey-testnet"
    },
    {
       "chain" : "RIA",
@@ -49329,6 +49662,31 @@
       "shortName" : "R0AR-Test-Chain"
    },
    {
+      "chain" : "Lummio Network",
+      "chainId" : 12020498,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.lummio.net"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://lummio.net",
+      "name" : "Lummio Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Lummio Reward Points",
+         "symbol" : "LRPO"
+      },
+      "networkId" : 12020498,
+      "rpc" : [
+         "https://rpc.lummio.net"
+      ],
+      "shortName" : "lummio"
+   },
+   {
       "chain" : "Memento",
       "chainId" : 12052024,
       "explorers" : [
@@ -50704,6 +51062,25 @@
       "slip44" : 60,
       "status" : "active",
       "title" : "Polygon Blackberry Testnet"
+   },
+   {
+      "chain" : "CHAD",
+      "chainId" : 97912060,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://chadchain.org",
+      "name" : "ChadChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ChadChain",
+         "symbol" : "CHAD"
+      },
+      "networkId" : 97912060,
+      "rpc" : [
+         "https://rpc.chadchain.org"
+      ],
+      "shortName" : "chad",
+      "status" : "incubating"
    },
    {
       "chain" : "TOYS",
@@ -52402,7 +52779,7 @@
       "faucets" : [],
       "icon" : "kakarot",
       "infoURL" : "https://kakarot.org",
-      "name" : "Kakarot Sepolia",
+      "name" : "Kakarot Sepolia (Deprecated)",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ether",
@@ -52414,9 +52791,7 @@
          "chain" : "eip155-11155111",
          "type" : "L2"
       },
-      "rpc" : [
-         "https://sepolia-rpc.kakarot.org"
-      ],
+      "rpc" : [],
       "shortName" : "kkrt-sepolia"
    },
    {
@@ -53074,6 +53449,43 @@
       "shortName" : "gw-testnet-v1-deprecated",
       "slip44" : 1,
       "status" : "deprecated"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 920637907288165,
+      "explorers" : [
+         {
+            "name" : "Kakarot Scan",
+            "standard" : "EIP3091",
+            "url" : "https://sepolia.kakarotscan.org"
+         },
+         {
+            "name" : "Kakarot Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://sepolia-explorer.kakarot.org"
+         }
+      ],
+      "faucets" : [
+         "https://sepolia-faucet.kakarot.org/"
+      ],
+      "icon" : "kakarot",
+      "infoURL" : "https://kakarot.org",
+      "name" : "Kakarot Starknet Sepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 920637907288165,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://sepolia-rpc.kakarot.org"
+      ],
+      "shortName" : "kkrt-starknet-sepolia"
    },
    {
       "chain" : "dchaint",

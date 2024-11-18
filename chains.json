@@ -4402,6 +4402,7 @@
             "name" : "EIP155"
          }
       ],
+      "icon" : "omni",
       "infoURL" : "https://docs.omni.network",
       "name" : "Omni Omega Testnet",
       "nativeCurrency" : {
@@ -4444,13 +4445,21 @@
    {
       "chain" : "Omni",
       "chainId" : 166,
+      "explorers" : [
+         {
+            "name" : "Omni EVM and cross-chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://omniscan.network"
+         }
+      ],
       "faucets" : [],
       "features" : [
          {
             "name" : "EIP155"
          }
       ],
-      "infoURL" : "https://docs.omni.network/",
+      "icon" : "omni",
+      "infoURL" : "https://docs.omni.network",
       "name" : "Omni",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -4458,10 +4467,13 @@
          "symbol" : "OMNI"
       },
       "networkId" : 166,
-      "rpc" : [],
+      "rpc" : [
+         "https://mainnet.omni.network",
+         "wss://wss.mainnet.omni.network"
+      ],
       "shortName" : "omni",
       "slip44" : 1,
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "ATOSHI",
@@ -4777,6 +4789,41 @@
          "https://rpc.waterfall.network/"
       ],
       "shortName" : "water"
+   },
+   {
+      "chain" : "iost",
+      "chainId" : 182,
+      "explorers" : [
+         {
+            "name" : "IOSTscan",
+            "standard" : "EIP3091",
+            "url" : "https://iost-mainnet-explorer.alt.technology"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bnbchain",
+      "infoURL" : "https://iost.io",
+      "name" : "IOST Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BNB Chain Native Token",
+         "symbol" : "BNB"
+      },
+      "networkId" : 182,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://10910bc5-8382-4ef5-bdc7-4c54c8f57e75.bridges.rollbridge.app/"
+            }
+         ],
+         "chain" : "eip155-56",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://iost-mainnet.alt.technology"
+      ],
+      "shortName" : "iost-mainnet",
+      "slip44" : 714
    },
    {
       "chain" : "Ethernity",
@@ -6679,6 +6726,41 @@
          "https://l2-orderly-mainnet-0.t.conduit.xyz"
       ],
       "shortName" : "orderly"
+   },
+   {
+      "chain" : "DCOIN",
+      "chainId" : 293,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "davinciscan",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet-explorer.davinci.bz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "davinci",
+      "infoURL" : "https://davinci.bz",
+      "name" : "DaVinci",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DaVinci",
+         "symbol" : "DCOIN"
+      },
+      "networkId" : 293,
+      "rpc" : [
+         "https://rpc.davinci.bz"
+      ],
+      "shortName" : "davinci",
+      "status" : "active"
    },
    {
       "chain" : "Hedera",
@@ -15213,6 +15295,22 @@
       "slip44" : 1
    },
    {
+      "chain" : "Islander",
+      "chainId" : 1480,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "Islander",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Islander",
+         "symbol" : "ISL"
+      },
+      "networkId" : 1480,
+      "rpc" : [],
+      "shortName" : "isl"
+   },
+   {
       "chain" : "Vitruveo",
       "chainId" : 1490,
       "explorers" : [
@@ -16940,7 +17038,7 @@
                "url" : "https://bridge.soneium.org/testnet"
             }
          ],
-         "chain" : "eip155-1",
+         "chain" : "eip155-11155111",
          "type" : "L2"
       },
       "rpc" : [
@@ -16948,6 +17046,31 @@
       ],
       "shortName" : "minato",
       "title" : "Soneium testnet Minato"
+   },
+   {
+      "chain" : "Bionix",
+      "chainId" : 1949,
+      "explorers" : [
+         {
+            "name" : "Bionix Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://testnet.bionixnetwork.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "bionix",
+      "infoURL" : "https://bionixnetwork.com",
+      "name" : "Bionix Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Bionix",
+         "symbol" : "tBIO"
+      },
+      "networkId" : 1949,
+      "rpc" : [
+         "https://testnet-chain.bionixnetwork.com"
+      ],
+      "shortName" : "tbio"
    },
    {
       "chain" : "D-Chain",
@@ -17440,7 +17563,7 @@
       "networkId" : 1995,
       "rpc" : [
          "https://testnet.edexa.network/rpc",
-         "https://io-dataseed1.testnet.edexa.io-market.com/rpc"
+         "https://testnet.edexa.com/rpc"
       ],
       "shortName" : "edx",
       "slip44" : 1
@@ -19976,6 +20099,23 @@
       ],
       "shortName" : "karak-goerli",
       "status" : "deprecated"
+   },
+   {
+      "chain" : "K2",
+      "chainId" : 2512,
+      "faucets" : [],
+      "icon" : "karak",
+      "infoURL" : "https://karak.network",
+      "name" : "K2 Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 2512,
+      "rpc" : [],
+      "shortName" : "K2-testnet",
+      "status" : "incubating"
    },
    {
       "chain" : "FRAX",
@@ -23095,6 +23235,29 @@
       "shortName" : "laika-testnet"
    },
    {
+      "chain" : "Echos",
+      "chainId" : 4321,
+      "explorers" : [
+         {
+            "name" : "Echos Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.echos.fun"
+         }
+      ],
+      "faucets" : [],
+      "features" : [],
+      "infoURL" : "https://www.echos.fun/",
+      "name" : "Echos Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "USD Coin",
+         "symbol" : "USDC"
+      },
+      "networkId" : 4321,
+      "rpc" : [],
+      "shortName" : "echos"
+   },
+   {
       "chain" : "Bobafuji Testnet",
       "chainId" : 4328,
       "explorers" : [
@@ -24563,8 +24726,7 @@
       "networkId" : 5424,
       "rpc" : [
          "https://mainnet.edexa.network/rpc",
-         "https://mainnet.edexa.com/rpc",
-         "https://io-dataseed1.mainnet.edexa.io-market.com/rpc"
+         "https://mainnet.edexa.com/rpc"
       ],
       "shortName" : "edeXa",
       "slip44" : 1
@@ -27356,6 +27518,43 @@
       "shortName" : "ard"
    },
    {
+      "chain" : "arena-z",
+      "chainId" : 7897,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.arena-z.gg"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "arena-z-mainnet",
+      "infoURL" : "https://raas.gelato.network/rollups/details/public/arena-z",
+      "name" : "arena-z",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 7897,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.gelato.network/bridge/arena-z"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.arena-z.gg",
+         "wss://ws.arena-z.gg"
+      ],
+      "shortName" : "arena-z",
+      "slip44" : 60,
+      "title" : "arena-z"
+   },
+   {
       "chain" : "DTBX",
       "chainId" : 7923,
       "explorers" : [
@@ -29771,7 +29970,7 @@
                "url" : "https://gateway.boba.network"
             }
          ],
-         "chain" : "eip155-5",
+         "chain" : "eip155-28882",
          "type" : "L2"
       },
       "rpc" : [
@@ -38826,6 +39025,31 @@
       ],
       "shortName" : "tsys-rollux",
       "slip44" : 1
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 57073,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://inkonchain.com",
+      "name" : "Ink",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 57073,
+      "rpc" : [],
+      "shortName" : "ink",
+      "status" : "incubating"
    },
    {
       "chain" : "coinsecnetwork",

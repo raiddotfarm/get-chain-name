@@ -1065,16 +1065,16 @@
       ],
       "faucets" : [],
       "icon" : "u2u",
-      "infoURL" : "https://uniultra.xyz",
+      "infoURL" : "https://u2u.xyz",
       "name" : "U2U Solaris Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Unicorn Ultra",
+         "name" : "U2U Network",
          "symbol" : "U2U"
       },
       "networkId" : 39,
       "rpc" : [
-         "https://rpc-mainnet.uniultra.xyz"
+         "https://rpc-mainnet.u2u.xyz"
       ],
       "shortName" : "u2u"
    },
@@ -4737,7 +4737,14 @@
    {
       "chain" : "HashKey Chain",
       "chainId" : 177,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.hsk.xyz"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://hsk.xyz",
       "name" : "HashKey Chain",
@@ -4751,7 +4758,9 @@
          "chain" : "eip155-1",
          "type" : "L2"
       },
-      "rpc" : [],
+      "rpc" : [
+         "https://mainnet.hsk.xyz"
+      ],
       "shortName" : "HSK",
       "title" : "HashKey Chain"
    },
@@ -8902,6 +8911,7 @@
          "wss://rpc.form.network/ws"
       ],
       "shortName" : "formnetwork",
+      "status" : "active",
       "title" : "Form Network"
    },
    {
@@ -9301,6 +9311,45 @@
          "https://testnet.evm.nodes.onflow.org"
       ],
       "shortName" : "flow-testnet"
+   },
+   {
+      "chain" : "river",
+      "chainId" : 550,
+      "explorers" : [
+         {
+            "name" : "River Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.river.build"
+         },
+         {
+            "name" : "River Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://towns-mainnet.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "river",
+      "infoURL" : "https://www.river.build",
+      "name" : "River",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 550,
+      "rpc" : [
+         "https://mainnet.rpc.river.build",
+         "https://towns-mainnet.calderachain.xyz/http"
+      ],
+      "shortName" : "river"
    },
    {
       "chain" : "VELA1",
@@ -10720,6 +10769,39 @@
       "shortName" : "flow-mainnet"
    },
    {
+      "chain" : "rivalz",
+      "chainId" : 753,
+      "explorers" : [
+         {
+            "name" : "Rivalz Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://rivalz.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "rivalz",
+      "infoURL" : "https://rivalz.hub.caldera.xyz",
+      "name" : "Rivalz",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 753,
+      "rpc" : [
+         "https://rivalz.calderachain.xyz/http"
+      ],
+      "shortName" : "rivalz"
+   },
+   {
       "chain" : "QOM",
       "chainId" : 766,
       "explorers" : [
@@ -11463,6 +11545,30 @@
       "shortName" : "zeethdev"
    },
    {
+      "chain" : "Electra",
+      "chainId" : 861,
+      "explorers" : [
+         {
+            "name" : "Electra Explorer",
+            "standard" : "none",
+            "url" : "https://scan.electranetwork.tech"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.electranetwork.tech",
+      "name" : "Electra Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Electra",
+         "symbol" : "ELC"
+      },
+      "networkId" : 861,
+      "rpc" : [
+         "https://rpc.electranetwork.tech"
+      ],
+      "shortName" : "elc"
+   },
+   {
       "chain" : "FSC",
       "chainId" : 868,
       "explorers" : [
@@ -11487,6 +11593,30 @@
          "https://mainnet-data3.fantasiachain.com/"
       ],
       "shortName" : "FSCMainnet"
+   },
+   {
+      "chain" : "Electra",
+      "chainId" : 871,
+      "explorers" : [
+         {
+            "name" : "Electra Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://scan.testnet.electranetwork.tech"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://scan.testnet.electranetwork.tech",
+      "name" : "Electra Test Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Test Electra",
+         "symbol" : "TELC"
+      },
+      "networkId" : 871,
+      "rpc" : [
+         "https://rpc.testnet.electranetwork.tech"
+      ],
+      "shortName" : "telc"
    },
    {
       "chain" : "Bandai Namco Research Verse",
@@ -16072,6 +16202,31 @@
       "shortName" : "Story"
    },
    {
+      "chain" : "STORY",
+      "chainId" : 1514,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet.storyscan.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "story",
+      "infoURL" : "https://story.foundation/",
+      "name" : "Story",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "IP Token",
+         "symbol" : "IP"
+      },
+      "networkId" : 1514,
+      "rpc" : [
+         "https://mainnet.storyrpc.io"
+      ],
+      "shortName" : "sty"
+   },
+   {
       "chain" : "BMC",
       "chainId" : 1515,
       "explorers" : [
@@ -20565,6 +20720,39 @@
       "shortName" : "xodex"
    },
    {
+      "chain" : "rufus",
+      "chainId" : 2420,
+      "explorers" : [
+         {
+            "name" : "Rufus Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://rufus.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "rufus",
+      "infoURL" : "https://rufus.hub.caldera.xyz",
+      "name" : "Rufus",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dogelon",
+         "symbol" : "ELON"
+      },
+      "networkId" : 2420,
+      "rpc" : [
+         "https://rufus.calderachain.xyz/http"
+      ],
+      "shortName" : "rufus"
+   },
+   {
       "chain" : "KCC",
       "chainId" : 2425,
       "explorers" : [
@@ -23073,7 +23261,7 @@
       "faucets" : [],
       "icon" : "doschain",
       "infoURL" : "http://doschain.io/",
-      "name" : "DOS Tesnet",
+      "name" : "DOS Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "DOS",
@@ -23081,7 +23269,7 @@
       },
       "networkId" : 3939,
       "rpc" : [
-         "https://test.doschain.com"
+         "https://test.doschain.com/"
       ],
       "shortName" : "dost",
       "slip44" : 1
@@ -23138,6 +23326,40 @@
       ],
       "shortName" : "tdyno",
       "slip44" : 1
+   },
+   {
+      "chain" : "paynetwork",
+      "chainId" : 3969,
+      "explorers" : [
+         {
+            "name" : "PayNetwork Mainnet Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://paynetwork-main.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "paynetwork",
+      "infoURL" : "https://paynetwork-main.hub.caldera.xyz",
+      "name" : "PayNetwork Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PayNetwork",
+         "symbol" : "Pay"
+      },
+      "networkId" : 3969,
+      "rpc" : [
+         "https://rpc.paynetwork.io",
+         "https://paynetwork-main.calderachain.xyz/http"
+      ],
+      "shortName" : "paynetwork"
    },
    {
       "chain" : "ETH",
@@ -24264,7 +24486,14 @@
    {
       "chain" : "HYDRA",
       "chainId" : 4488,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "icon" : "hydra",
+            "name" : "Hydra Chain Mainnet explorer",
+            "standard" : "EIP3091",
+            "url" : "https://skynet.hydrachain.org"
+         }
+      ],
       "faucets" : [],
       "features" : [
          {
@@ -24283,9 +24512,10 @@
          "symbol" : "HYDRA"
       },
       "networkId" : 4488,
-      "rpc" : [],
-      "shortName" : "HYDRA",
-      "status" : "incubating"
+      "rpc" : [
+         "https://rpc-mainnet.hydrachain.org"
+      ],
+      "shortName" : "HYDRA"
    },
    {
       "chain" : "Emoney",
@@ -24672,6 +24902,45 @@
          "https://rpc.gcscan.io"
       ],
       "shortName" : "GC"
+   },
+   {
+      "chain" : "oev-network",
+      "chainId" : 4913,
+      "explorers" : [
+         {
+            "name" : "OEV Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://oev.explorer.api3.org"
+         },
+         {
+            "name" : "OEV Network Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://oev-network.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "oev-network",
+      "infoURL" : "https://api3.org/oev/",
+      "name" : "OEV Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 4913,
+      "rpc" : [
+         "https://oev.rpc.api3.org",
+         "https://oev-network.calderachain.xyz/http"
+      ],
+      "shortName" : "oev-network"
    },
    {
       "chain" : "XVM",
@@ -27789,7 +28058,7 @@
       "faucets" : [],
       "icon" : "initverse",
       "infoURL" : "https://genesis-testnet.inichain.com",
-      "name" : "InitVerse penesis testnet",
+      "name" : "InitVerse genesis testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "InitVerse",
@@ -28521,6 +28790,33 @@
       ],
       "shortName" : "maal-test-v2",
       "slip44" : 1
+   },
+   {
+      "chain" : "POWER",
+      "chainId" : 7865,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.powerloom.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "power",
+      "infoURL" : "https://powerloom.network",
+      "name" : "Powerloom Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Powerloom Token",
+         "symbol" : "POWER"
+      },
+      "networkId" : 7865,
+      "rpc" : [
+         "https://rpc.powerloom.network"
+      ],
+      "shortName" : "power",
+      "status" : "active"
    },
    {
       "chain" : "SCAS",
@@ -32888,7 +33184,7 @@
       "networkId" : 11451,
       "rpc" : [
          "https://rpc.egoldchain.com",
-         "wss://wss.egoldchain.com"
+         "wss://rpc.egoldchain.com"
       ],
       "shortName" : "egoldchain"
    },
@@ -33313,6 +33609,39 @@
       ],
       "shortName" : "blgchain",
       "slip44" : 1
+   },
+   {
+      "chain" : "huddle01",
+      "chainId" : 12323,
+      "explorers" : [
+         {
+            "name" : "Huddle01 Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://huddle01.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "huddle01",
+      "infoURL" : "https://huddle01.com/",
+      "name" : "Huddle01",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 12323,
+      "rpc" : [
+         "https://huddle01.calderachain.xyz/http"
+      ],
+      "shortName" : "huddle01"
    },
    {
       "chain" : "L3X",
@@ -34016,6 +34345,39 @@
          "https://rpc.bthscan.io/"
       ],
       "shortName" : "BitharvestMainnet"
+   },
+   {
+      "chain" : "bitlazer",
+      "chainId" : 14235,
+      "explorers" : [
+         {
+            "name" : "Bitlazer Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://bitlazer.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "bitlazer",
+      "infoURL" : "https://bitlazer.hub.caldera.xyz",
+      "name" : "Bitlazer",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "lzrBTC",
+         "symbol" : "lzrBTC"
+      },
+      "networkId" : 14235,
+      "rpc" : [
+         "https://bitlazer.calderachain.xyz/http"
+      ],
+      "shortName" : "bitlazer"
    },
    {
       "chain" : "EVO",
@@ -35788,6 +36150,32 @@
          "https://subnets.avax.network/jono11/testnet/rpc"
       ],
       "shortName" : "jono11"
+   },
+   {
+      "chain" : "Fluent",
+      "chainId" : 20993,
+      "explorers" : [
+         {
+            "name" : "Fluent Blockscout Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.dev.gblend.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.dev.gblend.xyz"
+      ],
+      "infoURL" : "https://fluent.xyz",
+      "name" : "Fluent Developer Preview",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 20993,
+      "rpc" : [
+         "https://rpc.dev.gblend.xyz"
+      ],
+      "shortName" : "fluent-dev-net"
    },
    {
       "chain" : "C4EI",
@@ -38565,8 +38953,8 @@
          "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
          "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
          "https://arb1.arbitrum.io/rpc",
-         "https://arbitrum-one.publicnode.com",
-         "wss://arbitrum-one.publicnode.com"
+         "https://arbitrum-one-rpc.publicnode.com",
+         "wss://arbitrum-one-rpc.publicnode.com"
       ],
       "shortName" : "arb1"
    },
@@ -38579,12 +38967,6 @@
             "name" : "Arbitrum Nova Chain Explorer",
             "standard" : "EIP3091",
             "url" : "https://nova-explorer.arbitrum.io"
-         },
-         {
-            "icon" : "dexguru",
-            "name" : "dexguru",
-            "standard" : "EIP3091",
-            "url" : "https://nova.dex.guru"
          }
       ],
       "faucets" : [],
@@ -38607,8 +38989,8 @@
       },
       "rpc" : [
          "https://nova.arbitrum.io/rpc",
-         "https://arbitrum-nova.publicnode.com",
-         "wss://arbitrum-nova.publicnode.com"
+         "https://arbitrum-nova-rpc.publicnode.com",
+         "wss://arbitrum-nova-rpc.publicnode.com"
       ],
       "shortName" : "arb-nova"
    },
@@ -40630,8 +41012,16 @@
    {
       "chain" : "ETH",
       "chainId" : 57073,
-      "explorers" : [],
-      "faucets" : [],
+      "explorers" : [
+         {
+            "name" : "Ink Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.inkonchain.com"
+         }
+      ],
+      "faucets" : [
+         "https://inkonchain.com/faucet"
+      ],
       "features" : [
          {
             "name" : "EIP155"
@@ -40648,9 +41038,14 @@
          "symbol" : "ETH"
       },
       "networkId" : 57073,
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc-gel.inkonchain.com",
+         "https://rpc-qnd.inkonchain.com",
+         "wss://rpc-gel.inkonchain.com",
+         "wss://rpc-qnd.inkonchain.com"
+      ],
       "shortName" : "ink",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "coinsecnetwork",
@@ -41745,6 +42140,40 @@
          "https://mainnet-rpc.scolcoin.com"
       ],
       "shortName" : "SRC"
+   },
+   {
+      "chain" : "CCX",
+      "chainId" : 65535,
+      "explorers" : [
+         {
+            "name" : "CyberChain explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.cyberchain.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "cyberchain",
+      "infoURL" : "https://cyberchain.xyz",
+      "name" : "CyberChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CCX",
+         "symbol" : "CCX"
+      },
+      "networkId" : 65535,
+      "rpc" : [
+         "https://rpc.cyberchain.xyz/"
+      ],
+      "shortName" : "ccx",
+      "slip44" : 60
    },
    {
       "chain" : "Automata Mainnet",
@@ -43021,6 +43450,36 @@
       "shortName" : "hzc"
    },
    {
+      "chain" : "Geo Genesis",
+      "chainId" : 80451,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://geobrowser.io",
+      "name" : "Geo Genesis",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "The Graph",
+         "symbol" : "GRT"
+      },
+      "networkId" : 80451,
+      "parent" : {
+         "chain" : "eip155-42161",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-geo-genesis-h0q2s21xx8.t.conduit.xyz/"
+      ],
+      "shortName" : "geo"
+   },
+   {
       "chain" : "Nordek",
       "chainId" : 81041,
       "explorers" : [
@@ -43292,6 +43751,39 @@
          "https://rpc.test.smartlayer.network"
       ],
       "shortName" : "tSLN"
+   },
+   {
+      "chain" : "vemp-horizon",
+      "chainId" : 82614,
+      "explorers" : [
+         {
+            "name" : "VEMP Horizon Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://vemp-horizon.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "vemp-horizon",
+      "infoURL" : "https://www.vemp.xyz/",
+      "name" : "VEMP Horizon",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VEMP",
+         "symbol" : "VEMP"
+      },
+      "networkId" : 82614,
+      "rpc" : [
+         "https://vemp-horizon.calderachain.xyz/http"
+      ],
+      "shortName" : "vemp-horizon"
    },
    {
       "chain" : "Xprotocol Testnet",
@@ -44020,6 +44512,39 @@
       "title" : "Nautilus Trition Testnet"
    },
    {
+      "chain" : "henez",
+      "chainId" : 91111,
+      "explorers" : [
+         {
+            "name" : "Henez Chain Mainnet Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://henez.calderaexplorer.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "henez",
+      "infoURL" : "https://www.henez.fi/",
+      "name" : "Henez Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 91111,
+      "rpc" : [
+         "https://henez.calderachain.xyz/http"
+      ],
+      "shortName" : "henez"
+   },
+   {
       "chain" : "MetaDAP",
       "chainId" : 91120,
       "explorers" : [
@@ -44632,6 +45157,31 @@
          "https://rpc1-testnet.emc.network"
       ],
       "shortName" : "EMCTestnet"
+   },
+   {
+      "chain" : "EMC Sepolia",
+      "chainId" : 99879,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://sepolia.emcscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "emctest",
+      "infoURL" : "",
+      "name" : "Edge Matrix Chain Sepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Edge Matrix Chain Token",
+         "symbol" : "EMC"
+      },
+      "networkId" : 99879,
+      "rpc" : [
+         "https://rpc1-sepolia.emc.network"
+      ],
+      "shortName" : "EMCSepolia"
    },
    {
       "chain" : "USC",
@@ -45696,7 +46246,7 @@
       "networkId" : 111451,
       "rpc" : [
          "https://rpc-testnet.egoldchain.com",
-         "wss://wss-testnet.egoldchain.com"
+         "wss://rpc-testnet.egoldchain.com"
       ],
       "shortName" : "egoldchaint"
    },
@@ -49110,7 +49660,9 @@
       },
       "rpc" : [
          "https://sepolia-rollup.arbitrum.io/rpc",
-         "https://arbitrum-sepolia.infura.io/v3/${INFURA_API_KEY}"
+         "https://arbitrum-sepolia.infura.io/v3/${INFURA_API_KEY}",
+         "https://arbitrum-sepolia-rpc.publicnode.com",
+         "wss://arbitrum-sepolia-rpc.publicnode.com"
       ],
       "shortName" : "arb-sep",
       "slip44" : 1,
@@ -50362,6 +50914,33 @@
          "https://evm-rpc.arctic-1.seinetwork.io"
       ],
       "shortName" : "sei-devnet"
+   },
+   {
+      "chain" : "Zether",
+      "chainId" : 715131,
+      "explorers" : [
+         {
+            "icon" : "zether",
+            "name" : "zthscan",
+            "standard" : "none",
+            "url" : "https://zthscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zether",
+      "infoURL" : "https://zether.org",
+      "name" : "Zether Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zether",
+         "symbol" : "ZTH"
+      },
+      "networkId" : 715131,
+      "rpc" : [
+         "https://rpc.zether.org",
+         "https://rpc.zthscan.com"
+      ],
+      "shortName" : "zth"
    },
    {
       "chain" : "ERAM",
@@ -52580,6 +53159,44 @@
       "shortName" : "worldscal"
    },
    {
+      "chain" : "zuuxchain",
+      "chainId" : 4284265,
+      "explorers" : [
+         {
+            "name" : "Zuux chain explorer",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.zuux.network"
+         },
+         {
+            "name" : "Zuux chain explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.zuux.network"
+         }
+      ],
+      "faucets" : [
+         "https://www.zuuxlend.xyz/faucet"
+      ],
+      "features" : [
+         {
+            "name" : "none"
+         }
+      ],
+      "icon" : "zuuxchain",
+      "infoURL" : "https://www.zuux.network",
+      "name" : "Zuux chain testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZUUX",
+         "symbol" : "ZUUX"
+      },
+      "networkId" : 4284265,
+      "rpc" : [
+         "https://rpc.zuux.network"
+      ],
+      "shortName" : "zuuxchain",
+      "title" : "Zuux chain testnet"
+   },
+   {
       "chain" : "Altar",
       "chainId" : 4444444,
       "explorers" : [
@@ -54123,6 +54740,41 @@
       "shortName" : "pg"
    },
    {
+      "chain" : "SoonChain Devnet Sepolia",
+      "chainId" : 20221001,
+      "explorers" : [
+         {
+            "name" : "Soon Scan",
+            "standard" : "none",
+            "url" : "https://sepolia.explorer.soonchain.ai"
+         }
+      ],
+      "faucets" : [
+         "https://console.optimism.io/faucet"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "soonchain",
+      "infoURL" : "https://soonchain.ai",
+      "name" : "SoonChain Sepolia Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 20221001,
+      "rpc" : [
+         "https://sepolia.rpc.soonchain.ai"
+      ],
+      "shortName" : "Soon-Devnet"
+   },
+   {
       "chain" : "VCITY",
       "chainId" : 20230825,
       "explorers" : [
@@ -54590,7 +55242,9 @@
             "url" : "https://testnet.xscscan.com"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://faucet.xone.plus/"
+      ],
       "features" : [
          {
             "name" : "EIP155"
@@ -54609,7 +55263,9 @@
       },
       "networkId" : 33772211,
       "rpc" : [
-         "https://rpc-testnet.xone.plus"
+         "https://rpc-testnet.xone.plus",
+         "https://rpc-testnet.xone.org",
+         "https://rpc-testnet.knight.center"
       ],
       "shortName" : "txoc"
    },
@@ -55116,8 +55772,8 @@
          "https://autonity.rpc.web3cdn.network/testnet",
          "wss://autonity.rpc.web3cdn.network/testnet/ws",
          "https://autonity-piccadilly.rpc.subquery.network/public",
-         "https://picadilly.autonity-apis.com",
-         "wss://picadilly-ws.autonity-apis.com"
+         "https://piccadilly.autonity-apis.com",
+         "wss://piccadilly-ws.autonity-apis.com"
       ],
       "shortName" : "piccadilly-04",
       "slip44" : 1

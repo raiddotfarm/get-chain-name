@@ -6130,6 +6130,24 @@
       "shortName" : "blast"
    },
    {
+      "chain" : "TAC",
+      "chainId" : 239,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "tac",
+      "infoURL" : "https://tac.build/",
+      "name" : "TAC Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TAC",
+         "symbol" : "TAC"
+      },
+      "networkId" : 239,
+      "rpc" : [],
+      "shortName" : "tac",
+      "title" : "TAC Mainnet"
+   },
+   {
       "chain" : "CronosZkEVMTestnet",
       "chainId" : 240,
       "explorers" : [
@@ -7289,7 +7307,7 @@
       "explorers" : [
          {
             "icon" : "zkcandy",
-            "name" : "zkCandy Block Explorer",
+            "name" : "ZKcandy Block Explorer",
             "standard" : "EIP3091",
             "url" : "https://sepolia.explorer.zkcandy.io"
          }
@@ -7297,7 +7315,7 @@
       "faucets" : [],
       "icon" : "zkcandy",
       "infoURL" : "https://zkcandy.io/",
-      "name" : "zkCandy Sepolia Testnet",
+      "name" : "ZKcandy Sepolia Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ether",
@@ -10815,6 +10833,40 @@
          "https://rpc-mainnet-8.vrcscan.com"
       ],
       "shortName" : "vrc"
+   },
+   {
+      "chain" : "UXLINK ONE",
+      "chainId" : 718,
+      "explorers" : [
+         {
+            "icon" : "uxlinkone",
+            "name" : "UXLINK ONE Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://sepolia.uxlinkone.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "uxlinkone",
+      "infoURL" : "https://www.uxlinkone.com",
+      "name" : "UXLINK ONE Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "UXLINK",
+         "symbol" : "UXLINK"
+      },
+      "networkId" : 718,
+      "rpc" : [
+         "https://rpc.uxlinkone.com"
+      ],
+      "shortName" : "uxlink1"
    },
    {
       "chain" : "Shibarium",
@@ -15577,6 +15629,32 @@
          "https://rpc-mainnet.devolvedai.com"
       ],
       "shortName" : "AGC"
+   },
+   {
+      "chain" : "GLUE",
+      "chainId" : 1300,
+      "explorers" : [
+         {
+            "icon" : "glue",
+            "name" : "Glue Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.glue.net"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "glue",
+      "infoURL" : "https://glue.net/",
+      "name" : "Glue Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Glue",
+         "symbol" : "GLUE"
+      },
+      "networkId" : 1300,
+      "rpc" : [
+         "https://rpc.glue.net"
+      ],
+      "shortName" : "glue"
    },
    {
       "chain" : "ETH",
@@ -20998,6 +21076,34 @@
       "title" : "Kroma Testnet Sepolia"
    },
    {
+      "chain" : "KiteAI",
+      "chainId" : 2368,
+      "explorers" : [
+         {
+            "name" : "Kitescan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.kitescan.ai"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.gokite.ai/"
+      ],
+      "icon" : "kite",
+      "infoURL" : "https://gokite.ai/",
+      "name" : "KiteAI Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Kite",
+         "symbol" : "KITE"
+      },
+      "networkId" : 1,
+      "rpc" : [
+         "https://rpc-testnet.gokite.ai"
+      ],
+      "shortName" : "KiteAI",
+      "slip44" : 1
+   },
+   {
       "chain" : "Nexis Network",
       "chainId" : 2370,
       "explorers" : [
@@ -21023,6 +21129,37 @@
          "https://evm-testnet.nexis.network"
       ],
       "shortName" : "nzt"
+   },
+   {
+      "chain" : "TAC",
+      "chainId" : 2390,
+      "explorers" : [
+         {
+            "name" : "TAC Turin Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://turin.explorer.tac.build"
+         }
+      ],
+      "faucets" : [
+         "https://turin.faucet.tac.build/"
+      ],
+      "icon" : "tactestnet",
+      "infoURL" : "https://tac.build/",
+      "name" : "TAC Turin",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TAC",
+         "symbol" : "TAC"
+      },
+      "networkId" : 2390,
+      "rpc" : [
+         "https://turin.rpc.tac.build",
+         "https://rpc.ankr.com/tac_turin",
+         "https://turin-ws.rpc.tac.build"
+      ],
+      "shortName" : "tacchain_2390-1",
+      "slip44" : 1,
+      "title" : "TAC Testnet Turin"
    },
    {
       "chain" : "BOMB",
@@ -26484,18 +26621,30 @@
       "slip44" : 1
    },
    {
+      "chain" : "ETH",
+      "chainId" : 5371,
+      "faucets" : [],
+      "infoURL" : "https://settlus.org",
+      "name" : "Settlus",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 5371,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [],
+      "shortName" : "setl",
+      "status" : "incubating"
+   },
+   {
       "chain" : "Settlus",
       "chainId" : 5372,
-      "explorers" : [
-         {
-            "name" : "Settlus Scan",
-            "standard" : "EIP3091",
-            "url" : "https://testnet.settlus.network"
-         }
-      ],
-      "faucets" : [
-         "https://faucet.settlus.io"
-      ],
+      "faucets" : [],
       "infoURL" : "https://settlus.org",
       "name" : "Settlus Testnet",
       "nativeCurrency" : {
@@ -26504,14 +26653,20 @@
          "symbol" : "SETL"
       },
       "networkId" : 5372,
-      "rpc" : [
-         "https://settlus-test-eth.settlus.io"
-      ],
-      "shortName" : "settlus-testnet"
+      "rpc" : [],
+      "shortName" : "settlus-testnet",
+      "status" : "deprecated"
    },
    {
       "chain" : "ETH",
       "chainId" : 5373,
+      "explorers" : [
+         {
+            "name" : "Settlus Sepolia Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://settlus-sepolia-testnet.explorer.alchemy.com"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://settlus.org",
       "name" : "Settlus Sepolia Testnet",
@@ -26522,13 +26677,19 @@
       },
       "networkId" : 5373,
       "parent" : {
-         "bridges" : [],
+         "bridges" : [
+            {
+               "url" : "https://settlus-sep-testnet.bridge.alchemy.com/"
+            }
+         ],
          "chain" : "eip155-11155111",
          "type" : "L2"
       },
-      "rpc" : [],
+      "rpc" : [
+         "https://settlus-septestnet.g.alchemy.com/public"
+      ],
       "shortName" : "setl-sepolia",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "edeXa Network",
@@ -33007,6 +33168,23 @@
       "shortName" : "aeon"
    },
    {
+      "chain" : "Chain Opera Testnet",
+      "chainId" : 10066,
+      "faucets" : [],
+      "infoURL" : "https://chainopera.ai/",
+      "name" : "Chain Opera Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "coai",
+         "symbol" : "CO"
+      },
+      "networkId" : 10066,
+      "rpc" : [
+         "http://40.78.123.6:8545"
+      ],
+      "shortName" : "chainopera-testnet"
+   },
+   {
       "chain" : "JOCT",
       "chainId" : 10081,
       "explorers" : [
@@ -33956,7 +34134,7 @@
       "explorers" : [
          {
             "icon" : "egoldchain",
-            "name" : "eGoldChain Block Explorer",
+            "name" : "eGold Chain Block Explorer",
             "standard" : "none",
             "url" : "https://egoldscan.io"
          }
@@ -33964,7 +34142,7 @@
       "faucets" : [],
       "icon" : "egoldchain",
       "infoURL" : "https://www.egoldchain.com",
-      "name" : "eGoldChain",
+      "name" : "eGold Chain",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Aurum",
@@ -36806,6 +36984,31 @@
          "https://seed.btcix.org/rpc"
       ],
       "shortName" : "btcix"
+   },
+   {
+      "chain" : "Ultra",
+      "chainId" : 19991,
+      "explorers" : [
+         {
+            "name" : "Ultra EVM Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://evmexplorer.ultra.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ultra",
+      "infoURL" : "https://ultra.io",
+      "name" : "Ultra EVM Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ultra Token",
+         "symbol" : "UOS"
+      },
+      "networkId" : 19991,
+      "rpc" : [
+         "https://evm.ultra.eosusa.io"
+      ],
+      "shortName" : "ultra"
    },
    {
       "chain" : "ETHW",
@@ -39822,6 +40025,30 @@
          "https://rpc.pmon.xyz"
       ],
       "shortName" : "pmon"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 42026,
+      "explorers" : [
+         {
+            "name" : "Donatuz Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.donatuz.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.donatuz.com",
+      "name" : "Donatuz",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 42026,
+      "rpc" : [
+         "https://rpc.donatuz.com"
+      ],
+      "shortName" : "donatuz"
    },
    {
       "chain" : "42069",
@@ -47401,7 +47628,7 @@
       "explorers" : [
          {
             "icon" : "egoldchain",
-            "name" : "eGoldChain Block Explorer",
+            "name" : "eGold Chain Block Explorer",
             "standard" : "none",
             "url" : "http://testnet.egoldscan.io"
          }
@@ -47409,7 +47636,7 @@
       "faucets" : [],
       "icon" : "egoldchain",
       "infoURL" : "https://www.egoldchain.com",
-      "name" : "eGoldChain Testnet",
+      "name" : "eGold Chain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Aurum",
@@ -47862,11 +48089,11 @@
       "shortName" : "xcoin"
    },
    {
-      "chain" : "Openledger Testnet",
+      "chain" : "OpenLedger Testnet",
       "chainId" : 161201,
       "explorers" : [
          {
-            "name" : "Openledger Testnet Explorer",
+            "name" : "OpenLedger Testnet Explorer",
             "standard" : "EIP3091",
             "url" : "https://scantn.openledger.xyz"
          }
@@ -47874,7 +48101,7 @@
       "faucets" : [],
       "icon" : "openledger",
       "infoURL" : "https://www.openledger.xyz",
-      "name" : "Openledger Testnet",
+      "name" : "OpenLedger Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Openledger",
@@ -51296,6 +51523,32 @@
          "https://auto-evm.taurus.autonomys.xyz/ws"
       ],
       "shortName" : "ATN"
+   },
+   {
+      "chain" : "PUMPFI CHAIN TESTNET",
+      "chainId" : 490092,
+      "explorers" : [
+         {
+            "name" : "Pumpfi Testnet Scan",
+            "standard" : "EIP3091",
+            "url" : "https://testnetscan.pumpfi.me"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.pumpfi.me"
+      ],
+      "infoURL" : "https://pumpfi.me",
+      "name" : "PUMPFI CHAIN TESTNET",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PMPT",
+         "symbol" : "PMPT"
+      },
+      "networkId" : 490092,
+      "rpc" : [
+         "https://rpc1testnet.pumpfi.me"
+      ],
+      "shortName" : "pumpfi-testnet"
    },
    {
       "chain" : "PDA",
@@ -58043,7 +58296,7 @@
             "icon" : "subscan",
             "name" : "subscan",
             "standard" : "EIP3091",
-            "url" : "https://assethub-westend.subscan.io"
+            "url" : "https://westend-asset-hub-eth-explorer.parity.io"
          }
       ],
       "faucets" : [
@@ -58894,6 +59147,50 @@
       "shortName" : "deprecated-titan-testnet",
       "slip44" : 1,
       "status" : "deprecated"
+   },
+   {
+      "chain" : "haust-network-testnet",
+      "chainId" : 1523903251,
+      "explorers" : [
+         {
+            "icon" : "haust",
+            "name" : "Haust Network Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.haust.app"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.haust.app"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "haust",
+      "infoURL" : "https://haust.network/",
+      "name" : "Haust Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "HAUST",
+         "symbol" : "HAUST"
+      },
+      "networkId" : 1523903251,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge-testnet.haust.app"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-testnet.haust.app"
+      ],
+      "shortName" : "HaustTestnet",
+      "status" : "active",
+      "title" : "Haust Network Testnet"
    },
    {
       "chain" : "honorable-steel-rasalhague",

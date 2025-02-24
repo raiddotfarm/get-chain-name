@@ -1099,7 +1099,7 @@
       },
       "networkId" : 40,
       "rpc" : [
-         "https://mainnet.telos.net/evm",
+         "https://rpc.telos.net",
          "https://telos.drpc.org",
          "wss://telos.drpc.org"
       ],
@@ -1127,7 +1127,7 @@
       },
       "networkId" : 41,
       "rpc" : [
-         "https://testnet.telos.net/evm",
+         "https://rpc.testnet.telos.net",
          "https://telos-testnet.drpc.org",
          "wss://telos-testnet.drpc.org"
       ],
@@ -9551,7 +9551,7 @@
       ],
       "icon" : "flowevm",
       "infoURL" : "https://developers.flow.com/evm/about",
-      "name" : "EVM on Flow Testnet",
+      "name" : "Flow EVM Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "FLOW",
@@ -10241,28 +10241,18 @@
    {
       "chain" : "Flow",
       "chainId" : 646,
-      "explorers" : [
-         {
-            "name" : "EVM on Flow Block Explorer (PreviewNet)",
-            "standard" : "EIP3091",
-            "url" : "https://eth.flowscan.io"
-         }
-      ],
-      "faucets" : [
-         "https://previewnet-faucet.onflow.org"
-      ],
+      "explorers" : [],
+      "faucets" : [],
       "icon" : "flowevm",
       "infoURL" : "https://developers.flow.com/evm/about",
-      "name" : "Previewnet",
+      "name" : "Flow EVM Previewnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "FLOW",
          "symbol" : "FLOW"
       },
       "networkId" : 646,
-      "rpc" : [
-         "https://previewnet.evm.nodes.onflow.org"
-      ],
+      "rpc" : [],
       "shortName" : "flow-previewnet",
       "status" : "deprecated"
    },
@@ -11184,7 +11174,7 @@
       "faucets" : [],
       "icon" : "flowevm",
       "infoURL" : "https://developers.flow.com/evm/about",
-      "name" : "EVM on Flow",
+      "name" : "Flow EVM Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "FLOW",
@@ -12125,6 +12115,32 @@
          "https://api.ambros.network"
       ],
       "shortName" : "ambros"
+   },
+   {
+      "chain" : "PTT",
+      "chainId" : 881,
+      "explorers" : [
+         {
+            "icon" : "ptt",
+            "name" : "Weber Governance Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet.myweber.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ptt",
+      "infoURL" : "https://myweber.org",
+      "name" : "Weber Governance Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PALLET",
+         "symbol" : "PTT"
+      },
+      "networkId" : 881,
+      "rpc" : [
+         "https://chain.myweber.org"
+      ],
+      "shortName" : "ptt"
    },
    {
       "chain" : "WAN",
@@ -15788,6 +15804,32 @@
       "shortName" : "unichain-sep"
    },
    {
+      "chain" : "ZAX",
+      "chainId" : 1310,
+      "explorers" : [
+         {
+            "name" : "COINZAX Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.coinzax.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "coinzaxIcon",
+      "infoURL" : "https://coinzax.com",
+      "name" : "COINZAX",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "COINZAX",
+         "symbol" : "ZAX"
+      },
+      "networkId" : 1310,
+      "rpc" : [
+         "https://rpc.coinzax.com"
+      ],
+      "shortName" : "zax",
+      "status" : "active"
+   },
+   {
       "chain" : "DOS",
       "chainId" : 1311,
       "explorers" : [
@@ -18957,11 +18999,11 @@
       "shortName" : "ekta"
    },
    {
-      "chain" : "edeXa TestNetwork",
+      "chain" : "edeXa",
       "chainId" : 1995,
       "explorers" : [
          {
-            "name" : "edexa-testnet",
+            "name" : "edexa-testnet-explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.testnet.edexa.network"
          }
@@ -18974,15 +19016,17 @@
       "name" : "edeXa Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "EDEXA",
-         "symbol" : "EDX"
+         "name" : "edeXa",
+         "symbol" : "tEDX"
       },
       "networkId" : 1995,
       "rpc" : [
          "https://testnet.edexa.network/rpc",
-         "https://testnet.edexa.com/rpc"
+         "wss://testnet.edexa.network/wss",
+         "https://testnet.edexa.com/rpc",
+         "wss://testnet.edexa.com/wss"
       ],
-      "shortName" : "edx",
+      "shortName" : "edxt",
       "slip44" : 1
    },
    {
@@ -23253,7 +23297,8 @@
          "https://peaq.api.onfinality.io/public",
          "https://peaq-rpc.dwellir.com",
          "https://peaq-rpc.publicnode.com",
-         "https://evm.peaq.network"
+         "https://evm.peaq.network",
+         "https://responsive-powerful-mansion.peaq-mainnet.quiknode.pro/29963d0a2deee01a20b091926b08d68db12bc68b"
       ],
       "shortName" : "PEAQ"
    },
@@ -23878,6 +23923,42 @@
       "shortName" : "xplatest",
       "slip44" : 1,
       "status" : "deprecated"
+   },
+   {
+      "chain" : "XOC",
+      "chainId" : 3721,
+      "explorers" : [
+         {
+            "icon" : "Xonescan",
+            "name" : "Xonescan",
+            "standard" : "EIP3091",
+            "url" : "https://xscscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.xone.org/"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "Xonechain",
+      "infoURL" : "https://xone.org",
+      "name" : "Xone Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Xone Coin",
+         "symbol" : "XOC"
+      },
+      "networkId" : 3721,
+      "rpc" : [
+         "https://rpc.xone.org"
+      ],
+      "shortName" : "XOC"
    },
    {
       "chain" : "Crossbell",
@@ -25277,6 +25358,51 @@
          "wss://subnets.avax.network/beam/mainnet/ws"
       ],
       "shortName" : "beam"
+   },
+   {
+      "chain" : "MemeCore",
+      "chainId" : 4352,
+      "explorers" : [
+         {
+            "name" : "OKX-MemeCore",
+            "standard" : "EIP3091",
+            "url" : "https://www.okx.com/web3/explorer/memecore"
+         },
+         {
+            "name" : "MemeCoreScan",
+            "standard" : "EIP3091",
+            "url" : "https://memecorescan.io"
+         },
+         {
+            "name" : "MemeCore explorer",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.memecore.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "memecore",
+      "infoURL" : "https://memecore.com",
+      "name" : "MemeCore",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "M",
+         "symbol" : "M"
+      },
+      "networkId" : 4352,
+      "rpc" : [
+         "https://rpc.memecore.net",
+         "wss://ws.memecore.net"
+      ],
+      "shortName" : "m",
+      "title" : "MemeCore"
    },
    {
       "chain" : "CREDIT",
@@ -26914,11 +27040,11 @@
       "status" : "active"
    },
    {
-      "chain" : "edeXa Network",
+      "chain" : "edeXa",
       "chainId" : 5424,
       "explorers" : [
          {
-            "name" : "edexa-mainnet",
+            "name" : "edexa-mainnet-explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.edexa.network"
          }
@@ -26937,15 +27063,17 @@
       "name" : "edeXa Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "EDEXA",
+         "name" : "edeXa",
          "symbol" : "EDX"
       },
       "networkId" : 5424,
       "rpc" : [
          "https://mainnet.edexa.network/rpc",
-         "https://mainnet.edexa.com/rpc"
+         "wss://mainnet.edexa.network/wss",
+         "https://mainnet.edexa.com/rpc",
+         "wss://mainnet.edexa.com/wss"
       ],
-      "shortName" : "edeXa",
+      "shortName" : "edx",
       "slip44" : 1
    },
    {
@@ -27328,10 +27456,12 @@
          {
             "name" : "BlockScout",
             "standard" : "EIP3091",
-            "url" : "https://3001-blockscout.a.dancebox.tanssi.network"
+            "url" : "https://fra-dancebox-3001-bs.a.dancebox.tanssi.network"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://apps.tanssi.network/demo"
+      ],
       "infoURL" : "https://docs.tanssi.network/builders/tanssi-network/networks/dancebox/demo-evm-containerchain",
       "name" : "Tanssi Demo",
       "nativeCurrency" : {
@@ -27341,8 +27471,8 @@
       },
       "networkId" : 5678,
       "rpc" : [
-         "https://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network",
-         "wss://fraa-dancebox-3001-rpc.a.dancebox.tanssi.network"
+         "https://dancebox-3001.tanssi-api.network",
+         "wss://dancebox-3001.tanssi-api.network"
       ],
       "shortName" : "tango"
    },
@@ -27797,6 +27927,26 @@
          "https://node-api.uptn.io/v1/ext/rpc"
       ],
       "shortName" : "UPTN"
+   },
+   {
+      "chain" : "TEA",
+      "chainId" : 6122,
+      "faucets" : [],
+      "infoURL" : "https://tea.xyz",
+      "name" : "Tea Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Tea",
+         "symbol" : "TEA"
+      },
+      "networkId" : 6122,
+      "parent" : {
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [],
+      "shortName" : "tea",
+      "status" : "incubating"
    },
    {
       "chain" : "RAILS",
@@ -28548,7 +28698,7 @@
       "faucets" : [],
       "icon" : "nibiru",
       "infoURL" : "https://nibiru.fi",
-      "name" : "Nibiru Mainnet",
+      "name" : "Nibiru cataclysm-1",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "NIBI",
@@ -28968,7 +29118,7 @@
          {
             "name" : "Bitrock Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.bit-rock.io"
+            "url" : "https://brockscan.io"
          }
       ],
       "faucets" : [],
@@ -29081,7 +29231,7 @@
       "faucets" : [],
       "icon" : "nibiru",
       "infoURL" : "https://nibiru.fi",
-      "name" : "Nibiru Testnet-1",
+      "name" : "Nibiru testnet-1",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "NIBI",
@@ -29100,7 +29250,7 @@
       "faucets" : [],
       "icon" : "nibiru",
       "infoURL" : "https://nibiru.fi",
-      "name" : "Nibiru Devnet-3",
+      "name" : "Nibiru devnet-3",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "NIBI",
@@ -33562,6 +33712,24 @@
       "shortName" : "ward"
    },
    {
+      "chain" : "DeepSafe",
+      "chainId" : 10011,
+      "faucets" : [],
+      "icon" : "deepsafe",
+      "infoURL" : "https://deepsafe.network/",
+      "name" : "DeepSafe Beta Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DeepSafe Native Token",
+         "symbol" : "DEF"
+      },
+      "networkId" : 10011,
+      "rpc" : [
+         "https://betamainnet-rpc-node-http.deepsafe.network"
+      ],
+      "shortName" : "DeepSafe"
+   },
+   {
       "chain" : "GonChain",
       "chainId" : 10024,
       "explorers" : [
@@ -33864,6 +34032,26 @@
          "https://rpc2.maxxchain.org"
       ],
       "shortName" : "PWR"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 10218,
+      "faucets" : [],
+      "infoURL" : "https://tea.xyz",
+      "name" : "Tea Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Tea",
+         "symbol" : "TEA"
+      },
+      "networkId" : 10218,
+      "parent" : {
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [],
+      "shortName" : "teasep",
+      "status" : "incubating"
    },
    {
       "chain" : "GLC",
@@ -37763,6 +37951,40 @@
       "shortName" : "fluent-dev-net"
    },
    {
+      "chain" : "Action",
+      "chainId" : 21000,
+      "explorers" : [
+         {
+            "icon" : "action",
+            "name" : "Action Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "http://exp.actionblockchain.org"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "action",
+      "infoURL" : "https://docs.actioncoin.com",
+      "name" : "Action Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Action",
+         "symbol" : "ACTN"
+      },
+      "networkId" : 21000,
+      "rpc" : [
+         "https://rpc.actionblockchain.org"
+      ],
+      "shortName" : "ACTN"
+   },
+   {
       "chain" : "C4EI",
       "chainId" : 21004,
       "explorers" : [
@@ -38462,6 +38684,24 @@
          "https://node1.mintme.com"
       ],
       "shortName" : "mintme"
+   },
+   {
+      "chain" : "Recall",
+      "chainId" : 24816,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://recall.network",
+      "name" : "Recall",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Recall",
+         "symbol" : "RECALL"
+      },
+      "networkId" : 24816,
+      "rpc" : [
+         "https://evm.node-0.mainnet.recall.network"
+      ],
+      "shortName" : "recall"
    },
    {
       "chain" : "LiquidLayer",
@@ -41236,6 +41476,11 @@
             "name" : "MemeCoreScan-Formicarium",
             "standard" : "EIP3091",
             "url" : "https://formicarium.memecorescan.io"
+         },
+         {
+            "name" : "MemeCore Testnet Formicarium Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://formicarium.blockscout.memecore.com"
          }
       ],
       "faucets" : [
@@ -41986,13 +42231,13 @@
    },
    {
       "chain" : "Somnia",
-      "chainId" : 50311,
+      "chainId" : 50312,
       "explorers" : [
          {
             "icon" : "somnia",
-            "name" : "Somnia Devnet",
+            "name" : "Somnia Testnet",
             "standard" : "EIP3091",
-            "url" : "https://somnia-devnet.socialscan.io"
+            "url" : "https://somnia-testnet.socialscan.io"
          }
       ],
       "faucets" : [],
@@ -42003,17 +42248,17 @@
       ],
       "icon" : "somnia",
       "infoURL" : "https://somnia.network",
-      "name" : "Somnia Devnet",
+      "name" : "Somnia Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Somnia Devnet",
+         "name" : "Somnia Testnet",
          "symbol" : "STT"
       },
-      "networkId" : 50311,
+      "networkId" : 50312,
       "rpc" : [
          "https://dream-rpc.somnia.network"
       ],
-      "shortName" : "STT"
+      "shortName" : "SomniaTestnet"
    },
    {
       "chain" : "ETH",
@@ -42217,6 +42462,36 @@
          "http://rpc.sl.testnet.cytonic.com"
       ],
       "shortName" : "CTS"
+   },
+   {
+      "chain" : "CytonicL2",
+      "chainId" : 52226,
+      "explorers" : [
+         {
+            "icon" : "cytonic_l2",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.evm.testnet.cytonic.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "cytonic_l2",
+      "infoURL" : "https://cytonic.com",
+      "name" : "Cytonic L2 Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Cytonic",
+         "symbol" : "CCC"
+      },
+      "networkId" : 52226,
+      "parent" : {
+         "chain" : "eip155-52225",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "http://rpc.evm.testnet.cytonic.com"
+      ],
+      "shortName" : "CL2T"
    },
    {
       "chain" : "DOID",
@@ -45311,6 +45586,25 @@
       "shortName" : "polynomialSepolia"
    },
    {
+      "chain" : "Berachain",
+      "chainId" : 80069,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "berachain",
+      "infoURL" : "https://www.berachain.com",
+      "name" : "Berachain Bepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet BERA Token",
+         "symbol" : "BERA"
+      },
+      "networkId" : 80069,
+      "rpc" : [
+         "https://bepolia.rpc.berachain.com"
+      ],
+      "shortName" : "berachain-bepolia"
+   },
+   {
       "chain" : "Berachain bArtio",
       "chainId" : 80084,
       "explorers" : [
@@ -45351,9 +45645,7 @@
             "url" : "https://artio.beratrail.io"
          }
       ],
-      "faucets" : [
-         "https://artio.faucet.berachain.com"
-      ],
+      "faucets" : [],
       "icon" : "berachain",
       "infoURL" : "https://www.berachain.com",
       "name" : "Berachain Artio",
@@ -45363,11 +45655,9 @@
          "symbol" : "BERA"
       },
       "networkId" : 80085,
-      "rpc" : [
-         "https://artio.rpc.berachain.com",
-         "https://rpc.ankr.com/berachain_testnet"
-      ],
-      "shortName" : "berachainArtio"
+      "rpc" : [],
+      "shortName" : "berachainArtio",
+      "status" : "deprecated"
    },
    {
       "chain" : "Berachain",
@@ -46821,6 +47111,34 @@
       ],
       "shortName" : "Lumoz-Chain-Mainnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "WNDR",
+      "chainId" : 96371,
+      "explorers" : [
+         {
+            "name" : "wonderexplorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.wonderchain.org"
+         }
+      ],
+      "faucets" : [
+         "https://wonderchain.org/faucet"
+      ],
+      "icon" : "wonder",
+      "infoURL" : "https://wonderchain.org",
+      "name" : "Wonder Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 96371,
+      "rpc" : [
+         "https://rpc.testnet.wonderchain.org"
+      ],
+      "shortName" : "wndr",
+      "status" : "active"
    },
    {
       "chain" : "Mantis",
@@ -50049,23 +50367,23 @@
       "shortName" : "platon"
    },
    {
-      "chain" : "Litentry",
+      "chain" : "Heima",
       "chainId" : 212013,
       "explorers" : [
          {
-            "name" : "litentry statescan",
+            "name" : "heima statescan",
             "standard" : "none",
-            "url" : "https://litentry.statescan.io"
+            "url" : "https://heima.statescan.io"
          }
       ],
       "faucets" : [],
-      "icon" : "litentry",
-      "infoURL" : "https://litentry.com",
-      "name" : "Litentry",
+      "icon" : "heima",
+      "infoURL" : "https://heima.network",
+      "name" : "Heima",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Litentry",
-         "symbol" : "LIT"
+         "name" : "Heima",
+         "symbol" : "HEI"
       },
       "networkId" : 212013,
       "rpc" : [
@@ -50074,7 +50392,7 @@
          "https://litentry-rpc.dwellir.com",
          "wss://litentry-rpc.dwellir.com"
       ],
-      "shortName" : "litentry"
+      "shortName" : "heima"
    },
    {
       "chain" : "MAS",
@@ -50188,7 +50506,13 @@
       "networkId" : 222222,
       "rpc" : [
          "https://rpc.hydradx.cloud",
-         "wss://rpc.hydradx.cloud"
+         "wss://rpc.hydradx.cloud",
+         "https://hydration-rpc.n.dwellir.com",
+         "wss://hydration-rpc.n.dwellir.com",
+         "https://rpc.helikon.io/hydradx",
+         "wss://rpc.helikon.io/hydradx",
+         "https://hydration.dotters.network",
+         "wss://hydration.dotters.network"
       ],
       "shortName" : "hdx"
    },
@@ -52425,28 +52749,28 @@
       "slip44" : 1
    },
    {
-      "chain" : "DIS",
+      "chain" : "ETHF",
       "chainId" : 513100,
       "explorers" : [
          {
-            "name" : "DisChain",
+            "name" : "EthereumFair",
             "standard" : "EIP3091",
-            "url" : "https://www.oklink.com/dis"
+            "url" : "https://www.oklink.com/ethf"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://dischain.xyz",
-      "name" : "DisChain",
+      "infoURL" : "https://etherfair.org/",
+      "name" : "EthereumFair",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "DisChain",
-         "symbol" : "DIS"
+         "name" : "EthereumFair",
+         "symbol" : "ETHF"
       },
       "networkId" : 513100,
       "rpc" : [
-         "https://rpc.dischain.xyz"
+         "https://rpc.etherfair.org"
       ],
-      "shortName" : "dis"
+      "shortName" : "ethf"
    },
    {
       "chain" : "DoCoin",
@@ -52845,6 +53169,33 @@
       "title" : "DustBoy IoT"
    },
    {
+      "chain" : "HETU",
+      "chainId" : 560000,
+      "explorers" : [
+         {
+            "icon" : "hetu",
+            "name" : "Hetu Testnet Scan",
+            "standard" : "EIP3091",
+            "url" : "https://testchainv1.hetuscan.com"
+         }
+      ],
+      "faucets" : [
+         "https:/testchainv1.hetuscan.com"
+      ],
+      "infoURL" : "https://hetu.org",
+      "name" : "Hetu Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "tETH",
+         "symbol" : "tETH"
+      },
+      "networkId" : 560000,
+      "rpc" : [
+         "https://rpc.testchainv1.hetuscan.com"
+      ],
+      "shortName" : "HETU"
+   },
+   {
       "chain" : "DJT",
       "chainId" : 621847,
       "explorers" : [
@@ -53197,6 +53548,25 @@
          "https://devnet.galadriel.com"
       ],
       "shortName" : "galadriel-devnet"
+   },
+   {
+      "chain" : "Primea Chain",
+      "chainId" : 698369,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "prim",
+      "infoURL" : "https://primeanetwork.com",
+      "name" : "Primea Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PrimeaCoin",
+         "symbol" : "PRIM"
+      },
+      "networkId" : 698369,
+      "rpc" : [
+         "https://rpc.primeanetwork.com"
+      ],
+      "shortName" : "prim"
    },
    {
       "chain" : "Fidesinnova",
@@ -54736,6 +55106,33 @@
       "title" : "AMC"
    },
    {
+      "chain" : "Naga",
+      "chainId" : 1008686,
+      "explorers" : [
+         {
+            "icon" : "naga",
+            "name" : "Naga Explorer Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.nagafintech.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "naga",
+      "infoURL" : "https://stablecoin.nagafintech.com/#/app/home",
+      "name" : "Naga Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Naga",
+         "symbol" : "Naga"
+      },
+      "networkId" : 1008686,
+      "rpc" : [
+         "https://rpc.nagafintech.com",
+         "wss://rpc.nagafintech.com"
+      ],
+      "shortName" : "Naga"
+   },
+   {
       "chain" : "NetMind",
       "chainId" : 1100789,
       "explorers" : [
@@ -55334,6 +55731,32 @@
       "shortName" : "cweb-bnb",
       "slip44" : 1,
       "title" : "Coinweb BNB shard"
+   },
+   {
+      "chain" : "Recall Testnet",
+      "chainId" : 2481632,
+      "explorers" : [
+         {
+            "name" : "Recall testnet explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.recall.network"
+         }
+      ],
+      "faucets" : [
+         "faucet.recall.network"
+      ],
+      "infoURL" : "https://recall.network",
+      "name" : "Recall Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Recall",
+         "symbol" : "RECALL"
+      },
+      "networkId" : 2481632,
+      "rpc" : [
+         "https://evm.v013.node-0.testnet.recall.network"
+      ],
+      "shortName" : "trecall"
    },
    {
       "chain" : "DPU",
@@ -57817,7 +58240,7 @@
          }
       ],
       "faucets" : [
-         "https://faucet.xone.plus/"
+         "https://faucet.xone.org/"
       ],
       "features" : [
          {
@@ -57828,7 +58251,7 @@
          }
       ],
       "icon" : "xone-test",
-      "infoURL" : "https://xone.plus",
+      "infoURL" : "https://xone.org",
       "name" : "Xone Testnet",
       "nativeCurrency" : {
          "decimals" : 18,

@@ -5714,11 +5714,11 @@
          {
             "name" : "Blockscout",
             "standard" : "EIP3091",
-            "url" : "https://happy-testnet-sepolia.explorer.caldera.xyz"
+            "url" : "https://explorer.testnet.happy.tech"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://happy-testnet-sepolia.hub.caldera.xyz",
+      "infoURL" : "https://testnet.happy.tech",
       "name" : "Happychain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -5727,7 +5727,7 @@
       },
       "networkId" : 216,
       "rpc" : [
-         "https://happy-testnet-sepolia.rpc.caldera.xyz/http"
+         "https://rpc.testnet.happy.tech/http"
       ],
       "shortName" : "happytestnet"
    },
@@ -16568,6 +16568,40 @@
       "slip44" : 1,
       "status" : "deprecated",
       "title" : "Polygon zkEVM Testnet Pre Audit-Upgraded"
+   },
+   {
+      "chain" : "perennial",
+      "chainId" : 1424,
+      "explorers" : [
+         {
+            "name" : "Perennial Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.perennial.foundation"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "perennial",
+      "infoURL" : "https://perennial.finance",
+      "name" : "Perennial",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 1424,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.perennial.foundation"
+            }
+         ],
+         "chain" : "eip155-8453",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.perennial.foundation"
+      ],
+      "shortName" : "perennial"
    },
    {
       "chain" : "Rikeza",
@@ -27491,6 +27525,31 @@
       ],
       "shortName" : "edx",
       "slip44" : 1
+   },
+   {
+      "chain" : "IRTA",
+      "chainId" : 5433,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "none",
+            "url" : "https://inertiascan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "inertiascan",
+      "infoURL" : "https://inertiascan.com",
+      "name" : "Inertia Scan",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Inertia",
+         "symbol" : "IRTA"
+      },
+      "networkId" : 5433,
+      "rpc" : [
+         "https://rpc.inertiascan.com"
+      ],
+      "shortName" : "IRTA"
    },
    {
       "chain" : "EGAX",
@@ -40612,6 +40671,46 @@
       "slip44" : 1
    },
    {
+      "chain" : "BasedAI",
+      "chainId" : 32323,
+      "explorers" : [
+         {
+            "name" : "BasedAI Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.getbased.ai"
+         },
+         {
+            "icon" : "blockscout",
+            "name" : "BF1337 BasedAI Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.bf1337.org"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "basedai",
+      "infoURL" : "https://getbased.ai",
+      "name" : "BasedAI",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BasedAI",
+         "symbol" : "BASED"
+      },
+      "networkId" : 32323,
+      "rpc" : [
+         "https://mainnet.basedaibridge.com/rpc/"
+      ],
+      "shortName" : "basedai",
+      "title" : "BasedAI"
+   },
+   {
       "chain" : "Santiment Intelligence Network",
       "chainId" : 32382,
       "explorers" : [
@@ -41092,14 +41191,14 @@
       "chainId" : 33979,
       "explorers" : [
          {
+            "name" : "Funki Mainnet Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.funkichain.com"
+         },
+         {
             "name" : "FunkiScan",
             "standard" : "none",
             "url" : "https://funkiscan.io"
-         },
-         {
-            "name" : "Funki Mainnet Explorer",
-            "standard" : "none",
-            "url" : "https://funki.superscan.network"
          }
       ],
       "faucets" : [],
@@ -44482,6 +44581,40 @@
       ],
       "shortName" : "bob",
       "status" : "active"
+   },
+   {
+      "chain" : "perennialSepolia",
+      "chainId" : 60850,
+      "explorers" : [
+         {
+            "name" : "Perennial Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-sepolia.perennial.foundation"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "perennial",
+      "infoURL" : "https://perennial.finance",
+      "name" : "Perennial Sepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 60850,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge-sepolia.perennial.foundation"
+            }
+         ],
+         "chain" : "eip155-84532",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-sepolia.perennial.foundation"
+      ],
+      "shortName" : "perennial-sepolia"
    },
    {
       "chain" : "Orange Chain",
@@ -48305,7 +48438,7 @@
       "shortName" : "OZ7t"
    },
    {
-      "chain" : "ETH",
+      "chain" : "PLUME Devnet Legacy",
       "chainId" : 98864,
       "explorers" : [
          {
@@ -48318,7 +48451,7 @@
       "faucets" : [],
       "icon" : "plume",
       "infoURL" : "https://plumenetwork.xyz/",
-      "name" : "Plume Devnet",
+      "name" : "Plume Devnet (Legacy)",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Plume Sepolia Ether",
@@ -48335,10 +48468,11 @@
       ],
       "shortName" : "plume-devnet",
       "slip44" : 1,
-      "title" : "Plume Sepolia L2 Rollup Devnet"
+      "status" : "deprecated",
+      "title" : "Plume Sepolia L2 Rollup Devnet (Legacy)"
    },
    {
-      "chain" : "ETH",
+      "chain" : "PLUME Legacy",
       "chainId" : 98865,
       "explorers" : [
          {
@@ -48376,7 +48510,7 @@
       "title" : "Plume Ethereum L2 Rollup Mainnet (Legacy)"
    },
    {
-      "chain" : "ETH",
+      "chain" : "PLUME",
       "chainId" : 98866,
       "explorers" : [
          {
@@ -48413,6 +48547,47 @@
       "slip44" : 1,
       "status" : "incubating",
       "title" : "Plume Ethereum L2 Rollup Mainnet"
+   },
+   {
+      "chain" : "PLUME Testnet",
+      "chainId" : 98867,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-explorer.plumenetwork.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.plumenetwork.xyz"
+      ],
+      "icon" : "plume",
+      "infoURL" : "https://plumenetwork.xyz/",
+      "name" : "Plume Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Plume",
+         "symbol" : "PLUME"
+      },
+      "networkId" : 98867,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://testnet-bridge.plumenetwork.xyz"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://testnet-rpc.plumenetwork.xyz",
+         "wss://testnet-rpc.plumenetwork.xyz"
+      ],
+      "shortName" : "plume-testnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Plume Sepolia L2 Rollup Testnet"
    },
    {
       "chain" : "Ebi",
@@ -55200,6 +55375,33 @@
       "shortName" : "mdlrm"
    },
    {
+      "chain" : "WINR",
+      "chainId" : 777777,
+      "explorers" : [
+         {
+            "icon" : "winr",
+            "name" : "Winr Protocol Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.winr.games"
+         }
+      ],
+      "faucets" : [],
+      "features" : [],
+      "icon" : "winr",
+      "infoURL" : "https://winr.games",
+      "name" : "Winr Protocol Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Winr",
+         "symbol" : "WINR"
+      },
+      "networkId" : 777777,
+      "rpc" : [
+         "https://rpc.winr.games"
+      ],
+      "shortName" : "winr"
+   },
+   {
       "chain" : "OONE",
       "chainId" : 777888,
       "explorers" : [
@@ -56719,6 +56921,43 @@
       "shortName" : "automataorbittestnet"
    },
    {
+      "chain" : "XRPLEVM Devnet",
+      "chainId" : 1440002,
+      "explorers" : [
+         {
+            "icon" : "xrplevm",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.xrplevm.org"
+         }
+      ],
+      "faucets" : [
+         "https://chains.tools/faucet/xrplevm"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "xrplevm",
+      "infoURL" : "https://xrplevm.org",
+      "name" : "XRPL EVM Sidechain Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "XRP",
+         "symbol" : "XRP"
+      },
+      "networkId" : 1440002,
+      "rpc" : [
+         "https://rpc.xrplevm.org",
+         "https://ws.xrplevm.org"
+      ],
+      "shortName" : "xrplevm"
+   },
+   {
       "chain" : "Waterfall TestNet9",
       "chainId" : 1501869,
       "explorers" : [
@@ -57150,7 +57389,12 @@
          {
             "name" : "Funki Sepolia Sandbox Explorer",
             "standard" : "none",
-            "url" : "https://sepolia-sandbox.funkichain.com"
+            "url" : "https://testnet-explorer.funkichain.com"
+         },
+         {
+            "name" : "Funki Sepolia Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://testnet.funkiscan.io"
          }
       ],
       "faucets" : [
@@ -60142,6 +60386,33 @@
       "slip44" : 1
    },
    {
+      "chain" : "WINR",
+      "chainId" : 66666666,
+      "explorers" : [
+         {
+            "icon" : "winr",
+            "name" : "Winr Protocol Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://explorer-winrprotocoltestnet-wmwv59m23g.t.conduit.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [],
+      "icon" : "winr",
+      "infoURL" : "https://winr.games",
+      "name" : "Winr Protocol Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Winr",
+         "symbol" : "WINR"
+      },
+      "networkId" : 66666666,
+      "rpc" : [
+         "https://rpc-devnet.winr.games"
+      ],
+      "shortName" : "winrtestnet"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 68840142,
       "explorers" : [
@@ -60585,13 +60856,13 @@
       "title" : "OP Celestia Raspberry Testnet"
    },
    {
-      "chain" : "ETH",
+      "chain" : "PLUME Testnet Legacy",
       "chainId" : 161221135,
       "explorers" : [],
       "faucets" : [],
       "icon" : "plume",
       "infoURL" : "https://plumenetwork.xyz/",
-      "name" : "Plume Testnet",
+      "name" : "Plume Testnet (Legacy)",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Plume Sepolia Ether",
@@ -60603,10 +60874,10 @@
          "type" : "L2"
       },
       "rpc" : [],
-      "shortName" : "plume-testnet",
+      "shortName" : "plume-testnet-legacy",
       "slip44" : 1,
       "status" : "deprecated",
-      "title" : "Plume Sepolia Rollup Testnet"
+      "title" : "Plume Sepolia L2 Rollup Testnet (Legacy)"
    },
    {
       "chain" : "ETH",
@@ -63467,11 +63738,11 @@
       ],
       "icon" : "smartpay",
       "infoURL" : "https://network.uat.smartmoneyewallet.com/",
-      "name" : "Smart Pay Mobile Money",
+      "name" : "SmartPay Mobile Money",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "SmartPay Mobile Money",
-         "symbol" : "SMRTP"
+         "symbol" : "SMM"
       },
       "networkId" : 666301179999,
       "rpc" : [

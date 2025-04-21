@@ -13960,33 +13960,39 @@
       "shortName" : "bronos-mainnet"
    },
    {
-      "chain" : "ShimmerEVM",
+      "chain" : "OGPU",
       "chainId" : 1071,
       "explorers" : [
          {
-            "name" : "explorer",
+            "icon" : "ogpu",
+            "name" : "OpenGPU Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.evm.testnet.shimmer.network"
+            "url" : "https://ogpuscan.io"
          }
       ],
-      "faucets" : [
-         "https://evm-toolkit.evm.testnet.shimmer.network",
-         "https://evm-faucet.testnet.shimmer.network"
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
       ],
-      "icon" : "shimmerevm",
-      "infoURL" : "https://shimmer.network",
-      "name" : "ShimmerEVM Testnet Deprecated",
+      "icon" : "ogpu",
+      "infoURL" : "https://opengpu.network",
+      "name" : "OpenGPU Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "SMR",
-         "symbol" : "SMR"
+         "name" : "OGPU",
+         "symbol" : "OGPU"
       },
       "networkId" : 1071,
-      "rpc" : [],
-      "shortName" : "shimmerevm-testnet-deprecated",
-      "slip44" : 1,
-      "status" : "deprecated",
-      "title" : "ShimmerEVM Testnet Deprecated"
+      "redFlags" : [
+         "reusedChainId"
+      ],
+      "rpc" : [
+         "https://mainnet-rpc.ogpuscan.io",
+         "wss://mainnet-rpc.ogpuscan.io"
+      ],
+      "shortName" : "ogpu"
    },
    {
       "chain" : "ShimmerEVM",
@@ -22279,8 +22285,8 @@
       "name" : "Fraxtal Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Frax Ether",
-         "symbol" : "frxETH"
+         "name" : "Frax",
+         "symbol" : "FRAX"
       },
       "networkId" : 2522,
       "rpc" : [
@@ -31457,6 +31463,31 @@
       "shortName" : "Sphinx10"
    },
    {
+      "chain" : "ShardeumTestnet",
+      "chainId" : 8083,
+      "explorers" : [
+         {
+            "name" : "Shardeum Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.shardeum.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "shardeum",
+      "infoURL" : "https://docs.shardeum.org/",
+      "name" : "Shardeum Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Shardeum Test SHM",
+         "symbol" : "SHM"
+      },
+      "networkId" : 8083,
+      "rpc" : [
+         "https://api-testnet.shardeum.org/"
+      ],
+      "shortName" : "ShardeumTestnet"
+   },
+   {
       "chain" : "BTC",
       "chainId" : 8086,
       "explorers" : [],
@@ -31556,6 +31587,31 @@
       "shortName" : "zen",
       "slip44" : 60,
       "status" : "incubating"
+   },
+   {
+      "chain" : "Shardeum",
+      "chainId" : 8118,
+      "explorers" : [
+         {
+            "name" : "Shardeum Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.shardeum.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "shardeum",
+      "infoURL" : "https://docs.shardeum.org/",
+      "name" : "Shardeum",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Shardeum",
+         "symbol" : "SHM"
+      },
+      "networkId" : 8118,
+      "rpc" : [
+         "https://api.shardeum.org/"
+      ],
+      "shortName" : "Shardeum"
    },
    {
       "chain" : "MEER",
@@ -50682,6 +50738,40 @@
       "shortName" : "etlt"
    },
    {
+      "chain" : "Tatara",
+      "chainId" : 129399,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Tatara explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.tatara.katana.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "ethereum",
+      "infoURL" : "",
+      "name" : "Tatara Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 129399,
+      "rpc" : [
+         "https://rpc.tatara.katanarpc.com/"
+      ],
+      "shortName" : "Tatara"
+   },
+   {
       "chain" : "DIONE",
       "chainId" : 131313,
       "faucets" : [
@@ -51494,6 +51584,32 @@
       ],
       "shortName" : "condor",
       "slip44" : 1
+   },
+   {
+      "chain" : "ALTB",
+      "chainId" : 191919,
+      "explorers" : [
+         {
+            "icon" : "altb",
+            "name" : "altblockscan",
+            "standard" : "none",
+            "url" : "https://scan.altblockscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "altb",
+      "infoURL" : "https://altblockscan.com",
+      "name" : "Altblockscan Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Altblockscan",
+         "symbol" : "ALTB"
+      },
+      "networkId" : 191919,
+      "rpc" : [
+         "https://rpc.altblockscan.com"
+      ],
+      "shortName" : "altb"
    },
    {
       "chain" : "FHET",
@@ -59540,7 +59656,6 @@
       "rpc" : [
          "https://rpc.sepolia.org",
          "https://rpc2.sepolia.org",
-         "https://rpc-sepolia.rockx.com",
          "https://rpc.sepolia.ethpandaops.io",
          "https://sepolia.infura.io/v3/${INFURA_API_KEY}",
          "wss://sepolia.infura.io/v3/${INFURA_API_KEY}",
@@ -59550,7 +59665,6 @@
          "wss://ethereum-sepolia-rpc.publicnode.com",
          "https://sepolia.drpc.org",
          "wss://sepolia.drpc.org",
-         "https://rpc-sepolia.rockx.com",
          "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-"
       ],
       "shortName" : "sep",

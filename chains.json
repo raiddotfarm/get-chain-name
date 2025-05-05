@@ -4148,6 +4148,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "redbelly",
       "infoURL" : "https://redbelly.network",
       "name" : "Redbelly Network Mainnet",
       "nativeCurrency" : {
@@ -4190,6 +4191,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "redbelly",
       "infoURL" : "https://redbelly.network",
       "name" : "Redbelly Network Testnet",
       "nativeCurrency" : {
@@ -46165,6 +46167,28 @@
          "https://rpc.testnet.dm2verse.dmm.com"
       ],
       "shortName" : "dm2t"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 69000,
+      "explorers" : [
+         {
+            "name" : "Animechain explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.anime.xyz"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.anime.xyz",
+      "name" : "Animechain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Animecoin",
+         "symbol" : "ANIME"
+      },
+      "networkId" : 69000,
+      "rpc" : [],
+      "shortName" : "anime"
    },
    {
       "chain" : "ETH",

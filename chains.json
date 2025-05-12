@@ -6200,21 +6200,21 @@
          {
             "name" : "Blast Mainnet",
             "standard" : "EIP3091",
-            "url" : "https://scan.blastblockchain.com"
+            "url" : "https://blastchain.org"
          }
       ],
       "faucets" : [],
       "icon" : "blastIcon",
-      "infoURL" : "https://docs.blastblockchain.com",
+      "infoURL" : "https://docs.blastchain.org",
       "name" : "Blast Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Ether",
-         "symbol" : "ETH"
+         "name" : "One World Chain",
+         "symbol" : "OWCT"
       },
       "networkId" : 238,
       "rpc" : [
-         "https://rpc.blastblockchain.com"
+         "https://zkevmrpc.blastchain.org"
       ],
       "shortName" : "blast"
    },
@@ -6315,6 +6315,39 @@
       ],
       "shortName" : "ewt",
       "slip44" : 246
+   },
+   {
+      "chain" : "CHOO",
+      "chainId" : 247,
+      "explorers" : [
+         {
+            "name" : "ChooChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://blocks.choochain.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://github.com/Trinketz/ChooChain",
+      "name" : "ChooChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ChooChain Token",
+         "symbol" : "CHOO"
+      },
+      "networkId" : 247,
+      "rpc" : [
+         "https://rpc.choochain.io"
+      ],
+      "shortName" : "choo",
+      "title" : "ChooChain Mainnet"
    },
    {
       "chain" : "Oasys",
@@ -8278,10 +8311,10 @@
       },
       "explorers" : [
          {
-            "icon" : "blockscout",
-            "name" : "blockscout",
+            "icon" : "pulsechain",
+            "name" : "pulsechain",
             "standard" : "EIP3091",
-            "url" : "https://scan.pulsechain.com"
+            "url" : "https://ipfs.scan.pulsechain.com"
          },
          {
             "name" : "otterscan",
@@ -8298,6 +8331,7 @@
             "name" : "EIP1559"
          }
       ],
+      "icon" : "pulsechain",
       "infoURL" : "https://pulsechain.com/",
       "name" : "PulseChain",
       "nativeCurrency" : {
@@ -15825,7 +15859,7 @@
       "shortName" : "mrock"
    },
    {
-      "chain" : "SWTR",
+      "chain" : "SWTR Testnet",
       "chainId" : 1291,
       "explorers" : [
          {
@@ -15857,7 +15891,7 @@
       "rpc" : [
          "https://json-rpc.testnet.swisstronik.com"
       ],
-      "shortName" : "swtr",
+      "shortName" : "swtr-testnet",
       "slip44" : 1
    },
    {
@@ -18347,6 +18381,48 @@
       "shortName" : "verify-testnet",
       "slip44" : 60,
       "title" : "Verify Testnet"
+   },
+   {
+      "chain" : "SWTR",
+      "chainId" : 1848,
+      "explorers" : [
+         {
+            "icon" : "ethernal",
+            "name" : "Swisstronik EVM Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-evm.mainnet.swisstronik.com"
+         },
+         {
+            "name" : "Swisstronik Cosmos Explorer",
+            "standard" : "none",
+            "url" : "https://explorer-cosmos.mainnet.swisstronik.com/swisstronik"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "swisstronik",
+      "infoURL" : "https://www.swisstronik.com",
+      "name" : "Swisstronik Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Swisstronik",
+         "symbol" : "SWTR"
+      },
+      "networkId" : 1848,
+      "rpc" : [
+         "https://json-rpc.mainnet.swisstronik.com/unencrypted/",
+         "https://json-rpc.mainnet.swisstronik.com",
+         "wss://ws-rpc.mainnet.swisstronik.com"
+      ],
+      "shortName" : "swtr",
+      "slip44" : 1
    },
    {
       "chain" : "HighOctane Subnet",
@@ -34968,7 +35044,17 @@
    {
       "chain" : "ETH",
       "chainId" : 10218,
-      "faucets" : [],
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://sepolia.tea.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet-sepolia.tea.xyz"
+      ],
       "infoURL" : "https://tea.xyz",
       "name" : "Tea Sepolia Testnet",
       "nativeCurrency" : {
@@ -34981,9 +35067,11 @@
          "chain" : "eip155-11155111",
          "type" : "L2"
       },
-      "rpc" : [],
+      "rpc" : [
+         "https://tea-sepolia.g.alchemy.com/public"
+      ],
       "shortName" : "teasep",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "GLC",
@@ -40223,7 +40311,7 @@
          {
             "name" : "XferChain Mainnet Explorer",
             "standard" : "EIP3091",
-            "url" : "https://xferchain.org"
+            "url" : "https://network.xferchain.org"
          }
       ],
       "faucets" : [],
@@ -41924,6 +42012,43 @@
          "https://rpc.edu-chain.raas.gelato.cloud"
       ],
       "shortName" : "edu-chain"
+   },
+   {
+      "chain" : "Helios Chain",
+      "chainId" : 42000,
+      "explorers" : [
+         {
+            "icon" : "helioschain",
+            "name" : "Helios Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.helioschainlabs.org"
+         }
+      ],
+      "faucets" : [
+         "https://testnet.helioschain.network"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "helioschain",
+      "infoURL" : "https://hub.helioschain.network",
+      "name" : "Helios Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Helios",
+         "symbol" : "HLS"
+      },
+      "networkId" : 42000,
+      "rpc" : [
+         "https://testnet1.helioschainlabs.org"
+      ],
+      "shortName" : "HLS",
+      "status" : "active"
    },
    {
       "chain" : "42001",

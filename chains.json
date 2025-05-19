@@ -8107,6 +8107,31 @@
       "shortName" : "sdn"
    },
    {
+      "chain" : "r5",
+      "chainId" : 337,
+      "explorers" : [
+         {
+            "name" : "R5 Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.r5.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "r5",
+      "infoURL" : "https://r5.network",
+      "name" : "R5 Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "R5",
+         "symbol" : "R5"
+      },
+      "networkId" : 337,
+      "rpc" : [
+         "https://rpc.r5.network"
+      ],
+      "shortName" : "r5"
+   },
+   {
       "chain" : "CRO",
       "chainId" : 338,
       "explorers" : [
@@ -28267,7 +28292,7 @@
          {
             "name" : "Syscoin Testnet Block Explorer",
             "standard" : "EIP3091",
-            "url" : "https://tanenbaum.io"
+            "url" : "https://explorer.tanenbaum.io"
          }
       ],
       "faucets" : [
@@ -30884,7 +30909,7 @@
          {
             "name" : "maalscan",
             "standard" : "EIP3091",
-            "url" : "https://maalscan.io"
+            "url" : "https://v2.maalscan.io"
          }
       ],
       "faucets" : [],
@@ -40943,7 +40968,7 @@
       "shortName" : "wpay"
    },
    {
-      "chain" : "Mezo",
+      "chain" : "Mezo Testnet",
       "chainId" : 31611,
       "explorers" : [
          {
@@ -40953,9 +40978,7 @@
             "url" : "https://explorer.test.mezo.org"
          }
       ],
-      "faucets" : [
-         "https://mezo.org/matsnet"
-      ],
+      "faucets" : [],
       "features" : [
          {
             "name" : "EIP155"
@@ -40965,7 +40988,7 @@
          }
       ],
       "infoURL" : "https://mezo.org/",
-      "name" : "Mezo Matsnet Testnet",
+      "name" : "Mezo Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Bitcoin",
@@ -40974,6 +40997,43 @@
       "networkId" : 31611,
       "rpc" : [
          "https://rpc.test.mezo.org"
+      ],
+      "shortName" : "mezo-testnet"
+   },
+   {
+      "chain" : "Mezo",
+      "chainId" : 31612,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.mezo.org"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "mezo",
+      "infoURL" : "https://mezo.org/",
+      "name" : "Mezo",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Bitcoin",
+         "symbol" : "BTC"
+      },
+      "networkId" : 31612,
+      "rpc" : [
+         "https://rpc_evm-mezo.imperator.co",
+         "wss://ws_evm-mezo.imperator.co",
+         "https://jsonrpc-mezo.boar.network",
+         "wss://jsonrpcws-mezo.boar.network"
       ],
       "shortName" : "mezo"
    },
@@ -41554,6 +41614,31 @@
          "https://api.zq2-devnet.zilliqa.com"
       ],
       "shortName" : "zq2-devnet"
+   },
+   {
+      "chain" : "r5testnet",
+      "chainId" : 33710,
+      "explorers" : [
+         {
+            "name" : "R5 Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.r5.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "r5",
+      "infoURL" : "https://r5.network",
+      "name" : "R5 Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Test R5",
+         "symbol" : "TR5"
+      },
+      "networkId" : 33710,
+      "rpc" : [
+         "https://rpc-testnet.r5.network"
+      ],
+      "shortName" : "tr5"
    },
    {
       "chain" : "ETH",
@@ -55451,7 +55536,7 @@
       ],
       "icon" : "ethereum",
       "infoURL" : "https://hoodi.ethpandaops.io",
-      "name" : "Hoodi testnet",
+      "name" : "Ethereum Hoodi",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Hoodi Ether",
@@ -55462,7 +55547,8 @@
          "https://rpc.hoodi.ethpandaops.io"
       ],
       "shortName" : "hoe",
-      "slip44" : 1
+      "slip44" : 1,
+      "title" : "Ethereum Testnet Hoodi"
    },
    {
       "chain" : "DJT",

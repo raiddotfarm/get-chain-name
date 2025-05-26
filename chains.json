@@ -41033,7 +41033,11 @@
          "https://rpc_evm-mezo.imperator.co",
          "wss://ws_evm-mezo.imperator.co",
          "https://jsonrpc-mezo.boar.network",
-         "wss://jsonrpcws-mezo.boar.network"
+         "wss://jsonrpcws-mezo.boar.network",
+         "https://mainnet.mezo.public.validationcloud.io",
+         "wss://mainnet.mezo.public.validationcloud.io",
+         "https://rpc-internal.mezo.org",
+         "wss://rpc-ws-internal.mezo.org"
       ],
       "shortName" : "mezo"
    },
@@ -50946,7 +50950,7 @@
          {
             "name" : "Etherlink Testnet Explorer",
             "standard" : "EIP3091",
-            "url" : "https://testnet-explorer.etherlink.com"
+            "url" : "https://testnet.explorer.etherlink.com"
          }
       ],
       "faucets" : [
@@ -59942,10 +59946,19 @@
       "slip44" : 1
    },
    {
-      "chain" : "RISE",
+      "chain" : "ETH",
       "chainId" : 11155931,
-      "explorers" : [],
-      "faucets" : [],
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.riselabs.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.testnet.riselabs.xyz"
+      ],
       "features" : [
          {
             "name" : "EIP155"
@@ -59959,11 +59972,23 @@
       "name" : "RISE Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "ETH",
+         "name" : "RISE Testnet Ether",
          "symbol" : "ETH"
       },
       "networkId" : 11155931,
-      "rpc" : [],
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge-ui.testnet.riselabs.xyz"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://testnet.riselabs.xyz",
+         "wss://testnet.riselabs.xyz/ws"
+      ],
       "shortName" : "rise-testnet"
    },
    {

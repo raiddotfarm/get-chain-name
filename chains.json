@@ -3859,7 +3859,7 @@
       "shortName" : "woop"
    },
    {
-      "chain" : "ETE",
+      "chain" : "ERA",
       "chainId" : 140,
       "faucets" : [],
       "features" : [
@@ -3870,20 +3870,20 @@
             "name" : "EIP1559"
          }
       ],
-      "icon" : "eternal",
-      "infoURL" : "https://eternalcoin.io",
-      "name" : "Eternal Mainnet",
+      "icon" : "eteria",
+      "infoURL" : "https://eteria.io",
+      "name" : "Eteria Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Eternal",
-         "symbol" : "ETE"
+         "name" : "Eteria",
+         "symbol" : "ERA"
       },
       "networkId" : 140,
       "rpc" : [
          "https://mainnet.eternalcoin.io/v1",
          "ws://mainnet.eternalcoin.io/v1/ws"
       ],
-      "shortName" : "ETE"
+      "shortName" : "ERA"
    },
    {
       "chain" : "OPENPIECE",
@@ -16329,7 +16329,8 @@
          "https://evm-rpc.sei-apis.com",
          "wss://evm-ws.sei-apis.com"
       ],
-      "shortName" : "sei"
+      "shortName" : "sei",
+      "slip44" : 19000118
    },
    {
       "chain" : "KII",
@@ -25857,6 +25858,38 @@
       ],
       "shortName" : "Merlin-Testnet",
       "title" : "Merlin Erigon Testnet"
+   },
+   {
+      "chain" : "EDGEN",
+      "chainId" : 4207,
+      "explorers" : [
+         {
+            "icon" : "edgen",
+            "name" : "Layer Edge Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://edgenscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "edgen",
+      "infoURL" : "https://layeredge.io",
+      "name" : "Layer Edge Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Layer Edge",
+         "symbol" : "EDGEN"
+      },
+      "networkId" : 4207,
+      "rpc" : [
+         "https://layeredge-mainnet-evm.itrocket.net",
+         "https://layeredge.rpc.subquery.network/public",
+         "https://rpc.layeredge.io",
+         "https://rpc2.layeredge.io",
+         "https://rpc.layeredge.foundation",
+         "https://rpc2.layeredge.foundation"
+      ],
+      "shortName" : "LayerEdge",
+      "title" : "EDGEN"
    },
    {
       "chain" : "Nexi",
@@ -49359,17 +49392,10 @@
    {
       "chain" : "PLUME Devnet Legacy",
       "chainId" : 98864,
-      "explorers" : [
-         {
-            "icon" : "blockscout",
-            "name" : "Blockscout",
-            "standard" : "EIP3091",
-            "url" : "https://test-explorer.plumenetwork.xyz"
-         }
-      ],
+      "explorers" : [],
       "faucets" : [],
       "icon" : "plume",
-      "infoURL" : "https://plumenetwork.xyz/",
+      "infoURL" : "https://plume.org",
       "name" : "Plume Devnet (Legacy)",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -49381,10 +49407,7 @@
          "chain" : "eip155-11155111",
          "type" : "L2"
       },
-      "rpc" : [
-         "https://test-rpc.plumenetwork.xyz",
-         "wss://test-rpc.plumenetwork.xyz"
-      ],
+      "rpc" : [],
       "shortName" : "plume-devnet",
       "slip44" : 1,
       "status" : "deprecated",
@@ -49393,17 +49416,10 @@
    {
       "chain" : "PLUME Legacy",
       "chainId" : 98865,
-      "explorers" : [
-         {
-            "icon" : "blockscout",
-            "name" : "Blockscout",
-            "standard" : "EIP3091",
-            "url" : "https://explorer.plumenetwork.xyz"
-         }
-      ],
+      "explorers" : [],
       "faucets" : [],
       "icon" : "plume",
-      "infoURL" : "https://plumenetwork.xyz/",
+      "infoURL" : "https://plume.org",
       "name" : "Plume (Legacy)",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -49412,20 +49428,13 @@
       },
       "networkId" : 98865,
       "parent" : {
-         "bridges" : [
-            {
-               "url" : "https://bridge.plumenetwork.xyz"
-            }
-         ],
          "chain" : "eip155-1",
          "type" : "L2"
       },
-      "rpc" : [
-         "https://rpc.plumenetwork.xyz",
-         "wss://rpc.plumenetwork.xyz"
-      ],
+      "rpc" : [],
       "shortName" : "plume",
       "slip44" : 1,
+      "status" : "deprecated",
       "title" : "Plume Ethereum L2 Rollup Mainnet (Legacy)"
    },
    {
@@ -49436,12 +49445,12 @@
             "icon" : "blockscout",
             "name" : "Blockscout",
             "standard" : "EIP3091",
-            "url" : "https://phoenix-explorer.plumenetwork.xyz"
+            "url" : "https://explorer.plume.org"
          }
       ],
       "faucets" : [],
       "icon" : "plume",
-      "infoURL" : "https://plumenetwork.xyz/",
+      "infoURL" : "https://plume.org",
       "name" : "Plume Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -49452,19 +49461,19 @@
       "parent" : {
          "bridges" : [
             {
-               "url" : "https://bridge.plumenetwork.xyz"
+               "url" : "https://bridge.plume.org"
             }
          ],
          "chain" : "eip155-1",
          "type" : "L2"
       },
       "rpc" : [
-         "https://phoenix-rpc.plumenetwork.xyz",
-         "wss://phoenix-rpc.plumenetwork.xyz"
+         "https://rpc.plume.org",
+         "wss://rpc.plume.org"
       ],
       "shortName" : "plume-mainnet",
       "slip44" : 1,
-      "status" : "incubating",
+      "status" : "active",
       "title" : "Plume Ethereum L2 Rollup Mainnet"
    },
    {
@@ -49475,14 +49484,14 @@
             "icon" : "blockscout",
             "name" : "Blockscout",
             "standard" : "EIP3091",
-            "url" : "https://testnet-explorer.plumenetwork.xyz"
+            "url" : "https://testnet-explorer.plume.org"
          }
       ],
       "faucets" : [
-         "https://faucet.plumenetwork.xyz"
+         "https://faucet.plume.org"
       ],
       "icon" : "plume",
-      "infoURL" : "https://plumenetwork.xyz/",
+      "infoURL" : "https://plume.org",
       "name" : "Plume Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -49493,19 +49502,19 @@
       "parent" : {
          "bridges" : [
             {
-               "url" : "https://testnet-bridge.plumenetwork.xyz"
+               "url" : "https://testnet-bridge.plume.org"
             }
          ],
          "chain" : "eip155-11155111",
          "type" : "L2"
       },
       "rpc" : [
-         "https://testnet-rpc.plumenetwork.xyz",
-         "wss://testnet-rpc.plumenetwork.xyz"
+         "https://testnet-rpc.plume.org",
+         "wss://testnet-rpc.plume.org"
       ],
       "shortName" : "plume-testnet",
       "slip44" : 1,
-      "status" : "incubating",
+      "status" : "active",
       "title" : "Plume Sepolia L2 Rollup Testnet"
    },
    {
@@ -55515,6 +55524,42 @@
          "https://rpc.testchainv1.hetuscan.com"
       ],
       "shortName" : "HETU"
+   },
+   {
+      "chain" : "ROGUE",
+      "chainId" : 560013,
+      "explorers" : [
+         {
+            "icon" : "rogue",
+            "name" : "Roguescan",
+            "standard" : "EIP3091",
+            "url" : "https://roguescan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "rogue",
+      "infoURL" : "https://roguechain.io",
+      "name" : "Rogue Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Rogue",
+         "symbol" : "ROGUE"
+      },
+      "networkId" : 560013,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.arbitrum.io"
+            }
+         ],
+         "chain" : "eip155-42161",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.roguechain.io/rpc",
+         "wss://rpc.roguechain.io/ws"
+      ],
+      "shortName" : "rogue"
    },
    {
       "chain" : "ETH",
@@ -62090,7 +62135,7 @@
       "explorers" : [],
       "faucets" : [],
       "icon" : "plume",
-      "infoURL" : "https://plumenetwork.xyz/",
+      "infoURL" : "https://plume.org",
       "name" : "Plume Testnet (Legacy)",
       "nativeCurrency" : {
          "decimals" : 18,

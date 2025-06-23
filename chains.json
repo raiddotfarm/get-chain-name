@@ -6221,7 +6221,18 @@
    {
       "chain" : "TAC",
       "chainId" : 239,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "TAC Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.tac.build"
+         },
+         {
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://tac.blockscout.com"
+         }
+      ],
       "faucets" : [],
       "icon" : "tac",
       "infoURL" : "https://tac.build/",
@@ -6232,8 +6243,13 @@
          "symbol" : "TAC"
       },
       "networkId" : 239,
-      "rpc" : [],
-      "shortName" : "tac",
+      "rpc" : [
+         "https://rpc.tac.build",
+         "https://rpc.ankr.com/tac",
+         "https://ws.rpc.tac.build"
+      ],
+      "shortName" : "tacchain_239-1",
+      "slip44" : 60,
       "title" : "TAC Mainnet"
    },
    {
@@ -21895,8 +21911,39 @@
          "https://turin-ws.rpc.tac.build"
       ],
       "shortName" : "tacchain_2390-1",
-      "slip44" : 1,
+      "slip44" : 60,
       "title" : "TAC Testnet Turin"
+   },
+   {
+      "chain" : "TAC",
+      "chainId" : 2391,
+      "explorers" : [
+         {
+            "name" : "TAC SPB Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://spb.explorer.tac.build"
+         }
+      ],
+      "faucets" : [
+         "https://spb.faucet.tac.build/"
+      ],
+      "icon" : "tactestnet",
+      "infoURL" : "https://tac.build/",
+      "name" : "TAC Saint Petersburg",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TAC",
+         "symbol" : "TAC"
+      },
+      "networkId" : 2391,
+      "rpc" : [
+         "https://spb.rpc.tac.build",
+         "https://rpc.ankr.com/tac_spb",
+         "https://spb-ws.rpc.tac.build"
+      ],
+      "shortName" : "tacchain_2391-1",
+      "slip44" : 60,
+      "title" : "TAC Testnet SPB"
    },
    {
       "chain" : "BOMB",
@@ -23707,6 +23754,74 @@
       ],
       "shortName" : "testdubx",
       "slip44" : 1
+   },
+   {
+      "chain" : "Realio Testnet",
+      "chainId" : 3300,
+      "explorers" : [
+         {
+            "name" : "Realio Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.realiostage.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "realiotestnet",
+      "infoURL" : "https://www.realio.network",
+      "name" : "Realio Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Rio",
+         "symbol" : "RIO"
+      },
+      "networkId" : 3300,
+      "rpc" : [
+         "https://json-rpc.realiostage.network",
+         "https://realio-testnet.json-rpc.decentrio.ventures"
+      ],
+      "shortName" : "realiotestnet"
+   },
+   {
+      "chain" : "Realio",
+      "chainId" : 3301,
+      "explorers" : [
+         {
+            "name" : "Realio Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.realio.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "realio",
+      "infoURL" : "https://www.realio.network",
+      "name" : "Realio",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Rio",
+         "symbol" : "RIO"
+      },
+      "networkId" : 3301,
+      "rpc" : [
+         "https://json-rpc.realio.network",
+         "https://realio.json-rpc.decentrio.ventures"
+      ],
+      "shortName" : "realio"
    },
    {
       "chain" : "Debounce Network",
@@ -34019,6 +34134,32 @@
       ],
       "shortName" : "BobaBnbTestnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "Plasma",
+      "chainId" : 9746,
+      "explorers" : [
+         {
+            "icon" : "plasma",
+            "name" : "Plasma Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://plasma.gas.zip"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "plasma",
+      "infoURL" : "https://plasma.to",
+      "name" : "Plasma Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet Plasma",
+         "symbol" : "tXPL"
+      },
+      "networkId" : 9746,
+      "rpc" : [
+         "https://ultra-quick-paper.plasma-testnet.quiknode.pro"
+      ],
+      "shortName" : "plasma"
    },
    {
       "chain" : "NetZ",
@@ -53300,6 +53441,40 @@
       "shortName" : "cmp-mainnet"
    },
    {
+      "chain" : "ALTHEA",
+      "chainId" : 258432,
+      "explorers" : [
+         {
+            "name" : "Mintscan",
+            "standard" : "none",
+            "url" : "https://mintscan.io/althea"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "althea",
+      "infoURL" : "https://althea.net",
+      "name" : "Althea L1 Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Althea",
+         "symbol" : "ALTHEA"
+      },
+      "networkId" : 258432,
+      "rpc" : [
+         "https://rpc.althea.zone"
+      ],
+      "shortName" : "ALTHEA",
+      "slip44" : 60
+   },
+   {
       "chain" : "Eclat",
       "chainId" : 262371,
       "explorers" : [
@@ -53578,7 +53753,7 @@
       ],
       "icon" : "sahara",
       "infoURL" : "https://saharalabs.ai",
-      "name" : "SaharaAI Testnet",
+      "name" : "Sahara AI Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Sahara AI",
@@ -56223,6 +56398,33 @@
       ],
       "shortName" : "hemi-sep",
       "status" : "active"
+   },
+   {
+      "chain" : "katana",
+      "chainId" : 747474,
+      "explorers" : [
+         {
+            "icon" : "katana",
+            "name" : "katana explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.katanarpc.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "katana",
+      "infoURL" : "https://katana.network",
+      "name" : "katana",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 747474,
+      "rpc" : [
+         "https://rpc.katanarpc.com",
+         "https://rpc.katana.network"
+      ],
+      "shortName" : "katana"
    },
    {
       "chain" : "BRNKCTEST",

@@ -24482,24 +24482,22 @@
       "rpc" : [
          "https://node.botanixlabs.dev"
       ],
-      "shortName" : "BTNX",
+      "shortName" : "BTNXt",
       "slip44" : 1
    },
    {
-      "chain" : "BTC",
+      "chain" : "BOTANIX",
       "chainId" : 3637,
       "explorers" : [
          {
-            "name" : "Botanix",
+            "name" : "Botanix Explorer",
             "standard" : "EIP3091",
-            "url" : "https://btxtestchain.com"
+            "url" : "https://botanixscan.io"
          }
       ],
-      "faucets" : [
-         "https://faucet.btxtestchain.com"
-      ],
+      "faucets" : [],
       "icon" : "botanix",
-      "infoURL" : "https://btxtestchain.com",
+      "infoURL" : "https://botanixlabs.com",
       "name" : "Botanix Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -24508,9 +24506,9 @@
       },
       "networkId" : 3637,
       "rpc" : [
-         "https://rpc.btxtestchain.com"
+         "https://rpc.botanixlabs.com"
       ],
-      "shortName" : "BTCm"
+      "shortName" : "BTNX"
    },
    {
       "chain" : "iChain",
@@ -44289,6 +44287,37 @@
       "title" : "Reddio Sepolia L2 Rollup Testnet"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 50342,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://reddio.cloud.blockscout.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://www.reddio.com",
+      "name" : "Reddio",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Reddio",
+         "symbol" : "RDO"
+      },
+      "networkId" : 50342,
+      "parent" : {
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://mainnet.reddio.com/rpc"
+      ],
+      "shortName" : "reddio",
+      "slip44" : 1,
+      "title" : "Reddio mainnet L2 Rollup"
+   },
+   {
       "chain" : "STB Testnet",
       "chainId" : 50505,
       "explorers" : [
@@ -50160,6 +50189,31 @@
       "rpc" : [],
       "shortName" : "chi1",
       "status" : "deprecated"
+   },
+   {
+      "chain" : "DeInfraMainnet",
+      "chainId" : 100501,
+      "explorers" : [
+         {
+            "name" : "Deinfra Mainnet Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.deinfra.net"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "deinfra",
+      "infoURL" : "https://deinfra.net",
+      "name" : "DeInfra Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SK",
+         "symbol" : "SK"
+      },
+      "networkId" : 100501,
+      "rpc" : [
+         "https://c100501n3.deinfra.net:443/jsonrpc"
+      ],
+      "shortName" : "deinfra-mainnet"
    },
    {
       "chain" : "Socotra JUNE-Chain",
@@ -63242,6 +63296,33 @@
       ],
       "shortName" : "zsep",
       "slip44" : 1
+   },
+   {
+      "chain" : "DeInfraDev3",
+      "chainId" : 1000000003,
+      "explorers" : [
+         {
+            "name" : "Deinfra Devnet Chain 3 Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://bs.thepower.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.thepower.io/"
+      ],
+      "icon" : "deinfra",
+      "infoURL" : "https://deinfra.net",
+      "name" : "DeInfra Devnet3",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "dev3SK",
+         "symbol" : "dSK"
+      },
+      "networkId" : 1000000003,
+      "rpc" : [
+         "https://c3n1.thepower.io:1446/jsonrpc"
+      ],
+      "shortName" : "deinfra-dev3"
    },
    {
       "chain" : "aware-fake-trim-testnet",

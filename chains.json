@@ -1610,6 +1610,7 @@
          "https://rpc.syscoin.org",
          "https://rpc.ankr.com/syscoin/${ANKR_API_KEY}",
          "https://syscoin.public-rpc.com",
+         "https://57.rpc.thirdweb.com",
          "wss://rpc.syscoin.org/wss",
          "https://syscoin-evm.publicnode.com",
          "wss://syscoin-evm.publicnode.com"
@@ -3880,8 +3881,7 @@
       },
       "networkId" : 140,
       "rpc" : [
-         "https://mainnet.eternalcoin.io/v1",
-         "ws://mainnet.eternalcoin.io/v1/ws"
+         "https://mainnet.eteria.io/v1"
       ],
       "shortName" : "ERA"
    },
@@ -7863,29 +7863,31 @@
       "slip44" : 1
    },
    {
-      "chain" : "CVM",
+      "chain" : "BUYCEX",
       "chainId" : 323,
       "explorers" : [
          {
             "icon" : "blockscout",
             "name" : "Blockscout",
             "standard" : "EIP3091",
-            "url" : "https://explorer.cosvm.net"
+            "url" : "https://buycex.com"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://cosvm.network",
-      "name" : "Cosvm Mainnet",
+      "infoURL" : "https://infinity.buycex.com",
+      "name" : "BuyCex Infinity Chain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Cosvm",
-         "symbol" : "CVM"
+         "name" : "Buycex",
+         "symbol" : "BCX"
       },
       "networkId" : 323,
       "rpc" : [
-         "https://rpc.cosvm.net"
+         "https://rpc.buycex.net",
+         "wss://socket.buycex.net"
       ],
-      "shortName" : "cvm"
+      "shortName" : "buycex",
+      "status" : "active"
    },
    {
       "chain" : "ETH",
@@ -19212,6 +19214,31 @@
       "shortName" : "SEL"
    },
    {
+      "chain" : "T-Rex",
+      "chainId" : 1962,
+      "explorers" : [
+         {
+            "name" : "T-Rex Testnet explorer",
+            "standard" : "none",
+            "url" : "https://testnet.trex.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "trex",
+      "infoURL" : "https://trex.xyz/",
+      "name" : "T-Rex Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 1962,
+      "rpc" : [
+         "https://testnetrpc.trex.xyz"
+      ],
+      "shortName" : "TREX"
+   },
+   {
       "chain" : "MTC",
       "chainId" : 1967,
       "explorers" : [
@@ -24018,7 +24045,7 @@
       ],
       "faucets" : [],
       "icon" : "peaq",
-      "infoURL" : "https://www.peaq.network",
+      "infoURL" : "https://www.peaq.xyz",
       "name" : "peaq",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -24027,10 +24054,8 @@
       },
       "networkId" : 3338,
       "rpc" : [
-         "https://peaq.api.onfinality.io/public",
-         "https://peaq-rpc.dwellir.com",
          "https://peaq-rpc.publicnode.com",
-         "https://evm.peaq.network",
+         "https://peaq-rpc.dwellir.com",
          "https://responsive-powerful-mansion.peaq-mainnet.quiknode.pro/29963d0a2deee01a20b091926b08d68db12bc68b"
       ],
       "shortName" : "PEAQ"
@@ -30530,6 +30555,64 @@
          "https://rpc.meversemainnet.io"
       ],
       "shortName" : "MEV"
+   },
+   {
+      "chain" : "ROME",
+      "chainId" : 7531,
+      "explorers" : [
+         {
+            "icon" : "rome",
+            "name" : "Rome Mainnet 0 Palatine Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://romescout-palatine-i.mainnet-0.romeprotocol.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://deposit.mainnet-0.romeprotocol.xyz"
+      ],
+      "icon" : "rome",
+      "infoURL" : "https://rome.builders",
+      "name" : "Rome Mainnet 0 Palatine",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RSOL",
+         "symbol" : "RSOL"
+      },
+      "networkId" : 7531,
+      "rpc" : [
+         "https://palatine-i.mainnet-0.romeprotocol.xyz"
+      ],
+      "shortName" : "rome-mainnet-0-palatine",
+      "status" : "active"
+   },
+   {
+      "chain" : "ROME",
+      "chainId" : 7532,
+      "explorers" : [
+         {
+            "icon" : "rome",
+            "name" : "Rome Mainnet 0 Aventine Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://romescout-aventine-i.mainnet-0.romeprotocol.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://deposit.mainnet-0.romeprotocol.xyz"
+      ],
+      "icon" : "rome",
+      "infoURL" : "https://rome.builders",
+      "name" : "Rome Mainnet 0 Aventine",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RSOL",
+         "symbol" : "RSOL"
+      },
+      "networkId" : 7532,
+      "rpc" : [
+         "https://aventine-i.mainnet-0.romeprotocol.xyz"
+      ],
+      "shortName" : "rome-mainnet-0-aventine",
+      "status" : "active"
    },
    {
       "chain" : "Cyber",
@@ -47677,7 +47760,7 @@
       "faucets" : [],
       "icon" : "polynomialSepolia",
       "infoURL" : "https://polynomial.fi",
-      "name" : "Polynomia Sepolia",
+      "name" : "Polynomial Sepolia",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ether",
@@ -49707,6 +49790,39 @@
       "title" : "Ebi Chain"
    },
    {
+      "chain" : "PAY1",
+      "chainId" : 98964,
+      "explorers" : [
+         {
+            "icon" : "pay1scan",
+            "name" : "Pay1Scan",
+            "standard" : "EIP3091",
+            "url" : "https://pay1scan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "pay1",
+      "infoURL" : "https://pay1coin.com",
+      "name" : "Pay1 Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Pay1",
+         "symbol" : "Pay1"
+      },
+      "networkId" : 98964,
+      "rpc" : [
+         "https://rpc.pay1coin.com",
+         "https://rpc0.pay1coin.com",
+         "https://rpc1.pay1coin.com",
+         "https://rpc2.pay1coin.com",
+         "wss://ws.pay1coin.com",
+         "wss://ws0.pay1coin.com",
+         "wss://ws1.pay1coin.com",
+         "wss://ws2.pay1coin.com"
+      ],
+      "shortName" : "pay1"
+   },
+   {
       "chain" : "SPN",
       "chainId" : 98985,
       "explorers" : [
@@ -50214,6 +50330,40 @@
          "https://c100501n3.deinfra.net:443/jsonrpc"
       ],
       "shortName" : "deinfra-mainnet"
+   },
+   {
+      "chain" : "MONSOON",
+      "chainId" : 100610,
+      "explorers" : [
+         {
+            "icon" : "monsoon",
+            "name" : "Monsoon Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scout.monsoon.rainfall.one"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "monsoon",
+      "infoURL" : "",
+      "name" : "Monsoon ",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RDP",
+         "symbol" : "RDP"
+      },
+      "networkId" : 100610,
+      "rpc" : [
+         "https://monsoon.rainfall.one"
+      ],
+      "shortName" : "monsoon"
    },
    {
       "chain" : "Socotra JUNE-Chain",
@@ -51041,6 +51191,122 @@
       ],
       "shortName" : "MetaDAP-T",
       "title" : "MetaDAP Enterprise Testnet"
+   },
+   {
+      "chain" : "ROME",
+      "chainId" : 121212,
+      "explorers" : [
+         {
+            "icon" : "rome",
+            "name" : "Rome Devnet Esquiline Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://romescout-esquiline-i.devnet.romeprotocol.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://deposit.devnet.romeprotocol.xyz"
+      ],
+      "icon" : "rome",
+      "infoURL" : "https://rome.builders",
+      "name" : "Rome Devnet Esquiline",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RSOL",
+         "symbol" : "RSOL"
+      },
+      "networkId" : 121212,
+      "rpc" : [
+         "https://esquiline-i.devnet.romeprotocol.xyz"
+      ],
+      "shortName" : "rome-devnet-esquiline",
+      "status" : "active"
+   },
+   {
+      "chain" : "ROME",
+      "chainId" : 121213,
+      "explorers" : [
+         {
+            "icon" : "rome",
+            "name" : "Rome Devnet Subura Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://romescout-subura-i.devnet.romeprotocol.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://deposit.devnet.romeprotocol.xyz"
+      ],
+      "icon" : "rome",
+      "infoURL" : "https://rome.builders",
+      "name" : "Rome Devnet Subura",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RSOL",
+         "symbol" : "RSOL"
+      },
+      "networkId" : 121213,
+      "rpc" : [
+         "https://subura-i.devnet.romeprotocol.xyz"
+      ],
+      "shortName" : "rome-devnet-subura",
+      "status" : "active"
+   },
+   {
+      "chain" : "ROME",
+      "chainId" : 121214,
+      "explorers" : [
+         {
+            "icon" : "rome",
+            "name" : "Rome Testnet Martius Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://romescout-martius-i.testnet.romeprotocol.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://deposit.testnet.romeprotocol.xyz"
+      ],
+      "icon" : "rome",
+      "infoURL" : "https://rome.builders",
+      "name" : "Rome Testnet Martius",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RSOL",
+         "symbol" : "RSOL"
+      },
+      "networkId" : 121214,
+      "rpc" : [
+         "https://martius-i.testnet.romeprotocol.xyz"
+      ],
+      "shortName" : "rome-testnet-martius",
+      "status" : "active"
+   },
+   {
+      "chain" : "ROME",
+      "chainId" : 121215,
+      "explorers" : [
+         {
+            "icon" : "rome",
+            "name" : "Rome Testnet Caelian Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://romescout-caelian-i.testnet.romeprotocol.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://deposit.testnet.romeprotocol.xyz"
+      ],
+      "icon" : "rome",
+      "infoURL" : "https://rome.builders",
+      "name" : "Rome Testnet Caelian",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RSOL",
+         "symbol" : "RSOL"
+      },
+      "networkId" : 121215,
+      "rpc" : [
+         "https://caelian-i.testnet.romeprotocol.xyz"
+      ],
+      "shortName" : "rome-testnet-caelian",
+      "status" : "active"
    },
    {
       "chain" : "Fushuma",
@@ -56475,7 +56741,6 @@
       },
       "networkId" : 747474,
       "rpc" : [
-         "https://rpc.katanarpc.com",
          "https://rpc.katana.network"
       ],
       "shortName" : "katana"
@@ -62902,6 +63167,33 @@
       "shortName" : "wst"
    },
    {
+      "chain" : "PAS",
+      "chainId" : 420420422,
+      "faucets" : [
+         "https://faucet.polkadot.io/?parachain=1111"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://polkadot.network",
+      "name" : "Paseo PassetHub",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PAS",
+         "symbol" : "PAS"
+      },
+      "networkId" : 420420422,
+      "rpc" : [
+         "https://testnet-passet-hub-eth-rpc.polkadot.io"
+      ],
+      "shortName" : "pas"
+   },
+   {
       "chain" : "staging-legal-crazy-castor",
       "chainId" : 476158412,
       "explorers" : [
@@ -63320,7 +63612,7 @@
       },
       "networkId" : 1000000003,
       "rpc" : [
-         "https://c3n1.thepower.io:1446/jsonrpc"
+         "https://c3n1.thepower.io/jsonrpc"
       ],
       "shortName" : "deinfra-dev3"
    },
@@ -64028,8 +64320,7 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://public.sepolia.rpc.status.network",
-         "wss://status-sepolia-rpc.eu-north-2.gateway.fm/ws"
+         "https://public.sepolia.rpc.status.network"
       ],
       "shortName" : "sn-sepolia",
       "status" : "active",
@@ -64469,6 +64760,52 @@
          "https://23.92.21.121:8545"
       ],
       "shortName" : "hop"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 2030232745,
+      "explorers" : [
+         {
+            "icon" : "lumia",
+            "name" : "Lumia Beam Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://beam-explorer.lumia.org"
+         }
+      ],
+      "faucets" : [
+         "https://beam-faucet.lumia.org/"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "lumia",
+      "infoURL" : "https://lumia.org",
+      "name" : "Lumia Beam Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Lumia",
+         "symbol" : "LUMIA"
+      },
+      "networkId" : 2030232745,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://beam-bridge.lumia.org"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://beam-rpc.lumia.org"
+      ],
+      "shortName" : "lumia-beam-testnet",
+      "title" : "Lumia Beam Testnet"
    },
    {
       "chain" : "europa",

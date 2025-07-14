@@ -24054,9 +24054,10 @@
       },
       "networkId" : 3338,
       "rpc" : [
-         "https://peaq-rpc.publicnode.com",
-         "https://peaq-rpc.dwellir.com",
-         "https://responsive-powerful-mansion.peaq-mainnet.quiknode.pro/29963d0a2deee01a20b091926b08d68db12bc68b"
+         "https://quicknode1.peaq.xyz",
+         "https://quicknode2.peaq.xyz",
+         "https://quicknode3.peaq.xyz",
+         "https://peaq-rpc.publicnode.com"
       ],
       "shortName" : "PEAQ"
    },
@@ -25360,17 +25361,17 @@
       "faucets" : [],
       "icon" : "gpu",
       "infoURL" : "https://docs.gpu.net/",
-      "name" : "GAN Testnet",
+      "name" : "GANchain L1",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "GP Token",
-         "symbol" : "GP"
+         "name" : "GPUnet",
+         "symbol" : "GPU"
       },
       "networkId" : 4048,
       "rpc" : [
          "https://rpc.gpu.net"
       ],
-      "shortName" : "GANTestnet"
+      "shortName" : "GANchain"
    },
    {
       "chain" : "Bobaopera Testnet",
@@ -27615,6 +27616,11 @@
             "name" : "blockscout",
             "standard" : "none",
             "url" : "https://ftnscan.com"
+         },
+         {
+            "name" : "blockscout",
+            "standard" : "none",
+            "url" : "https://ftnscan.io"
          }
       ],
       "faucets" : [],
@@ -27638,6 +27644,8 @@
       "rpc" : [
          "https://rpc1.bahamut.io",
          "https://rpc2.bahamut.io",
+         "https://rpc1.ftnscan.io",
+         "https://rpc2.ftnscan.io",
          "wss://ws1.sahara.bahamutchain.com",
          "wss://ws2.sahara.bahamutchain.com",
          "https://bahamut-rpc.publicnode.com",
@@ -34222,9 +34230,9 @@
       "explorers" : [
          {
             "icon" : "plasma",
-            "name" : "Plasma Explorer",
+            "name" : "RouteScan",
             "standard" : "EIP3091",
-            "url" : "https://plasma.gas.zip"
+            "url" : "https://testnet.plasmaexplorer.io"
          }
       ],
       "faucets" : [],
@@ -34234,11 +34242,11 @@
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Testnet Plasma",
-         "symbol" : "tXPL"
+         "symbol" : "XPL"
       },
       "networkId" : 9746,
       "rpc" : [
-         "https://ultra-quick-paper.plasma-testnet.quiknode.pro"
+         "https://testnet-rpc.plasma.to"
       ],
       "shortName" : "plasma"
    },

@@ -12242,6 +12242,22 @@
       "shortName" : "FSCMainnet"
    },
    {
+      "chain" : "WMC",
+      "chainId" : 869,
+      "faucets" : [],
+      "infoURL" : "https://worldmobile.io/the-chain",
+      "name" : "WorldMobileChain-Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "World Mobile Token",
+         "symbol" : "WMTX"
+      },
+      "networkId" : 869,
+      "rpc" : [],
+      "shortName" : "WMC",
+      "status" : "incubating"
+   },
+   {
       "chain" : "Electra",
       "chainId" : 871,
       "explorers" : [
@@ -24056,8 +24072,7 @@
       "rpc" : [
          "https://quicknode1.peaq.xyz",
          "https://quicknode2.peaq.xyz",
-         "https://quicknode3.peaq.xyz",
-         "https://peaq-rpc.publicnode.com"
+         "https://quicknode3.peaq.xyz"
       ],
       "shortName" : "PEAQ"
    },
@@ -26023,9 +26038,7 @@
          "https://layeredge-mainnet-evm.itrocket.net",
          "https://layeredge.rpc.subquery.network/public",
          "https://rpc.layeredge.io",
-         "https://rpc2.layeredge.io",
-         "https://rpc.layeredge.foundation",
-         "https://rpc2.layeredge.foundation"
+         "https://rpc.layeredge.foundation"
       ],
       "shortName" : "LayerEdge",
       "title" : "EDGEN"
@@ -59804,6 +59817,89 @@
       "shortName" : "ting-testnet"
    },
    {
+      "chain" : "Humanity",
+      "chainId" : 6985385,
+      "explorers" : [
+         {
+            "name" : "Humanity Mainnet explorer",
+            "standard" : "none",
+            "url" : "https://humanity-mainnet.explorer.alchemy.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://humanity.org",
+      "name" : "Humanity Protocol",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "H",
+         "symbol" : "H"
+      },
+      "networkId" : 6985385,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.arbitrum.io"
+            }
+         ],
+         "chain" : "eip155-42161",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://humanity-mainnet.g.alchemy.com/public"
+      ],
+      "shortName" : "hp",
+      "status" : "active"
+   },
+   {
+      "chain" : "Humanity",
+      "chainId" : 7080969,
+      "explorers" : [
+         {
+            "name" : "Humanity Testnet explorer",
+            "standard" : "none",
+            "url" : "https://humanity-testnet.explorer.alchemy.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucets.alchemy.com/faucets/humanity-testnet"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://testnet.humanity.org",
+      "name" : "Humanity Protocol testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "tHP",
+         "symbol" : "tHP"
+      },
+      "networkId" : 7080969,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-42161",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.testnet.humanity.org",
+         "https://humanity-testnet.g.alchemy.com/public"
+      ],
+      "shortName" : "thp",
+      "status" : "active"
+   },
+   {
       "chain" : "COTI",
       "chainId" : 7082400,
       "explorers" : [
@@ -61923,7 +62019,7 @@
       },
       "networkId" : 61022448,
       "rpc" : [
-         "https://warehouse-full01.dkargo.io"
+         "https://rpc.warehouse.dkargo.io"
       ],
       "shortName" : "dkargowarehouse"
    },

@@ -4711,6 +4711,31 @@
       "slip44" : 1
    },
    {
+      "chain" : "ENI",
+      "chainId" : 173,
+      "explorers" : [
+         {
+            "name" : "ENI Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.eniac.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "eni",
+      "infoURL" : "https://eniac.network/",
+      "name" : "ENI Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ENI",
+         "symbol" : "ENI"
+      },
+      "networkId" : 173,
+      "rpc" : [
+         "https://rpc.eniac.network"
+      ],
+      "shortName" : "eni"
+   },
+   {
       "chain" : "OTC",
       "chainId" : 175,
       "faucets" : [],
@@ -6471,8 +6496,8 @@
       "name" : "Fraxtal",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Frax Ether",
-         "symbol" : "frxETH"
+         "name" : "Frax",
+         "symbol" : "FRAX"
       },
       "networkId" : 252,
       "rpc" : [
@@ -6480,7 +6505,7 @@
          "https://fraxtal-rpc.publicnode.com",
          "wss://fraxtal-rpc.publicnode.com"
       ],
-      "shortName" : "fraxtal",
+      "shortName" : "frax",
       "status" : "active"
    },
    {
@@ -28457,7 +28482,7 @@
          {
             "name" : "BlockScout",
             "standard" : "EIP3091",
-            "url" : "https://fra-dancebox-3001-bs.a.dancebox.tanssi.network"
+            "url" : "https://dancelight-2001-blockscout.tanssi-chains.network"
          }
       ],
       "faucets" : [
@@ -28472,8 +28497,8 @@
       },
       "networkId" : 5678,
       "rpc" : [
-         "https://dancebox-3001.tanssi-api.network",
-         "wss://dancebox-3001.tanssi-api.network"
+         "https://dancelight-2001.tanssi-api.network",
+         "wss://dancelight-2001.tanssi-api.network"
       ],
       "shortName" : "tango"
    },
@@ -29761,7 +29786,7 @@
          }
       ],
       "faucets" : [
-         "https://debxylen.github.io/XYL_TestNet/faucet.html"
+         "https://debxylen.github.io/Xylume_TestNet/faucet.html"
       ],
       "features" : [
          {
@@ -29779,12 +29804,12 @@
       "name" : "Xylume TestNet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "XYL",
+         "name" : "Xylume",
          "symbol" : "XYL"
       },
       "networkId" : 6934,
       "rpc" : [
-         "https://xyl-testnet.glitch.me/rpc/"
+         "https://xylume-testnet.sparked.network/rpc/"
       ],
       "shortName" : "xyl"
    },
@@ -34578,20 +34603,13 @@
       "shortName" : "pointledger"
    },
    {
-      "chain" : "arena-z-testnet",
+      "chain" : "arena-z-testnet-deprecated",
       "chainId" : 9897,
-      "explorers" : [
-         {
-            "icon" : "blockscout",
-            "name" : "blockscout",
-            "standard" : "EIP3091",
-            "url" : "https://arena-z.blockscout.com"
-         }
-      ],
+      "explorers" : [],
       "faucets" : [],
       "icon" : "arena-z",
       "infoURL" : "https://raas.gelato.network/rollups/details/public/arena-z-testnet",
-      "name" : "arena-z-testnet",
+      "name" : "arena-z-testnet-deprecated",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ether",
@@ -34599,22 +34617,15 @@
       },
       "networkId" : 9897,
       "parent" : {
-         "bridges" : [
-            {
-               "url" : "https://testnet-bridge.gelato.network/bridge/arena-z-testnet"
-            }
-         ],
+         "bridges" : [],
          "chain" : "eip155-11155111",
          "type" : "L2"
       },
-      "rpc" : [
-         "https://rpc.arena-z.t.raas.gelato.cloud",
-         "wss://ws.arena-z.t.raas.gelato.cloud"
-      ],
-      "shortName" : "arena-z-testnet",
+      "rpc" : [],
+      "shortName" : "arena-z-testnet-deprecated",
       "slip44" : 60,
-      "status" : "active",
-      "title" : "Arena-Z-Testnet"
+      "status" : "deprecated",
+      "title" : "Arena-Z-Testnet-deprecated"
    },
    {
       "chain" : "Larissa",
@@ -34643,6 +34654,46 @@
       "slip44" : 9898,
       "status" : "active",
       "title" : "Larissa Chain"
+   },
+   {
+      "chain" : "arena-z-testnet",
+      "chainId" : 9899,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-explorer.arena-z.gg"
+         }
+      ],
+      "faucets" : [
+         "https://testnet-faucet.arena-z.gg"
+      ],
+      "icon" : "arena-z",
+      "infoURL" : "https://raas.gelato.network/rollups/details/public/arena-z-testnet",
+      "name" : "Arena-Z-Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 9899,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://testnet-bridge.arena-z.gg"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://testnet-rpc.arena-z.gg",
+         "wss://testnet-ws.arena-z.gg"
+      ],
+      "shortName" : "arena-z-testnet",
+      "status" : "active",
+      "title" : "Arena-Z-Testnet"
    },
    {
       "chain" : "ETH",
@@ -59815,6 +59866,31 @@
          "https://public.0xrpc.com/6666689"
       ],
       "shortName" : "ting-testnet"
+   },
+   {
+      "chain" : "ENI",
+      "chainId" : 6912115,
+      "explorers" : [
+         {
+            "name" : "ENI Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan-testnet.eniac.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "eni-test",
+      "infoURL" : "https://eniac.network/",
+      "name" : "ENI Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ENI Testnet Token",
+         "symbol" : "ENI"
+      },
+      "networkId" : 6912115,
+      "rpc" : [
+         "https://rpc-testnet.eniac.network"
+      ],
+      "shortName" : "eni-test"
    },
    {
       "chain" : "Humanity",

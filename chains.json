@@ -34264,13 +34264,29 @@
    },
    {
       "chain" : "Plasma",
+      "chainId" : 9745,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "plasma",
+      "infoURL" : "https://plasma.to",
+      "name" : "Plasma Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Plasma",
+         "symbol" : "XPL"
+      },
+      "networkId" : 9745,
+      "rpc" : [],
+      "shortName" : "plasma-mainnet"
+   },
+   {
+      "chain" : "Plasma",
       "chainId" : 9746,
       "explorers" : [
          {
-            "icon" : "plasma",
-            "name" : "RouteScan",
+            "name" : "Routescan",
             "standard" : "EIP3091",
-            "url" : "https://testnet.plasmaexplorer.io"
+            "url" : "https://testnet.plasmascan.to"
          }
       ],
       "faucets" : [],
@@ -34286,7 +34302,7 @@
       "rpc" : [
          "https://testnet-rpc.plasma.to"
       ],
-      "shortName" : "plasma"
+      "shortName" : "plasma-testnet"
    },
    {
       "chain" : "NetZ",
@@ -51263,6 +51279,33 @@
       ],
       "shortName" : "MetaDAP-T",
       "title" : "MetaDAP Enterprise Testnet"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 120893,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.sova.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "sova",
+      "infoURL" : "https://sova.io",
+      "name" : "Sova Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 120893,
+      "rpc" : [
+         "https://rpc.testnet.sova.io"
+      ],
+      "shortName" : "sovasep",
+      "slip44" : 1
    },
    {
       "chain" : "ROME",

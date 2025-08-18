@@ -42726,8 +42726,8 @@
          },
          {
             "name" : "blockscout",
-            "standard" : "none",
-            "url" : "https://explorer.celo.org"
+            "standard" : "EIP3091",
+            "url" : "https://celo.blockscout.com"
          }
       ],
       "faucets" : [],
@@ -42739,6 +42739,15 @@
          "symbol" : "CELO"
       },
       "networkId" : 42220,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://superbridge.app/celo"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
       "rpc" : [
          "https://forno.celo.org",
          "wss://forno.celo.org/ws"
@@ -60603,6 +60612,51 @@
          "https://hal.rpc.caldera.xyz/http"
       ],
       "shortName" : "ALIENXHal"
+   },
+   {
+      "chain" : "CELO",
+      "chainId" : 11142220,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Celo Sepolia Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://celo-sepolia.blockscout.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.celo.org"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://docs.celo.org",
+      "name" : "Celo Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CELO-S",
+         "symbol" : "CELO"
+      },
+      "networkId" : 11142220,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://superbridge.app/?fromChainId=11155111&toChainId=11142220"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://forno.celo-sepolia.celo-testnet.org"
+      ],
+      "shortName" : "celo-sep",
+      "slip44" : 60
    },
    {
       "chain" : "ETH",

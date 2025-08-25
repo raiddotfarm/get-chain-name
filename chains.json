@@ -4726,8 +4726,8 @@
       "name" : "ENI Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "ENI",
-         "symbol" : "ENI"
+         "name" : "EGAS",
+         "symbol" : "EGAS"
       },
       "networkId" : 173,
       "rpc" : [
@@ -28719,6 +28719,36 @@
          "http://wallet.wegochain.io:7764"
       ],
       "shortName" : "rbd"
+   },
+   {
+      "chain" : "Dukong",
+      "chainId" : 5887,
+      "explorers" : [
+         {
+            "icon" : "om",
+            "name" : "Dukong Explorer",
+            "standard" : "none",
+            "url" : "http://mantrascan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.dukong.mantrachain.io"
+      ],
+      "icon" : "om",
+      "infoURL" : "https://mantrachain.io",
+      "name" : "MANTRACHAIN Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OM",
+         "symbol" : "OM"
+      },
+      "networkId" : 5887,
+      "rpc" : [
+         "https://evm.dukong.mantrachain.io",
+         "wss://evm.dukong.mantrachain.io/ws"
+      ],
+      "shortName" : "dukong",
+      "slip44" : 1
    },
    {
       "chain" : "BounceBit",
@@ -59935,8 +59965,8 @@
       "name" : "ENI Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "ENI Testnet Token",
-         "symbol" : "ENI"
+         "name" : "EGAS",
+         "symbol" : "EGAS"
       },
       "networkId" : 6912115,
       "rpc" : [

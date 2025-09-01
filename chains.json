@@ -4818,10 +4818,11 @@
       "title" : "HashKey Chain"
    },
    {
-      "chain" : "ABEY",
+      "chain" : "Abey",
       "chainId" : 178,
       "explorers" : [
          {
+            "icon" : "abey",
             "name" : "abeyscan-testnet",
             "standard" : "EIP3091",
             "url" : "https://testnet.abeyscan.com"
@@ -4835,8 +4836,9 @@
             "name" : "EIP155"
          }
       ],
+      "icon" : "abey",
       "infoURL" : "https://abey.com",
-      "name" : "ABEY Testnet",
+      "name" : "Abey Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "ABEY",
@@ -4849,10 +4851,11 @@
       "shortName" : "abeyt"
    },
    {
-      "chain" : "ABEY",
+      "chain" : "Abey",
       "chainId" : 179,
       "explorers" : [
          {
+            "icon" : "abey",
             "name" : "abeyscan",
             "standard" : "EIP3091",
             "url" : "https://abeyscan.com"
@@ -4864,8 +4867,9 @@
             "name" : "EIP155"
          }
       ],
+      "icon" : "abey",
       "infoURL" : "https://abey.com",
-      "name" : "ABEY Mainnet",
+      "name" : "Abey Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "ABEY",
@@ -17471,6 +17475,40 @@
          "https://rpc.bethscan.io"
       ],
       "shortName" : "Beth"
+   },
+   {
+      "chain" : "OpenLedger",
+      "chainId" : 1612,
+      "explorers" : [
+         {
+            "name" : "OpenLedger Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.openledger.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "openledger",
+      "infoURL" : "https://www.openledger.xyz",
+      "name" : "OpenLedger Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Open",
+         "symbol" : "OPEN"
+      },
+      "networkId" : 1612,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.openledger.xyz/"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.openledger.xyz"
+      ],
+      "shortName" : "open"
    },
    {
       "chain" : "ETINS",

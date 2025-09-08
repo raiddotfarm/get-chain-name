@@ -34333,7 +34333,13 @@
    {
       "chain" : "Plasma",
       "chainId" : 9745,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "Routescan",
+            "standard" : "EIP3091",
+            "url" : "https://plasmascan.to"
+         }
+      ],
       "faucets" : [],
       "icon" : "plasma",
       "infoURL" : "https://plasma.to",
@@ -34344,8 +34350,10 @@
          "symbol" : "XPL"
       },
       "networkId" : 9745,
-      "rpc" : [],
-      "shortName" : "plasma-mainnet"
+      "rpc" : [
+         "https://rpc.plasma.to"
+      ],
+      "shortName" : "plasma"
    },
    {
       "chain" : "Plasma",
@@ -34371,6 +34379,25 @@
          "https://testnet-rpc.plasma.to"
       ],
       "shortName" : "plasma-testnet"
+   },
+   {
+      "chain" : "Plasma",
+      "chainId" : 9747,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "plasma",
+      "infoURL" : "https://plasma.to",
+      "name" : "Plasma Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Devnet Plasma",
+         "symbol" : "XPL"
+      },
+      "networkId" : 9747,
+      "rpc" : [
+         "https://devnet-rpc.plasma.to"
+      ],
+      "shortName" : "plasma-devnet"
    },
    {
       "chain" : "NetZ",

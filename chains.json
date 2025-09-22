@@ -3862,6 +3862,13 @@
    {
       "chain" : "ERA",
       "chainId" : 140,
+      "explorers" : [
+         {
+            "name" : "eteriascan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.eteria.io"
+         }
+      ],
       "faucets" : [],
       "features" : [
          {
@@ -9534,22 +9541,37 @@
    {
       "chain" : "Syndicate",
       "chainId" : 510,
+      "explorers" : [
+         {
+            "name" : "Syndicate Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.syndicate.io"
+         }
+      ],
       "faucets" : [],
       "icon" : "syndicate",
       "infoURL" : "https://syndicate.io",
-      "name" : "Syndicate Chain",
+      "name" : "Syndicate Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Ether",
-         "symbol" : "ETH"
+         "name" : "Syndicate",
+         "symbol" : "SYND"
       },
       "networkId" : 510,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.arbitrum.io"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
       "rpc" : [
-         "https://rpc-mainnet.syndicate.io"
+         "https://rpc.syndicate.io"
       ],
-      "shortName" : "syndicate-chain-mainnet",
-      "status" : "incubating",
-      "title" : "Syndicate Chain"
+      "shortName" : "syndicate",
+      "status" : "active"
    },
    {
       "chain" : "AAC",
@@ -12273,7 +12295,15 @@
    {
       "chain" : "WMC",
       "chainId" : 869,
+      "explorers" : [
+         {
+            "name" : "World Mobile Chain Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.worldmobile.io"
+         }
+      ],
       "faucets" : [],
+      "icon" : "worldmobilechain",
       "infoURL" : "https://worldmobile.io/the-chain",
       "name" : "WorldMobileChain-Mainnet",
       "nativeCurrency" : {
@@ -12282,9 +12312,11 @@
          "symbol" : "WMTX"
       },
       "networkId" : 869,
-      "rpc" : [],
+      "rpc" : [
+         "https://worldmobilechain-mainnet.g.alchemy.com/public"
+      ],
       "shortName" : "WMC",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "Electra",
@@ -28789,6 +28821,34 @@
       "slip44" : 1
    },
    {
+      "chain" : "MANTRACHAIN",
+      "chainId" : 5888,
+      "explorers" : [
+         {
+            "icon" : "om",
+            "name" : "MANTRACHAIN Explorer",
+            "standard" : "none",
+            "url" : "http://mantrascan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "om",
+      "infoURL" : "https://mantrachain.io",
+      "name" : "MANTRACHAIN Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OM",
+         "symbol" : "OM"
+      },
+      "networkId" : 5888,
+      "rpc" : [
+         "https://evm.mantrachain.io",
+         "wss://evm.mantrachain.io/ws"
+      ],
+      "shortName" : "mantrachain",
+      "slip44" : 1
+   },
+   {
       "chain" : "BounceBit",
       "chainId" : 6000,
       "explorers" : [
@@ -38158,13 +38218,7 @@
    {
       "chain" : "0G-Testnet",
       "chainId" : 16600,
-      "explorers" : [
-         {
-            "name" : "0G BlockChain Explorer",
-            "standard" : "none",
-            "url" : "https://chainscan-newton.0g.ai"
-         }
-      ],
+      "explorers" : [],
       "faucets" : [
          "https://faucet.0g.ai"
       ],
@@ -38177,10 +38231,55 @@
          "symbol" : "A0GI"
       },
       "networkId" : 16600,
+      "rpc" : [],
+      "shortName" : "0gai-testnet",
+      "status" : "deprecated"
+   },
+   {
+      "chain" : "0G-Testnet",
+      "chainId" : 16601,
+      "explorers" : [
+         {
+            "name" : "0G BlockChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://chainscan-galileo.0g.ai"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.0g.ai"
+      ],
+      "icon" : "0gai",
+      "infoURL" : "https://0g.ai",
+      "name" : "0G-Galileo-Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "A0GI",
+         "symbol" : "A0GI"
+      },
+      "networkId" : 16601,
       "rpc" : [
          "https://evmrpc-testnet.0g.ai"
       ],
-      "shortName" : "0gai-testnet"
+      "shortName" : "0gai-galileo-testnet"
+   },
+   {
+      "chain" : "0G",
+      "chainId" : 16661,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "0g",
+      "infoURL" : "https://0g.ai",
+      "name" : "0G Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "0G",
+         "symbol" : "0G"
+      },
+      "networkId" : 16661,
+      "rpc" : [
+         "https://evmrpc.0g.ai"
+      ],
+      "shortName" : "0g"
    },
    {
       "chain" : "IRIShub",
@@ -41686,15 +41785,15 @@
       "chainId" : 32769,
       "explorers" : [
          {
-            "name" : "Zilliqa EVM Explorer",
-            "standard" : "none",
-            "url" : "https://evmx.zilliqa.com"
+            "name" : "Zilliqa 2 Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://zilliqa.blockscout.com"
          }
       ],
       "faucets" : [],
       "icon" : "zilliqa",
       "infoURL" : "https://www.zilliqa.com/",
-      "name" : "Zilliqa EVM",
+      "name" : "Zilliqa 2",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Zilliqa",
@@ -41790,16 +41889,16 @@
       "chainId" : 33101,
       "explorers" : [
          {
-            "name" : "Zilliqa EVM Explorer",
-            "standard" : "none",
-            "url" : "https://evmx.zilliqa.com"
+            "name" : "Zilliqa 2 Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.zilliqa.blockscout.com"
          }
       ],
       "faucets" : [
-         "https://dev-wallet.zilliqa.com/faucet?network=testnet"
+         "https://faucet.testnet.zilliqa.com"
       ],
-      "infoURL" : "https://www.zilliqa.com/",
-      "name" : "Zilliqa EVM Testnet",
+      "infoURL" : "https://www.zilliqa.com",
+      "name" : "Zilliqa 2 Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Zilliqa",
@@ -41807,7 +41906,7 @@
       },
       "networkId" : 33101,
       "rpc" : [
-         "https://dev-api.zilliqa.com"
+         "https://api.testnet.zilliqa.com"
       ],
       "shortName" : "zil-testnet",
       "slip44" : 1
@@ -50481,6 +50580,32 @@
       "shortName" : "qkc-l2"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 100021,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.sova.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "sova",
+      "infoURL" : "https://sova.io",
+      "name" : "Sova",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 100021,
+      "rpc" : [
+         "https://rpc.sova.io"
+      ],
+      "shortName" : "sova"
+   },
+   {
       "chain" : "CHI1",
       "chainId" : 100100,
       "explorers" : [],
@@ -53800,6 +53925,42 @@
       "status" : "active"
    },
    {
+      "chain" : "STO",
+      "chainId" : 240241,
+      "explorers" : [
+         {
+            "name" : "Studio Scan",
+            "standard" : "EIP3091",
+            "url" : "https://studio-scan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "studio",
+      "infoURL" : "https://studio-blockchain.com",
+      "name" : "Studio Blockchain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Studio Token",
+         "symbol" : "STO"
+      },
+      "networkId" : 240241,
+      "rpc" : [
+         "https://mainnet.studio-blockchain.com",
+         "https://mainnet2.studio-blockchain.com",
+         "https://mainnet3.studio-blockchain.com",
+         "https://mainnet.studio-scan.com",
+         "https://mainnet2.studio-scan.com",
+         "wss://mainnet.studio-blockchain.com:8547"
+      ],
+      "shortName" : "stom",
+      "status" : "active"
+   },
+   {
       "chain" : "Orange Chain",
       "chainId" : 240515,
       "explorers" : [
@@ -54411,6 +54572,32 @@
          "https://testnet-rpc.bloomgenesis.com"
       ],
       "shortName" : "BGBC-Testnet"
+   },
+   {
+      "chain" : "WOMOX",
+      "chainId" : 323432,
+      "explorers" : [
+         {
+            "name" : "World Mobile Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-explorer.worldmobile.net"
+         }
+      ],
+      "faucets" : [
+         "https://testnet-faucet.worldmobile.net"
+      ],
+      "infoURL" : "https://worldmobile.io/the-chain",
+      "name" : "World Mobile Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ATestingToken",
+         "symbol" : "WOMOX"
+      },
+      "networkId" : 323432,
+      "rpc" : [
+         "https://worldmobile-devnet.g.alchemy.com/public"
+      ],
+      "shortName" : "WMCTEST"
    },
    {
       "chain" : "ETH",
@@ -59019,6 +59206,46 @@
       "shortName" : "xp-test"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 2019775,
+      "explorers" : [
+         {
+            "name" : "Jovay Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://sepolia-explorer.jovay.io/l2"
+         }
+      ],
+      "faucets" : [
+         "https://zan.top/faucet/jovay"
+      ],
+      "icon" : "jovay",
+      "infoURL" : "https://jovay.io",
+      "name" : "Jovay Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 2019775,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://docs.jovay.io/guide/developer-quickstart"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://api.zan.top/public/jovay-testnet",
+         "https://api.zan.top/node/v1/jovay/testnet/${ZAN_API_KEY}",
+         "wss://api.zan.top/node/ws/v1/jovay/testnet/${ZAN_API_KEY}"
+      ],
+      "shortName" : "jovay-sepolia",
+      "slip44" : 1,
+      "status" : "active"
+   },
+   {
       "chain" : "DeBank",
       "chainId" : 2021398,
       "explorers" : [
@@ -59863,6 +60090,39 @@
       ],
       "shortName" : "imversed-testnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 5734951,
+      "explorers" : [
+         {
+            "name" : "Jovay Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.jovay.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "jovay",
+      "infoURL" : "https://jovay.io",
+      "name" : "Jovay Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 5734951,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://api.zan.top/public/jovay-mainnet",
+         "https://api.zan.top/node/v1/jovay/mainnet/${ZAN_API_KEY}",
+         "wss://api.zan.top/node/ws/v1/jovay/mainnet/${ZAN_API_KEY}"
+      ],
+      "shortName" : "jovay",
+      "status" : "incubating"
    },
    {
       "chain" : "ETH",

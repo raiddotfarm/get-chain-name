@@ -4738,7 +4738,8 @@
       },
       "networkId" : 173,
       "rpc" : [
-         "https://rpc.eniac.network"
+         "https://rpc.eniac.network",
+         "wss://rpc.eniac.network/ws/"
       ],
       "shortName" : "eni"
    },
@@ -16908,6 +16909,46 @@
       "title" : "Rikeza Network Mainnet"
    },
    {
+      "chain" : "Injective",
+      "chainId" : 1439,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.blockscout.injective.network"
+         }
+      ],
+      "faucets" : [
+         "https://testnet.faucet.injective.network"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "injective",
+      "infoURL" : "https://injective.com",
+      "name" : "Injective Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Injective",
+         "symbol" : "INJ"
+      },
+      "networkId" : 1439,
+      "rpc" : [
+         "https://k8s.testnet.json-rpc.injective.network",
+         "wss://k8s.testnet.ws.injective.network",
+         "https://injectiveevm-testnet-rpc.polkachu.com",
+         "wss://injectiveevm-testnet-rpc.polkachu.com"
+      ],
+      "shortName" : "injective-testnet",
+      "slip44" : 60
+   },
+   {
       "chain" : "LAS",
       "chainId" : 1440,
       "faucets" : [],
@@ -18216,6 +18257,46 @@
       ],
       "shortName" : "TeaParty",
       "status" : "incubating"
+   },
+   {
+      "chain" : "Injective",
+      "chainId" : 1776,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.injective.network"
+         }
+      ],
+      "faucets" : [
+         "https://injective.com/getinj"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "injective",
+      "infoURL" : "https://injective.com",
+      "name" : "Injective",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Injective",
+         "symbol" : "INJ"
+      },
+      "networkId" : 1776,
+      "rpc" : [
+         "https://sentry.evm-rpc.injective.network",
+         "wss://sentry.evm-ws.injective.network",
+         "https://injectiveevm-rpc.polkachu.com",
+         "wss://injectiveevm-ws.polkachu.com"
+      ],
+      "shortName" : "injective",
+      "slip44" : 60
    },
    {
       "chain" : "Gauss",
@@ -33971,6 +34052,22 @@
       "status" : "active"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 9134,
+      "faucets" : [],
+      "infoURL" : "https://giwa.io",
+      "name" : "GIWA",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 9134,
+      "rpc" : [],
+      "shortName" : "giwa",
+      "status" : "incubating"
+   },
+   {
       "chain" : "FIRE",
       "chainId" : 9170,
       "explorers" : [],
@@ -49375,6 +49472,35 @@
       "title" : "MetaDAP Enterprise Mainnet"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 91342,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "GIWA Sepolia Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://sepolia-explorer.giwa.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.giwa.io"
+      ],
+      "icon" : "giwaTestnet",
+      "infoURL" : "https://giwa.io",
+      "name" : "GIWA Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 91342,
+      "rpc" : [
+         "https://sepolia-rpc.giwa.io"
+      ],
+      "shortName" : "giwasepolia",
+      "slip44" : 1
+   },
+   {
       "chain" : "Combo",
       "chainId" : 91715,
       "explorers" : [
@@ -55129,6 +55255,76 @@
       ],
       "shortName" : "hap-testnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "Silent Data",
+      "chainId" : 380929,
+      "explorers" : [
+         {
+            "icon" : "silentdata",
+            "name" : "Silent Data Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-mainnet.rollup.silentdata.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "silentdata",
+      "infoURL" : "https://www.silentdata.com",
+      "name" : "Silent Data Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 380929,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge-mainnet.rollup.silentdata.com"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://mainnet.silentdata.com/${SILENTDATA_AUTH_TOKEN}"
+      ],
+      "shortName" : "silent-data-mainnet"
+   },
+   {
+      "chain" : "Silent Data",
+      "chainId" : 381185,
+      "explorers" : [
+         {
+            "icon" : "silentdata-testnet",
+            "name" : "Silent Data Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.rollup.silentdata.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "silentdata-testnet",
+      "infoURL" : "https://www.silentdata.com",
+      "name" : "Silent Data Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 381185,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge-testnet.rollup.silentdata.com"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://testnet.silentdata.com/${SILENTDATA_AUTH_TOKEN}"
+      ],
+      "shortName" : "silent-data-testnet"
    },
    {
       "chain" : "Metal",

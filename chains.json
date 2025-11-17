@@ -60482,6 +60482,38 @@
       "slip44" : 1
    },
    {
+      "chain" : "Arc Network",
+      "chainId" : 5042002,
+      "explorers" : [
+         {
+            "name" : "Arcscan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.arcscan.app"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.circle.com/"
+      ],
+      "icon" : "arcnetwork",
+      "infoURL" : "https://arc.network",
+      "name" : "Arc Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "USDC",
+         "symbol" : "USDC"
+      },
+      "networkId" : 5042002,
+      "rpc" : [
+         "https://rpc.testnet.arc.network",
+         "wss://rpc.testnet.arc.network",
+         "https://rpc.quicknode.testnet.arc.network",
+         "wss://rpc.quicknode.testnet.arc.network",
+         "https://rpc.blockdaemon.testnet.arc.network"
+      ],
+      "shortName" : "arc-testnet",
+      "slip44" : 1
+   },
+   {
       "chain" : "NumBlock",
       "chainId" : 5112023,
       "explorers" : [

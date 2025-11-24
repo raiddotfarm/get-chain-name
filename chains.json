@@ -43471,6 +43471,9 @@
       "faucets" : [],
       "features" : [
          {
+            "name" : "EIP155"
+         },
+         {
             "name" : "EIP1559"
          }
       ],
@@ -52275,10 +52278,45 @@
    },
    {
       "chain" : "Etherlink",
+      "chainId" : 127823,
+      "explorers" : [
+         {
+            "name" : "Etherlink Shadownet Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://shadownet.explorer.etherlink.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.etherlink.com"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "etherlink",
+      "infoURL" : "https://etherlink.com",
+      "name" : "Etherlink Shadownet Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "tez",
+         "symbol" : "XTZ"
+      },
+      "networkId" : 127823,
+      "rpc" : [
+         "https://node.shadownet.etherlink.com"
+      ],
+      "shortName" : "etlst"
+   },
+   {
+      "chain" : "Etherlink",
       "chainId" : 128123,
       "explorers" : [
          {
-            "name" : "Etherlink Testnet Explorer",
+            "name" : "Etherlink Ghostnet Testnet Explorer",
             "standard" : "EIP3091",
             "url" : "https://testnet.explorer.etherlink.com"
          }
@@ -52288,12 +52326,15 @@
       ],
       "features" : [
          {
+            "name" : "EIP155"
+         },
+         {
             "name" : "EIP1559"
          }
       ],
       "icon" : "etherlink",
       "infoURL" : "https://etherlink.com",
-      "name" : "Etherlink Testnet",
+      "name" : "Etherlink Ghostnet Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "tez",
@@ -52303,7 +52344,8 @@
       "rpc" : [
          "https://node.ghostnet.etherlink.com"
       ],
-      "shortName" : "etlt"
+      "shortName" : "etlt",
+      "status" : "deprecated"
    },
    {
       "chain" : "Tatara",

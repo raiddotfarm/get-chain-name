@@ -3957,7 +3957,18 @@
    {
       "chain" : "MON",
       "chainId" : 143,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "Monad Vision",
+            "standard" : "EIP3091",
+            "url" : "https://monadvision.com"
+         },
+         {
+            "name" : "Monadscan",
+            "standard" : "EIP3091",
+            "url" : "https://monadscan.com"
+         }
+      ],
       "faucets" : [],
       "features" : [
          {
@@ -3969,16 +3980,18 @@
       ],
       "icon" : "monad",
       "infoURL" : "https://monad.xyz",
-      "name" : "Monad Mainnet",
+      "name" : "Monad",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "MON Token",
+         "name" : "Monad",
          "symbol" : "MON"
       },
       "networkId" : 143,
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.monad.xyz"
+      ],
       "shortName" : "mon",
-      "slip44" : 1
+      "slip44" : 268435779
    },
    {
       "chain" : "PHI",
@@ -15720,13 +15733,7 @@
    {
       "chain" : "ARC",
       "chainId" : 1243,
-      "explorers" : [
-         {
-            "name" : "archiescan",
-            "standard" : "none",
-            "url" : "https://app.archiescan.io"
-         }
-      ],
+      "explorers" : [],
       "faucets" : [],
       "icon" : "arc",
       "infoURL" : "https://archiechain.io/",
@@ -15737,24 +15744,15 @@
          "symbol" : "ARC"
       },
       "networkId" : 1243,
-      "rpc" : [
-         "https://rpc-main-1.archiechain.io"
-      ],
-      "shortName" : "ARC"
+      "rpc" : [],
+      "shortName" : "ARC",
+      "status" : "deprecated"
    },
    {
       "chain" : "ARC",
       "chainId" : 1244,
-      "explorers" : [
-         {
-            "name" : "archiescan",
-            "standard" : "none",
-            "url" : "https://testnet.archiescan.io"
-         }
-      ],
-      "faucets" : [
-         "https://faucet.archiechain.io"
-      ],
+      "explorers" : [],
+      "faucets" : [],
       "icon" : "arc",
       "infoURL" : "https://archiechain.io/",
       "name" : "ARC Testnet",
@@ -15764,11 +15762,10 @@
          "symbol" : "ARC"
       },
       "networkId" : 1244,
-      "rpc" : [
-         "https://rpc-test-1.archiechain.io"
-      ],
+      "rpc" : [],
       "shortName" : "TARC",
-      "slip44" : 1
+      "slip44" : 1,
+      "status" : "deprecated"
    },
    {
       "chain" : "omplatform",
@@ -60669,6 +60666,42 @@
       ],
       "shortName" : "etn-testnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "REACT",
+      "chainId" : 5318007,
+      "explorers" : [
+         {
+            "name" : "Reactscan",
+            "standard" : "none",
+            "url" : "https://lasna.reactscan.net"
+         }
+      ],
+      "faucets" : [
+         "https://dev.reactive.network/reactive-mainnet#get-testnet-react"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "reactive",
+      "infoURL" : "https://reactive.network",
+      "name" : "Reactive Lasna",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Lasna React",
+         "symbol" : "lREACT"
+      },
+      "networkId" : 5318007,
+      "rpc" : [
+         "https://lasna-rpc.rnk.dev"
+      ],
+      "shortName" : "lreact",
+      "title" : "Reactive Network Testnet Lasna"
    },
    {
       "chain" : "REACT",

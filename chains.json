@@ -26652,6 +26652,32 @@
       "shortName" : "PikaMinter"
    },
    {
+      "chain" : "DEN",
+      "chainId" : 4442,
+      "explorers" : [
+         {
+            "icon" : "denergy",
+            "name" : "Denergy Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.denergytestnet.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "denergy",
+      "infoURL" : "https://d.energy/",
+      "name" : "Denergy Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "WATT",
+         "symbol" : "WATT"
+      },
+      "networkId" : 4442,
+      "rpc" : [
+         "https://rpc.denergytestnet.com/"
+      ],
+      "shortName" : "den-testnet"
+   },
+   {
       "chain" : "mainnet",
       "chainId" : 4444,
       "explorers" : [
@@ -47320,6 +47346,44 @@
       "shortName" : "Cosmic"
    },
    {
+      "chain" : "Henesys",
+      "chainId" : 68414,
+      "explorers" : [
+         {
+            "name" : "Xangle MSU Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://msu-explorer.xangle.io"
+         },
+         {
+            "name" : "Avalanche Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://subnets.avax.network/henesys"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "nexpace",
+      "infoURL" : "https://nexpace.io",
+      "name" : "Henesys",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "NEXPACE",
+         "symbol" : "NXPC"
+      },
+      "networkId" : 68414,
+      "rpc" : [
+         "https://henesys-rpc.msu.io"
+      ],
+      "shortName" : "nxpc"
+   },
+   {
       "chain" : "DM2 Verse",
       "chainId" : 68770,
       "explorers" : [
@@ -55685,6 +55749,32 @@
          "https://dgs-rpc.digitsoul.co.th"
       ],
       "shortName" : "DS2"
+   },
+   {
+      "chain" : "DEN",
+      "chainId" : 369369,
+      "explorers" : [
+         {
+            "icon" : "denergy",
+            "name" : "Denergy Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.denergychain.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "denergy",
+      "infoURL" : "https://d.energy/",
+      "name" : "Denergy Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "WATT",
+         "symbol" : "WATT"
+      },
+      "networkId" : 369369,
+      "rpc" : [
+         "https://rpc.d.energy/"
+      ],
+      "shortName" : "den-mainnet"
    },
    {
       "chain" : "HAPchain",

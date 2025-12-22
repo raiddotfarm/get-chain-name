@@ -12954,6 +12954,31 @@
       "slip44" : 1
    },
    {
+      "chain" : "AULT",
+      "chainId" : 904,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "ault",
+      "infoURL" : "https://aultblockchain.com",
+      "name" : "Ault Blockchain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "AULT Token",
+         "symbol" : "AULT"
+      },
+      "networkId" : 904,
+      "rpc" : [],
+      "shortName" : "ault"
+   },
+   {
       "chain" : "PF",
       "chainId" : 909,
       "explorers" : [],
@@ -23141,6 +23166,31 @@
       "shortName" : "tpc"
    },
    {
+      "chain" : "H2",
+      "chainId" : 2582,
+      "explorers" : [
+         {
+            "name" : "h2scan",
+            "standard" : "EIP3091",
+            "url" : "https://h2scan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "h2",
+      "infoURL" : "https://h2chain.io",
+      "name" : "H2 Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "H2 Chain Native Token",
+         "symbol" : "H2"
+      },
+      "networkId" : 2582,
+      "rpc" : [
+         "https://rpc.h2chain.io"
+      ],
+      "shortName" : "h2"
+   },
+   {
       "chain" : "PHO",
       "chainId" : 2605,
       "explorers" : [
@@ -29076,6 +29126,30 @@
          "https://rpc.chainverse.info"
       ],
       "shortName" : "cverse"
+   },
+   {
+      "chain" : "Jamton",
+      "chainId" : 5589,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "jamton",
+      "infoURL" : "https://app.jamton.network/",
+      "name" : "Jamton",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DOTON",
+         "symbol" : "DOTON"
+      },
+      "networkId" : 5589,
+      "rpc" : [
+         "https://rpc.jamton.network/"
+      ],
+      "shortName" : "jamton"
    },
    {
       "chain" : "opBNB",
@@ -36812,6 +36886,31 @@
       "title" : "GameSwift Chain Testnet"
    },
    {
+      "chain" : "AULT",
+      "chainId" : 10904,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "ault",
+      "infoURL" : "https://aultblockchain.com",
+      "name" : "Ault Blockchain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet AULT Token",
+         "symbol" : "AULT"
+      },
+      "networkId" : 10904,
+      "rpc" : [],
+      "shortName" : "ault-testnet"
+   },
+   {
       "chain" : "Fuse Flash",
       "chainId" : 10920,
       "faucets" : [
@@ -41556,6 +41655,31 @@
       "shortName" : "Everclear"
    },
    {
+      "chain" : "H2",
+      "chainId" : 25821,
+      "explorers" : [
+         {
+            "name" : "h2scan-lambda",
+            "standard" : "EIP3091",
+            "url" : "https://lambda.h2scan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "h2",
+      "infoURL" : "https://h2chain.io",
+      "name" : "H2 Chain Testnet Lambda",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Lambda H2",
+         "symbol" : "H2"
+      },
+      "networkId" : 25821,
+      "rpc" : [
+         "https://rpc.h-1.io"
+      ],
+      "shortName" : "h2-lambda"
+   },
+   {
       "chain" : "tALV",
       "chainId" : 25839,
       "explorers" : [
@@ -44306,6 +44430,32 @@
          "https://enugu-rpc.assetchain.org"
       ],
       "shortName" : "rwa"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 42429,
+      "explorers" : [
+         {
+            "icon" : "tempo",
+            "name" : "tempo-explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explore.tempo.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "tempo",
+      "infoURL" : "https://tempo.xyz",
+      "name" : "Tempo Testnet",
+      "nativeCurrency" : {
+         "decimals" : 6,
+         "name" : "No native currency",
+         "symbol" : "USD"
+      },
+      "networkId" : 42429,
+      "rpc" : [
+         "https://rpc.testnet.tempo.xyz"
+      ],
+      "shortName" : "tempotest"
    },
    {
       "chain" : "ZKFair",
@@ -50351,6 +50501,57 @@
          "http://testnet.cybertrust.space:48501"
       ],
       "shortName" : "Cyber"
+   },
+   {
+      "chain" : "CpChain",
+      "chainId" : 86606,
+      "explorers" : [
+         {
+            "name" : "CpChain Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.cpchain.com"
+         }
+      ],
+      "faucets" : [
+         "https://cpchain-test.pages.dev/faucet"
+      ],
+      "infoURL" : "https://cpchain.com",
+      "name" : "CpChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet CpChain",
+         "symbol" : "CP"
+      },
+      "networkId" : 86606,
+      "rpc" : [
+         "https://rpc-testnet.cpchain.com"
+      ],
+      "shortName" : "cpchain-testnet",
+      "slip44" : 1
+   },
+   {
+      "chain" : "Cp",
+      "chainId" : 86608,
+      "explorers" : [
+         {
+            "name" : "CpChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.cpchain.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://cpchain.com",
+      "name" : "CpChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CpChain",
+         "symbol" : "CP"
+      },
+      "networkId" : 86608,
+      "rpc" : [
+         "https://rpc.cpchain.com"
+      ],
+      "shortName" : "cpchain"
    },
    {
       "chain" : "ETH",
@@ -58867,6 +59068,22 @@
       "networkId" : 685685,
       "rpc" : [],
       "shortName" : "gensyn-test",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "Gensyn",
+      "chainId" : 685689,
+      "faucets" : [],
+      "infoURL" : "https://www.gensyn.ai/",
+      "name" : "Gensyn Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 685689,
+      "rpc" : [],
+      "shortName" : "gensyn-mainnet",
       "status" : "incubating"
    },
    {

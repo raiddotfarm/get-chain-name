@@ -13926,6 +13926,39 @@
       "shortName" : "binary"
    },
    {
+      "chain" : "Stable",
+      "chainId" : 988,
+      "explorers" : [
+         {
+            "name" : "Stablescan",
+            "standard" : "EIP3091",
+            "url" : "https://stablescan.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "stable",
+      "infoURL" : "https://stable.xyz",
+      "name" : "Stable Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "gUSDT",
+         "symbol" : "gUSDT"
+      },
+      "networkId" : 988,
+      "rpc" : [
+         "https://rpc.stable.xyz"
+      ],
+      "shortName" : "stable"
+   },
+   {
       "chain" : "TOP",
       "chainId" : 989,
       "explorers" : [
@@ -18300,17 +18333,8 @@
    {
       "chain" : "Gobi",
       "chainId" : 1663,
-      "explorers" : [
-         {
-            "icon" : "eon",
-            "name" : "Gobi Testnet Block Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://gobi-explorer.horizen.io"
-         }
-      ],
-      "faucets" : [
-         "https://faucet.horizen.io"
-      ],
+      "explorers" : [],
+      "faucets" : [],
       "features" : [
          {
             "name" : "EIP155"
@@ -18328,12 +18352,10 @@
          "symbol" : "tZEN"
       },
       "networkId" : 1663,
-      "rpc" : [
-         "https://gobi-rpc.horizenlabs.io/ethv1",
-         "https://rpc.ankr.com/horizen_gobi_testnet"
-      ],
+      "rpc" : [],
       "shortName" : "Gobi",
-      "slip44" : 1
+      "slip44" : 1,
+      "status" : "deprecated"
    },
    {
       "chain" : "ETH",
@@ -22002,12 +22024,6 @@
       "chainId" : 2201,
       "explorers" : [
          {
-            "icon" : "blockscout",
-            "name" : "Blockscout Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://blockscout.testnet.stable.xyz"
-         },
-         {
             "name" : "Stablescan",
             "standard" : "EIP3091",
             "url" : "https://testnet.stablescan.xyz"
@@ -22021,8 +22037,8 @@
       "name" : "Stable Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "gUSDT",
-         "symbol" : "gUSDT"
+         "name" : "USDT0",
+         "symbol" : "USDT0"
       },
       "networkId" : 2201,
       "rpc" : [
@@ -26807,6 +26823,53 @@
       ],
       "shortName" : "TPBXt",
       "slip44" : 1
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 4153,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.risechain.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP7702"
+         }
+      ],
+      "icon" : "rise",
+      "infoURL" : "https://risechain.com",
+      "name" : "RISE",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 4153,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.risechain.com"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.risechain.com/",
+         "wss://rpc.risechain.com/ws"
+      ],
+      "shortName" : "rise"
    },
    {
       "chain" : "XFI",
@@ -31654,14 +31717,7 @@
    {
       "chain" : "EON",
       "chainId" : 7332,
-      "explorers" : [
-         {
-            "icon" : "eon",
-            "name" : "Horizen EON Block Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://eon-explorer.horizenlabs.io"
-         }
-      ],
+      "explorers" : [],
       "faucets" : [],
       "features" : [
          {
@@ -31680,12 +31736,10 @@
          "symbol" : "ZEN"
       },
       "networkId" : 7332,
-      "rpc" : [
-         "https://eon-rpc.horizenlabs.io/ethv1",
-         "https://rpc.ankr.com/horizen_eon"
-      ],
+      "rpc" : [],
       "shortName" : "EON",
-      "slip44" : 121
+      "slip44" : 121,
+      "status" : "deprecated"
    },
    {
       "chain" : "PRUV Testnet",
@@ -31865,17 +31919,15 @@
       "explorers" : [
          {
             "icon" : "rome",
-            "name" : "Rome Mainnet 0 Palatine Explorer",
+            "name" : "Rome Palatine Explorer",
             "standard" : "EIP3091",
-            "url" : "https://romescout-palatine-i.mainnet-0.romeprotocol.xyz"
+            "url" : "https://romescout-palatine.romeprotocol.xyz"
          }
       ],
-      "faucets" : [
-         "https://deposit.mainnet-0.romeprotocol.xyz"
-      ],
+      "faucets" : [],
       "icon" : "rome",
       "infoURL" : "https://rome.builders",
-      "name" : "Rome Mainnet 0 Palatine",
+      "name" : "Rome Palatine",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "RSOL",
@@ -31883,9 +31935,10 @@
       },
       "networkId" : 7531,
       "rpc" : [
-         "https://palatine-i.mainnet-0.romeprotocol.xyz"
+         "https://palatine.romeprotocol.xyz",
+         "https://palatine2.romeprotocol.xyz"
       ],
-      "shortName" : "rome-mainnet-0-palatine",
+      "shortName" : "rome-palatine",
       "status" : "active"
    },
    {
@@ -43060,7 +43113,7 @@
       "chainId" : 30939,
       "explorers" : [
          {
-            "name" : "D3 Navigator",
+            "name" : "Dilithium3 Explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer-testnet.dilithium3.com"
          }
@@ -43088,7 +43141,7 @@
       "redFlags" : [],
       "rpc" : [
          "https://rpc-testnet.dilithium3.com",
-         "wss://rpc-testnet.dilithium3.com/ws"
+         "wss://ws-testnet.dilithium3.com"
       ],
       "shortName" : "dlt-testnet",
       "slip44" : 60,
@@ -50083,6 +50136,33 @@
       "title" : "Vanar Testnet Vanguard"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 78651,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.nillion.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://nillion.com/",
+      "name" : "Nillion Network Sepolia Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 78651,
+      "rpc" : [
+         "https://rpc.testnet.nillion.network",
+         "wss://rpc.testnet.nillion.network"
+      ],
+      "shortName" : "nilsep",
+      "slip44" : 1
+   },
+   {
       "chain" : "STAND",
       "chainId" : 79879,
       "explorers" : [
@@ -52464,6 +52544,33 @@
       "slip44" : 1,
       "status" : "active",
       "title" : "Plume Sepolia L2 Rollup Testnet"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 98875,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.nillion.network"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://nillion.com/",
+      "name" : "Nillion Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 98875,
+      "rpc" : [
+         "https://rpc.nillion.network",
+         "wss://rpc.nillion.network"
+      ],
+      "shortName" : "nil",
+      "slip44" : 1
    },
    {
       "chain" : "Ebi",
@@ -62575,6 +62682,39 @@
       "shortName" : "coti"
    },
    {
+      "chain" : "horizen",
+      "chainId" : 2651420,
+      "explorers" : [
+         {
+            "name" : "Horizen Testnet Caldera Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://horizen-testnet.explorer.caldera.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "horizen",
+      "infoURL" : "https://horizen-testnet.hub.caldera.xyz",
+      "name" : "Horizen Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 2651420,
+      "rpc" : [
+         "https://horizen-testnet.rpc.caldera.xyz/http"
+      ],
+      "shortName" : "horizen-testnet"
+   },
+   {
       "chain" : "Xterio",
       "chainId" : 2702128,
       "explorers" : [
@@ -64325,10 +64465,13 @@
          },
          {
             "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP7702"
          }
       ],
       "icon" : "rise",
-      "infoURL" : "https://www.riselabs.xyz/",
+      "infoURL" : "https://risechain.com/",
       "name" : "RISE Testnet",
       "nativeCurrency" : {
          "decimals" : 18,

@@ -15547,6 +15547,33 @@
       "shortName" : "tFLAG"
    },
    {
+      "chain" : "POC",
+      "chainId" : 1148,
+      "explorers" : [
+         {
+            "name" : "pocscan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.pocscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://www.pochain.io/poc-faucet"
+      ],
+      "icon" : "pochain",
+      "infoURL" : "https://www.pochain.io",
+      "name" : "POC Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "POC Native Token",
+         "symbol" : "POC"
+      },
+      "networkId" : 1148,
+      "rpc" : [
+         "https://testnet-rpc.pochain.io"
+      ],
+      "shortName" : "poc"
+   },
+   {
       "chain" : "Plexchain",
       "chainId" : 1149,
       "explorers" : [
@@ -16969,11 +16996,11 @@
             "icon" : "kii",
             "name" : "KiiExplorer",
             "standard" : "none",
-            "url" : "https://explorer.kiichain.io/testnet"
+            "url" : "https://testnet.explorer.kiichain.io"
          }
       ],
       "faucets" : [
-         "https://explorer.kiichain.io/testnet/faucet"
+         "https://testnet.explorer.kiichain.io/faucet"
       ],
       "features" : [],
       "icon" : "kii",
@@ -18240,6 +18267,42 @@
       "shortName" : "gravity"
    },
    {
+      "chain" : "XGR",
+      "chainId" : 1643,
+      "explorers" : [
+         {
+            "icon" : "xgr",
+            "name" : "XGRScan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.xgr.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "xgr",
+      "infoURL" : "https://xgr.network",
+      "name" : "XGR Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "XGR",
+         "symbol" : "XGR"
+      },
+      "networkId" : 1643,
+      "rpc" : [
+         "https://rpc.xgr.network",
+         "https://rpc1.xgr.network",
+         "https://rpc2.xgr.network"
+      ],
+      "shortName" : "xgr"
+   },
+   {
       "chain" : "Pivotal",
       "chainId" : 1648,
       "explorers" : [
@@ -18896,6 +18959,40 @@
       "shortName" : "gauss"
    },
    {
+      "chain" : "KII",
+      "chainId" : 1783,
+      "explorers" : [
+         {
+            "icon" : "kii",
+            "name" : "KiiExplorer",
+            "standard" : "none",
+            "url" : "https://explorer.kiichain.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "kii",
+      "infoURL" : "https://kiichain.io",
+      "name" : "KiiChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Kii",
+         "symbol" : "KII"
+      },
+      "networkId" : 1783,
+      "rpc" : [
+         "https://json-rpc.kiivalidator.com"
+      ],
+      "shortName" : "kiichain"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 1789,
       "explorers" : [
@@ -19354,6 +19451,44 @@
          "https://rpc.whitechain.io"
       ],
       "shortName" : "wbt"
+   },
+   {
+      "chain" : "XGR",
+      "chainId" : 1879,
+      "explorers" : [
+         {
+            "icon" : "xgr",
+            "name" : "XGRScan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.xgr.network"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.xgr.network"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "xgr",
+      "infoURL" : "https://xgr.network",
+      "name" : "XGR Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "XGR",
+         "symbol" : "XGR"
+      },
+      "networkId" : 1879,
+      "rpc" : [
+         "https://rpc.testnet.xgr.network",
+         "https://rpc1.testnet.xgr.network",
+         "https://rpc2.testnet.xgr.network"
+      ],
+      "shortName" : "xgrt"
    },
    {
       "chain" : "Gitshock Cartenz",
@@ -26770,6 +26905,40 @@
       "slip44" : 1
    },
    {
+      "chain" : "Citrea",
+      "chainId" : 4114,
+      "explorers" : [
+         {
+            "icon" : "citrea",
+            "name" : "Citrea Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.mainnet.citrea.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "citrea",
+      "infoURL" : "https://citrea.xyz",
+      "name" : "Citrea Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Citrea BTC",
+         "symbol" : "cBTC"
+      },
+      "networkId" : 4114,
+      "rpc" : [
+         "https://rpc.mainnet.citrea.xyz"
+      ],
+      "shortName" : "citrea"
+   },
+   {
       "chain" : "Humans Testnet",
       "chainId" : 4139,
       "faucets" : [],
@@ -33428,7 +33597,9 @@
             "url" : "https://explorer.testnet.alpenlabs.io"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://faucet.testnet.alpenlabs.io"
+      ],
       "features" : [],
       "icon" : "alpen",
       "infoURL" : "https://alpenlabs.io/",
@@ -38212,6 +38383,33 @@
          "https://rpc.brcchain.io"
       ],
       "shortName" : "BRC"
+   },
+   {
+      "chain" : "L2P",
+      "chainId" : 12216,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://l2pscan.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://l2protocol.com",
+      "name" : "L2 Protocol Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "L2P",
+         "symbol" : "L2P"
+      },
+      "networkId" : 12216,
+      "rpc" : [
+         "https://rpc.l2protocol.com",
+         "wss://rpc.l2protocol.com"
+      ],
+      "shortName" : "l2p",
+      "slip44" : 714
    },
    {
       "chain" : "FIBO",
@@ -44963,13 +45161,13 @@
             "icon" : "tempo",
             "name" : "tempo-explorer",
             "standard" : "EIP3091",
-            "url" : "https://explore.tempo.xyz"
+            "url" : "https://explore.andantino.tempo.xyz"
          }
       ],
       "faucets" : [],
       "icon" : "tempo",
       "infoURL" : "https://tempo.xyz",
-      "name" : "Tempo Testnet",
+      "name" : "Tempo Testnet Andantino (Deprecated)",
       "nativeCurrency" : {
          "decimals" : 6,
          "name" : "No native currency",
@@ -44979,7 +45177,35 @@
       "rpc" : [
          "https://rpc.testnet.tempo.xyz"
       ],
-      "shortName" : "tempotest"
+      "shortName" : "tempo-andantino",
+      "status" : "deprecated"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 42431,
+      "explorers" : [
+         {
+            "icon" : "tempo",
+            "name" : "tempo-explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explore.tempo.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "tempo",
+      "infoURL" : "https://tempo.xyz",
+      "name" : "Tempo Testnet Moderato",
+      "nativeCurrency" : {
+         "decimals" : 6,
+         "name" : "No native currency",
+         "symbol" : "USD"
+      },
+      "networkId" : 42431,
+      "rpc" : [
+         "https://rpc.moderato.tempo.xyz",
+         "wss://rpc.moderato.tempo.xyz"
+      ],
+      "shortName" : "tempo-moderato"
    },
    {
       "chain" : "ZKFair",
@@ -50146,7 +50372,10 @@
             "url" : "https://explorer.testnet.nillion.network"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://faucet.testnet.nillion.network"
+      ],
+      "icon" : "nillion",
       "infoURL" : "https://nillion.com/",
       "name" : "Nillion Network Sepolia Testnet",
       "nativeCurrency" : {
@@ -52557,11 +52786,12 @@
          }
       ],
       "faucets" : [],
+      "icon" : "nillion",
       "infoURL" : "https://nillion.com/",
       "name" : "Nillion Network",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Sepolia Ether",
+         "name" : "Ether",
          "symbol" : "ETH"
       },
       "networkId" : 98875,
@@ -55241,6 +55471,32 @@
          "https://lit-chain-rpc.litprotocol.com"
       ],
       "shortName" : "lit"
+   },
+   {
+      "chain" : "CLT",
+      "chainId" : 179170,
+      "explorers" : [
+         {
+            "icon" : "transparencysolution",
+            "name" : "Transparency Solution Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://blockchain.transparency.solutions"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "transparencysolution",
+      "infoURL" : "https://transparency.solutions",
+      "name" : "Transparency Solution",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ClearToken",
+         "symbol" : "CLT"
+      },
+      "networkId" : 179170,
+      "rpc" : [
+         "https://rpc-api.transparency.solutions"
+      ],
+      "shortName" : "clts"
    },
    {
       "chain" : "ETH",
@@ -60078,6 +60334,40 @@
       "shortName" : "tixchain"
    },
    {
+      "chain" : "bokuto",
+      "chainId" : 737373,
+      "explorers" : [
+         {
+            "icon" : "katana",
+            "name" : "bokutoscan",
+            "standard" : "EIP3091",
+            "url" : "https://bokuto.katanascan.com"
+         },
+         {
+            "icon" : "katana",
+            "name" : "bokuto explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-bokuto.katanarpc.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.katana.tools"
+      ],
+      "icon" : "katana",
+      "infoURL" : "https://katana.network",
+      "name" : "bokuto",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 737373,
+      "rpc" : [
+         "https://rpc-bokuto.katanarpc.com"
+      ],
+      "shortName" : "bokuto"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 743111,
       "explorers" : [
@@ -60114,12 +60404,32 @@
       "explorers" : [
          {
             "icon" : "katana",
+            "name" : "katanascan",
+            "standard" : "EIP3091",
+            "url" : "https://katanascan.com"
+         },
+         {
+            "icon" : "katana",
             "name" : "katana explorer",
             "standard" : "EIP3091",
             "url" : "https://explorer.katanarpc.com"
          }
       ],
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP4844"
+         },
+         {
+            "name" : "EIP7702"
+         }
+      ],
       "icon" : "katana",
       "infoURL" : "https://katana.network",
       "name" : "katana",
@@ -60129,8 +60439,19 @@
          "symbol" : "ETH"
       },
       "networkId" : 747474,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.katana.network"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
       "rpc" : [
-         "https://rpc.katana.network"
+         "https://rpc.katana.network",
+         "https://katana.gateway.tenderly.co/",
+         "https://rpc.katanarpc.com/"
       ],
       "shortName" : "katana"
    },
@@ -61755,6 +62076,31 @@
       ],
       "shortName" : "AMC",
       "title" : "AMC"
+   },
+   {
+      "chain" : "WVM",
+      "chainId" : 1000001,
+      "explorers" : [
+         {
+            "name" : "WebChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://e-talk.xyz/webchain"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "webchain",
+      "infoURL" : "https://e-talk.xyz/webchain",
+      "name" : "WebChain ETK",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ETK",
+         "symbol" : "ETK"
+      },
+      "networkId" : 1000001,
+      "rpc" : [
+         "https://rpc.webchain.e-talk.xyz"
+      ],
+      "shortName" : "wvm"
    },
    {
       "chain" : "WirexPay",

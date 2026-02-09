@@ -10907,13 +10907,7 @@
    {
       "chain" : "Kalichain",
       "chainId" : 653,
-      "explorers" : [
-         {
-            "name" : "kalichain explorer",
-            "standard" : "EIP3091",
-            "url" : "https://explorer.kalichain.com"
-         }
-      ],
+      "explorers" : [],
       "faucets" : [],
       "icon" : "kalichain",
       "infoURL" : "https://kalichain.com",
@@ -10924,21 +10918,14 @@
          "symbol" : "KALIS"
       },
       "networkId" : 653,
-      "rpc" : [
-         "https://rpc.kalichain.com"
-      ],
-      "shortName" : "kalichain"
+      "rpc" : [],
+      "shortName" : "kalichain",
+      "status" : "deprecated"
    },
    {
       "chain" : "Kalichain",
       "chainId" : 654,
-      "explorers" : [
-         {
-            "name" : "kalichain explorer",
-            "standard" : "EIP3091",
-            "url" : "https://explorer.kalichain.com"
-         }
-      ],
+      "explorers" : [],
       "faucets" : [],
       "icon" : "kalichain",
       "infoURL" : "https://kalichain.com",
@@ -10949,10 +10936,9 @@
          "symbol" : "KALIS"
       },
       "networkId" : 654,
-      "rpc" : [
-         "https://mainnet.kalichain.com"
-      ],
-      "shortName" : "kalichainMainnet"
+      "rpc" : [],
+      "shortName" : "kalichainMainnet",
+      "status" : "deprecated"
    },
    {
       "chain" : "AmaxSmartchain",
@@ -13949,8 +13935,8 @@
       "name" : "Stable Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "gUSDT",
-         "symbol" : "gUSDT"
+         "name" : "USDT0",
+         "symbol" : "USDT0"
       },
       "networkId" : 988,
       "rpc" : [
@@ -20292,6 +20278,34 @@
       "title" : "ONUS Chain Mainnet"
    },
    {
+      "chain" : "CRATD2C",
+      "chainId" : 1979,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.cratd2csmartchain.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "cratd2c-testnet",
+      "infoURL" : "https://cratd2csmartchain.io",
+      "name" : "CratD2C Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CRATD2C",
+         "symbol" : "CRAT"
+      },
+      "networkId" : 1979,
+      "rpc" : [
+         "https://rpc-testnet-1.cratd2csmartchain.io/",
+         "https://rpc-testnet-2.cratd2csmartchain.io/",
+         "https://rpc-testnet-3.cratd2csmartchain.io/"
+      ],
+      "shortName" : "cratd2c-testnet"
+   },
+   {
       "chain" : "KROWN",
       "chainId" : 1983,
       "explorers" : [
@@ -24941,6 +24955,40 @@
       ],
       "shortName" : "testdubx",
       "slip44" : 1
+   },
+   {
+      "chain" : "IRYS",
+      "chainId" : 3282,
+      "explorers" : [
+         {
+            "icon" : "irys",
+            "name" : "Irys Mainnet Beta Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://evm-explorer.irys.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "irys",
+      "infoURL" : "https://irys.xyz",
+      "name" : "Irys Mainnet Beta",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Irys",
+         "symbol" : "IRYS"
+      },
+      "networkId" : 3282,
+      "rpc" : [
+         "https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc"
+      ],
+      "shortName" : "irys-mainnet-beta"
    },
    {
       "chain" : "Realio Testnet",
@@ -45169,7 +45217,7 @@
       "infoURL" : "https://tempo.xyz",
       "name" : "Tempo Testnet Andantino (Deprecated)",
       "nativeCurrency" : {
-         "decimals" : 6,
+         "decimals" : 18,
          "name" : "No native currency",
          "symbol" : "USD"
       },
@@ -45196,7 +45244,7 @@
       "infoURL" : "https://tempo.xyz",
       "name" : "Tempo Testnet Moderato",
       "nativeCurrency" : {
-         "decimals" : 6,
+         "decimals" : 18,
          "name" : "No native currency",
          "symbol" : "USD"
       },
@@ -48512,6 +48560,33 @@
       "shortName" : "kec"
    },
    {
+      "chain" : "JELLO",
+      "chainId" : 61564,
+      "explorers" : [
+         {
+            "name" : "Gelatine Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.pine.ink"
+         }
+      ],
+      "faucets" : [
+         "https://gelatine.pine.ink"
+      ],
+      "icon" : "jello",
+      "infoURL" : "https://gelatine.pine.ink",
+      "name" : "Gelatine Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "JELLO",
+         "symbol" : "JELLO"
+      },
+      "networkId" : 61564,
+      "rpc" : [
+         "https://rpc.pine.ink"
+      ],
+      "shortName" : "jello"
+   },
+   {
       "chain" : "AXEL",
       "chainId" : 61800,
       "explorers" : [
@@ -49028,7 +49103,7 @@
       "faucets" : [],
       "icon" : "cratd2c-testnet",
       "infoURL" : "https://cratd2csmartchain.io",
-      "name" : "CratD2C Testnet",
+      "name" : "CratD2C Testnet Deprecated",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "CRATD2C",
@@ -49039,7 +49114,8 @@
          "https://cratd2c-testnet-node1.cratd2csmartchain.io/",
          "https://cratd2c-testnet-node2.cratd2csmartchain.io/"
       ],
-      "shortName" : "cratd2c-testnet"
+      "shortName" : "cratd2c-testnet-deprecated",
+      "status" : "deprecated"
    },
    {
       "chain" : "VE",

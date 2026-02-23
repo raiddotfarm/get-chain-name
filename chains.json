@@ -16353,6 +16353,41 @@
       "shortName" : "ACCESt"
    },
    {
+      "chain" : "IRYS",
+      "chainId" : 1270,
+      "explorers" : [
+         {
+            "icon" : "irys",
+            "name" : "Irys Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://testnet-explorer.irys.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "irys",
+      "infoURL" : "https://irys.xyz",
+      "name" : "Irys Testnet V1",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Irys",
+         "symbol" : "IRYS"
+      },
+      "networkId" : 1270,
+      "rpc" : [
+         "https://testnet-rpc.irys.xyz/v1/execution-rpc",
+         "https://testnet-rpc-2.irys.xyz/v1/execution-rpc"
+      ],
+      "shortName" : "irys-testnet-v1"
+   },
+   {
       "chain" : "HALO",
       "chainId" : 1280,
       "explorers" : [
@@ -20956,6 +20991,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "ronin",
       "infoURL" : "https://roninchain.com",
       "name" : "Ronin Mainnet",
       "nativeCurrency" : {
@@ -24986,7 +25022,8 @@
       },
       "networkId" : 3282,
       "rpc" : [
-         "https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc"
+         "https://mainnet-beta-rpc.irys.xyz/v1/execution-rpc",
+         "https://mainnet-beta-rpc-2.irys.xyz/v1/execution-rpc"
       ],
       "shortName" : "irys-mainnet-beta"
    },
@@ -44493,6 +44530,70 @@
       "shortName" : "adi"
    },
    {
+      "chain" : "AMA",
+      "chainId" : 36968,
+      "explorers" : [
+         {
+            "name" : "AMA Explorer Testnet",
+            "standard" : "none",
+            "url" : "https://testnet-ama.ddns.net"
+         },
+         {
+            "name" : "AMA Explorer Testnet Alt",
+            "standard" : "none",
+            "url" : "https://testnet.explorer.ama.one"
+         }
+      ],
+      "faucets" : [
+         "https://mcp.ama.one/testnet-faucet"
+      ],
+      "infoURL" : "https://ama.one",
+      "name" : "AMA Testnet",
+      "nativeCurrency" : {
+         "decimals" : 9,
+         "name" : "AMA",
+         "symbol" : "AMA"
+      },
+      "networkId" : 36968,
+      "rpc" : [
+         "https://testnet-rpc.ama.one"
+      ],
+      "shortName" : "AMA-TESTNET",
+      "slip44" : 1,
+      "status" : "incubating"
+   },
+   {
+      "chain" : "AMA",
+      "chainId" : 36969,
+      "explorers" : [
+         {
+            "name" : "AMA Explorer Mainnet",
+            "standard" : "none",
+            "url" : "https://ama-explorer.ddns.net"
+         },
+         {
+            "name" : "AMA Explorer Mainnet Alt",
+            "standard" : "none",
+            "url" : "https://explorer.ama.one"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://ama.one",
+      "name" : "AMA Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 9,
+         "name" : "AMA",
+         "symbol" : "AMA"
+      },
+      "networkId" : 36969,
+      "rpc" : [
+         "https://mainnet-rpc.ama.one"
+      ],
+      "shortName" : "AMA",
+      "slip44" : 36969,
+      "status" : "active"
+   },
+   {
       "chain" : "Lens",
       "chainId" : 37111,
       "explorers" : [
@@ -56350,6 +56451,51 @@
          "wss://testnet-ws.juchain.org"
       ],
       "shortName" : "ju-test"
+   },
+   {
+      "chain" : "ronin",
+      "chainId" : 202601,
+      "explorers" : [
+         {
+            "name" : "Ronin Saigon Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://saigon-explorer.roninchain.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.roninchain.com/"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "ronin",
+      "infoURL" : "https://roninchain.com",
+      "name" : "Ronin Saigon Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ronin",
+         "symbol" : "RON"
+      },
+      "networkId" : 202601,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://saigon-testnet-cc58e966ql-f24a704b3d708471.testnets.rollbridge.app/"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://saigon-testnet.roninchain.com/rpc",
+         "https://ronin-saigon.drpc.org"
+      ],
+      "shortName" : "ronin-saigon"
    },
    {
       "chain" : "ETH",

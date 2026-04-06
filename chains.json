@@ -3804,14 +3804,9 @@
       },
       "explorers" : [
          {
-            "name" : "Blockscout Explorer",
-            "standard" : "none",
-            "url" : "https://blockscout.defi-oracle.io"
-         },
-         {
-            "name" : "Quorum Explorer",
-            "standard" : "none",
-            "url" : "https://explorer.defi-oracle.io"
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.d-bis.org"
          }
       ],
       "faucets" : [],
@@ -3821,18 +3816,32 @@
          },
          {
             "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP2718"
+         },
+         {
+            "name" : "EIP2930"
          }
       ],
-      "icon" : "defioraclemeta",
-      "infoURL" : "https://info.defi-oracle.io/",
+      "infoURL" : "https://d-bis.org",
       "name" : "Defi Oracle Meta Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Ether",
          "symbol" : "ETH"
       },
-      "networkId" : 1,
+      "networkId" : 138,
       "rpc" : [
+         "https://rpc-http-pub.d-bis.org",
+         "wss://rpc-ws-pub.d-bis.org",
+         "https://rpc.d-bis.org",
+         "wss://rpc.d-bis.org",
+         "https://rpc2.d-bis.org",
+         "wss://ws.rpc.d-bis.org",
+         "wss://ws.rpc2.d-bis.org",
+         "https://rpc.public-0138.defi-oracle.io",
+         "wss://rpc.public-0138.defi-oracle.io",
          "https://rpc.defi-oracle.io",
          "wss://wss.defi-oracle.io"
       ],
@@ -9461,31 +9470,31 @@
       "slip44" : 1
    },
    {
-      "chain" : "Areon",
+      "chain" : "Areum",
       "chainId" : 463,
       "explorers" : [
          {
-            "name" : "AreonScan",
+            "name" : "Areum Explorer",
             "standard" : "none",
-            "url" : "https://areonscan.com"
+            "url" : "https://explorer.areum.network"
          }
       ],
       "faucets" : [],
       "icon" : "areon",
-      "infoURL" : "https://areon.network",
-      "name" : "Areon Network Mainnet",
+      "infoURL" : "https://areum.network",
+      "name" : "Areum Network Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Areon",
+         "name" : "Areum",
          "symbol" : "AREA"
       },
       "networkId" : 463,
       "rpc" : [
-         "https://mainnet-rpc.areon.network",
-         "https://mainnet-rpc2.areon.network",
-         "https://mainnet-rpc3.areon.network",
-         "https://mainnet-rpc4.areon.network",
-         "https://mainnet-rpc5.areon.network"
+         "https://mainnet-rpc.areum.network",
+         "https://mainnet-rpc2.areum.network",
+         "https://mainnet-rpc3.areum.network",
+         "https://mainnet-rpc4.areum.network",
+         "https://mainnet-rpc5.areum.network"
       ],
       "shortName" : "area"
    },
@@ -15025,6 +15034,33 @@
       "shortName" : "humans"
    },
    {
+      "chain" : "TXENE",
+      "chainId" : 1096,
+      "explorers" : [
+         {
+            "icon" : "xenea",
+            "name" : "Xenea Ubusuna Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://ubusuna.xeneascan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "xenea",
+      "infoURL" : "https://xenea.io",
+      "name" : "Xenea Ubusuna",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Xenea Ubusuna Testnet Token",
+         "symbol" : "TXENE"
+      },
+      "networkId" : 1096,
+      "rpc" : [
+         "https://rpc-ubusuna.xeneascan.com"
+      ],
+      "shortName" : "Xenea",
+      "title" : "Xenea Ubusuna Testnet"
+   },
+   {
       "chain" : "MOAC",
       "chainId" : 1099,
       "explorers" : [
@@ -16913,6 +16949,37 @@
          "wss://unichain-sepolia-rpc.publicnode.com"
       ],
       "shortName" : "unichain-sep"
+   },
+   {
+      "chain" : "STOC",
+      "chainId" : 1306,
+      "explorers" : [
+         {
+            "name" : "STO Chain Explorer",
+            "standard" : "none",
+            "url" : "https://stochainscan.io/en"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "stoc",
+      "infoURL" : "https://www.stochain.io/",
+      "name" : "STO Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "STOC",
+         "symbol" : "STOC"
+      },
+      "networkId" : 1306,
+      "rpc" : [
+         "https://evm-stoc-mainnet.stochainscan.io"
+      ],
+      "shortName" : "stoc",
+      "status" : "active"
    },
    {
       "chain" : "ZAX",
@@ -20860,6 +20927,39 @@
       "slip44" : 1
    },
    {
+      "chain" : "TSTOC",
+      "chainId" : 1999,
+      "explorers" : [
+         {
+            "name" : "STO Chain Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://testnet.stochainscan.io/en"
+         }
+      ],
+      "faucets" : [
+         "https://testnet.stochainscan.io/en/request-faucet"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "stoc",
+      "infoURL" : "https://www.stochain.io/",
+      "name" : "STO Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TSTOC",
+         "symbol" : "TSTOC"
+      },
+      "networkId" : 1999,
+      "rpc" : [
+         "https://evm-stoc-testnet.stochainscan.io"
+      ],
+      "shortName" : "tstoc",
+      "status" : "active"
+   },
+   {
       "chain" : "DC",
       "chainId" : 2000,
       "explorers" : [
@@ -21375,6 +21475,40 @@
          "https://rpc.edgeless.network/http"
       ],
       "shortName" : "edgeless"
+   },
+   {
+      "chain" : "ARMA",
+      "chainId" : 2028,
+      "explorers" : [
+         {
+            "icon" : "armachain",
+            "name" : "ArmaScan",
+            "standard" : "EIP3091",
+            "url" : "https://armascan.io"
+         }
+      ],
+      "faucets" : [
+         "https://armafaucet.io"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "armachain",
+      "infoURL" : "https://armadex.io",
+      "name" : "ArmaChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "tARMA",
+         "symbol" : "tARMA"
+      },
+      "networkId" : 2028,
+      "rpc" : [
+         "https://rpc.armascan.io"
+      ],
+      "shortName" : "arma-testnet",
+      "slip44" : 1
    },
    {
       "chain" : "CFG",
@@ -27709,6 +27843,44 @@
          "https://testnetrpc1.laikachain.dog"
       ],
       "shortName" : "laika-testnet"
+   },
+   {
+      "chain" : "IKChain",
+      "chainId" : 4270,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "IKChain Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-explorer.ikchain.net"
+         }
+      ],
+      "faucets" : [
+         "https://testnet-explorer.ikchain.net"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "ikchain",
+      "infoURL" : "https://ikchain.net",
+      "name" : "IKChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "IKCrypto",
+         "symbol" : "IKCr"
+      },
+      "networkId" : 4270,
+      "rpc" : [
+         "https://testnet-rpc.ikchain.net"
+      ],
+      "shortName" : "ikchain-testnet",
+      "slip44" : 1,
+      "status" : "active"
    },
    {
       "chain" : "Echos",
@@ -36495,6 +36667,36 @@
       "slip44" : 1
    },
    {
+      "chain" : "Nepachain",
+      "chainId" : 9770,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP2930"
+         }
+      ],
+      "infoURL" : "https://docs.nepachain.org/",
+      "name" : "Nepachain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Nepacoin",
+         "symbol" : "NPC"
+      },
+      "networkId" : 9770,
+      "rpc" : [
+         "https://network.nepachain.org",
+         "https://network.nepachain.com"
+      ],
+      "shortName" : "Nepachain"
+   },
+   {
       "chain" : "PepeNetwork",
       "chainId" : 9779,
       "explorers" : [
@@ -37841,6 +38043,36 @@
       ],
       "shortName" : "Snow",
       "slip44" : 1
+   },
+   {
+      "chain" : "TBC",
+      "chainId" : 10791,
+      "explorers" : [
+         {
+            "name" : "TrustBitcoin Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.trustbitcoin.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "trustbitcoin",
+      "infoURL" : "https://trustbitcoin.io",
+      "name" : "TrustBitcoin Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TrustBitcoin",
+         "symbol" : "TBC"
+      },
+      "networkId" : 10791,
+      "rpc" : [
+         "https://rpc.trustbitcoin.io"
+      ],
+      "shortName" : "trustbtc"
    },
    {
       "chain" : "CCP",
@@ -41746,6 +41978,80 @@
          "https://mainnet-http-rpc.camelark.com"
       ],
       "shortName" : "Camelark"
+   },
+   {
+      "chain" : "MANDALA",
+      "chainId" : 20010,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.mandalachain.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "mandala",
+      "infoURL" : "https://mandalachain.io",
+      "name" : "Mandala Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Kepeng",
+         "symbol" : "KPG"
+      },
+      "networkId" : 20010,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://portal.arbitrum.io/bridge?destinationChain=mandala-chain&sanitized=true&sourceChain=ethereum"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc1-mainnet.mandalachain.io"
+      ],
+      "shortName" : "mandala",
+      "status" : "active"
+   },
+   {
+      "chain" : "MANDALA",
+      "chainId" : 20011,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.mandalachain.io"
+         }
+      ],
+      "faucets" : [
+         "https://dripper.mandalachain.io"
+      ],
+      "icon" : "mandala",
+      "infoURL" : "https://mandalachain.io",
+      "name" : "Mandala Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Kepeng Test",
+         "symbol" : "KPGT"
+      },
+      "networkId" : 20011,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://portal.arbitrum.io/bridge?destinationChain=mandala-chain-testnet&sanitized=true&sourceChain=sepolia"
+            }
+         ],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc1-testnet.mandalachain.io"
+      ],
+      "shortName" : "mandala-testnet",
+      "status" : "active"
    },
    {
       "chain" : "NIZA",
@@ -50665,6 +50971,42 @@
       "shortName" : "nxra-testnet"
    },
    {
+      "chain" : "RADIUS",
+      "chainId" : 72344,
+      "explorers" : [
+         {
+            "name" : "Radius Test Network Explorer",
+            "standard" : "none",
+            "url" : "https://testnet.radiustech.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://testnet.radiustech.xyz/wallet/"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "rad",
+      "infoURL" : "https://testnet.radiustech.xyz",
+      "name" : "Radius Test Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Radius USD",
+         "symbol" : "RUSD"
+      },
+      "networkId" : 72344,
+      "rpc" : [
+         "https://rpc.testnet.radiustech.xyz"
+      ],
+      "shortName" : "radius-network-testnet",
+      "slip44" : 1
+   },
+   {
       "chain" : "Ankara",
       "chainId" : 72778,
       "explorers" : [
@@ -52053,6 +52395,36 @@
       "shortName" : "vemp-horizon"
    },
    {
+      "chain" : "PYLUN",
+      "chainId" : 82716,
+      "explorers" : [
+         {
+            "name" : "PylunScan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.pylun.network"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.pylun.network"
+      ],
+      "icon" : "pylun",
+      "infoURL" : "https://pylun.network",
+      "name" : "Pylun Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PYLUN",
+         "symbol" : "PYLUN"
+      },
+      "networkId" : 82716,
+      "rpc" : [
+         "https://rpc.pylun.network",
+         "wss://ws.pylun.network"
+      ],
+      "shortName" : "pylun",
+      "slip44" : 60,
+      "status" : "active"
+   },
+   {
       "chain" : "Xprotocol Testnet",
       "chainId" : 83144,
       "explorers" : [
@@ -52793,6 +53165,22 @@
       ],
       "shortName" : "unite",
       "status" : "active"
+   },
+   {
+      "chain" : "INSAN",
+      "chainId" : 89001,
+      "faucets" : [],
+      "infoURL" : "https://www.jamiroqu.ai",
+      "name" : "JAMIROQU.AI",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "INSAN",
+         "symbol" : "INSAN"
+      },
+      "networkId" : 89001,
+      "rpc" : [],
+      "shortName" : "insan",
+      "status" : "incubating"
    },
    {
       "chain" : "PUNDIAI",
@@ -61540,6 +61928,39 @@
       "shortName" : "tixchain"
    },
    {
+      "chain" : "RADIUS",
+      "chainId" : 723487,
+      "explorers" : [
+         {
+            "name" : "Radius Network Explorer",
+            "standard" : "none",
+            "url" : "https://network.radiustech.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "rad",
+      "infoURL" : "https://network.radiustech.xyz/",
+      "name" : "Radius Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Radius USD",
+         "symbol" : "RUSD"
+      },
+      "networkId" : 723487,
+      "rpc" : [
+         "https://rpc.radiustech.xyz"
+      ],
+      "shortName" : "radius"
+   },
+   {
       "chain" : "bokuto",
       "chainId" : 737373,
       "explorers" : [
@@ -65772,6 +66193,42 @@
       "shortName" : "SVRNm"
    },
    {
+      "chain" : "SATU",
+      "chainId" : 10111945,
+      "explorers" : [
+         {
+            "icon" : "satuchain",
+            "name" : "SATUCHAIN Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://stuscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "satuchain",
+      "infoURL" : "https://satuchain.com",
+      "name" : "SATUCHAIN Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Satu",
+         "symbol" : "STU"
+      },
+      "networkId" : 10111945,
+      "rpc" : [
+         "https://rpc-mainnet.satuchain.com",
+         "https://rpc-indo-mainnet.satuchain.com",
+         "wss://rpc-mainnet.satuchain.com/ws"
+      ],
+      "shortName" : "satumainnet"
+   },
+   {
       "chain" : "AlienX Mainnet",
       "chainId" : 10241024,
       "explorers" : [
@@ -65821,6 +66278,56 @@
          "https://hal.rpc.caldera.xyz/http"
       ],
       "shortName" : "ALIENXHal"
+   },
+   {
+      "chain" : "CC",
+      "chainId" : 11111110,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "clawcoin",
+      "infoURL" : "https://clawcoin.com",
+      "name" : "ClawCoin Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ClawCoin",
+         "symbol" : "CC"
+      },
+      "networkId" : 11111110,
+      "rpc" : [
+         "https://evm-testnet.clawcoin.com"
+      ],
+      "shortName" : "cc-testnet",
+      "slip44" : 60,
+      "status" : "active"
+   },
+   {
+      "chain" : "CC",
+      "chainId" : 11111111,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "clawcoin",
+      "infoURL" : "https://clawcoin.com",
+      "name" : "ClawCoin",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ClawCoin",
+         "symbol" : "CC"
+      },
+      "networkId" : 11111111,
+      "rpc" : [
+         "https://evm.clawcoin.com"
+      ],
+      "shortName" : "cc",
+      "slip44" : 60,
+      "status" : "active"
    },
    {
       "chain" : "CELO",
@@ -69587,6 +70094,39 @@
          "wss://skale-base.skalenodes.com/v1/ws/base"
       ],
       "shortName" : "skale-base"
+   },
+   {
+      "chain" : "MIRASMANDA",
+      "chainId" : 1213549903,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.evm.mirasmanda.uz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.evm.mirasmanda.uz"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "mirasmanda",
+      "infoURL" : "https://asterium.uz/",
+      "name" : "Mirasmanda",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gas",
+         "symbol" : "GAS"
+      },
+      "networkId" : 1213549903,
+      "rpc" : [
+         "https://rpc.evm.mirasmanda.uz"
+      ],
+      "shortName" : "mirasmanda"
    },
    {
       "chain" : "wan-red-ain",

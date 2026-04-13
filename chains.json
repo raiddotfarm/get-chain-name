@@ -9480,7 +9480,7 @@
          }
       ],
       "faucets" : [],
-      "icon" : "areon",
+      "icon" : "areum",
       "infoURL" : "https://areum.network",
       "name" : "Areum Network Mainnet",
       "nativeCurrency" : {
@@ -17175,9 +17175,9 @@
       "chainId" : 1328,
       "explorers" : [
          {
-            "name" : "Seitrace",
+            "name" : "Seiscan",
             "standard" : "EIP3091",
-            "url" : "https://seitrace.com"
+            "url" : "https://testnet.seiscan.io"
          }
       ],
       "faucets" : [
@@ -17203,13 +17203,13 @@
       "chainId" : 1329,
       "explorers" : [
          {
-            "name" : "Seitrace",
+            "name" : "Seiscan",
             "standard" : "EIP3091",
-            "url" : "https://seitrace.com"
+            "url" : "https://seiscan.io"
          }
       ],
       "faucets" : [],
-      "icon" : "seiv2",
+      "icon" : "sei",
       "infoURL" : "https://www.sei.io",
       "name" : "Sei Network",
       "nativeCurrency" : {
@@ -33609,6 +33609,31 @@
       ],
       "shortName" : "dos",
       "status" : "active"
+   },
+   {
+      "chain" : "PYN",
+      "chainId" : 7991,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://peeryn.com",
+      "name" : "Peeryn",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Peeryn",
+         "symbol" : "PYN"
+      },
+      "networkId" : 7991,
+      "rpc" : [],
+      "shortName" : "pyn",
+      "status" : "incubating"
    },
    {
       "chain" : "Teleport",
@@ -61849,7 +61874,8 @@
          "https://evm-rpc-arctic-1.sei-apis.com",
          "https://evm-rpc.arctic-1.seinetwork.io"
       ],
-      "shortName" : "sei-devnet"
+      "shortName" : "sei-devnet",
+      "status" : "deprecated"
    },
    {
       "chain" : "Zether",

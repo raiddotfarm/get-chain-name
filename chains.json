@@ -13431,6 +13431,40 @@
       "slip44" : 1
    },
    {
+      "chain" : "FEN",
+      "chainId" : 920,
+      "explorers" : [
+         {
+            "icon" : "fenine",
+            "name" : "Fenine Scan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.fene.app"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "fenine",
+      "infoURL" : "https://fene.app",
+      "name" : "Fenine Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Fenine",
+         "symbol" : "FEN"
+      },
+      "networkId" : 920,
+      "rpc" : [
+         "https://rpc.fene.app"
+      ],
+      "shortName" : "FEN"
+   },
+   {
       "chain" : "Yidark",
       "chainId" : 927,
       "explorers" : [
@@ -27883,6 +27917,48 @@
       "status" : "active"
    },
    {
+      "chain" : "TPIX",
+      "chainId" : 4289,
+      "explorers" : [
+         {
+            "name" : "TPIX Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.tpix.online"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "tpix",
+      "infoURL" : "https://tpix.online",
+      "name" : "TPIX Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Thaiprompt Index",
+         "symbol" : "TPIX"
+      },
+      "networkId" : 4289,
+      "rpc" : [
+         "https://rpc.tpix.online"
+      ],
+      "shortName" : "tpix"
+   },
+   {
+      "chain" : "TPIX",
+      "chainId" : 4290,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "tpix",
+      "infoURL" : "https://tpix.online",
+      "name" : "TPIX Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Thaiprompt Index",
+         "symbol" : "tTPIX"
+      },
+      "networkId" : 4290,
+      "rpc" : [],
+      "shortName" : "tpix-testnet"
+   },
+   {
       "chain" : "Echos",
       "chainId" : 4321,
       "explorers" : [
@@ -29566,6 +29642,38 @@
          "https://rpc-mumbai.mainnet.eraswap.network"
       ],
       "shortName" : "es"
+   },
+   {
+      "chain" : "LMK",
+      "chainId" : 5232,
+      "explorers" : [
+         {
+            "name" : "LMKscan",
+            "standard" : "none",
+            "url" : "https://litermark.org"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "litermark",
+      "infoURL" : "https://litermark.com",
+      "name" : "LiterMark Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "LiterMark",
+         "symbol" : "LMK"
+      },
+      "networkId" : 5232,
+      "rpc" : [
+         "https://litermark.org/rpc"
+      ],
+      "shortName" : "lmk",
+      "slip44" : 60,
+      "status" : "active"
    },
    {
       "chain" : "HMND",
@@ -42408,16 +42516,23 @@
       "shortName" : "aah"
    },
    {
-      "chain" : "1Money Network",
+      "chain" : "1MoneyNetwork",
       "chainId" : 21210,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "1Money Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://www.1moneynetwork.com/explorer"
+         }
+      ],
       "faucets" : [],
       "features" : [
          {
             "name" : "EIP155"
          }
       ],
-      "infoURL" : "https://1money.com",
+      "icon" : "1moneynetwork",
+      "infoURL" : "https://www.1moneynetwork.com",
       "name" : "1Money Network Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -42426,7 +42541,10 @@
       },
       "networkId" : 21210,
       "rpc" : [
-         "https://mainnet.1money.network"
+         "https://rpc.mainnet.1money.network",
+         "https://rpc1.mainnet.1money.network",
+         "https://rpc2.mainnet.1money.network",
+         "https://rpc3.mainnet.1money.network"
       ],
       "shortName" : "1money"
    },
@@ -63871,16 +63989,25 @@
       "shortName" : "tiltyard"
    },
    {
-      "chain" : "1Money Testnet",
+      "chain" : "1MoneyNetwork",
       "chainId" : 1212101,
-      "explorers" : [],
-      "faucets" : [],
+      "explorers" : [
+         {
+            "name" : "1Money Network Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://www.1moneynetwork.com/explorer?network=testnet"
+         }
+      ],
+      "faucets" : [
+         "https://www.1moneynetwork.com/faucet"
+      ],
       "features" : [
          {
             "name" : "EIP155"
          }
       ],
-      "infoURL" : "https://1money.com",
+      "icon" : "1moneynetwork",
+      "infoURL" : "https://www.1moneynetwork.com",
       "name" : "1Money Network Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -63889,7 +64016,10 @@
       },
       "networkId" : 1212101,
       "rpc" : [
-         "https://testnet.1money.network"
+         "https://rpc.testnet.1money.network",
+         "https://rpc1.testnet.1money.network",
+         "https://rpc2.testnet.1money.network",
+         "https://rpc3.testnet.1money.network"
       ],
       "shortName" : "1money-testnet"
    },

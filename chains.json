@@ -13042,13 +13042,7 @@
    {
       "chain" : "CXM",
       "chainId" : 890,
-      "explorers" : [
-         {
-            "name" : "Capital Exchange EVM",
-            "standard" : "EIP3091",
-            "url" : "https://explorer.capitalexchange.net"
-         }
-      ],
+      "explorers" : [],
       "faucets" : [],
       "features" : [
          {
@@ -13058,7 +13052,7 @@
             "name" : "EIP1559"
          }
       ],
-      "infoURL" : "https://www.capitalexchange.markets",
+      "infoURL" : "https://www.capitalexchange.it",
       "name" : "Capital Exchange",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -13066,12 +13060,9 @@
          "symbol" : "CXM"
       },
       "networkId" : 890,
-      "rpc" : [
-         "https://rpc.capitalexchange.net",
-         "https://rpc.capitalexchangecrypto.com"
-      ],
+      "rpc" : [],
       "shortName" : "CXM",
-      "status" : "active"
+      "status" : "deprecated"
    },
    {
       "chain" : "MAXI",
@@ -15829,6 +15820,35 @@
          "https://plex-rpc.plexfinance.us"
       ],
       "shortName" : "Plexchain"
+   },
+   {
+      "chain" : "TRUST",
+      "chainId" : 1155,
+      "explorers" : [
+         {
+            "name" : "Intuition Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.intuition.systems"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "intuition",
+      "infoURL" : "https://intuition.systems",
+      "name" : "Intuition Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TRUST",
+         "symbol" : "TRUST"
+      },
+      "networkId" : 1155,
+      "parent" : {
+         "chain" : "eip155-8453",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.intuition.systems"
+      ],
+      "shortName" : "intuition"
    },
    {
       "chain" : "Origin",
@@ -19427,6 +19447,41 @@
       "slip44" : 1
    },
    {
+      "chain" : "RUBY",
+      "chainId" : 1810,
+      "explorers" : [
+         {
+            "name" : "Ruby Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.ruby.testnet.finetry.win"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.ruby.testnet.finetry.win"
+      ],
+      "icon" : "rubychain",
+      "infoURL" : "https://elektrum.io",
+      "name" : "Ruby Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ruby",
+         "symbol" : "RUBY"
+      },
+      "networkId" : 1810,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.ruby.testnet.finetry.win",
+         "https://rpc2.ruby.testnet.finetry.win"
+      ],
+      "shortName" : "ruby-testnet",
+      "status" : "active",
+      "title" : "Ruby Chain Testnet"
+   },
+   {
       "chain" : "lif3chain",
       "chainId" : 1811,
       "explorers" : [
@@ -20149,6 +20204,40 @@
          "https://testnet.crescdi.pub.ro"
       ],
       "shortName" : "UPBEth"
+   },
+   {
+      "chain" : "TurkChain",
+      "chainId" : 1919,
+      "explorers" : [
+         {
+            "icon" : "turkchain",
+            "name" : "turkscan",
+            "standard" : "EIP3091",
+            "url" : "https://turkscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "turkchain",
+      "infoURL" : "https://turkscan.com",
+      "name" : "TurkChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TC",
+         "symbol" : "TURK"
+      },
+      "networkId" : 1919,
+      "rpc" : [
+         "https://rpc.turkscan.com"
+      ],
+      "shortName" : "turk"
    },
    {
       "chain" : "ETH",
@@ -25931,7 +26020,7 @@
       "faucets" : [],
       "icon" : "pepu",
       "infoURL" : "https://pepeunchained.com/",
-      "name" : "Pepe Unchained",
+      "name" : "Pepe Unchained Deprecated",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "PEPU",
@@ -25941,7 +26030,8 @@
       "rpc" : [
          "https://rpc-pepe-unchained-gupg0lo9wf.t.conduit.xyz"
       ],
-      "shortName" : "PEPU"
+      "shortName" : "pepudeprecated",
+      "status" : "deprecated"
    },
    {
       "chain" : "EVO",
@@ -26626,6 +26716,40 @@
       "shortName" : "tTangle"
    },
    {
+      "chain" : "FAVO",
+      "chainId" : 3838,
+      "explorers" : [
+         {
+            "icon" : "favo",
+            "name" : "favoscan",
+            "standard" : "EIP3091",
+            "url" : "https://www.favoscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "favo",
+      "infoURL" : "https://www.favoscan.com",
+      "name" : "FAVO Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "FAVO",
+         "symbol" : "FAVO"
+      },
+      "networkId" : 3838,
+      "rpc" : [
+         "https://rpc.favoscan.com"
+      ],
+      "shortName" : "favo"
+   },
+   {
       "chain" : "Firechain",
       "chainId" : 3885,
       "explorers" : [
@@ -26876,6 +27000,31 @@
          "https://paynetwork-main.calderachain.xyz/http"
       ],
       "shortName" : "paynetwork"
+   },
+   {
+      "chain" : "PTC",
+      "chainId" : 3989,
+      "explorers" : [
+         {
+            "name" : "Pione Trace Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.pionetrace.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ptc",
+      "infoURL" : "https://pionetrace.com",
+      "name" : "Pione Trace Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Pione Trace",
+         "symbol" : "PTC"
+      },
+      "networkId" : 3989,
+      "rpc" : [
+         "https://rpc.pionetrace.com"
+      ],
+      "shortName" : "ptc"
    },
    {
       "chain" : "ETH",
@@ -37499,6 +37648,34 @@
       "shortName" : "spent"
    },
    {
+      "chain" : "JNX",
+      "chainId" : 9922,
+      "explorers" : [],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "jinglex",
+      "infoURL" : "https://jinglex.net",
+      "name" : "JingleX L2",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "JingleX",
+         "symbol" : "JNX"
+      },
+      "networkId" : 9922,
+      "rpc" : [
+         "https://rpc.jinglex.net"
+      ],
+      "shortName" : "jnx",
+      "slip44" : 60
+   },
+   {
       "chain" : "UXER",
       "chainId" : 9966,
       "explorers" : [
@@ -45769,6 +45946,31 @@
          "https://rpc.j2o.io"
       ],
       "shortName" : "j2o"
+   },
+   {
+      "chain" : "CoinAfrica",
+      "chainId" : 35147,
+      "explorers" : [
+         {
+            "name" : "CoinA-Scan",
+            "standard" : "EIP3091",
+            "url" : "https://coinascan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "coina",
+      "infoURL" : "https://coinafrica.tech",
+      "name" : "CoinAfrica",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "COINA",
+         "symbol" : "COINA"
+      },
+      "networkId" : 35147,
+      "rpc" : [
+         "https://rpc.coinafrica.tech"
+      ],
+      "shortName" : "coina"
    },
    {
       "chain" : "Q",
@@ -54526,6 +54728,31 @@
          "https://node.greenchain.app/rpc/"
       ],
       "shortName" : "greenchain"
+   },
+   {
+      "chain" : "PEPU",
+      "chainId" : 97741,
+      "explorers" : [
+         {
+            "name" : "pepuscan",
+            "standard" : "EIP3091",
+            "url" : "https://pepuscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "pepu",
+      "infoURL" : "https://pepeunchained.com/",
+      "name" : "Pepe Unchained V2",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PEPU",
+         "symbol" : "PEPU"
+      },
+      "networkId" : 97741,
+      "rpc" : [
+         "https://rpc-pepu-v2-mainnet-0.t.conduit.xyz"
+      ],
+      "shortName" : "pepuv2"
    },
    {
       "chain" : "MetaBenz CHAIN",

@@ -3791,7 +3791,8 @@
          "https://polygon-bor-rpc.publicnode.com",
          "wss://polygon-bor-rpc.publicnode.com",
          "https://polygon.gateway.tenderly.co",
-         "wss://polygon.gateway.tenderly.co"
+         "wss://polygon.gateway.tenderly.co",
+         "https://rpc.satelink.network/rpc/polygon"
       ],
       "shortName" : "pol",
       "slip44" : 966
@@ -8607,7 +8608,7 @@
       },
       "rpc" : [],
       "shortName" : "snt",
-      "status" : "incubating",
+      "status" : "deprecated",
       "title" : "Status Network Mainnet"
    },
    {
@@ -8635,7 +8636,7 @@
       },
       "rpc" : [],
       "shortName" : "snt-hoodi",
-      "status" : "incubating",
+      "status" : "deprecated",
       "title" : "Status Network Hoodi"
    },
    {
@@ -9323,21 +9324,21 @@
          {
             "name" : "Boyaa explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.mainnet.boyaa.network"
+            "url" : "https://explorer.boyaa.network"
          }
       ],
       "faucets" : [],
       "icon" : "boyaanetwork",
       "infoURL" : "https://boyaa.network",
-      "name" : "Boyaa Mainnet",
+      "name" : "Boyaa",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Boyaa mainnet native coin",
+         "name" : "Boyaa native coin",
          "symbol" : "BYC"
       },
       "networkId" : 434,
       "rpc" : [
-         "https://evm-rpc.mainnet.boyaa.network"
+         "https://rpc.boyaa.network"
       ],
       "shortName" : "BYC"
    },
@@ -18743,7 +18744,9 @@
       "redFlags" : [
          "reusedChainId"
       ],
-      "rpc" : [],
+      "rpc" : [
+         "https://mainnet.liquichain.io/rpc"
+      ],
       "shortName" : "Liquichain"
    },
    {
@@ -20056,6 +20059,42 @@
       "shortName" : "SCN"
    },
    {
+      "chain" : "KWALA",
+      "chainId" : 1905,
+      "faucets" : [],
+      "icon" : "kwala",
+      "infoURL" : "https://kwala.network",
+      "name" : "KWALA",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "KWALA",
+         "symbol" : "KWALA"
+      },
+      "networkId" : 1905,
+      "rpc" : [
+         "https://rpc-ohio.kwala.network"
+      ],
+      "shortName" : "kwala"
+   },
+   {
+      "chain" : "KWALA",
+      "chainId" : 1906,
+      "faucets" : [],
+      "icon" : "kwala",
+      "infoURL" : "https://kwala.network",
+      "name" : "KWALA Stagenet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "KWALA",
+         "symbol" : "KWALA"
+      },
+      "networkId" : 1906,
+      "rpc" : [
+         "https://qa-kwala-rpc-node.p2eppl.com"
+      ],
+      "shortName" : "kwala-stagenet"
+   },
+   {
       "chain" : "BITCI",
       "chainId" : 1907,
       "explorers" : [
@@ -20132,6 +20171,24 @@
          "https://marklechain-rpc.merklescan.com"
       ],
       "shortName" : "MRK"
+   },
+   {
+      "chain" : "KWALA",
+      "chainId" : 1910,
+      "faucets" : [],
+      "icon" : "kwala",
+      "infoURL" : "https://kwala.network",
+      "name" : "KWALA Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "KWALA",
+         "symbol" : "KWALA"
+      },
+      "networkId" : 1910,
+      "rpc" : [
+         "https://dev-kwala-rpc-node.p2eppl.com"
+      ],
+      "shortName" : "kwala-devnet"
    },
    {
       "chain" : "ETH",
@@ -28356,6 +28413,31 @@
       "title" : "MemeCore"
    },
    {
+      "chain" : "ILY",
+      "chainId" : 4370,
+      "explorers" : [
+         {
+            "name" : "ILITY Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.ility.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ility",
+      "infoURL" : "https://ility.xyz",
+      "name" : "ILITY Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ILITY",
+         "symbol" : "ILY"
+      },
+      "networkId" : 4370,
+      "rpc" : [
+         "https://rpc.ility.xyz"
+      ],
+      "shortName" : "ily"
+   },
+   {
       "chain" : "CREDIT",
       "chainId" : 4400,
       "explorers" : [
@@ -29401,6 +29483,23 @@
       "shortName" : "onigiri"
    },
    {
+      "chain" : "Arc",
+      "chainId" : 5042,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "arcnetwork",
+      "infoURL" : "https://arc.network",
+      "name" : "Arc",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "USDC",
+         "symbol" : "USDC"
+      },
+      "networkId" : 5042,
+      "rpc" : [],
+      "shortName" : "arc-mainnet"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 5050,
       "explorers" : [
@@ -29470,6 +29569,33 @@
       ],
       "shortName" : "nollie-testnet",
       "status" : "active"
+   },
+   {
+      "chain" : "DAN",
+      "chainId" : 5069,
+      "explorers" : [
+         {
+            "icon" : "danny",
+            "name" : "Dannyscan",
+            "standard" : "EIP3091",
+            "url" : "https://dannyscan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "danny",
+      "infoURL" : "https://dannychain.com",
+      "name" : "Danny",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Danny",
+         "symbol" : "DAN"
+      },
+      "networkId" : 5069,
+      "rpc" : [
+         "https://rpc.dannyscan.com"
+      ],
+      "shortName" : "dan",
+      "title" : "Danny"
    },
    {
       "chain" : "PZO",
@@ -34516,6 +34642,34 @@
          "https://rpc.e-dollar.org"
       ],
       "shortName" : "E-Dollar"
+   },
+   {
+      "chain" : "HLX",
+      "chainId" : 8088,
+      "explorers" : [
+         {
+            "name" : "Helix Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.thehelixchain.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.thehelixchain.xyz"
+      ],
+      "icon" : "helix",
+      "infoURL" : "https://thehelixchain.xyz",
+      "name" : "Helix Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Helix",
+         "symbol" : "HLX"
+      },
+      "networkId" : 8088,
+      "rpc" : [
+         "https://rpc.thehelixchain.xyz"
+      ],
+      "shortName" : "hlx",
+      "status" : "active"
    },
    {
       "chain" : "StreamuX",
@@ -40373,6 +40527,37 @@
       "shortName" : "gravitysep"
    },
    {
+      "chain" : "TRUST",
+      "chainId" : 13579,
+      "explorers" : [
+         {
+            "name" : "Intuition Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.explorer.intuition.systems"
+         }
+      ],
+      "faucets" : [
+         "https://intuition-testnet.hub.caldera.xyz"
+      ],
+      "icon" : "intuition",
+      "infoURL" : "https://intuition.systems",
+      "name" : "Intuition Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet TRUST",
+         "symbol" : "tTRUST"
+      },
+      "networkId" : 13579,
+      "parent" : {
+         "chain" : "eip155-84532",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://testnet.rpc.intuition.systems"
+      ],
+      "shortName" : "intuition-testnet"
+   },
+   {
       "chain" : "KNB",
       "chainId" : 13600,
       "explorers" : [
@@ -41688,7 +41873,7 @@
          {
             "name" : "konet-explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.kon-wallet.com"
+            "url" : "https://konetexplorer.io"
          }
       ],
       "faucets" : [],
@@ -48072,6 +48257,37 @@
       "title" : "Robinhood Chain Testnet"
    },
    {
+      "chain" : "GNODI",
+      "chainId" : 46634,
+      "explorers" : [
+         {
+            "icon" : "gnodi",
+            "name" : "gnodiscan",
+            "standard" : "EIP3091",
+            "url" : "https://evm.gnodiscanner.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "gnodi",
+      "infoURL" : "https://gnodi.info",
+      "name" : "Gnodi Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gnodi",
+         "symbol" : "GNOD"
+      },
+      "networkId" : 46634,
+      "rpc" : [
+         "https://evm.rpc.gnodi.zone"
+      ],
+      "shortName" : "gnodi"
+   },
+   {
       "chain" : "FSN",
       "chainId" : 46688,
       "explorers" : [
@@ -50144,6 +50360,57 @@
       "slip44" : 1
    },
    {
+      "chain" : "EBLA",
+      "chainId" : 60186,
+      "faucets" : [],
+      "icon" : "ebla",
+      "infoURL" : "https://eblanetwork.com",
+      "name" : "EBLA Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EBLA",
+         "symbol" : "EBLA"
+      },
+      "networkId" : 60186,
+      "rpc" : [],
+      "shortName" : "ebla",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "EBLA",
+      "chainId" : 60187,
+      "faucets" : [],
+      "icon" : "ebla",
+      "infoURL" : "https://eblanetwork.com",
+      "name" : "EBLA Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EBLA",
+         "symbol" : "EBLA"
+      },
+      "networkId" : 60187,
+      "rpc" : [],
+      "shortName" : "tebla",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "EBLA",
+      "chainId" : 60188,
+      "faucets" : [],
+      "icon" : "ebla",
+      "infoURL" : "https://eblanetwork.com",
+      "name" : "EBLA Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EBLA",
+         "symbol" : "EBLA"
+      },
+      "networkId" : 60188,
+      "rpc" : [],
+      "shortName" : "debla",
+      "status" : "incubating"
+   },
+   {
       "chain" : "POTOS",
       "chainId" : 60600,
       "explorers" : [
@@ -51332,6 +51599,31 @@
       "shortName" : "cndr",
       "slip44" : 1,
       "title" : "Ethereum Verkle Testnet Condrieu"
+   },
+   {
+      "chain" : "ILY",
+      "chainId" : 69923,
+      "explorers" : [
+         {
+            "name" : "ILITY Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.testnet.ility.xyz"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "ility",
+      "infoURL" : "https://ility.xyz",
+      "name" : "ILITY Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ILITY Token",
+         "symbol" : "ILYt"
+      },
+      "networkId" : 69923,
+      "rpc" : [
+         "https://rpc.testnet.ility.xyz"
+      ],
+      "shortName" : "ilyt"
    },
    {
       "chain" : "Thinkium",
@@ -53899,7 +54191,15 @@
    {
       "chain" : "INSAN",
       "chainId" : 89001,
+      "explorers" : [
+         {
+            "name" : "JAMIROQU.AI 89001 INSAN EVM",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.jamiroqu.ai"
+         }
+      ],
       "faucets" : [],
+      "icon" : "insan",
       "infoURL" : "https://www.jamiroqu.ai",
       "name" : "JAMIROQU.AI",
       "nativeCurrency" : {
@@ -53908,9 +54208,12 @@
          "symbol" : "INSAN"
       },
       "networkId" : 89001,
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.jamiroqu.ai",
+         "https://rpc.capitalexchange.digital"
+      ],
       "shortName" : "insan",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "PUNDIAI",
@@ -66401,13 +66704,13 @@
       "shortName" : "SafeTestnet"
    },
    {
-      "chain" : "Ting",
+      "chain" : "tingchain",
       "chainId" : 6666689,
       "explorers" : [
          {
             "name" : "TingScan",
             "standard" : "EIP3091",
-            "url" : "https://tingscan.com"
+            "url" : "https://testnet.tingscan.com"
          }
       ],
       "faucets" : [],
@@ -66420,18 +66723,19 @@
          }
       ],
       "infoURL" : "https://tingscan.com",
-      "name" : "The Ting Blockchain Testnet Explorer",
+      "name" : "Ting Chain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Ton",
-         "symbol" : "Ton"
+         "name" : "Ting",
+         "symbol" : "TING"
       },
       "networkId" : 6666689,
       "rpc" : [
-         "https://testnet.tingchain.org",
-         "https://public.0xrpc.com/6666689"
+         "https://rpc-testnet.tingscan.com",
+         "wss://rpc-testnet.tingscan.com"
       ],
-      "shortName" : "ting-testnet"
+      "shortName" : "ting-testnet",
+      "title" : "Ting Chain Testnet"
    },
    {
       "chain" : "ENI",
@@ -66664,6 +66968,84 @@
       "slip44" : 184
    },
    {
+      "chain" : "VYO",
+      "chainId" : 7771777,
+      "explorers" : [
+         {
+            "icon" : "valygo",
+            "name" : "VYOScan",
+            "standard" : "EIP3091",
+            "url" : "https://vyoscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "valygo",
+      "infoURL" : "https://vyochain.com",
+      "name" : "VALYGO Smart Contract",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VYO",
+         "symbol" : "VYO"
+      },
+      "networkId" : 7771777,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-43114",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc"
+      ],
+      "shortName" : "vyo"
+   },
+   {
+      "chain" : "VYO",
+      "chainId" : 7773777,
+      "explorers" : [
+         {
+            "icon" : "valygo",
+            "name" : "VYOScan NFT",
+            "standard" : "EIP3091",
+            "url" : "https://nft.vyoscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "valygo",
+      "infoURL" : "https://vyochain.com",
+      "name" : "VALYGO NFT",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VYO",
+         "symbol" : "VYO"
+      },
+      "networkId" : 7773777,
+      "parent" : {
+         "bridges" : [],
+         "chain" : "eip155-43114",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-gw-1.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc"
+      ],
+      "shortName" : "vyonft"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 7777777,
       "explorers" : [
@@ -66721,6 +67103,23 @@
       ],
       "shortName" : "ozean-poseidon",
       "status" : "active"
+   },
+   {
+      "chain" : "MAKI",
+      "chainId" : 8000008,
+      "faucets" : [],
+      "infoURL" : "https://makiai.app",
+      "name" : "MAKI Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 8000008,
+      "rpc" : [
+         "https://rpc.makiai.app"
+      ],
+      "shortName" : "maki"
    },
    {
       "chain" : "Plian",

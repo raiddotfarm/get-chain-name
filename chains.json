@@ -6327,6 +6327,39 @@
       "slip44" : 1
    },
    {
+      "chain" : "AER",
+      "chainId" : 237,
+      "explorers" : [
+         {
+            "name" : "AEREDIUM Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.aeredium.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "aeredium",
+      "infoURL" : "https://aeredium.io",
+      "name" : "AEREDIUM",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "AER",
+         "symbol" : "AER"
+      },
+      "networkId" : 237,
+      "rpc" : [
+         "https://rpc.aeredium.io"
+      ],
+      "shortName" : "aer"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 238,
       "explorers" : [
@@ -8361,6 +8394,7 @@
       "chainId" : 343,
       "explorers" : [
          {
+            "icon" : "bourse",
             "name" : "Capital Exchange Markets | Digital",
             "standard" : "none",
             "url" : "https://explorer.capitalexchange.se"
@@ -8375,6 +8409,7 @@
             "name" : "EIP1559"
          }
       ],
+      "icon" : "bourse",
       "infoURL" : "https://www.capitalexchange.markets",
       "name" : "Capital Exchange SE",
       "nativeCurrency" : {
@@ -8807,6 +8842,36 @@
          "https://mainnet.zkevm.cronos.org"
       ],
       "shortName" : "zkCRO"
+   },
+   {
+      "chain" : "LNR",
+      "chainId" : 389,
+      "explorers" : [
+         {
+            "name" : "LunaroScan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.lunaro.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "lunaro",
+      "infoURL" : "https://lunaro.network",
+      "name" : "LunaroChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Lunaro",
+         "symbol" : "LNR"
+      },
+      "networkId" : 389,
+      "rpc" : [
+         "https://rpc.lunaro.network"
+      ],
+      "shortName" : "lnr"
    },
    {
       "chain" : "CADL",
@@ -10130,6 +10195,23 @@
          "https://rpc.optrust.io"
       ],
       "shortName" : "optrust"
+   },
+   {
+      "chain" : "BESU",
+      "chainId" : 540,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "ethereum",
+      "infoURL" : "https://www.tuosito.it",
+      "name" : "Nome Progetto Privato",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "YourToken",
+         "symbol" : "YTK"
+      },
+      "networkId" : 540,
+      "rpc" : [],
+      "shortName" : "besu-priv-540"
    },
    {
       "chain" : "PAW",
@@ -15888,6 +15970,34 @@
          "https://rpc.intuition.systems"
       ],
       "shortName" : "intuition"
+   },
+   {
+      "chain" : "tCMX",
+      "chainId" : 1166,
+      "explorers" : [
+         {
+            "icon" : "mosscan",
+            "name" : "mosscan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.mosscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.clubmos.com"
+      ],
+      "icon" : "mos",
+      "infoURL" : "https://www.clubmos.com",
+      "name" : "ClubMOS Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ClubMOS",
+         "symbol" : "tCMX"
+      },
+      "networkId" : 1166,
+      "rpc" : [
+         "https://rpc-testnet.mosscan.com"
+      ],
+      "shortName" : "tCMX"
    },
    {
       "chain" : "Origin",
@@ -23095,6 +23205,34 @@
          "https://krest.unitedbloc.com"
       ],
       "shortName" : "KRST"
+   },
+   {
+      "chain" : "CMX",
+      "chainId" : 2255,
+      "explorers" : [
+         {
+            "icon" : "mosscan",
+            "name" : "mosscan",
+            "standard" : "EIP3091",
+            "url" : "https://mosscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.clubmos.com"
+      ],
+      "icon" : "mos",
+      "infoURL" : "https://www.clubmos.com",
+      "name" : "ClubMOS",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ClubMOS",
+         "symbol" : "CMX"
+      },
+      "networkId" : 2255,
+      "rpc" : [
+         "https://rpc.mosscan.com"
+      ],
+      "shortName" : "CMX"
    },
    {
       "chain" : "BOMB",
@@ -35615,7 +35753,8 @@
          "https://base.gateway.tenderly.co",
          "wss://base.gateway.tenderly.co",
          "https://base-rpc.publicnode.com",
-         "wss://base-rpc.publicnode.com"
+         "wss://base-rpc.publicnode.com",
+         "https://rpcfree.com/base-rpc"
       ],
       "shortName" : "base",
       "status" : "active"
@@ -40587,6 +40726,32 @@
       "shortName" : "SPS"
    },
    {
+      "chain" : "RANNTA",
+      "chainId" : 13113,
+      "explorers" : [
+         {
+            "icon" : "rannta",
+            "name" : "RANNTA X-Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.rannta.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "rannta",
+      "infoURL" : "https://rannta.com",
+      "name" : "RANNTA X-Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RANNTA Core X",
+         "symbol" : "RNTX"
+      },
+      "networkId" : 13113,
+      "rpc" : [
+         "https://rpc.rannta.com"
+      ],
+      "shortName" : "rntx"
+   },
+   {
       "chain" : "CREDIT",
       "chainId" : 13308,
       "explorers" : [
@@ -41782,21 +41947,30 @@
       "status" : "deprecated"
    },
    {
-      "chain" : "0G-Testnet",
+      "chain" : "0G",
       "chainId" : 16602,
       "explorers" : [
          {
-            "name" : "0G BlockChain Explorer",
+            "name" : "0G Chainscan",
             "standard" : "EIP3091",
             "url" : "https://chainscan-galileo.0g.ai"
          }
       ],
       "faucets" : [
-         "https://faucet.0g.ai"
+         "https://faucet.0g.ai",
+         "https://cloud.google.com/application/web3/faucet/0g/galileo"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
       ],
       "icon" : "0g",
       "infoURL" : "https://0g.ai",
-      "name" : "0G-Testnet-Galileo",
+      "name" : "0G Galileo Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "0G",
@@ -41806,19 +41980,28 @@
       "rpc" : [
          "https://evmrpc-testnet.0g.ai"
       ],
-      "shortName" : "0g-testnet-galileo"
+      "shortName" : "0g-galileo-testnet",
+      "slip44" : 1
    },
    {
       "chain" : "0G",
       "chainId" : 16661,
       "explorers" : [
          {
-            "name" : "0G BlockChain Explorer",
+            "name" : "0G Chainscan",
             "standard" : "EIP3091",
             "url" : "https://chainscan.0g.ai"
          }
       ],
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
       "icon" : "0g",
       "infoURL" : "https://0g.ai",
       "name" : "0G Mainnet",
@@ -43471,14 +43654,14 @@
             "icon" : "aah",
             "name" : "AAH Blockscout",
             "standard" : "EIP3091",
-            "url" : "https://exp.c4ex.net"
+            "url" : "https://exp.aah.name"
          }
       ],
       "faucets" : [
-         "https://t.me/c4eiAirdrop"
+         "https://aah.name"
       ],
-      "infoURL" : "https://c4ex.net",
-      "name" : "All About Healthy",
+      "infoURL" : "https://aah.name",
+      "name" : "All About Health",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "AAH",
@@ -43486,7 +43669,7 @@
       },
       "networkId" : 21133,
       "rpc" : [
-         "https://rpc.c4ex.net"
+         "https://rpc.aah.name"
       ],
       "shortName" : "aah"
    },
@@ -45698,8 +45881,8 @@
       "rpc" : [
          "https://rpc_evm-mezo.imperator.co",
          "wss://ws_evm-mezo.imperator.co",
-         "https://rpc-http.mezo.boar.network",
-         "wss://rpc-ws.mezo.boar.network",
+         "https://mezo-mainnet.boar.network",
+         "wss://mezo-mainnet.boar.network",
          "https://mainnet.mezo.public.validationcloud.io",
          "wss://mainnet.mezo.public.validationcloud.io",
          "https://rpc-internal.mezo.org",
@@ -47233,7 +47416,8 @@
          "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
          "https://arb1.arbitrum.io/rpc",
          "https://arbitrum-one-rpc.publicnode.com",
-         "wss://arbitrum-one-rpc.publicnode.com"
+         "wss://arbitrum-one-rpc.publicnode.com",
+         "https://rpcfree.com/arbitrum-rpc"
       ],
       "shortName" : "arb1"
    },
@@ -54674,6 +54858,39 @@
       "slip44" : 1
    },
    {
+      "chain" : "QB",
+      "chainId" : 90909,
+      "explorers" : [
+         {
+            "name" : "QuantumBit Explorer",
+            "standard" : "none",
+            "url" : "https://quantumbit.foo"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "quantumbit",
+      "infoURL" : "https://quantumbit.foo",
+      "name" : "QuantumBit",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "QuantumBit",
+         "symbol" : "QB"
+      },
+      "networkId" : 90909,
+      "rpc" : [
+         "https://quantumbit.foo/rpc"
+      ],
+      "shortName" : "qb"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 91002,
       "explorers" : [
@@ -57615,6 +57832,40 @@
       ],
       "shortName" : "formtestnet",
       "title" : "Form Testnet"
+   },
+   {
+      "chain" : "BEX",
+      "chainId" : 140586,
+      "explorers" : [
+         {
+            "name" : "BEXChain Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.bexchain.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "bexchain",
+      "infoURL" : "https://bexchain.com",
+      "name" : "BEXChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BEX",
+         "symbol" : "BEX"
+      },
+      "networkId" : 140586,
+      "rpc" : [
+         "https://rpc.bexchain.com"
+      ],
+      "shortName" : "bexchain",
+      "slip44" : 60
    },
    {
       "chain" : "MagApe",
@@ -67323,7 +67574,7 @@
       ],
       "icon" : "valygo",
       "infoURL" : "https://vyochain.com",
-      "name" : "VALYGO Smart Contract",
+      "name" : "VALYGO Smartchain",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "VYO",
@@ -67336,7 +67587,8 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc"
+         "https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc",
+         "https://rpc-gw-2.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc"
       ],
       "shortName" : "vyo"
    },
@@ -67375,7 +67627,8 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://rpc-gw-1.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc"
+         "https://rpc-gw-1.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc",
+         "https://rpc-gw-2.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc"
       ],
       "shortName" : "vyonft"
    },

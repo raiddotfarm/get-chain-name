@@ -3051,7 +3051,6 @@
       },
       "networkId" : 109,
       "rpc" : [
-         "https://www.shibrpc.com",
          "https://rpc.shibrpc.com",
          "https://shib.nownodes.io"
       ],
@@ -8395,7 +8394,7 @@
       "explorers" : [
          {
             "icon" : "bourse",
-            "name" : "Capital Exchange Markets | Digital",
+            "name" : "Capital Exchange | Digital",
             "standard" : "none",
             "url" : "https://explorer.capitalexchange.se"
          }
@@ -8410,8 +8409,8 @@
          }
       ],
       "icon" : "bourse",
-      "infoURL" : "https://www.capitalexchange.markets",
-      "name" : "Capital Exchange SE",
+      "infoURL" : "https://www.capitalexchange.com",
+      "name" : "Capital Exchange",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "Bourse",
@@ -10203,15 +10202,15 @@
       "faucets" : [],
       "icon" : "ethereum",
       "infoURL" : "https://www.tuosito.it",
-      "name" : "Nome Progetto Privato",
+      "name" : "Pontes-Appia DLT",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "YourToken",
-         "symbol" : "YTK"
+         "name" : "AppiaToken",
+         "symbol" : "ATK"
       },
       "networkId" : 540,
       "rpc" : [],
-      "shortName" : "besu-priv-540"
+      "shortName" : "appia-540"
    },
    {
       "chain" : "PAW",
@@ -14746,6 +14745,39 @@
          "https://global.rpc.mainnet.newtonproject.org"
       ],
       "shortName" : "new"
+   },
+   {
+      "chain" : "MAI",
+      "chainId" : 1019,
+      "explorers" : [
+         {
+            "icon" : "mai",
+            "name" : "maiscan",
+            "standard" : "EIP3091",
+            "url" : "https://maiscan.org"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "mai",
+      "infoURL" : "",
+      "name" : "MAI Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MAI Chain Native Token",
+         "symbol" : "MAI"
+      },
+      "networkId" : 1019,
+      "rpc" : [
+         "https://mainnet-node-0.maichain.org",
+         "https://mainnet-node-1.maichain.org",
+         "https://mainnet-node-2.maichain.org"
+      ],
+      "shortName" : "mai"
    },
    {
       "chain" : "Sakura",
@@ -34066,33 +34098,38 @@
       "shortName" : "pandaSea-mainnet"
    },
    {
-      "chain" : "nmactest",
+      "chain" : "TTL",
       "chainId" : 7777,
       "explorers" : [
          {
-            "name" : "avascan",
+            "name" : "TTL Scan",
             "standard" : "none",
-            "url" : "https://testnet.avascan.info/blockchain/2mZ9doojfwHzXN3VXDQELKnKyZYxv7833U8Yq5eTfFx3hxJtiy"
+            "url" : "https://scan.ttl1.top"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://riseofthewarbots.com/",
-      "name" : "Rise of the Warbots Testnet",
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "ttl",
+      "infoURL" : "https://github.com/okneo31/ttlcoin",
+      "name" : "TTL Coin",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "Nano Machines",
-         "symbol" : "NMAC"
+         "name" : "TTL Coin",
+         "symbol" : "TTL"
       },
       "networkId" : 7777,
-      "rpc" : [
-         "https://testnet1.riseofthewarbots.com",
-         "https://testnet2.riseofthewarbots.com",
-         "https://testnet3.riseofthewarbots.com",
-         "https://testnet4.riseofthewarbots.com",
-         "https://testnet5.riseofthewarbots.com"
+      "redFlags" : [
+         "reusedChainId"
       ],
-      "shortName" : "RiseOfTheWarbotsTestnet",
-      "slip44" : 1
+      "rpc" : [
+         "https://rpc.ttl1.top"
+      ],
+      "shortName" : "ttl",
+      "status" : "active"
    },
    {
       "chain" : "ORE",
@@ -49185,6 +49222,33 @@
       "shortName" : "LOE"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 50002,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.hoodi.mantle.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.mantle.xyz"
+      ],
+      "infoURL" : "https://mantle.xyz",
+      "name" : "Mantle Hoodi Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Hoodi Mantle",
+         "symbol" : "MNT"
+      },
+      "networkId" : 50002,
+      "rpc" : [
+         "https://rpc.hoodi.mantle.xyz"
+      ],
+      "shortName" : "mnt-hoodi",
+      "slip44" : 1
+   },
+   {
       "chain" : "Yooldo Verse",
       "chainId" : 50005,
       "explorers" : [
@@ -57633,6 +57697,39 @@
       "shortName" : "mitosis-testnet"
    },
    {
+      "chain" : "Gravity",
+      "chainId" : 127001,
+      "explorers" : [
+         {
+            "name" : "Gravity Mainnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://mainnet-explorer.gravity.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "gravity",
+      "infoURL" : "https://gravity.xyz",
+      "name" : "Gravity",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gravity",
+         "symbol" : "G"
+      },
+      "networkId" : 127001,
+      "rpc" : [
+         "https://mainnet-rpc.gravity.xyz"
+      ],
+      "shortName" : "grav"
+   },
+   {
       "chain" : "Etherlink",
       "chainId" : 127823,
       "explorers" : [
@@ -60502,6 +60599,23 @@
       "slip44" : 60
    },
    {
+      "chain" : "MPCQ",
+      "chainId" : 262144,
+      "faucets" : [],
+      "infoURL" : "https://moneypoolscash.com",
+      "name" : "MPCQ Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MPCQ",
+         "symbol" : "MPCQ"
+      },
+      "networkId" : 262144,
+      "rpc" : [
+         "https://rpc.moneypoolscash.com"
+      ],
+      "shortName" : "mpcq"
+   },
+   {
       "chain" : "Eclat",
       "chainId" : 262371,
       "explorers" : [
@@ -61712,6 +61826,33 @@
          "https://mainnet-rpc.tipboxcoin.net"
       ],
       "shortName" : "TPBXm"
+   },
+   {
+      "chain" : "PLN",
+      "chainId" : 411994,
+      "explorers" : [
+         {
+            "name" : "PLNScan",
+            "standard" : "EIP3091",
+            "url" : "https://plnscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://oneagent.uk"
+      ],
+      "icon" : "pln",
+      "infoURL" : "https://oneagent.uk",
+      "name" : "PLN Network",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PLN",
+         "symbol" : "PLN"
+      },
+      "networkId" : 411994,
+      "rpc" : [
+         "https://oneagent.uk/rpc"
+      ],
+      "shortName" : "pln"
    },
    {
       "chain" : "AIE",
@@ -68832,6 +68973,29 @@
       "shortName" : "ilt"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 18896214,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "crynux",
+      "infoURL" : "https://crynux.io",
+      "name" : "Crynux on Base",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Crynux",
+         "symbol" : "CNX"
+      },
+      "networkId" : 18896214,
+      "parent" : {
+         "chain" : "eip155-8453",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://json-rpc.base.crynux.io"
+      ],
+      "shortName" : "crynux-base"
+   },
+   {
       "chain" : "DeepBrainChain",
       "chainId" : 19850818,
       "explorers" : [
@@ -70828,6 +70992,29 @@
          "wss://blast-sepolia.drpc.org"
       ],
       "shortName" : "blastsepolia"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 188962142,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "crynux",
+      "infoURL" : "https://crynux.io",
+      "name" : "Crynux on Base Sepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Crynux",
+         "symbol" : "CNX"
+      },
+      "networkId" : 188962142,
+      "parent" : {
+         "chain" : "eip155-84532",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://json-rpc.base-sepolia.crynux.io"
+      ],
+      "shortName" : "crynux-base-sepolia"
    },
    {
       "chain" : "GTH",

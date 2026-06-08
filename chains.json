@@ -8396,7 +8396,7 @@
             "icon" : "bourse",
             "name" : "Capital Exchange | Digital",
             "standard" : "none",
-            "url" : "https://explorer.capitalexchange.se"
+            "url" : "https://explorer.capitalexchange.com"
          }
       ],
       "faucets" : [],
@@ -8418,6 +8418,7 @@
       },
       "networkId" : 343,
       "rpc" : [
+         "https://rpc.capitalexchange.com",
          "https://rpc.capitalexchange.digital"
       ],
       "shortName" : "bourse"
@@ -8447,6 +8448,22 @@
          "https://rpc01.trias.one"
       ],
       "shortName" : "TSC"
+   },
+   {
+      "chain" : "AST",
+      "chainId" : 355,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "ACME stealth testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 355,
+      "rpc" : [],
+      "shortName" : "acme-testnet"
    },
    {
       "chain" : "ETH",
@@ -10567,6 +10584,31 @@
       "shortName" : "metis-stardust",
       "slip44" : 1,
       "status" : "deprecated"
+   },
+   {
+      "chain" : "LADY",
+      "chainId" : 589,
+      "explorers" : [
+         {
+            "name" : "LadyScan",
+            "standard" : "EIP3091",
+            "url" : "https://ladyscan.us"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "lady",
+      "infoURL" : "https://ladyswap.us",
+      "name" : "LadyChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Lady",
+         "symbol" : "LADY"
+      },
+      "networkId" : 589,
+      "rpc" : [
+         "https://ladyrpc.us/rpc"
+      ],
+      "shortName" : "lady"
    },
    {
       "chain" : "ASTR",
@@ -17603,15 +17645,15 @@
       "name" : "Elysium Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "ELY",
-         "symbol" : "ELY"
+         "name" : "PYR",
+         "symbol" : "PYR"
       },
       "networkId" : 1339,
       "rpc" : [
          "https://rpc.elysiumchain.tech",
          "https://rpc.elysiumchain.us"
       ],
-      "shortName" : "ELY",
+      "shortName" : "PYR",
       "title" : "An L1, carbon-neutral, tree-planting, metaverse dedicated blockchain."
    },
    {
@@ -24334,6 +24376,32 @@
       "status" : "incubating"
    },
    {
+      "chain" : "SVP",
+      "chainId" : 2517,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.svpchain.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://svpchain.org",
+      "name" : "SVPChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SVP Token",
+         "symbol" : "SVP"
+      },
+      "networkId" : 2517,
+      "rpc" : [
+         "https://svp-dataseed1-testnet.svpchain.org",
+         "https://svp-dataseed2-testnet.svpchain.org",
+         "https://svp-dataseed3-testnet.svpchain.org"
+      ],
+      "shortName" : "svptest"
+   },
+   {
       "chain" : "FRAX",
       "chainId" : 2522,
       "explorers" : [],
@@ -25148,14 +25216,14 @@
       "chainId" : 2828,
       "explorers" : [
          {
-            "name" : "Candy Chain Explorer",
+            "name" : "CandyChain Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.candychain.io"
+            "url" : "https://streams.candychain.io"
          }
       ],
       "faucets" : [],
       "infoURL" : "https://candychain.io",
-      "name" : "Candy Chain",
+      "name" : "CandyChain",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "CANDY",
@@ -28492,8 +28560,8 @@
       "name" : "IKChain Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "IKCrypto",
-         "symbol" : "IKCr"
+         "name" : "IKToken",
+         "symbol" : "IKTokn"
       },
       "networkId" : 4270,
       "rpc" : [
@@ -31404,31 +31472,31 @@
       "slip44" : 1
    },
    {
-      "chain" : "MANTRACHAIN",
+      "chain" : "MANTRA",
       "chainId" : 5888,
       "explorers" : [
          {
             "icon" : "om",
-            "name" : "MANTRACHAIN Explorer",
-            "standard" : "none",
-            "url" : "http://mantrascan.io"
+            "name" : "MANTRA Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://blockscout.mantrascan.io"
          }
       ],
       "faucets" : [],
       "icon" : "om",
       "infoURL" : "https://mantrachain.io",
-      "name" : "MANTRACHAIN Mainnet",
+      "name" : "MANTRA Chain",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "OM",
-         "symbol" : "OM"
+         "name" : "MANTRA",
+         "symbol" : "MANTRA"
       },
       "networkId" : 5888,
       "rpc" : [
          "https://evm.mantrachain.io",
          "wss://evm.mantrachain.io/ws"
       ],
-      "shortName" : "mantrachain",
+      "shortName" : "mantra",
       "slip44" : 1
    },
    {
@@ -35438,6 +35506,22 @@
       "slip44" : 8217
    },
    {
+      "chain" : "ASM",
+      "chainId" : 8224,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "ACME Mainnet Stealth",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 8224,
+      "rpc" : [],
+      "shortName" : "acme-mainnet"
+   },
+   {
       "chain" : "SPACE",
       "chainId" : 8227,
       "explorers" : [
@@ -35791,7 +35875,8 @@
          "wss://base.gateway.tenderly.co",
          "https://base-rpc.publicnode.com",
          "wss://base-rpc.publicnode.com",
-         "https://rpcfree.com/base-rpc"
+         "https://rpcfree.com/base-rpc",
+         "https://rpc.baseazul.dev"
       ],
       "shortName" : "base",
       "status" : "active"
@@ -41595,6 +41680,37 @@
       "shortName" : "KYMTC"
    },
    {
+      "chain" : "NRXN",
+      "chainId" : 15526,
+      "explorers" : [
+         {
+            "icon" : "nrxn",
+            "name" : "NirmalX Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://nirmalxscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "nrxn",
+      "infoURL" : "https://nirmalxscan.com/",
+      "name" : "NirmalX Smart Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "NirmalX Nova",
+         "symbol" : "NRXN"
+      },
+      "networkId" : 15526,
+      "rpc" : [
+         "https://rpc.nirmalxscan.com"
+      ],
+      "shortName" : "nrxn"
+   },
+   {
       "chain" : "LoopNetwork",
       "chainId" : 15551,
       "explorers" : [
@@ -47143,6 +47259,29 @@
          "https://rpc.divchain.org"
       ],
       "shortName" : "divc"
+   },
+   {
+      "chain" : "CITRATE",
+      "chainId" : 40204,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://citrate.ai",
+      "name" : "Citrate",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SALT",
+         "symbol" : "SALT"
+      },
+      "networkId" : 40204,
+      "rpc" : [
+         "https://rpc.citrate.ai",
+         "wss://rpc.citrate.ai"
+      ],
+      "shortName" : "citrate"
    },
    {
       "chain" : "Aleph Zero EVM",
@@ -60358,6 +60497,35 @@
       ],
       "shortName" : "Orange-Chain-Testnet",
       "title" : "Orange Chain Testnet"
+   },
+   {
+      "chain" : "HIPCF",
+      "chainId" : 240884,
+      "explorers" : [
+         {
+            "name" : "HIPERCAPITAL FINANCE Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.hipercapitalfinance.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://hipercapitalfinance.com",
+      "name" : "HIPERCAPITAL FINANCE Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "HIPERCAPITAL FINANCE Token",
+         "symbol" : "HIP"
+      },
+      "networkId" : 240884,
+      "rpc" : [
+         "https://rpc.hipercapitalfinance.com"
+      ],
+      "shortName" : "hipcf"
    },
    {
       "chain" : "anomaly-andromeda-testnet",

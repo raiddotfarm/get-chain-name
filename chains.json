@@ -5351,29 +5351,23 @@
          {
             "name" : "OKLink",
             "standard" : "EIP3091",
-            "url" : "https://www.oklink.com/xlayer-test"
+            "url" : "https://www.oklink.com/zh-hans/x-layer-testnet"
          }
       ],
-      "faucets" : [
-         "https://www.okx.com/xlayer/faucet"
-      ],
+      "faucets" : [],
       "features" : [],
-      "icon" : "xlayerTestnet",
-      "infoURL" : "https://www.okx.com/xlayer",
-      "name" : "X Layer Testnet",
+      "infoURL" : "",
+      "name" : "X Layer Testnet(Deprecated)",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "X Layer Global Utility Token in testnet",
-         "symbol" : "OKB"
+         "name" : "X Layer Global Utility Token in testnet(Deprecated)",
+         "symbol" : "OKBDep"
       },
       "networkId" : 195,
-      "rpc" : [
-         "https://testrpc.xlayer.tech",
-         "https://xlayertestrpc.okx.com"
-      ],
-      "shortName" : "tokb",
+      "rpc" : [],
+      "shortName" : "tokb-dep",
       "slip44" : 1,
-      "status" : "active"
+      "status" : "deprecated"
    },
    {
       "chain" : "X Layer",
@@ -8395,8 +8389,8 @@
          {
             "icon" : "bourse",
             "name" : "Capital Exchange | Digital",
-            "standard" : "none",
-            "url" : "https://explorer.capitalexchange.com"
+            "standard" : "EIP3091",
+            "url" : "https://bourse.capitalexchange.com"
          }
       ],
       "faucets" : [],
@@ -8409,7 +8403,7 @@
          }
       ],
       "icon" : "bourse",
-      "infoURL" : "https://www.capitalexchange.com",
+      "infoURL" : "https://about.capitalexchange.com",
       "name" : "Capital Exchange",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -10970,7 +10964,13 @@
    {
       "chain" : "ETH",
       "chainId" : 626,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "BattleChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.battlechain.com"
+         }
+      ],
       "faucets" : [],
       "icon" : "battlechain",
       "infoURL" : "https://battlechain.com",
@@ -10990,9 +10990,10 @@
          "chain" : "eip155-1",
          "type" : "L2"
       },
-      "rpc" : [],
-      "shortName" : "battlechain",
-      "status" : "incubating"
+      "rpc" : [
+         "https://mainnet.battlechain.com"
+      ],
+      "shortName" : "battlechain"
    },
    {
       "chain" : "ETH",
@@ -20062,6 +20063,37 @@
       "title" : "Soneium mainnet"
    },
    {
+      "chain" : "WCH",
+      "chainId" : 1874,
+      "explorers" : [
+         {
+            "name" : "Whitechain Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.whitechain.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.testnet.whitechain.io"
+      ],
+      "icon" : "whitechain-sepolia",
+      "infoURL" : "https://docs.whitechain.io",
+      "name" : "Whitechain Sepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "WBT",
+         "symbol" : "WBT"
+      },
+      "networkId" : 1874,
+      "parent" : {
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.testnet.whitechain.io"
+      ],
+      "shortName" : "wch-sepolia"
+   },
+   {
       "chain" : "WBT",
       "chainId" : 1875,
       "explorers" : [
@@ -20722,6 +20754,37 @@
          "https://mainnet.d-chain.network/ext/bc/2ZiR1Bro5E59siVuwdNuRFzqL95NkvkbzyLBdrsYR9BLSHV7H4/rpc"
       ],
       "shortName" : "dchain-mainnet"
+   },
+   {
+      "chain" : "X Layer",
+      "chainId" : 1952,
+      "explorers" : [
+         {
+            "name" : "OKLink",
+            "standard" : "EIP3091",
+            "url" : "https://web3.okx.com/explorer/x-layer-testnet"
+         }
+      ],
+      "faucets" : [
+         "https://www.okx.com/xlayer/faucet"
+      ],
+      "features" : [],
+      "icon" : "xlayerTestnet",
+      "infoURL" : "https://web3.okx.com/xlayer",
+      "name" : "X Layer Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "X Layer Global Utility Token in testnet",
+         "symbol" : "OKB"
+      },
+      "networkId" : 1952,
+      "rpc" : [
+         "https://testrpc.xlayer.tech",
+         "https://xlayertestrpc.okx.com"
+      ],
+      "shortName" : "tokb",
+      "slip44" : 1,
+      "status" : "active"
    },
    {
       "chain" : "tSEL",
@@ -49601,6 +49664,35 @@
       "title" : "Reddio mainnet L2 Rollup"
    },
    {
+      "chain" : "ASH",
+      "chainId" : 50366,
+      "explorers" : [
+         {
+            "name" : "ASHCHAIN Explorer",
+            "standard" : "none",
+            "url" : "https://ashchain.io/explorer"
+         }
+      ],
+      "faucets" : [
+         "https://ashchain.io/faucet"
+      ],
+      "icon" : "ashchain",
+      "infoURL" : "https://ashchain.io",
+      "name" : "ASHCHAIN",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ASH",
+         "symbol" : "ASH"
+      },
+      "networkId" : 50366,
+      "rpc" : [
+         "https://evm-rpc.ashchain.io",
+         "https://evm-rpc2.ashchain.io"
+      ],
+      "shortName" : "ash",
+      "status" : "active"
+   },
+   {
       "chain" : "STB Testnet",
       "chainId" : 50505,
       "explorers" : [
@@ -58850,7 +58942,7 @@
       },
       "networkId" : 177155,
       "rpc" : [
-         "https://indexer.mfenx.com/rpc"
+         "https://rpc.mfenx.com"
       ],
       "shortName" : "mfenx",
       "status" : "active"
@@ -62509,6 +62601,44 @@
       "slip44" : 1
    },
    {
+      "chain" : "MAROO",
+      "chainId" : 450815,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.maroo.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.maroo.io"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP7702"
+         }
+      ],
+      "icon" : "maroo",
+      "infoURL" : "https://maroo.io",
+      "name" : "Maroo Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet OKRW",
+         "symbol" : "tOKRW"
+      },
+      "networkId" : 450815,
+      "rpc" : [
+         "https://rpc-testnet.maroo.io"
+      ],
+      "shortName" : "maroo-testnet"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 471100,
       "faucets" : [],
@@ -64472,6 +64602,35 @@
       "shortName" : "oone"
    },
    {
+      "chain" : "Unitsky",
+      "chainId" : 778889,
+      "explorers" : [
+         {
+            "name" : "Unitsky Explorer",
+            "standard" : "none",
+            "url" : "https://147-45-143-23.sslip.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://147-45-143-23.sslip.io",
+      "name" : "Unitsky String Technologies",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Unitsky Token",
+         "symbol" : "UST"
+      },
+      "networkId" : 778889,
+      "rpc" : [
+         "https://147-45-143-23.sslip.io/rpc"
+      ],
+      "shortName" : "ust"
+   },
+   {
       "chain" : "ZEBRO",
       "chainId" : 786786,
       "explorers" : [
@@ -64861,6 +65020,36 @@
          "https://testnet.tscscan.io/testrpc"
       ],
       "shortName" : "tTSC"
+   },
+   {
+      "chain" : "GMB",
+      "chainId" : 821207,
+      "explorers" : [
+         {
+            "icon" : "gemba",
+            "name" : "GembaScan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.gembascan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "gemba",
+      "infoURL" : "https://gembachain.io",
+      "name" : "GembaBlockchain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Gemba",
+         "symbol" : "GMB"
+      },
+      "networkId" : 821207,
+      "rpc" : [
+         "https://testnet.gembascan.io/rpc",
+         "https://rpc1.gembascan.io",
+         "https://rpc2.gembascan.io"
+      ],
+      "shortName" : "gembatest",
+      "status" : "active",
+      "title" : "GembaBlockchain Testnet"
    },
    {
       "chain" : "CURVE",
@@ -67692,6 +67881,32 @@
       "status" : "active"
    },
    {
+      "chain" : "JMDT",
+      "chainId" : 7000700,
+      "explorers" : [
+         {
+            "name" : "JMDT Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.jmdt.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "jmdt",
+      "infoURL" : "https://jmdt.io",
+      "name" : "JMDT Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "JMDT",
+         "symbol" : "JMDT"
+      },
+      "networkId" : 7000700,
+      "rpc" : [
+         "https://rpc.jmdt.io",
+         "https://mainnetrpc.jmdt.io"
+      ],
+      "shortName" : "jmdt"
+   },
+   {
       "chain" : "Humanity",
       "chainId" : 7080969,
       "explorers" : [
@@ -68016,6 +68231,33 @@
          "https://rpc.makiai.app"
       ],
       "shortName" : "maki"
+   },
+   {
+      "chain" : "JMDT",
+      "chainId" : 8000800,
+      "explorers" : [
+         {
+            "name" : "JMDT Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.jmdt.io/testnet"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.jmdt.io"
+      ],
+      "icon" : "jmdt",
+      "infoURL" : "https://jmdt.io",
+      "name" : "JMDT Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Test JMDT",
+         "symbol" : "tJMDT"
+      },
+      "networkId" : 8000800,
+      "rpc" : [
+         "https://testnetrpc.jmdt.io"
+      ],
+      "shortName" : "tjmdt"
    },
    {
       "chain" : "Plian",

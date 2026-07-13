@@ -6320,7 +6320,7 @@
       "slip44" : 1
    },
    {
-      "chain" : "AER",
+      "chain" : "AERX",
       "chainId" : 237,
       "explorers" : [
          {
@@ -6343,13 +6343,11 @@
       "name" : "AEREDIUM",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "AER",
-         "symbol" : "AER"
+         "name" : "AERX",
+         "symbol" : "AERX"
       },
       "networkId" : 237,
-      "rpc" : [
-         "https://rpc.aeredium.io"
-      ],
+      "rpc" : [],
       "shortName" : "aer"
    },
    {
@@ -16719,6 +16717,43 @@
          "https://rpc.brainark.online"
       ],
       "shortName" : "bak"
+   },
+   {
+      "chain" : "AER",
+      "chainId" : 1237,
+      "explorers" : [
+         {
+            "name" : "AEREDIUM Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.explorer.aeredium.io"
+         }
+      ],
+      "faucets" : [
+         "https://aeredium.io/faucet.html"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "aeredium",
+      "infoURL" : "https://aeredium.io",
+      "name" : "AEREDIUM Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet AER",
+         "symbol" : "tAER"
+      },
+      "networkId" : 1237,
+      "rpc" : [
+         "https://testnet.rpc.aeredium.io"
+      ],
+      "shortName" : "aer-testnet",
+      "slip44" : 1,
+      "title" : "AEREDIUM Testnet"
    },
    {
       "chain" : "ARC",
@@ -29297,6 +29332,41 @@
       "shortName" : "appchaintestnet"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 4663,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://robinhoodchain.blockscout.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://docs.robinhood.com/chain",
+      "name" : "Robinhood Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 4663,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://portal.arbitrum.io/bridge?destinationChain=robinhood-chain&sourceChain=ethereum"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.mainnet.chain.robinhood.com"
+      ],
+      "shortName" : "robinhoodchain",
+      "status" : "active"
+   },
+   {
       "chain" : "iotex.io",
       "chainId" : 4689,
       "explorers" : [
@@ -31799,7 +31869,16 @@
    {
       "chain" : "TEA",
       "chainId" : 6122,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.tea.xyz"
+         }
+      ],
       "faucets" : [],
+      "icon" : "tea",
       "infoURL" : "https://tea.xyz",
       "name" : "Tea Mainnet",
       "nativeCurrency" : {
@@ -31812,9 +31891,12 @@
          "chain" : "eip155-1",
          "type" : "L2"
       },
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.tea.xyz",
+         "https://tea.drpc.org"
+      ],
       "shortName" : "tea",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "RAILS",
@@ -65414,6 +65496,25 @@
          "https://api.s0.posichain.org"
       ],
       "shortName" : "psc-s0"
+   },
+   {
+      "chain" : "CRTC",
+      "chainId" : 900190,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "CryptoChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "CryptoChain Token",
+         "symbol" : "CRTC"
+      },
+      "networkId" : 900190,
+      "rpc" : [
+         "http://13.233.105.56:8545"
+      ],
+      "shortName" : "cryptochain",
+      "slip44" : 60
    },
    {
       "chain" : "PSC",

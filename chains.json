@@ -28889,17 +28889,12 @@
       "chainId" : 4352,
       "explorers" : [
          {
-            "name" : "OKX-MemeCore",
-            "standard" : "EIP3091",
-            "url" : "https://www.okx.com/web3/explorer/memecore"
-         },
-         {
             "name" : "MemeCoreScan",
             "standard" : "EIP3091",
             "url" : "https://memecorescan.io"
          },
          {
-            "name" : "MemeCore explorer",
+            "name" : "Blockscout",
             "standard" : "EIP3091",
             "url" : "https://blockscout.memecore.com"
          }
@@ -28911,6 +28906,12 @@
          },
          {
             "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP4844"
+         },
+         {
+            "name" : "EIP7702"
          }
       ],
       "icon" : "memecore",
@@ -28927,7 +28928,7 @@
          "wss://ws.memecore.net"
       ],
       "shortName" : "m",
-      "title" : "MemeCore"
+      "title" : "MemeCore Mainnet"
    },
    {
       "chain" : "ILY",
@@ -41172,6 +41173,31 @@
       "shortName" : "imx"
    },
    {
+      "chain" : "LBRTY",
+      "chainId" : 13373,
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.libertychain.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "lbrty",
+      "infoURL" : "https://libertychain.org",
+      "name" : "Liberty Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Liberty",
+         "symbol" : "LBRTY"
+      },
+      "networkId" : 13373,
+      "rpc" : [
+         "https://testnet-rpc.libertychain.org"
+      ],
+      "shortName" : "lbrty-testnet"
+   },
+   {
       "chain" : "Phoenix",
       "chainId" : 13381,
       "explorers" : [
@@ -48364,23 +48390,6 @@
    {
       "chain" : "MemeCore",
       "chainId" : 43521,
-      "explorers" : [
-         {
-            "name" : "OKX-Formicarium",
-            "standard" : "EIP3091",
-            "url" : "https://www.okx.com/web3/explorer/formicarium-testnet"
-         },
-         {
-            "name" : "MemeCoreScan-Formicarium",
-            "standard" : "EIP3091",
-            "url" : "https://formicarium.memecorescan.io"
-         },
-         {
-            "name" : "MemeCore Testnet Formicarium Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://formicarium.blockscout.memecore.com"
-         }
-      ],
       "faucets" : [
          "https://faucet.memecore.com/formicarium"
       ],
@@ -48407,7 +48416,57 @@
       ],
       "shortName" : "form",
       "slip44" : 1,
+      "status" : "deprecated",
       "title" : "MemeCore Testnet Formicarium"
+   },
+   {
+      "chain" : "MemeCore",
+      "chainId" : 43522,
+      "explorers" : [
+         {
+            "name" : "MemeCoreScan-Insectarium",
+            "standard" : "EIP3091",
+            "url" : "https://insectarium.memecorescan.io"
+         },
+         {
+            "name" : "Blockscout-Insectarium",
+            "standard" : "EIP3091",
+            "url" : "https://insectarium.blockscout.memecore.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.memecore.com/insectarium"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP4844"
+         },
+         {
+            "name" : "EIP7702"
+         }
+      ],
+      "icon" : "memecore",
+      "infoURL" : "https://memecore.com",
+      "name" : "Insectarium",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Insectarium M",
+         "symbol" : "M"
+      },
+      "networkId" : 43522,
+      "rpc" : [
+         "https://rpc.insectarium.memecore.net",
+         "wss://ws.insectarium.memecore.net"
+      ],
+      "shortName" : "insectarium",
+      "slip44" : 1,
+      "title" : "Insectarium Testnet"
    },
    {
       "chain" : "ETH",
@@ -52998,6 +53057,31 @@
       "shortName" : "caga-mainnet"
    },
    {
+      "chain" : "Rayls",
+      "chainId" : 72957,
+      "explorers" : [
+         {
+            "name" : "Rayls Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.rayls.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "rayls",
+      "infoURL" : "https://rayls.com",
+      "name" : "Rayls Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "USD Rayls",
+         "symbol" : "USDr"
+      },
+      "networkId" : 72957,
+      "rpc" : [
+         "https://mainnet-rpc.rayls.com"
+      ],
+      "shortName" : "rayls"
+   },
+   {
       "chain" : "Grok",
       "chainId" : 72992,
       "explorers" : [
@@ -56457,21 +56541,34 @@
       "slip44" : 1
    },
    {
-      "chain" : "USC",
+      "chain" : "ADI",
       "chainId" : 99999,
-      "faucets" : [],
-      "infoURL" : "https://www.ubchain.site/",
-      "name" : "UB Smart Chain",
+      "explorers" : [
+         {
+            "name" : "ADI Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.ab.testnet.adifoundation.ai"
+         }
+      ],
+      "faucets" : [
+         "http://faucet.ab.testnet.adifoundation.ai/"
+      ],
+      "infoURL" : "https://docs.adi.foundation",
+      "name" : "ADI Network AB Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "UBC",
-         "symbol" : "UBC"
+         "name" : "ADI",
+         "symbol" : "ADI"
       },
       "networkId" : 99999,
-      "rpc" : [
-         "https://rpc.uschain.network"
+      "redFlags" : [
+         "reusedChainId"
       ],
-      "shortName" : "usc"
+      "rpc" : [
+         "https://rpc.ab.testnet.adifoundation.ai/"
+      ],
+      "shortName" : "adi-testnet",
+      "title" : "ADI Network AB Testnet (prev. UB Smart Chain)"
    },
    {
       "chain" : "QuarkChain",
@@ -57559,8 +57656,22 @@
    {
       "chain" : "MARS",
       "chainId" : 110110,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://blockscan.marscredit.xyz"
+         }
+      ],
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
       "icon" : "marscredit",
       "infoURL" : "https://marscredit.xyz/",
       "name" : "Mars Credit",
@@ -57572,7 +57683,6 @@
       "networkId" : 110110,
       "redFlags" : [],
       "rpc" : [
-         "https://node99-production-dd5f.up.railway.app:443",
          "https://rpc.marscredit.xyz:443"
       ],
       "shortName" : "mars",
@@ -57966,6 +58076,31 @@
          "https://rpc.ethnova.net"
       ],
       "shortName" : "ethnova"
+   },
+   {
+      "chain" : "SWSS",
+      "chainId" : 122605,
+      "explorers" : [
+         {
+            "name" : "SWSS Chain Scan",
+            "standard" : "EIP3091",
+            "url" : "https://swssscan.swss.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "swss",
+      "infoURL" : "https://swss.io",
+      "name" : "SWSS Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SWSS Coin",
+         "symbol" : "SWSS"
+      },
+      "networkId" : 122605,
+      "rpc" : [
+         "https://swssrpc.swss.io"
+      ],
+      "shortName" : "swss"
    },
    {
       "chain" : "Gemchain",
@@ -60722,6 +60857,7 @@
             "name" : "EIP155"
          }
       ],
+      "icon" : "hipercapital",
       "infoURL" : "https://hipercapitalfinance.com",
       "name" : "HIPERCAPITAL FINANCE Chain",
       "nativeCurrency" : {
@@ -66891,6 +67027,41 @@
       "shortName" : "plian-mainnet"
    },
    {
+      "chain" : "GGCHAIN",
+      "chainId" : 2121217,
+      "explorers" : [
+         {
+            "name" : "GGCHAIN Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.gghyper.net"
+         }
+      ],
+      "faucets" : [
+         "https://gghyper.net/faucet"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "ggchain",
+      "infoURL" : "https://gghyper.net",
+      "name" : "GGCHAIN Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GG",
+         "symbol" : "GG"
+      },
+      "networkId" : 2121217,
+      "rpc" : [
+         "https://rpc.gghyper.net"
+      ],
+      "shortName" : "ggchain"
+   },
+   {
       "chain" : "PlatON",
       "chainId" : 2203181,
       "explorers" : [
@@ -72752,6 +72923,37 @@
          "https://rpc.evm.mirasmanda.uz"
       ],
       "shortName" : "mirasmanda"
+   },
+   {
+      "chain" : "ITANI",
+      "chainId" : 1229800785,
+      "explorers" : [
+         {
+            "name" : "iTani Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.itaninetworkchain.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "itani",
+      "infoURL" : "https://www.itaninetworkchain.com",
+      "name" : "iTani Network Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "iTani",
+         "symbol" : "ITANI"
+      },
+      "networkId" : 1229800785,
+      "rpc" : [
+         "https://rpc.itaninetworkchain.com/jsonrpc",
+         "https://node.itaninetworkchain.com/jsonrpc"
+      ],
+      "shortName" : "itani"
    },
    {
       "chain" : "wan-red-ain",

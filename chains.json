@@ -15026,6 +15026,32 @@
       "shortName" : "bronos-mainnet"
    },
    {
+      "chain" : "DIA",
+      "chainId" : 1050,
+      "explorers" : [
+         {
+            "icon" : "dia",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.diadata.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "dia",
+      "infoURL" : "https://www.diadata.org",
+      "name" : "DIA Lasernet Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DIA Token",
+         "symbol" : "DIA"
+      },
+      "networkId" : 1050,
+      "rpc" : [
+         "https://rpc.diadata.org"
+      ],
+      "shortName" : "DIA"
+   },
+   {
       "chain" : "OGPU",
       "chainId" : 1071,
       "explorers" : [
@@ -15750,6 +15776,36 @@
          "https://rpc-mainnet.taker.xyz"
       ],
       "shortName" : "taker"
+   },
+   {
+      "chain" : "QuarryChain",
+      "chainId" : 1129,
+      "explorers" : [
+         {
+            "name" : "QuarryScan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.quarrychain.network"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "quarrychain",
+      "infoURL" : "https://quarrychain.network/",
+      "name" : "Quarrychain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Quarry",
+         "symbol" : "QRY"
+      },
+      "networkId" : 1129,
+      "rpc" : [
+         "https://rpc.testnet.quarrychain.network"
+      ],
+      "shortName" : "qry"
    },
    {
       "chain" : "defichain-evm",
@@ -17440,29 +17496,29 @@
       "shortName" : "alyx"
    },
    {
-      "chain" : "Story Aeneid Testnet",
+      "chain" : "DATA",
       "chainId" : 1315,
       "explorers" : [
          {
             "name" : "blockscout",
             "standard" : "EIP3091",
-            "url" : "https://aeneid.storyscan.xyz"
+            "url" : "https://aeneid.datanetscan.io"
          }
       ],
       "faucets" : [],
-      "icon" : "story",
-      "infoURL" : "https://story.foundation/",
-      "name" : "Story Aeneid Testnet",
+      "icon" : "data",
+      "infoURL" : "https://datafdn.org/",
+      "name" : "Data Network Aeneid Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "IP Token",
-         "symbol" : "IP"
+         "name" : "DATA",
+         "symbol" : "DATA"
       },
       "networkId" : 1315,
       "rpc" : [
-         "https://aeneid.storyrpc.io"
+         "https://aeneid.datarpc.io"
       ],
-      "shortName" : "story-aeneid"
+      "shortName" : "data-aeneid"
    },
    {
       "chain" : "AIA",
@@ -18494,29 +18550,29 @@
       "shortName" : "Story"
    },
    {
-      "chain" : "STORY",
+      "chain" : "DATA",
       "chainId" : 1514,
       "explorers" : [
          {
             "name" : "blockscout",
             "standard" : "EIP3091",
-            "url" : "https://mainnet.storyscan.xyz"
+            "url" : "https://datanetscan.io"
          }
       ],
       "faucets" : [],
-      "icon" : "story",
-      "infoURL" : "https://story.foundation/",
-      "name" : "Story",
+      "icon" : "data",
+      "infoURL" : "https://datafdn.org/",
+      "name" : "Data Network",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "IP Token",
-         "symbol" : "IP"
+         "name" : "DATA",
+         "symbol" : "DATA"
       },
       "networkId" : 1514,
       "rpc" : [
-         "https://mainnet.storyrpc.io"
+         "https://mainnet.datarpc.io"
       ],
-      "shortName" : "sty"
+      "shortName" : "data"
    },
    {
       "chain" : "BMC",
@@ -32580,6 +32636,39 @@
       "shortName" : "PAXB"
    },
    {
+      "chain" : "VEX",
+      "chainId" : 6736,
+      "explorers" : [
+         {
+            "name" : "vexascan",
+            "standard" : "EIP3091",
+            "url" : "https://vexascan.com/evm"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "vex",
+      "infoURL" : "https://vexanium.com",
+      "name" : "Vexanium Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "VEX",
+         "symbol" : "VEX"
+      },
+      "networkId" : 6736,
+      "rpc" : [
+         "https://vexascan.com/rpc"
+      ],
+      "shortName" : "vex-mainnet"
+   },
+   {
       "chain" : "CPV",
       "chainId" : 6779,
       "explorers" : [
@@ -39492,6 +39581,33 @@
          "https://testnetrpc.num.network"
       ],
       "shortName" : "Snow",
+      "slip44" : 1
+   },
+   {
+      "chain" : "LIMO",
+      "chainId" : 10777,
+      "explorers" : [
+         {
+            "name" : "Limonata Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.limonata.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.limonata.xyz"
+      ],
+      "infoURL" : "https://limonata.xyz",
+      "name" : "Limonata Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Limonata",
+         "symbol" : "LIMO"
+      },
+      "networkId" : 10777,
+      "rpc" : [
+         "https://rpc.limonata.xyz"
+      ],
+      "shortName" : "limonata-testnet",
       "slip44" : 1
    },
    {
@@ -54868,6 +54984,30 @@
       "slip44" : 1
    },
    {
+      "chain" : "OmniCoin",
+      "chainId" : 88008,
+      "explorers" : [
+         {
+            "name" : "OmniCoin Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.omnicoin.net"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://app.omnibazaar.com",
+      "name" : "OmniCoin",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "OmniCoin",
+         "symbol" : "XOM"
+      },
+      "networkId" : 88008,
+      "rpc" : [
+         "https://rpc.omnicoin.net"
+      ],
+      "shortName" : "xom"
+   },
+   {
       "chain" : "INOAI",
       "chainId" : 88559,
       "explorers" : [
@@ -61372,6 +61512,31 @@
       "status" : "active"
    },
    {
+      "chain" : "BetaXChain",
+      "chainId" : 290783,
+      "explorers" : [
+         {
+            "name" : "BetaXChain Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.betaxchain.org"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "betaxchain",
+      "infoURL" : "https://betaxchain.com",
+      "name" : "BetaXChain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PBX",
+         "symbol" : "PBX"
+      },
+      "networkId" : 290783,
+      "rpc" : [
+         "https://rpc.betaxchain.org"
+      ],
+      "shortName" : "betax"
+   },
+   {
       "chain" : "Cipherem",
       "chainId" : 292003,
       "explorers" : [
@@ -63697,6 +63862,58 @@
       "title" : "Ethereum Testnet Hoodi"
    },
    {
+      "chain" : "ONE",
+      "chainId" : 612044,
+      "explorers" : [
+         {
+            "name" : "ONE Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.onechain.nexus/612044"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://onechain.nexus",
+      "name" : "ONE Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "TestnetONE",
+         "symbol" : "tONE"
+      },
+      "networkId" : 612044,
+      "rpc" : [
+         "https://testnet.onechain.nexus:22001",
+         "wss://testnet.onechain.nexus:32001"
+      ],
+      "shortName" : "tone",
+      "slip44" : 1
+   },
+   {
+      "chain" : "ONE",
+      "chainId" : 612055,
+      "explorers" : [
+         {
+            "name" : "ONE Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.onechain.nexus/612055"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://onechain.nexus",
+      "name" : "ONE Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ONE",
+         "symbol" : "ONE"
+      },
+      "networkId" : 612055,
+      "rpc" : [
+         "https://mainnet.onechain.nexus:22001",
+         "wss://mainnet.onechain.nexus:32001"
+      ],
+      "shortName" : "one",
+      "slip44" : 1100
+   },
+   {
       "chain" : "DJT",
       "chainId" : 621847,
       "explorers" : [
@@ -64803,6 +65020,38 @@
       "shortName" : "mdlrm"
    },
    {
+      "chain" : "MANORA",
+      "chainId" : 777772,
+      "explorers" : [
+         {
+            "name" : "MANORA Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://test.manoracoin.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet-test.manoracoin.com"
+      ],
+      "infoURL" : "https://manoracoin.com",
+      "name" : "MANORA L2 Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MANORA",
+         "symbol" : "MNR"
+      },
+      "networkId" : 777772,
+      "parent" : {
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-test.manoracoin.com"
+      ],
+      "shortName" : "manora-testnet",
+      "slip44" : 1,
+      "title" : "MANORA L2 Testnet"
+   },
+   {
       "chain" : "WINR",
       "chainId" : 777777,
       "explorers" : [
@@ -65295,9 +65544,9 @@
       },
       "networkId" : 821207,
       "rpc" : [
-         "https://testnet.gembascan.io/rpc",
          "https://rpc1.gembascan.io",
-         "https://rpc2.gembascan.io"
+         "https://rpc2.gembascan.io",
+         "https://rpc3.gembascan.io"
       ],
       "shortName" : "gembatest",
       "status" : "active",
@@ -70154,6 +70403,39 @@
       "shortName" : "ma"
    },
    {
+      "chain" : "GRD",
+      "chainId" : 20260532,
+      "explorers" : [
+         {
+            "name" : "GridMind Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://gridmindblockchain.com"
+         },
+         {
+            "name" : "GridMind Technical Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-explorer.grid-mind.com"
+         }
+      ],
+      "faucets" : [
+         "https://testnet-faucet.grid-mind.com"
+      ],
+      "infoURL" : "https://www.grid-mind.com/blockchain",
+      "name" : "GridMind Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GridMind Test GRD",
+         "symbol" : "tGRD"
+      },
+      "networkId" : 20260532,
+      "rpc" : [
+         "https://testnet-rpc.grid-mind.com"
+      ],
+      "shortName" : "gridmindt",
+      "status" : "incubating",
+      "title" : "GridMind Testnet"
+   },
+   {
       "chain" : "HokumTestnet",
       "chainId" : 20482050,
       "explorers" : [
@@ -73169,6 +73451,29 @@
          "https://rpc-0x4e454165.aurora-cloud.dev"
       ],
       "shortName" : "tuxa"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 1313161911,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "crynux",
+      "infoURL" : "https://crynux.io",
+      "name" : "Crynux on Near",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Crynux",
+         "symbol" : "CNX"
+      },
+      "networkId" : 1313161911,
+      "parent" : {
+         "chain" : "eip155-397",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://json-rpc.near.crynux.io"
+      ],
+      "shortName" : "crynux-near"
    },
    {
       "chain" : "parallel-stormy-spica",

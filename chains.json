@@ -7256,6 +7256,30 @@
       "status" : "deprecated"
    },
    {
+      "chain" : "NETX",
+      "chainId" : 287,
+      "explorers" : [
+         {
+            "name" : "NetXScan",
+            "standard" : "EIP3091",
+            "url" : "https://netxscan.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://netx.world/",
+      "name" : "NetX Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "NetX Token",
+         "symbol" : "NETX"
+      },
+      "networkId" : 287,
+      "rpc" : [
+         "https://rpc.netxscan.io"
+      ],
+      "shortName" : "netx"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 288,
       "explorers" : [
@@ -10541,6 +10565,32 @@
          "https://rpc.filenova.org"
       ],
       "shortName" : "filenova"
+   },
+   {
+      "chain" : "NETX",
+      "chainId" : 587,
+      "explorers" : [
+         {
+            "name" : "NetXScan Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.netxscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://netx.world/faucet/"
+      ],
+      "infoURL" : "https://netx.world/",
+      "name" : "NetX Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "NetX Token",
+         "symbol" : "NETX"
+      },
+      "networkId" : 587,
+      "rpc" : [
+         "https://testnetrpc.netxscan.io"
+      ],
+      "shortName" : "netx-testnet"
    },
    {
       "chain" : "ETH",
@@ -23110,6 +23160,36 @@
       "shortName" : "animechaint"
    },
    {
+      "chain" : "Morph Tachyon",
+      "chainId" : 2184,
+      "explorers" : [
+         {
+            "name" : "Morph Tachyon Explorer",
+            "standard" : "none",
+            "url" : "https://app.popdex.xyz/explorer"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://popdex.xyz",
+      "name" : "Morph Tachyon",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BGB",
+         "symbol" : "BGB"
+      },
+      "networkId" : 2184,
+      "rpc" : [
+         "https://api.popdex.xyz/api/v1/web3/rpc"
+      ],
+      "shortName" : "morphtachyon",
+      "title" : "Morph Tachyon Mainnet"
+   },
+   {
       "chain" : "Game7",
       "chainId" : 2187,
       "explorers" : [
@@ -28196,6 +28276,68 @@
       "slip44" : 1
    },
    {
+      "chain" : "ECNA",
+      "chainId" : 4111,
+      "explorers" : [
+         {
+            "name" : "ecnascan",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.ecnascan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://ecnascan.com",
+      "name" : "E Canna Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "E Canna",
+         "symbol" : "ECNA"
+      },
+      "networkId" : 4111,
+      "rpc" : [
+         "https://rpc.ecnascan.com"
+      ],
+      "shortName" : "ecna"
+   },
+   {
+      "chain" : "tECNA",
+      "chainId" : 4112,
+      "explorers" : [
+         {
+            "name" : "ecnascan-testnet",
+            "standard" : "EIP3091",
+            "url" : "https://testnetexplorer.ecnascan.com"
+         }
+      ],
+      "faucets" : [
+         "https://testnetexplorer.ecnascan.com/faucet"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://ecnascan.com",
+      "name" : "E Canna Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "E Canna Testnet",
+         "symbol" : "tECNA"
+      },
+      "networkId" : 4112,
+      "rpc" : [
+         "https://testnetrpc.ecnascan.com"
+      ],
+      "shortName" : "tecna",
+      "slip44" : 1,
+      "title" : "E Canna Testnet"
+   },
+   {
       "chain" : "Citrea",
       "chainId" : 4114,
       "explorers" : [
@@ -29431,6 +29573,11 @@
             "name" : "blockscout",
             "standard" : "EIP3091",
             "url" : "https://robinhoodchain.blockscout.com"
+         },
+         {
+            "name" : "HoodScan",
+            "standard" : "EIP3091",
+            "url" : "https://hoodscan.ai"
          }
       ],
       "faucets" : [],
@@ -29452,7 +29599,8 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://rpc.mainnet.chain.robinhood.com"
+         "https://rpc.mainnet.chain.robinhood.com",
+         "https://rpc.arrowrpc.com"
       ],
       "shortName" : "robinhoodchain",
       "status" : "active"
@@ -33984,56 +34132,44 @@
       "explorers" : [
          {
             "icon" : "rome",
-            "name" : "Rome Palatine Explorer",
+            "name" : "Rome Via Rubicon",
             "standard" : "EIP3091",
-            "url" : "https://romescout-palatine.romeprotocol.xyz"
+            "url" : "https://via-rubicon.mainnet.romeprotocol.xyz"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://app.mainnet.romeprotocol.xyz"
+      ],
       "icon" : "rome",
       "infoURL" : "https://rome.builders",
-      "name" : "Rome Palatine",
+      "name" : "Rome Rubicon Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "RSOL",
-         "symbol" : "RSOL"
+         "name" : "USDC",
+         "symbol" : "USDC"
       },
       "networkId" : 7531,
       "rpc" : [
-         "https://palatine.romeprotocol.xyz",
-         "https://palatine2.romeprotocol.xyz"
+         "https://rubicon.mainnet.romeprotocol.xyz"
       ],
-      "shortName" : "rome-palatine",
-      "status" : "active"
+      "shortName" : "rome-palatine"
    },
    {
       "chain" : "ROME",
       "chainId" : 7532,
-      "explorers" : [
-         {
-            "icon" : "rome",
-            "name" : "Rome Mainnet 0 Aventine Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://romescout-aventine-i.mainnet-0.romeprotocol.xyz"
-         }
-      ],
-      "faucets" : [
-         "https://deposit.mainnet-0.romeprotocol.xyz"
-      ],
+      "faucets" : [],
       "icon" : "rome",
       "infoURL" : "https://rome.builders",
       "name" : "Rome Mainnet 0 Aventine",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "RSOL",
-         "symbol" : "RSOL"
+         "name" : "USDC",
+         "symbol" : "USDC"
       },
       "networkId" : 7532,
-      "rpc" : [
-         "https://aventine-i.mainnet-0.romeprotocol.xyz"
-      ],
+      "rpc" : [],
       "shortName" : "rome-mainnet-0-aventine",
-      "status" : "active"
+      "status" : "deprecated"
    },
    {
       "chain" : "Cyber",
@@ -43895,6 +44031,43 @@
       "shortName" : "macos"
    },
    {
+      "chain" : "alpen-testnet-iii",
+      "chainId" : 20310,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "Alpen Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.testnet.alpen.org"
+         }
+      ],
+      "faucets" : [
+         "https://tally.so/r/aQKLZZ"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "alpen",
+      "infoURL" : "https://docs.alpenlabs.io",
+      "name" : "Alpen Testnet III",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Signet BTC",
+         "symbol" : "sBTC"
+      },
+      "networkId" : 20310,
+      "rpc" : [
+         "https://alpen.testnet.alpen.org"
+      ],
+      "shortName" : "alpen-testnet-iii",
+      "slip44" : 1
+   },
+   {
       "chain" : "XUSD ONE",
       "chainId" : 20441,
       "explorers" : [
@@ -47095,6 +47268,36 @@
          "https://mainnet-rpc.zeuschainscan.io"
       ],
       "shortName" : "ZEUSX"
+   },
+   {
+      "chain" : "Morph Tachyon",
+      "chainId" : 34952,
+      "explorers" : [
+         {
+            "name" : "Morph Tachyon Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://testnet-app.popdex.xyz/explorer"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://popdex.xyz",
+      "name" : "Morph Tachyon Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BGB",
+         "symbol" : "BGB"
+      },
+      "networkId" : 34952,
+      "rpc" : [
+         "https://testnet-api.popdex.xyz/api/v1/web3/rpc"
+      ],
+      "shortName" : "morphtachyontestnet",
+      "title" : "Morph Tachyon Testnet"
    },
    {
       "chain" : "TARO",
@@ -54220,6 +54423,30 @@
       "shortName" : "forta"
    },
    {
+      "chain" : "ZRN",
+      "chainId" : 81008,
+      "explorers" : [
+         {
+            "name" : "ZorinScan",
+            "standard" : "none",
+            "url" : "https://zorinscan.org"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://zorinscan.org",
+      "name" : "Zorin Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zorin",
+         "symbol" : "ZRN"
+      },
+      "networkId" : 81008,
+      "rpc" : [
+         "https://rpc.zorinscan.org"
+      ],
+      "shortName" : "zrn"
+   },
+   {
       "chain" : "Nordek",
       "chainId" : 81041,
       "explorers" : [
@@ -58046,28 +58273,27 @@
       "explorers" : [
          {
             "icon" : "rome",
-            "name" : "Rome Devnet Esquiline Explorer",
+            "name" : "Rome Via Esquiline",
             "standard" : "EIP3091",
-            "url" : "https://romescout-esquiline-i.devnet.romeprotocol.xyz"
+            "url" : "https://via-esquiline.devnet.romeprotocol.xyz"
          }
       ],
       "faucets" : [
-         "https://deposit.devnet.romeprotocol.xyz"
+         "https://app.devnet.romeprotocol.xyz"
       ],
       "icon" : "rome",
       "infoURL" : "https://rome.builders",
-      "name" : "Rome Devnet Esquiline",
+      "name" : "Rome Esquiline Devnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "RSOL",
-         "symbol" : "RSOL"
+         "name" : "Esquiline Gas",
+         "symbol" : "GAS"
       },
       "networkId" : 121212,
       "rpc" : [
-         "https://esquiline-i.devnet.romeprotocol.xyz"
+         "https://esquiline.devnet.romeprotocol.xyz"
       ],
-      "shortName" : "rome-devnet-esquiline",
-      "status" : "active"
+      "shortName" : "rome-devnet-esquiline"
    },
    {
       "chain" : "ROME",
@@ -58075,28 +58301,27 @@
       "explorers" : [
          {
             "icon" : "rome",
-            "name" : "Rome Devnet Subura Explorer",
+            "name" : "Rome Via Subura",
             "standard" : "EIP3091",
-            "url" : "https://romescout-subura-i.devnet.romeprotocol.xyz"
+            "url" : "https://via-subura.devnet.romeprotocol.xyz"
          }
       ],
       "faucets" : [
-         "https://deposit.devnet.romeprotocol.xyz"
+         "https://app.devnet.romeprotocol.xyz"
       ],
       "icon" : "rome",
       "infoURL" : "https://rome.builders",
-      "name" : "Rome Devnet Subura",
+      "name" : "Rome Subura Devnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "RSOL",
-         "symbol" : "RSOL"
+         "name" : "USDC",
+         "symbol" : "USDC"
       },
       "networkId" : 121213,
       "rpc" : [
-         "https://subura-i.devnet.romeprotocol.xyz"
+         "https://subura.devnet.romeprotocol.xyz"
       ],
-      "shortName" : "rome-devnet-subura",
-      "status" : "active"
+      "shortName" : "rome-devnet-subura"
    },
    {
       "chain" : "ROME",
@@ -58104,57 +58329,44 @@
       "explorers" : [
          {
             "icon" : "rome",
-            "name" : "Rome Testnet Martius Explorer",
+            "name" : "Rome Via Martius",
             "standard" : "EIP3091",
-            "url" : "https://romescout-martius-i.testnet.romeprotocol.xyz"
+            "url" : "https://via-martius.testnet.romeprotocol.xyz"
          }
       ],
       "faucets" : [
-         "https://deposit.testnet.romeprotocol.xyz"
+         "https://app.testnet.romeprotocol.xyz"
       ],
       "icon" : "rome",
       "infoURL" : "https://rome.builders",
-      "name" : "Rome Testnet Martius",
+      "name" : "Rome Martius Testnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "RSOL",
-         "symbol" : "RSOL"
+         "name" : "USDC",
+         "symbol" : "USDC"
       },
       "networkId" : 121214,
       "rpc" : [
-         "https://martius-i.testnet.romeprotocol.xyz"
+         "https://martius.testnet.romeprotocol.xyz"
       ],
-      "shortName" : "rome-testnet-martius",
-      "status" : "active"
+      "shortName" : "rome-testnet-martius"
    },
    {
       "chain" : "ROME",
       "chainId" : 121215,
-      "explorers" : [
-         {
-            "icon" : "rome",
-            "name" : "Rome Testnet Caelian Explorer",
-            "standard" : "EIP3091",
-            "url" : "https://romescout-caelian-i.testnet.romeprotocol.xyz"
-         }
-      ],
-      "faucets" : [
-         "https://deposit.testnet.romeprotocol.xyz"
-      ],
+      "faucets" : [],
       "icon" : "rome",
       "infoURL" : "https://rome.builders",
       "name" : "Rome Testnet Caelian",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "RSOL",
-         "symbol" : "RSOL"
+         "name" : "USDC",
+         "symbol" : "USDC"
       },
       "networkId" : 121215,
-      "rpc" : [
-         "https://caelian-i.testnet.romeprotocol.xyz"
-      ],
+      "rpc" : [],
       "shortName" : "rome-testnet-caelian",
-      "status" : "active"
+      "status" : "deprecated"
    },
    {
       "chain" : "Fushuma",
@@ -63606,7 +63818,8 @@
       "rpc" : [
          "https://rpc.zerion.io/v1/zero"
       ],
-      "shortName" : "zero-network"
+      "shortName" : "zero-network",
+      "status" : "deprecated"
    },
    {
       "chain" : "One World Chain",
@@ -68432,8 +68645,8 @@
       "rpc" : [
          "https://humanity-mainnet.g.alchemy.com/public"
       ],
-      "shortName" : "hp",
-      "status" : "active"
+      "shortName" : "hpold",
+      "status" : "deprecated"
    },
    {
       "chain" : "JMDT",
@@ -69720,6 +69933,48 @@
          "https://churchill-rpc.pepchain.io"
       ],
       "shortName" : "tpep"
+   },
+   {
+      "chain" : "Humanity",
+      "chainId" : 13600000,
+      "explorers" : [
+         {
+            "name" : "Humanity Mainnet explorer",
+            "standard" : "EIP3091",
+            "url" : "https://humanity-main.explorer.alchemy.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://humanity.org",
+      "name" : "Humanity",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "H",
+         "symbol" : "H"
+      },
+      "networkId" : 13600000,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://bridge.humanity.org"
+            }
+         ],
+         "chain" : "eip155-42161",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://humanity-main.g.alchemy.com/public"
+      ],
+      "shortName" : "hp",
+      "status" : "active"
    },
    {
       "chain" : "symbiosis",

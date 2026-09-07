@@ -5725,6 +5725,31 @@
       "shortName" : "utx"
    },
    {
+      "chain" : "RIN",
+      "chainId" : 209,
+      "explorers" : [
+         {
+            "name" : "Ri-Nn Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.ri-nn.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "rinn",
+      "infoURL" : "https://ri-nn.io",
+      "name" : "Ri-Nn Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RIN",
+         "symbol" : "RIN"
+      },
+      "networkId" : 209,
+      "rpc" : [
+         "https://rpc.ri-nn.io"
+      ],
+      "shortName" : "ri-nn"
+   },
+   {
       "chain" : "BTN",
       "chainId" : 210,
       "explorers" : [
@@ -5944,6 +5969,31 @@
       ],
       "shortName" : "SO1-old",
       "status" : "deprecated"
+   },
+   {
+      "chain" : "RIN",
+      "chainId" : 219,
+      "explorers" : [
+         {
+            "name" : "Ri-Nn Testnet Scan",
+            "standard" : "EIP3091",
+            "url" : "https://testnet-scan.ri-nn.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "rinn",
+      "infoURL" : "https://ri-nn.io",
+      "name" : "Ri-Nn Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RIN",
+         "symbol" : "RIN"
+      },
+      "networkId" : 219,
+      "rpc" : [
+         "https://testnet-rpc.ri-nn.io"
+      ],
+      "shortName" : "ri-nn-testnet"
    },
    {
       "chain" : "ETH",
@@ -30083,6 +30133,16 @@
             "name" : "blockscout",
             "standard" : "EIP3091",
             "url" : "https://robinhoodchain.blockscout.com"
+         },
+         {
+            "name" : "hoodscan",
+            "standard" : "EIP3091",
+            "url" : "https://hoodscan.co"
+         },
+         {
+            "name" : "stonkscan",
+            "standard" : "EIP3091",
+            "url" : "https://stonkscan.io"
          }
       ],
       "faucets" : [],
@@ -30107,7 +30167,8 @@
          "https://rpc.mainnet.chain.robinhood.com",
          "https://robinhood-rpc.publicnode.com",
          "wss://robinhood-rpc.publicnode.com",
-         "https://rpc.arrowrpc.com"
+         "https://rpc.arrowrpc.com",
+         "https://rpc.ordofi.network"
       ],
       "shortName" : "robinhoodchain",
       "status" : "active"
@@ -30128,8 +30189,8 @@
       "name" : "Intertrain Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
-         "name" : "WorldStreet USD",
-         "symbol" : "USDW"
+         "name" : "WorldStreet Kash",
+         "symbol" : "WSK"
       },
       "networkId" : 4683,
       "rpc" : [
@@ -34438,6 +34499,41 @@
       "shortName" : "ZEUS-Testnet"
    },
    {
+      "chain" : "PCKT",
+      "chainId" : 7258,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://pocket.fi",
+      "name" : "Pocket Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PCKT",
+         "symbol" : "PCKT"
+      },
+      "networkId" : 7258,
+      "rpc" : [],
+      "shortName" : "pckt",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "PCKT",
+      "chainId" : 7259,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://pocket.fi",
+      "name" : "Pocket Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PCKT",
+         "symbol" : "PCKT"
+      },
+      "networkId" : 7259,
+      "rpc" : [],
+      "shortName" : "pckt-testnet",
+      "slip44" : 1,
+      "status" : "incubating"
+   },
+   {
       "chain" : "XPLA Verse",
       "chainId" : 7300,
       "explorers" : [
@@ -35031,6 +35127,28 @@
       ],
       "shortName" : "TestnetCanto",
       "slip44" : 1
+   },
+   {
+      "chain" : "RWA",
+      "chainId" : 7741,
+      "faucets" : [],
+      "infoURL" : "https://rwa-chain.io",
+      "name" : "RWA Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 7741,
+      "parent" : {
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.rwa-chain.io"
+      ],
+      "shortName" : "rwachain",
+      "status" : "incubating"
    },
    {
       "chain" : "PHR",
@@ -38099,6 +38217,30 @@
       "shortName" : "QubeticsAlpha"
    },
    {
+      "chain" : "LITHO",
+      "chainId" : 9005,
+      "explorers" : [
+         {
+            "name" : "Lithoscan",
+            "standard" : "EIP3091",
+            "url" : "https://lithoscan.ai"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://docs.litho.ai",
+      "name" : "Lithosphere Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "LITHO",
+         "symbol" : "LITHO"
+      },
+      "networkId" : 9005,
+      "rpc" : [
+         "https://rpc-mainnet.litho.ai"
+      ],
+      "shortName" : "litho"
+   },
+   {
       "chain" : "Shido Testnet",
       "chainId" : 9007,
       "explorers" : [
@@ -40011,6 +40153,30 @@
          "http://geth.free.idcfengye.com"
       ],
       "shortName" : "SJ"
+   },
+   {
+      "chain" : "GT",
+      "chainId" : 10088,
+      "explorers" : [
+         {
+            "name" : "GateLayer",
+            "standard" : "EIP3091",
+            "url" : "https://www.gatescan.org/gatelayer"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://gatechain.io/gatelayer",
+      "name" : "Gate Layer",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "GateToken",
+         "symbol" : "GT"
+      },
+      "networkId" : 10088,
+      "rpc" : [
+         "https://gatelayer-mainnet.gatenode.cc"
+      ],
+      "shortName" : "GateLayer"
    },
    {
       "chain" : "MNV",
@@ -44782,7 +44948,7 @@
          {
             "name" : "Aglais Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.testnet.quip.network"
+            "url" : "https://explorer.aglais.quip.network"
          }
       ],
       "faucets" : [],
@@ -44796,7 +44962,7 @@
       },
       "networkId" : 20033,
       "rpc" : [
-         "https://evm-rpc.testnet.quip.network:20049"
+         "https://evm-rpc.aglais.quip.network:20049"
       ],
       "shortName" : "agls"
    },
@@ -44875,6 +45041,36 @@
       "rpc" : [],
       "shortName" : "mon-devnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "MOLI",
+      "chainId" : 20226,
+      "explorers" : [
+         {
+            "name" : "Moliscan",
+            "standard" : "EIP3091",
+            "url" : "https://molibra.org/molibra/moliscan"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "molibra",
+      "infoURL" : "https://molibra.org",
+      "name" : "Molibra",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Molibra",
+         "symbol" : "MOLI"
+      },
+      "networkId" : 20226,
+      "rpc" : [
+         "https://molibra.org"
+      ],
+      "shortName" : "moli"
    },
    {
       "chain" : "CHEESE",
@@ -45377,6 +45573,38 @@
          "https://testnet-rpc.dcpay.io"
       ],
       "shortName" : "DCPt"
+   },
+   {
+      "chain" : "SHCX",
+      "chainId" : 21320,
+      "explorers" : [
+         {
+            "name" : "SushiiCoin Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://coin.sushii.dev"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://coin.sushii.dev",
+      "name" : "SushiiCoin",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SushiiCoin",
+         "symbol" : "SHCX"
+      },
+      "networkId" : 21320,
+      "rpc" : [
+         "https://coin.sushii.dev/evm"
+      ],
+      "shortName" : "shcx"
    },
    {
       "chain" : "CENNZnet",
@@ -54894,6 +55122,34 @@
       "slip44" : 1
    },
    {
+      "chain" : "RWA",
+      "chainId" : 77410,
+      "explorers" : [
+         {
+            "name" : "RWA Chain Sepolia Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://sepolia-explorer.rwa-chain.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://rwa-chain.io",
+      "name" : "RWA Chain Sepolia",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 77410,
+      "parent" : {
+         "chain" : "eip155-84532",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://sepolia-rpc.rwa-chain.io"
+      ],
+      "shortName" : "rwachain-sepolia"
+   },
+   {
       "chain" : "VSC",
       "chainId" : 77612,
       "explorers" : [
@@ -62916,6 +63172,43 @@
       "shortName" : "datachain"
    },
    {
+      "chain" : "DATACHAIN",
+      "chainId" : 271829,
+      "explorers" : [
+         {
+            "name" : "DC Scan Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.dcscan.io"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.datachain.network"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "datachain",
+      "infoURL" : "https://datachain.network",
+      "name" : "Datachain Rope Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DC FAT",
+         "symbol" : "FAT"
+      },
+      "networkId" : 271829,
+      "rpc" : [
+         "https://testnet.erpc.datachain.network"
+      ],
+      "shortName" : "rope-testnet",
+      "slip44" : 1,
+      "title" : "Datachain Rope Testnet"
+   },
+   {
       "chain" : "NXY",
       "chainId" : 272247,
       "explorers" : [
@@ -66757,6 +67050,30 @@
       ],
       "shortName" : "nvnm-testnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "WANNA",
+      "chainId" : 787878,
+      "explorers" : [
+         {
+            "name" : "wannascan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.wannachain.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://scan.wannachain.com",
+      "name" : "WANNA Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "WANNA",
+         "symbol" : "WANNA"
+      },
+      "networkId" : 787878,
+      "rpc" : [
+         "https://rpc.wannachain.com"
+      ],
+      "shortName" : "wanna"
    },
    {
       "chain" : "EMED",
@@ -72218,6 +72535,32 @@
          "https://testnet-rpc.usecorn.com"
       ],
       "shortName" : "corn-testnet"
+   },
+   {
+      "chain" : "ZAGROS",
+      "chainId" : 21072026,
+      "explorers" : [
+         {
+            "name" : "ZagrosRadar",
+            "standard" : "EIP3091",
+            "url" : "https://zagrosradar.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zagros",
+      "infoURL" : "https://zagros.network",
+      "name" : "Zagros Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Zagros",
+         "symbol" : "ZAGROS"
+      },
+      "networkId" : 21072026,
+      "rpc" : [
+         "https://rpc.zagros.network",
+         "https://rpc.zagrosnetwork.com"
+      ],
+      "shortName" : "zagros"
    },
    {
       "chain" : "XLON",

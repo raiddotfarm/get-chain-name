@@ -18,12 +18,6 @@
             "url" : "https://eth.blockscout.com"
          },
          {
-            "icon" : "dexguru",
-            "name" : "dexguru",
-            "standard" : "EIP3091",
-            "url" : "https://ethereum.dex.guru"
-         },
-         {
             "name" : "Routescan",
             "standard" : "EIP3091",
             "url" : "https://ethereum.routescan.io"
@@ -65,7 +59,8 @@
          "https://rpc.mevblocker.io/fullprivacy",
          "https://eth.drpc.org",
          "wss://eth.drpc.org",
-         "https://api.securerpc.com/v1"
+         "https://api.securerpc.com/v1",
+         "https://xrpc.cl/eth"
       ],
       "shortName" : "eth",
       "slip44" : 60
@@ -345,17 +340,6 @@
             "name" : "blockscout",
             "standard" : "EIP3091",
             "url" : "https://optimism.blockscout.com"
-         },
-         {
-            "icon" : "dexguru",
-            "name" : "dexguru",
-            "standard" : "EIP3091",
-            "url" : "https://optimism.dex.guru"
-         },
-         {
-            "name" : "Routescan",
-            "standard" : "EIP3091",
-            "url" : "https://mainnet.superscan.network"
          }
       ],
       "faucets" : [],
@@ -374,13 +358,21 @@
          "https://optimism.gateway.tenderly.co",
          "wss://optimism.gateway.tenderly.co",
          "https://optimism.drpc.org",
-         "wss://optimism.drpc.org"
+         "wss://optimism.drpc.org",
+         "https://xrpc.cl/optimism"
       ],
       "shortName" : "oeth"
    },
    {
       "chain" : "META",
       "chainId" : 11,
+      "explorers" : [
+         {
+            "name" : "Metadium Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.metadium.com"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://metadium.com",
       "name" : "Metadium Mainnet",
@@ -399,6 +391,13 @@
    {
       "chain" : "META",
       "chainId" : 12,
+      "explorers" : [
+         {
+            "name" : "Metadium Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnetexplorer.metadium.com"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://metadium.com",
       "name" : "Metadium Testnet",
@@ -1617,7 +1616,8 @@
          "https://bsc-rpc.publicnode.com",
          "https://bsc-rpc-public.chainpulse.cc",
          "wss://bsc-rpc.publicnode.com",
-         "wss://bsc-ws-node.nariox.org"
+         "wss://bsc-ws-node.nariox.org",
+         "https://xrpc.cl/bsc"
       ],
       "shortName" : "bnb",
       "slip44" : 714
@@ -2815,16 +2815,10 @@
             "name" : "blockscout",
             "standard" : "EIP3091",
             "url" : "https://gnosis.blockscout.com"
-         },
-         {
-            "icon" : "dexguru",
-            "name" : "dexguru",
-            "standard" : "EIP3091",
-            "url" : "https://gnosis.dex.guru"
          }
       ],
       "faucets" : [
-         "https://gnosisfaucet.com",
+         "https://faucet.gnosischain.com",
          "https://stakely.io/faucet/gnosis-chain-xdai",
          "https://faucet.prussia.dev/xdai"
       ],
@@ -3073,7 +3067,7 @@
       },
       "networkId" : 109,
       "rpc" : [
-         "https://rpc.shibrpc.com",
+         "https://rpc.shibarium.shib.io",
          "https://shib.nownodes.io"
       ],
       "shortName" : "shibariumecosystem"
@@ -3805,7 +3799,8 @@
          "wss://polygon.gateway.tenderly.co",
          "https://rpc.satelink.network/rpc/polygon",
          "https://rpcfree.com/polygon-rpc",
-         "wss://rpc.satelink.network/rpc/ws/polygon"
+         "wss://rpc.satelink.network/rpc/ws/polygon",
+         "https://xrpc.cl/polygon"
       ],
       "shortName" : "pol",
       "slip44" : 966
@@ -12188,6 +12183,31 @@
       "shortName" : "LOVELY"
    },
    {
+      "chain" : "POB",
+      "chainId" : 739,
+      "explorers" : [
+         {
+            "name" : "Pione BOS Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://pionescan.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "pob",
+      "infoURL" : "https://pionechain.com",
+      "name" : "Pione BOS Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Pione BOS Chain",
+         "symbol" : "POB"
+      },
+      "networkId" : 739,
+      "rpc" : [
+         "https://rpc.pionescan.com"
+      ],
+      "shortName" : "pob"
+   },
+   {
       "chain" : "Canto Tesnet",
       "chainId" : 740,
       "explorers" : [
@@ -14753,11 +14773,6 @@
       "chainId" : 1001,
       "explorers" : [
          {
-            "name" : "Kaiascope",
-            "standard" : "EIP3091",
-            "url" : "https://kairos.kaiascope.com"
-         },
-         {
             "name" : "Kaiascan",
             "standard" : "EIP3091",
             "url" : "https://kairos.kaiascan.io"
@@ -15313,6 +15328,31 @@
       "shortName" : "DIA"
    },
    {
+      "chain" : "BIGHIVE",
+      "chainId" : 1062,
+      "explorers" : [
+         {
+            "name" : "BDBS",
+            "standard" : "EIP3091",
+            "url" : "https://bdbs.bighive-beets.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://bighive-beets.io",
+      "name" : "Bighive Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Beets",
+         "symbol" : "BEETS"
+      },
+      "networkId" : 1062,
+      "rpc" : [
+         "https://rpc.bighive-beets.io/osc"
+      ],
+      "shortName" : "bighive",
+      "status" : "incubating"
+   },
+   {
       "chain" : "OGPU",
       "chainId" : 1071,
       "explorers" : [
@@ -15732,6 +15772,24 @@
          "https://mainnet.blxq.org"
       ],
       "shortName" : "blxq"
+   },
+   {
+      "chain" : "VORD",
+      "chainId" : 1110,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "vordium",
+      "infoURL" : "https://vordium.com",
+      "name" : "Vordium Legacy",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Vordium",
+         "symbol" : "VORD"
+      },
+      "networkId" : 1110,
+      "rpc" : [],
+      "shortName" : "vord-legacy",
+      "status" : "deprecated"
    },
    {
       "chain" : "WEMIX",
@@ -27152,9 +27210,9 @@
       "explorers" : [
          {
             "icon" : "tajir",
-            "name" : "Tajir Explorer",
+            "name" : "TJRscan",
             "standard" : "EIP3091",
-            "url" : "https://explorer.tajirchain.com"
+            "url" : "https://tjrscan.com"
          }
       ],
       "faucets" : [],
@@ -35131,6 +35189,13 @@
    {
       "chain" : "RWA",
       "chainId" : 7741,
+      "explorers" : [
+         {
+            "name" : "RWA Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.rwa-chain.io"
+         }
+      ],
       "faucets" : [],
       "infoURL" : "https://rwa-chain.io",
       "name" : "RWA Chain",
@@ -35141,14 +35206,19 @@
       },
       "networkId" : 7741,
       "parent" : {
-         "chain" : "eip155-1",
+         "bridges" : [
+            {
+               "url" : "https://rwa-chain.io/explorer/bridge"
+            }
+         ],
+         "chain" : "eip155-8453",
          "type" : "L2"
       },
       "rpc" : [
          "https://rpc.rwa-chain.io"
       ],
       "shortName" : "rwachain",
-      "status" : "incubating"
+      "status" : "active"
    },
    {
       "chain" : "PHR",
@@ -36679,11 +36749,6 @@
       "chainId" : 8217,
       "explorers" : [
          {
-            "name" : "Kaiascope",
-            "standard" : "EIP3091",
-            "url" : "https://kaiascope.com"
-         },
-         {
             "name" : "Kaiascan",
             "standard" : "EIP3091",
             "url" : "https://kaiascan.io"
@@ -37071,7 +37136,8 @@
          "wss://base-rpc.publicnode.com",
          "https://rpcfree.com/base-rpc",
          "https://rpc.baseazul.dev",
-         "https://rpc.satelink.network/rpc/base"
+         "https://rpc.satelink.network/rpc/base",
+         "https://xrpc.cl/base"
       ],
       "shortName" : "base",
       "status" : "active"
@@ -38665,6 +38731,32 @@
          "https://chain-rpc.codefin.pro"
       ],
       "shortName" : "COF"
+   },
+   {
+      "chain" : "RAB",
+      "chainId" : 9280,
+      "explorers" : [
+         {
+            "name" : "Rabbit Chain Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.rabbitchain.org"
+         }
+      ],
+      "faucets" : [
+         "https://rabbitchain.org/platform/faucet"
+      ],
+      "infoURL" : "https://rabbitchain.org",
+      "name" : "Rabbit Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Test RAB",
+         "symbol" : "tRAB"
+      },
+      "networkId" : 9280,
+      "rpc" : [
+         "https://rpc-testnet.rabbitchain.org"
+      ],
+      "shortName" : "rabt"
    },
    {
       "chain" : "Galactica Testnet",
@@ -40267,19 +40359,13 @@
       "explorers" : [
          {
             "icon" : "blockscout",
-            "name" : "blockscout-chiadochain",
-            "standard" : "EIP3091",
-            "url" : "https://blockscout.chiadochain.net"
-         },
-         {
-            "icon" : "blockscout",
             "name" : "blockscout",
             "standard" : "EIP3091",
             "url" : "https://gnosis-chiado.blockscout.com"
          }
       ],
       "faucets" : [
-         "https://gnosisfaucet.com"
+         "https://faucet.gnosischain.com"
       ],
       "icon" : "gnosis",
       "infoURL" : "https://docs.gnosischain.com",
@@ -49341,7 +49427,8 @@
          "https://arbitrum-one-rpc.publicnode.com",
          "wss://arbitrum-one-rpc.publicnode.com",
          "https://rpcfree.com/arbitrum-rpc",
-         "https://rpc.satelink.network/rpc/arbitrum"
+         "https://rpc.satelink.network/rpc/arbitrum",
+         "https://xrpc.cl/arbitrum"
       ],
       "shortName" : "arb1"
    },
@@ -49864,7 +49951,8 @@
       "rpc" : [
          "https://api.avax.network/ext/bc/C/rpc",
          "https://avalanche-c-chain-rpc.publicnode.com",
-         "wss://avalanche-c-chain-rpc.publicnode.com"
+         "wss://avalanche-c-chain-rpc.publicnode.com",
+         "https://xrpc.cl/avalanche"
       ],
       "shortName" : "avax",
       "slip44" : 9005
@@ -52477,9 +52565,7 @@
             "url" : "https://explorer.inkonchain.com"
          }
       ],
-      "faucets" : [
-         "https://inkonchain.com/faucet"
-      ],
+      "faucets" : [],
       "features" : [
          {
             "name" : "EIP155"
@@ -54822,6 +54908,43 @@
          "https://nebula-chain.com/rpc"
       ],
       "shortName" : "nebula"
+   },
+   {
+      "chain" : "SMN",
+      "chainId" : 73571,
+      "explorers" : [
+         {
+            "name" : "seleman",
+            "standard" : "EIP3091",
+            "url" : "https://seleman.monarcaproject.com"
+         }
+      ],
+      "faucets" : [
+         "https://seleman.monarcaproject.com/trust-wallet"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://seleman.monarcaproject.com/seleman-chain",
+      "name" : "SELEMAN Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SELEMAN",
+         "symbol" : "SMN"
+      },
+      "networkId" : 73571,
+      "rpc" : [
+         "https://seleman.monarcaproject.com/rpc",
+         "https://seleman-edge.mineriafjs.workers.dev/rpc",
+         "wss://seleman-ws.monarcaproject.com"
+      ],
+      "shortName" : "seleman",
+      "slip44" : 73571
    },
    {
       "chain" : "NVC",
@@ -58932,6 +59055,31 @@
          "https://evm-rpc-testnet.xitcoin.org"
       ],
       "shortName" : "xtct"
+   },
+   {
+      "chain" : "VORD",
+      "chainId" : 101101,
+      "explorers" : [
+         {
+            "name" : "vordscan",
+            "standard" : "EIP3091",
+            "url" : "https://vordscan.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "vordium",
+      "infoURL" : "https://vordium.com",
+      "name" : "Vordium",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Vordium",
+         "symbol" : "VORD"
+      },
+      "networkId" : 101101,
+      "rpc" : [
+         "https://rpc.vordium.com"
+      ],
+      "shortName" : "vord"
    },
    {
       "chain" : "CTC",
@@ -66710,7 +66858,9 @@
             "url" : "https://explorer-sepolia.inkonchain.com"
          }
       ],
-      "faucets" : [],
+      "faucets" : [
+         "https://inkonchain.com/faucet"
+      ],
       "features" : [
          {
             "name" : "EIP155"
@@ -71395,7 +71545,8 @@
          "wss://ethereum-sepolia-rpc.publicnode.com",
          "https://sepolia.drpc.org",
          "wss://sepolia.drpc.org",
-         "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-"
+         "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-",
+         "https://xrpc.cl/sepolia"
       ],
       "shortName" : "sep",
       "slip44" : 1,
@@ -71585,6 +71736,30 @@
       ],
       "shortName" : "onfachain",
       "title" : "ONFA Chain Mainnet"
+   },
+   {
+      "chain" : "WMC",
+      "chainId" : 12142816,
+      "explorers" : [
+         {
+            "name" : "Winmar Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.winmarchain.org"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://scan.winmarchain.org",
+      "name" : "Winmar Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Winmar Coin",
+         "symbol" : "WMC"
+      },
+      "networkId" : 12142816,
+      "rpc" : [
+         "https://rpc.winmarchain.org"
+      ],
+      "shortName" : "winmar"
    },
    {
       "chain" : "NeoX",

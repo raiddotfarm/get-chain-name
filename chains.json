@@ -4110,7 +4110,9 @@
       "rpc" : [
          "https://rpc.soniclabs.com",
          "https://sonic-rpc.publicnode.com",
-         "wss://sonic-rpc.publicnode.com"
+         "wss://sonic-rpc.publicnode.com",
+         "https://sonic.drpc.org",
+         "wss://sonic.drpc.org"
       ],
       "shortName" : "sonic"
    },
@@ -15338,6 +15340,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "bighive",
       "infoURL" : "https://bighive-beets.io",
       "name" : "Bighive Mainnet",
       "nativeCurrency" : {
@@ -17181,6 +17184,51 @@
          "https://rpc-cnx.omplatform.com/"
       ],
       "shortName" : "om"
+   },
+   {
+      "chain" : "MIRX",
+      "chainId" : 1247,
+      "explorers" : [
+         {
+            "icon" : "mirx",
+            "name" : "MIRX Scan",
+            "standard" : "EIP3091",
+            "url" : "https://mirxscan.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "mirx",
+      "infoURL" : "https://miraclechain.com",
+      "name" : "Miracle Chain Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PNIC",
+         "symbol" : "PNIC"
+      },
+      "networkId" : 1247,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://hub.miraclechain.com"
+            }
+         ],
+         "chain" : "eip155-42161",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.miraclechain.com/http",
+         "wss://rpc.miraclechain.com/ws"
+      ],
+      "shortName" : "MIRX",
+      "status" : "active"
    },
    {
       "chain" : "Dogether",
@@ -26028,6 +26076,7 @@
          }
       ],
       "faucets" : [],
+      "icon" : "candychain",
       "infoURL" : "https://candychain.io",
       "name" : "CandyChain",
       "nativeCurrency" : {
@@ -26242,6 +26291,51 @@
       ],
       "shortName" : "xenon",
       "slip44" : 1
+   },
+   {
+      "chain" : "AXON",
+      "chainId" : 2966,
+      "faucets" : [],
+      "icon" : "axon",
+      "infoURL" : "https://axonfinance.xyz",
+      "name" : "AXON Finance",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "AXON",
+         "symbol" : "AXON"
+      },
+      "networkId" : 2966,
+      "rpc" : [],
+      "shortName" : "axon",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "AXON",
+      "chainId" : 2967,
+      "explorers" : [
+         {
+            "name" : "AXON Finance Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-testnet.axonfinance.xyz"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.axonfinance.xyz"
+      ],
+      "icon" : "axon",
+      "infoURL" : "https://axonfinance.xyz",
+      "name" : "AXON Finance Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "AXON",
+         "symbol" : "AXON"
+      },
+      "networkId" : 2967,
+      "rpc" : [
+         "https://rpc-testnet.axonfinance.xyz"
+      ],
+      "shortName" : "axon-testnet",
+      "status" : "active"
    },
    {
       "chain" : "BTY",
@@ -26662,6 +26756,34 @@
       "shortName" : "filecoin-hyperspace",
       "slip44" : 1,
       "status" : "deprecated"
+   },
+   {
+      "chain" : "AVI",
+      "chainId" : 3210,
+      "explorers" : [
+         {
+            "name" : "AVI OS Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.avicoin.org"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://os.avicoin.org",
+      "name" : "AVI OS",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "AVI",
+         "symbol" : "AVI"
+      },
+      "networkId" : 3210,
+      "parent" : {
+         "chain" : "eip155-963369",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc-os.avicoin.org"
+      ],
+      "shortName" : "avi-os"
    },
    {
       "chain" : "XO",
@@ -30226,7 +30348,10 @@
          "https://robinhood-rpc.publicnode.com",
          "wss://robinhood-rpc.publicnode.com",
          "https://rpc.arrowrpc.com",
-         "https://rpc.ordofi.network"
+         "https://rpc.ordofi.network",
+         "wss://rpc.ordofi.network",
+         "https://robinhood.drpc.org",
+         "wss://robinhood.drpc.org"
       ],
       "shortName" : "robinhoodchain",
       "status" : "active"
@@ -30893,10 +31018,16 @@
    {
       "chain" : "Arc",
       "chainId" : 5042,
-      "explorers" : [],
+      "explorers" : [
+         {
+            "name" : "Arc Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.arc.io"
+         }
+      ],
       "faucets" : [],
       "icon" : "arcnetwork",
-      "infoURL" : "https://arc.network",
+      "infoURL" : "https://arc.io",
       "name" : "Arc",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -30904,7 +31035,16 @@
          "symbol" : "USDC"
       },
       "networkId" : 5042,
-      "rpc" : [],
+      "rpc" : [
+         "https://rpc.mainnet.arc.io",
+         "https://rpc.blockdaemon.mainnet.arc.io",
+         "https://rpc.drpc.mainnet.arc.io",
+         "https://rpc.quicknode.mainnet.arc.io",
+         "https://rpc.beamrpc.com",
+         "wss://rpc.beamrpc.com",
+         "https://arc.drpc.org",
+         "wss://arc.drpc.org"
+      ],
       "shortName" : "arc-mainnet"
    },
    {
@@ -50821,7 +50961,9 @@
       "rpc" : [
          "https://rpc.testnet.chain.robinhood.com/rpc",
          "https://robinhood-sepolia-rpc.publicnode.com",
-         "wss://robinhood-sepolia-rpc.publicnode.com"
+         "wss://robinhood-sepolia-rpc.publicnode.com",
+         "https://robinhood-testnet.drpc.org",
+         "wss://robinhood-testnet.drpc.org"
       ],
       "shortName" : "rh-testnet",
       "slip44" : 1,
@@ -67880,6 +68022,53 @@
       "shortName" : "blx"
    },
    {
+      "chain" : "MIRX",
+      "chainId" : 886699,
+      "explorers" : [
+         {
+            "icon" : "mirx",
+            "name" : "MIRX Scan Testnet",
+            "standard" : "EIP3091",
+            "url" : "https://dev.mirxscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://hub.miraclechain.dev"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "mirx",
+      "infoURL" : "https://miraclechain.com",
+      "name" : "Miracle Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PNIC",
+         "symbol" : "PNIC"
+      },
+      "networkId" : 886699,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://hub.miraclechain.dev"
+            }
+         ],
+         "chain" : "eip155-421614",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.miraclechain.dev/http",
+         "wss://rpc.miraclechain.dev/ws"
+      ],
+      "shortName" : "MIRXTEST",
+      "status" : "active"
+   },
+   {
       "chain" : "REXX",
       "chainId" : 888882,
       "explorers" : [
@@ -70019,7 +70208,9 @@
          "wss://rpc.testnet.arc.network",
          "https://rpc.quicknode.testnet.arc.network",
          "wss://rpc.quicknode.testnet.arc.network",
-         "https://rpc.blockdaemon.testnet.arc.network"
+         "https://rpc.blockdaemon.testnet.arc.network",
+         "https://arc-testnet.drpc.org",
+         "wss://arc-testnet.drpc.org"
       ],
       "shortName" : "arc-testnet",
       "slip44" : 1

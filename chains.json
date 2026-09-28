@@ -5673,7 +5673,7 @@
       },
       "networkId" : 206,
       "rpc" : [
-         "https://vinufoundation-rpc.com"
+         "https://testnet-rpc.vinuchain.org"
       ],
       "shortName" : "vc-testnet",
       "slip44" : 1
@@ -13776,11 +13776,6 @@
             "name" : "modescout",
             "standard" : "none",
             "url" : "https://sepolia.explorer.mode.network"
-         },
-         {
-            "name" : "Routesan",
-            "standard" : "none",
-            "url" : "https://testnet.modescan.io"
          }
       ],
       "faucets" : [
@@ -18408,6 +18403,30 @@
       "slip44" : 1,
       "status" : "deprecated",
       "title" : "Polygon zkEVM Testnet"
+   },
+   {
+      "chain" : "BDAG",
+      "chainId" : 1404,
+      "explorers" : [
+         {
+            "name" : "BDAG Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.bdagexplorer.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://bdagexplorer.com",
+      "name" : "BlockDAG",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "BlockDAG",
+         "symbol" : "BDAG"
+      },
+      "networkId" : 1404,
+      "rpc" : [
+         "https://rpc.bdagexplorer.com/"
+      ],
+      "shortName" : "bdag"
    },
    {
       "chain" : "Silicon",
@@ -23878,7 +23897,7 @@
             "icon" : "kava",
             "name" : "Kava Testnet Explorer",
             "standard" : "EIP3091",
-            "url" : "http://testnet.kavascan.com"
+            "url" : "https://testnet.kavascan.com"
          }
       ],
       "faucets" : [
@@ -32639,7 +32658,7 @@
             "icon" : "mantra",
             "name" : "Dukong Explorer",
             "standard" : "EIP3091",
-            "url" : "http://mantrascan.io/dukong"
+            "url" : "https://mantrascan.io/dukong"
          }
       ],
       "faucets" : [
@@ -38395,6 +38414,30 @@
       "shortName" : "evmos"
    },
    {
+      "chain" : "Kortana",
+      "chainId" : 9002,
+      "explorers" : [
+         {
+            "name" : "Kortana Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.mainnet.kortana.xyz"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://kortana.network",
+      "name" : "Kortana",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Dinar",
+         "symbol" : "DNR"
+      },
+      "networkId" : 9002,
+      "rpc" : [
+         "https://zeus-rpc.mainnet.kortana.xyz"
+      ],
+      "shortName" : "kortana"
+   },
+   {
       "chain" : "Qubetics Alpha Testnet",
       "chainId" : 9003,
       "explorers" : [
@@ -43292,7 +43335,7 @@
          {
             "name" : "loopscan",
             "standard" : "none",
-            "url" : "http://explorer.mainnetloop.com"
+            "url" : "https://explorer.mainnetloop.com"
          }
       ],
       "faucets" : [],
@@ -45575,7 +45618,7 @@
             "icon" : "action",
             "name" : "Action Mainnet Explorer",
             "standard" : "EIP3091",
-            "url" : "http://exp.actionblockchain.org"
+            "url" : "https://exp.actionblockchain.org"
          }
       ],
       "faucets" : [],
@@ -48048,6 +48091,39 @@
       ],
       "shortName" : "w3gamez",
       "slip44" : 1
+   },
+   {
+      "chain" : "NUMN",
+      "chainId" : 32026,
+      "explorers" : [
+         {
+            "name" : "Numen Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.numen-network.org"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://numen-network.org",
+      "name" : "Numen Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Numen",
+         "symbol" : "NUMN"
+      },
+      "networkId" : 32026,
+      "rpc" : [
+         "https://rpc.numen-network.org",
+         "wss://rpc.numen-network.org"
+      ],
+      "shortName" : "numn"
    },
    {
       "chain" : "BasedAI",
@@ -54668,7 +54744,7 @@
             "icon" : "guapcoinx",
             "name" : "GuapcoinX Explorer",
             "standard" : "none",
-            "url" : "http://explorer.guapcoinx.com"
+            "url" : "https://explorer.guapcoinx.com"
          }
       ],
       "faucets" : [],
@@ -56565,7 +56641,7 @@
          {
             "name" : "Zedscan",
             "standard" : "EIP3091",
-            "url" : "http://zedscan.net"
+            "url" : "https://zedscan.net"
          }
       ],
       "faucets" : [],
@@ -63795,6 +63871,40 @@
       "slip44" : 1
    },
    {
+      "chain" : "NUMN",
+      "chainId" : 320261,
+      "explorers" : [
+         {
+            "name" : "Numen Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.explorer.numen-network.org"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://numen-network.org",
+      "name" : "Numen Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet Numen",
+         "symbol" : "tNUMN"
+      },
+      "networkId" : 320261,
+      "rpc" : [
+         "https://testnet.rpc.numen-network.org",
+         "wss://testnet.rpc.numen-network.org"
+      ],
+      "shortName" : "tnumn",
+      "slip44" : 1
+   },
+   {
       "chain" : "Parex",
       "chainId" : 322202,
       "explorers" : [
@@ -65982,6 +66092,30 @@
       "title" : "Ethereum Testnet Hoodi"
    },
    {
+      "chain" : "PEER",
+      "chainId" : 563321,
+      "explorers" : [
+         {
+            "name" : "PeerCash Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testexplorer.peercash.io"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://peercash.io",
+      "name" : "PeerCash Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PeerCash",
+         "symbol" : "PEER"
+      },
+      "networkId" : 563321,
+      "rpc" : [
+         "https://testrpc.peercash.io"
+      ],
+      "shortName" : "pctest"
+   },
+   {
       "chain" : "ONE",
       "chainId" : 612044,
       "explorers" : [
@@ -67398,6 +67532,46 @@
          "https://public.0xrpc.com/789789"
       ],
       "shortName" : "emed"
+   },
+   {
+      "chain" : "SRX",
+      "chainId" : 797290,
+      "explorers" : [
+         {
+            "name" : "Syrax Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.syrax.global"
+         }
+      ],
+      "faucets" : [
+         "https://www.syrax.global/faucet.html"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://www.syrax.global",
+      "name" : "Syrax Chain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Syrax Token",
+         "symbol" : "SRX"
+      },
+      "networkId" : 797290,
+      "parent" : {
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.syrax.global"
+      ],
+      "shortName" : "syrax-testnet",
+      "slip44" : 1,
+      "status" : "active"
    },
    {
       "chain" : "OCTA",
@@ -68832,7 +69006,7 @@
          {
             "name" : "TILTYARD Explorer",
             "standard" : "EIP3091",
-            "url" : "http://testnet-explorer.tiltyard.gg"
+            "url" : "https://testnet-explorer.tiltyard.gg"
          }
       ],
       "faucets" : [],
@@ -72332,6 +72506,35 @@
       "shortName" : "crynux-base"
    },
    {
+      "chain" : "ETH",
+      "chainId" : 18896215,
+      "explorers" : [
+         {
+            "name" : "cnxscan-rh",
+            "standard" : "EIP3091",
+            "url" : "https://cnxscan.rh.crynux.io"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "crynux",
+      "infoURL" : "https://crynux.io",
+      "name" : "Crynux on RH",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Crynux",
+         "symbol" : "CNX"
+      },
+      "networkId" : 18896215,
+      "parent" : {
+         "chain" : "eip155-4663",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://json-rpc.rh.crynux.io"
+      ],
+      "shortName" : "crynux-rh"
+   },
+   {
       "chain" : "DeepBrainChain",
       "chainId" : 19850818,
       "explorers" : [
@@ -74462,6 +74665,29 @@
          "https://json-rpc.base-sepolia.crynux.io"
       ],
       "shortName" : "crynux-base-sepolia"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 188962150,
+      "explorers" : [],
+      "faucets" : [],
+      "icon" : "crynux",
+      "infoURL" : "https://crynux.io",
+      "name" : "Crynux on RH Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Testnet Crynux",
+         "symbol" : "CNX"
+      },
+      "networkId" : 188962150,
+      "parent" : {
+         "chain" : "eip155-46630",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://json-rpc.rh-testnet.crynux.io"
+      ],
+      "shortName" : "crynux-rh-testnet"
    },
    {
       "chain" : "GTH",

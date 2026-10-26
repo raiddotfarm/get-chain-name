@@ -62,7 +62,8 @@
          "https://api.securerpc.com/v1",
          "https://xrpc.cl/eth",
          "https://ethereum-rpc.blockreq.com/v1/rpc/public",
-         "https://rpc.swiftnodes.io/rpc/eth?key=${SWIFTNODES_API_KEY}"
+         "https://rpc.swiftnodes.io/rpc/eth?key=${SWIFTNODES_API_KEY}",
+         "https://api.blockvectra.com/v1/eth_mainnet/public"
       ],
       "shortName" : "eth",
       "slip44" : 60
@@ -1610,11 +1611,13 @@
          "https://bsc-dataseed4.ninicoin.io",
          "https://bsc-rpc.publicnode.com",
          "https://bsc-rpc-public.chainpulse.cc",
+         "https://rpc.backrunshield.com",
          "wss://bsc-rpc.publicnode.com",
          "wss://bsc-ws-node.nariox.org",
          "https://xrpc.cl/bsc",
          "https://bsc-rpc.blockreq.com/v1/rpc/public",
-         "https://rpc.swiftnodes.io/rpc/bsc?key=${SWIFTNODES_API_KEY}"
+         "https://rpc.swiftnodes.io/rpc/bsc?key=${SWIFTNODES_API_KEY}",
+         "https://api.blockvectra.com/v1/bsc_mainnet/public"
       ],
       "shortName" : "bnb",
       "slip44" : 714
@@ -3799,7 +3802,8 @@
          "wss://rpc.satelink.network/rpc/ws/polygon",
          "https://xrpc.cl/polygon",
          "https://polygon-bor-rpc.blockreq.com/v1/rpc/public",
-         "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}"
+         "https://rpc.swiftnodes.io/rpc/polygon?key=${SWIFTNODES_API_KEY}",
+         "https://api.blockvectra.com/v1/polygon_mainnet/public"
       ],
       "shortName" : "pol",
       "slip44" : 966
@@ -6467,9 +6471,8 @@
       },
       "networkId" : 239,
       "rpc" : [
-         "https://rpc.tac.build",
-         "https://rpc.ankr.com/tac",
-         "https://ws.rpc.tac.build"
+         "https://rpc-public.tac.build",
+         "wss://rpc-public.tac.build"
       ],
       "shortName" : "tacchain_239-1",
       "slip44" : 60,
@@ -7928,6 +7931,38 @@
          "https://mainapi.omaxscan.com"
       ],
       "shortName" : "omax"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 312,
+      "explorers" : [
+         {
+            "icon" : "zksync-era",
+            "name" : "ZKsync Era Block Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://block-explorer.zksync-era-testnet.zksync.dev"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "zksync-era",
+      "infoURL" : "https://zksync.io/",
+      "name" : "ZKsync Era Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 312,
+      "parent" : {
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.zksync-era-testnet.zksync.dev",
+         "wss://rpc.zksync-era-testnet.zksync.dev/ws"
+      ],
+      "shortName" : "zksync-era-testnet",
+      "slip44" : 1
    },
    {
       "chain" : "NCN",
@@ -9916,6 +9951,30 @@
       ],
       "shortName" : "wc",
       "slip44" : 1
+   },
+   {
+      "chain" : "SCI",
+      "chainId" : 481,
+      "explorers" : [
+         {
+            "name" : "SciMatic Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.scimatic.net"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://scimatic.net",
+      "name" : "SciMatic",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SCI",
+         "symbol" : "SCI"
+      },
+      "networkId" : 481,
+      "rpc" : [
+         "https://rpc.scimatic.net"
+      ],
+      "shortName" : "sci"
    },
    {
       "chain" : "CAMP",
@@ -15102,6 +15161,30 @@
          "https://global.rpc.mainnet.newtonproject.org"
       ],
       "shortName" : "new"
+   },
+   {
+      "chain" : "PHASE",
+      "chainId" : 1015,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://phase.xyz",
+      "name" : "Phase Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PHASE",
+         "symbol" : "PHASE"
+      },
+      "networkId" : 1015,
+      "rpc" : [],
+      "shortName" : "phase",
+      "status" : "incubating"
    },
    {
       "chain" : "MAI",
@@ -24899,9 +24982,8 @@
       },
       "networkId" : 2391,
       "rpc" : [
-         "https://spb.rpc.tac.build",
-         "https://rpc.ankr.com/tac_spb",
-         "https://spb-ws.rpc.tac.build"
+         "https://rpc-public-spb.tac.build",
+         "wss://rpc-public-spb.tac.build"
       ],
       "shortName" : "tacchain_2391-1",
       "slip44" : 60,
@@ -25855,6 +25937,41 @@
       "status" : "incubating"
    },
    {
+      "chain" : "EPR",
+      "chainId" : 2679,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "blockscout",
+            "standard" : "EIP3091",
+            "url" : "https://scan.eoraptor.org"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "eoraptor",
+      "infoURL" : "https://www.eoraptordex.com",
+      "name" : "Eoraptor",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "EPR",
+         "symbol" : "EPR"
+      },
+      "networkId" : 2679,
+      "rpc" : [
+         "https://rpc.eoraptor.org",
+         "https://rpc2.eoraptor.org"
+      ],
+      "shortName" : "eoraptor"
+   },
+   {
       "chain" : "SPLENDOR",
       "chainId" : 2691,
       "explorers" : [
@@ -26284,11 +26401,11 @@
          {
             "name" : "Morph Mainnet Explorer",
             "standard" : "EIP3091",
-            "url" : "https://explorer.morphl2.io"
+            "url" : "https://explorer.morph.network"
          }
       ],
       "faucets" : [],
-      "infoURL" : "https://morphl2.io",
+      "infoURL" : "https://morph.network",
       "name" : "Morph",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -26299,17 +26416,19 @@
       "parent" : {
          "bridges" : [
             {
-               "url" : "https://bridge.morphl2.io/"
+               "url" : "https://bridge.morph.network/"
             }
          ],
          "chain" : "eip155-1",
          "type" : "L2"
       },
       "rpc" : [
-         "https://rpc.morphl2.io",
-         "wss://rpc.morphl2.io:8443",
-         "https://rpc-quicknode.morphl2.io",
-         "wss://rpc-quicknode.morphl2.io"
+         "https://rpc-bgw.morph.network",
+         "wss://rpc-bgw.morph.network",
+         "https://rpc.morph.network",
+         "wss://rpc.morph.network",
+         "https://rpc-quicknode.morph.network",
+         "wss://rpc-quicknode.morph.network"
       ],
       "shortName" : "morph",
       "slip44" : 1,
@@ -27250,6 +27369,38 @@
       ],
       "shortName" : "debounce-devnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "T2T",
+      "chainId" : 3330,
+      "explorers" : [
+         {
+            "name" : "Two-Trader Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.two-trader.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://www.two-trader.com",
+      "name" : "Two-Trader Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Two-Trader",
+         "symbol" : "T2T"
+      },
+      "networkId" : 3330,
+      "rpc" : [
+         "https://rpc.two-trader.io"
+      ],
+      "shortName" : "t2t"
    },
    {
       "chain" : "Beach",
@@ -29609,7 +29760,6 @@
       "networkId" : 4200,
       "rpc" : [
          "https://rpc.merlinchain.io",
-         "https://merlin-mainnet-enterprise.unifra.io",
          "https://rpc-merlin.rockx.com"
       ],
       "shortName" : "Merlin-Mainnet",
@@ -29730,7 +29880,6 @@
       },
       "networkId" : 4207,
       "rpc" : [
-         "https://layeredge-mainnet-evm.itrocket.net",
          "https://layeredge.rpc.subquery.network/public",
          "https://rpc.layeredge.io",
          "https://rpc.layeredge.foundation"
@@ -30617,7 +30766,6 @@
          "https://rpc.mainnet.chain.robinhood.com",
          "https://robinhood-rpc.publicnode.com",
          "wss://robinhood-rpc.publicnode.com",
-         "https://rpc.arrowrpc.com",
          "https://rpc.ordofi.network",
          "wss://rpc.ordofi.network",
          "https://robinhood.drpc.org",
@@ -32712,9 +32860,9 @@
       "explorers" : [
          {
             "icon" : "scdo",
-            "name" : "scdoscan",
-            "standard" : "EIP3091",
-            "url" : "https://scdoscan.io"
+            "name" : "SCDO Scan",
+            "standard" : "none",
+            "url" : "https://scdo.com.au/scan"
          }
       ],
       "faucets" : [],
@@ -32727,8 +32875,8 @@
          }
       ],
       "icon" : "scdo",
-      "infoURL" : "https://scdoscan.io",
-      "name" : "SCDO Shard0 EVM",
+      "infoURL" : "https://scdo.com.au",
+      "name" : "SCDO Shard0",
       "nativeCurrency" : {
          "decimals" : 18,
          "name" : "SCDO",
@@ -32736,10 +32884,10 @@
       },
       "networkId" : 5680,
       "rpc" : [
-         "https://scdoscan.io/rpc/0",
+         "https://scdo.com.au/rpc/0",
          "https://apeccapital.org/rpc/0"
       ],
-      "shortName" : "scdo0"
+      "shortName" : "scdo"
    },
    {
       "chain" : "SYS",
@@ -33349,6 +33497,47 @@
       ],
       "shortName" : "laosnetwork",
       "title" : "LAOS Mainnet"
+   },
+   {
+      "chain" : "MAYA",
+      "chainId" : 6292,
+      "explorers" : [
+         {
+            "name" : "MayaScan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.mayachain.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://mayachain.io",
+      "name" : "MAYA CHAIN",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Maya 3G",
+         "symbol" : "M3G"
+      },
+      "networkId" : 6292,
+      "parent" : {
+         "bridges" : [
+            {
+               "url" : "https://scan.mayachain.io/bridge"
+            }
+         ],
+         "chain" : "eip155-1",
+         "type" : "L2"
+      },
+      "rpc" : [
+         "https://rpc.mayachain.io"
+      ],
+      "shortName" : "maya"
    },
    {
       "chain" : "NFB Chain Testnet",
@@ -34004,6 +34193,11 @@
             "name" : "vexascan",
             "standard" : "EIP3091",
             "url" : "https://vexascan.com/evm"
+         },
+         {
+            "name" : "WIND Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.windcrypto.com/evm"
          }
       ],
       "faucets" : [],
@@ -34025,7 +34219,8 @@
       },
       "networkId" : 6736,
       "rpc" : [
-         "https://vexascan.com/rpc"
+         "https://vexascan.com/rpc",
+         "https://api.windcrypto.com/rpc"
       ],
       "shortName" : "vex-mainnet"
    },
@@ -37690,7 +37885,8 @@
          "https://xrpc.cl/base",
          "https://base-rpc.blockreq.com/v1/rpc/public",
          "https://base.daybreak-rpc.network",
-         "https://rpc.swiftnodes.io/rpc/base?key=${SWIFTNODES_API_KEY}"
+         "https://rpc.swiftnodes.io/rpc/base?key=${SWIFTNODES_API_KEY}",
+         "https://api.blockvectra.com/v1/base_mainnet/public"
       ],
       "shortName" : "base",
       "status" : "active"
@@ -38940,6 +39136,33 @@
          "wss://wss.shidoscan.net"
       ],
       "shortName" : "Shido"
+   },
+   {
+      "chain" : "YO",
+      "chainId" : 9009,
+      "explorers" : [
+         {
+            "icon" : "yochain",
+            "name" : "YoChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.yochain.network"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "yochain",
+      "infoURL" : "https://yochain.network",
+      "name" : "YoChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "YO",
+         "symbol" : "YO"
+      },
+      "networkId" : 9009,
+      "rpc" : [
+         "https://rpc.yochain.network",
+         "wss://rpc.yochain.network/ws"
+      ],
+      "shortName" : "yo"
    },
    {
       "chain" : "BRB",
@@ -50218,7 +50441,8 @@
          "https://rpc.satelink.network/rpc/arbitrum",
          "https://xrpc.cl/arbitrum",
          "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public",
-         "https://rpc.swiftnodes.io/rpc/arbitrum?key=${SWIFTNODES_API_KEY}"
+         "https://rpc.swiftnodes.io/rpc/arbitrum?key=${SWIFTNODES_API_KEY}",
+         "https://api.blockvectra.com/v1/arb_mainnet/public"
       ],
       "shortName" : "arb1"
    },
@@ -52558,6 +52782,27 @@
       "shortName" : "CEVM"
    },
    {
+      "chain" : "RL1",
+      "chainId" : 53147,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://rl1.network",
+      "name" : "Regulated Layer One",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "RL1 Ether",
+         "symbol" : "RETH"
+      },
+      "networkId" : 53147,
+      "rpc" : [],
+      "shortName" : "rl1",
+      "status" : "active"
+   },
+   {
       "chain" : "DOID",
       "chainId" : 53277,
       "explorers" : [
@@ -52819,6 +53064,35 @@
          "https://testnet.toronet.org/rpc"
       ],
       "shortName" : "ToronetTestnet",
+      "slip44" : 1
+   },
+   {
+      "chain" : "MST",
+      "chainId" : 54635,
+      "explorers" : [
+         {
+            "name" : "mstscan",
+            "standard" : "EIP3091",
+            "url" : "https://coral.mstscan.com"
+         }
+      ],
+      "faucets" : [
+         "https://coral-faucet.mstblockchain.com"
+      ],
+      "icon" : "mst",
+      "infoURL" : "https://mstblockchain.com",
+      "name" : "MST Coral Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MST Coral Coin",
+         "symbol" : "tMSTC"
+      },
+      "networkId" : 54635,
+      "rpc" : [
+         "https://coralrpc.mstblockchain.com",
+         "wss://coralrpc.mstblockchain.com"
+      ],
+      "shortName" : "mst-coral-testnet",
       "slip44" : 1
    },
    {
@@ -55869,7 +56143,6 @@
       "networkId" : 73571,
       "rpc" : [
          "https://explorer.primevertexlabs.com.mx/rpc",
-         "https://seleman-edge.mineriafjs.workers.dev/rpc",
          "wss://explorer-ws.primevertexlabs.com.mx"
       ],
       "shortName" : "seleman",
@@ -56171,6 +56444,41 @@
          "https://testnet-rpc.foundryscan.org/"
       ],
       "shortName" : "fnc",
+      "slip44" : 1
+   },
+   {
+      "chain" : "ZETAPHY",
+      "chainId" : 77390,
+      "explorers" : [
+         {
+            "name" : "ZETAPHY Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.sawasdeecoin.com"
+         }
+      ],
+      "faucets" : [
+         "https://app.sawasdeecoin.com/?tab=earn"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://app.sawasdeecoin.com",
+      "name" : "ZETAPHY Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZETAPHY",
+         "symbol" : "ZTPHY"
+      },
+      "networkId" : 77390,
+      "rpc" : [
+         "https://rpc.sawasdeecoin.com"
+      ],
+      "shortName" : "zetaphy-testnet",
       "slip44" : 1
    },
    {
@@ -61511,6 +61819,39 @@
       "title" : "Form Testnet"
    },
    {
+      "chain" : "ValueChain",
+      "chainId" : 138565,
+      "explorers" : [
+         {
+            "name" : "ValueChain Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://test-scan.valuechain.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://sodex.com/documentation/for-developers/developers/valuechain-evm",
+      "name" : "ValueChain Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SOSO",
+         "symbol" : "SOSO"
+      },
+      "networkId" : 138565,
+      "rpc" : [
+         "https://testnet.valuechain.xyz"
+      ],
+      "shortName" : "valuechain-testnet",
+      "slip44" : 1
+   },
+   {
       "chain" : "MIDX",
       "chainId" : 139420,
       "explorers" : [
@@ -62476,6 +62817,30 @@
       ],
       "shortName" : "condor",
       "slip44" : 1
+   },
+   {
+      "chain" : "PHASE",
+      "chainId" : 190277,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://phase.xyz",
+      "name" : "Phase Fabric Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Test PHASE",
+         "symbol" : "tPHASE"
+      },
+      "networkId" : 190277,
+      "rpc" : [],
+      "shortName" : "phase-fabric",
+      "status" : "incubating"
    },
    {
       "chain" : "ETH",
@@ -63634,8 +63999,6 @@
          "wss://rpc.helikon.io/hydradx",
          "https://hydration.dotters.network",
          "wss://hydration.dotters.network",
-         "https://hydration.ibp.network",
-         "wss://hydration.ibp.network",
          "https://rpc.cay.hydration.cloud",
          "wss://rpc.cay.hydration.cloud",
          "https://rpc.parm.hydration.cloud",
@@ -64672,6 +65035,38 @@
       "shortName" : "zillsep",
       "slip44" : 1,
       "status" : "active"
+   },
+   {
+      "chain" : "ValueChain",
+      "chainId" : 286623,
+      "explorers" : [
+         {
+            "name" : "ValueChain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://main-scan.valuechain.xyz"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://sodex.com/documentation/for-developers/developers/valuechain-evm",
+      "name" : "ValueChain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SOSO",
+         "symbol" : "SOSO"
+      },
+      "networkId" : 286623,
+      "rpc" : [
+         "https://mainnet.valuechain.xyz"
+      ],
+      "shortName" : "valuechain"
    },
    {
       "chain" : "PMT",
@@ -68331,6 +68726,22 @@
       ],
       "shortName" : "lamina1test",
       "slip44" : 1
+   },
+   {
+      "chain" : "LIB",
+      "chainId" : 767366,
+      "faucets" : [],
+      "infoURL" : "https://github.com/ozgurcuk/Liberium-Network",
+      "name" : "Liberium",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Liberium",
+         "symbol" : "LIB"
+      },
+      "networkId" : 767366,
+      "rpc" : [],
+      "shortName" : "liberium",
+      "status" : "incubating"
    },
    {
       "chain" : "Lamina1 Identity Testnet",
@@ -72186,7 +72597,6 @@
          "type" : "L2"
       },
       "rpc" : [
-         "https://rpc.testnet.humanity.org",
          "https://humanity-testnet.g.alchemy.com/public"
       ],
       "shortName" : "thp",
@@ -73124,7 +73534,8 @@
          "wss://sepolia.drpc.org",
          "https://eth-sepolia.g.alchemy.com/v2/WddzdzI2o9S3COdT73d5w6AIogbKq4X-",
          "https://xrpc.cl/sepolia",
-         "https://ethereum-sepolia-rpc.blockreq.com/v1/rpc/public"
+         "https://ethereum-sepolia-rpc.blockreq.com/v1/rpc/public",
+         "https://api.blockvectra.com/v1/eth_sepolia/public"
       ],
       "shortName" : "sep",
       "slip44" : 1,
@@ -74779,7 +75190,23 @@
    {
       "chain" : "GEN",
       "chainId" : 42424242,
+      "explorers" : [
+         {
+            "name" : "GenLayer Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://scan.chain.genlayer.com"
+         }
+      ],
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "genlayer",
       "infoURL" : "https://genlayer.com",
       "name" : "GenLayer Mainnet",
       "nativeCurrency" : {
@@ -74788,9 +75215,10 @@
          "symbol" : "GEN"
       },
       "networkId" : 42424242,
-      "rpc" : [],
-      "shortName" : "genlayer",
-      "status" : "incubating"
+      "rpc" : [
+         "https://rpc.chain.genlayer.com"
+      ],
+      "shortName" : "genlayer"
    },
    {
       "chain" : "MAI",
@@ -76852,6 +77280,30 @@
       "title" : "PTCESCAN Mainnet"
    },
    {
+      "chain" : "MNC",
+      "chainId" : 973164827,
+      "explorers" : [
+         {
+            "name" : "MobileNode Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.mobilenode.ru"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://chain.mobilenode.ru",
+      "name" : "MobileNode Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "MobileNode Coin",
+         "symbol" : "MNC"
+      },
+      "networkId" : 973164827,
+      "rpc" : [
+         "https://rpc.mobilenode.ru"
+      ],
+      "shortName" : "mobilenode"
+   },
+   {
       "chain" : "giant-half-dual-testnet",
       "chainId" : 974399131,
       "explorers" : [
@@ -78281,6 +78733,34 @@
          "https://23.92.21.121:8545"
       ],
       "shortName" : "hop"
+   },
+   {
+      "chain" : "MFENX",
+      "chainId" : 2026092601,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "mfenx",
+      "infoURL" : "https://mfenx.com/status.html",
+      "name" : "MFENX Native 2026",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "JULIAN",
+         "symbol" : "JULIAN"
+      },
+      "networkId" : 2026092601,
+      "rpc" : [
+         "https://rpc.mfenx.com/2026/",
+         "https://license.mfenx.com/network/2026/"
+      ],
+      "shortName" : "mfenx2026",
+      "status" : "incubating"
    },
    {
       "chain" : "ETH",

@@ -1563,6 +1563,11 @@
             "name" : "bscscan",
             "standard" : "EIP3091",
             "url" : "https://bscscan.com"
+         },
+         {
+            "name" : "Codex Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.codex.io/bnb"
          }
       ],
       "faucets" : [],
@@ -2812,7 +2817,8 @@
          "wss://rpc.gnosischain.com/wss",
          "https://gnosis-rpc.publicnode.com",
          "wss://gnosis-rpc.publicnode.com",
-         "https://gnosis-rpc.blockreq.com/v1/rpc/public"
+         "https://gnosis-rpc.blockreq.com/v1/rpc/public",
+         "https://rpc.swiftnodes.io/rpc/gnosis?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "gno",
       "slip44" : 700
@@ -15686,7 +15692,8 @@
          "https://metis.drpc.org",
          "wss://metis.drpc.org",
          "https://metis-rpc.publicnode.com",
-         "wss://metis-rpc.publicnode.com"
+         "wss://metis-rpc.publicnode.com",
+         "https://rpc.swiftnodes.io/rpc/metis?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "metis-andromeda"
    },
@@ -32134,6 +32141,31 @@
       "status" : "deprecated"
    },
    {
+      "chain" : "SRC",
+      "chainId" : 5291,
+      "explorers" : [
+         {
+            "name" : "SRC Chain Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.srcecosystem.com"
+         }
+      ],
+      "faucets" : [],
+      "icon" : "src-chain",
+      "infoURL" : "https://srcecosystem.com",
+      "name" : "SRC Chain",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "SRC",
+         "symbol" : "SRC"
+      },
+      "networkId" : 5291,
+      "rpc" : [
+         "https://mainnet.srcecosystem.com"
+      ],
+      "shortName" : "srcchain"
+   },
+   {
       "chain" : "UZMI",
       "chainId" : 5315,
       "faucets" : [],
@@ -43129,6 +43161,30 @@
          "https://rpc.rss3.io"
       ],
       "shortName" : "rss3"
+   },
+   {
+      "chain" : "RBT",
+      "chainId" : 12589,
+      "explorers" : [
+         {
+            "name" : "Riverbit Testnet Explorer",
+            "standard" : "none",
+            "url" : "https://pre.riverbit.io/explorer"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://pre.riverbit.io/explorer",
+      "name" : "Riverbit Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Riverbit token",
+         "symbol" : "RBT"
+      },
+      "networkId" : 12589,
+      "rpc" : [
+         "https://pre.riverbit.io/api/rpc?chainId=12589"
+      ],
+      "shortName" : "riverbit-testnet"
    },
    {
       "chain" : "Rikeza",
@@ -58200,6 +58256,31 @@
       "slip44" : 1
    },
    {
+      "chain" : "PSYROB",
+      "chainId" : 87870,
+      "explorers" : [
+         {
+            "name" : "PSYROB Explorer",
+            "standard" : "none",
+            "url" : "https://explorer.psyrob.com"
+         }
+      ],
+      "faucets" : [],
+      "infoURL" : "https://psyrob.com",
+      "name" : "PSYROB Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "PSY",
+         "symbol" : "PSY"
+      },
+      "networkId" : 87870,
+      "rpc" : [
+         "https://rpc.psyrob.com"
+      ],
+      "shortName" : "psyrob",
+      "status" : "incubating"
+   },
+   {
       "chain" : "ETH",
       "chainId" : 88002,
       "explorers" : [
@@ -60028,6 +60109,39 @@
       "status" : "active"
    },
    {
+      "chain" : "Elysium Testnet",
+      "chainId" : 99801,
+      "explorers" : [
+         {
+            "name" : "Elysium Testnet Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://testnet.elysium.kinetiq.xyz/explorer"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://elysium.kinetiq.xyz",
+      "name" : "Kinetiq Elysium Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "HYPE",
+         "symbol" : "HYPE"
+      },
+      "networkId" : 99801,
+      "rpc" : [
+         "https://testnet-rpc.elysium.kinetiq.xyz"
+      ],
+      "shortName" : "elysium-testnet",
+      "slip44" : 1
+   },
+   {
       "chain" : "EMC Testnet",
       "chainId" : 99876,
       "explorers" : [
@@ -60076,6 +60190,39 @@
          "https://rpc1-sepolia.emc.network"
       ],
       "shortName" : "EMCSepolia"
+   },
+   {
+      "chain" : "Elysium",
+      "chainId" : 99901,
+      "explorers" : [
+         {
+            "name" : "Elysium Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://elysium.kinetiq.xyz/explorer"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "icon" : "elysium-kinetiq",
+      "infoURL" : "https://elysium.kinetiq.xyz",
+      "name" : "Elysium",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "HYPE",
+         "symbol" : "HYPE"
+      },
+      "networkId" : 99901,
+      "rpc" : [
+         "https://rpc.elysium.kinetiq.xyz"
+      ],
+      "shortName" : "elysium"
    },
    {
       "chain" : "USC",

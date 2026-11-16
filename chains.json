@@ -321,6 +321,11 @@
             "name" : "blockscout",
             "standard" : "EIP3091",
             "url" : "https://optimism.blockscout.com"
+         },
+         {
+            "name" : "Codex Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.codex.io/opti"
          }
       ],
       "faucets" : [],
@@ -3043,7 +3048,8 @@
       "networkId" : 109,
       "rpc" : [
          "https://rpc.shibarium.shib.io",
-         "https://shib.nownodes.io"
+         "https://shib.nownodes.io",
+         "https://rpc.swiftnodes.io/rpc/shibarium?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "shibariumecosystem"
    },
@@ -3390,7 +3396,8 @@
       "rpc" : [
          "https://rpc.fuse.io",
          "https://fuse.drpc.org",
-         "wss://fuse.drpc.org"
+         "wss://fuse.drpc.org",
+         "https://rpc.swiftnodes.io/rpc/fuse?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "fuse"
    },
@@ -3581,7 +3588,8 @@
          "https://mainnet.unichain.org",
          "https://unichain-rpc.publicnode.com",
          "wss://unichain-rpc.publicnode.com",
-         "https://unichain-rpc.blockreq.com/v1/rpc/public"
+         "https://unichain-rpc.blockreq.com/v1/rpc/public",
+         "https://rpc.swiftnodes.io/rpc/unichain?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "unichain"
    },
@@ -3753,6 +3761,11 @@
             "name" : "oklink",
             "standard" : "EIP3091",
             "url" : "https://www.oklink.com/polygon"
+         },
+         {
+            "name" : "Codex Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.codex.io/polygon"
          }
       ],
       "faucets" : [],
@@ -14136,7 +14149,22 @@
    {
       "chain" : "ZIG",
       "chainId" : 944,
+      "explorers" : [
+         {
+            "name" : "ZIGScan",
+            "standard" : "EIP3091",
+            "url" : "https://zigscan.org"
+         }
+      ],
       "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
       "infoURL" : "https://zigchain.com/",
       "name" : "ZIGChain",
       "nativeCurrency" : {
@@ -14145,9 +14173,10 @@
          "symbol" : "ZIG"
       },
       "networkId" : 944,
-      "rpc" : [],
-      "shortName" : "zigchain",
-      "status" : "incubating"
+      "rpc" : [
+         "https://public-zigchain-evm-rpc.numia.xyz"
+      ],
+      "shortName" : "zigchain"
    },
    {
       "chain" : "Bittensor",
@@ -15141,6 +15170,13 @@
    {
       "chain" : "PHASE",
       "chainId" : 1015,
+      "explorers" : [
+         {
+            "name" : "Phase Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.phase.xyz"
+         }
+      ],
       "faucets" : [],
       "features" : [
          {
@@ -15158,9 +15194,11 @@
          "symbol" : "PHASE"
       },
       "networkId" : 1015,
-      "rpc" : [],
-      "shortName" : "phase",
-      "status" : "incubating"
+      "rpc" : [
+         "https://rpc-main.phase.xyz",
+         "wss://rpc-main.phase.xyz"
+      ],
+      "shortName" : "phase"
    },
    {
       "chain" : "MAI",
@@ -15466,12 +15504,12 @@
          {
             "name" : "BDBS",
             "standard" : "EIP3091",
-            "url" : "https://bdbs.bighive-beets.io"
+            "url" : "https://bdbs.bighive-beets.com"
          }
       ],
       "faucets" : [],
       "icon" : "bighive",
-      "infoURL" : "https://bighive-beets.io",
+      "infoURL" : "https://bighive-beets.com",
       "name" : "Bighive Mainnet",
       "nativeCurrency" : {
          "decimals" : 18,
@@ -15480,7 +15518,7 @@
       },
       "networkId" : 1062,
       "rpc" : [
-         "https://rpc.bighive-beets.io/osc"
+         "https://rpc.bighive-beets.com/osc"
       ],
       "shortName" : "bighive"
    },
@@ -15945,7 +15983,8 @@
       "networkId" : 1111,
       "rpc" : [
          "https://api.wemix.com",
-         "wss://ws.wemix.com"
+         "wss://ws.wemix.com",
+         "https://rpc.swiftnodes.io/rpc/wemix?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "wemix"
    },
@@ -16110,7 +16149,8 @@
          "https://rpc.coredao.org/",
          "https://rpc-core.icecreamswap.com",
          "https://core.drpc.org",
-         "wss://core.drpc.org"
+         "wss://core.drpc.org",
+         "https://rpc.swiftnodes.io/rpc/core?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "core"
    },
@@ -18119,7 +18159,8 @@
       "networkId" : 1329,
       "rpc" : [
          "https://evm-rpc.sei-apis.com",
-         "wss://evm-ws.sei-apis.com"
+         "wss://evm-ws.sei-apis.com",
+         "https://rpc.swiftnodes.io/rpc/sei?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "sei",
       "slip44" : 19000118
@@ -30800,6 +30841,11 @@
             "name" : "stonkscan",
             "standard" : "EIP3091",
             "url" : "https://stonkscan.io"
+         },
+         {
+            "name" : "Codex Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.codex.io/robinhood"
          }
       ],
       "faucets" : [],
@@ -30824,8 +30870,6 @@
          "https://rpc.mainnet.chain.robinhood.com",
          "https://robinhood-rpc.publicnode.com",
          "wss://robinhood-rpc.publicnode.com",
-         "https://rpc.ordofi.network",
-         "wss://rpc.ordofi.network",
          "https://robinhood.drpc.org",
          "wss://robinhood.drpc.org",
          "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public",
@@ -34847,7 +34891,8 @@
          "https://zetachain-mainnet.g.allthatnode.com/archive/evm",
          "https://zeta-chain.drpc.org",
          "https://zetachain-mainnet.public.blastapi.io",
-         "https://7000.rpc.thirdweb.com"
+         "https://7000.rpc.thirdweb.com",
+         "https://rpc.swiftnodes.io/rpc/zetachain?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "zetachain-mainnet",
       "status" : "active"
@@ -37646,7 +37691,8 @@
       },
       "networkId" : 8217,
       "rpc" : [
-         "https://public-en.node.kaia.io"
+         "https://public-en.node.kaia.io",
+         "https://rpc.swiftnodes.io/rpc/kaia?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "kaia-mainnet",
       "slip44" : 8217
@@ -38475,6 +38521,24 @@
       ],
       "shortName" : "iotaevm",
       "title" : "IOTA EVM"
+   },
+   {
+      "chain" : "QVTX",
+      "chainId" : 8825,
+      "faucets" : [],
+      "infoURL" : "https://quantvestrix.io",
+      "name" : "QVTX",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "QVTX",
+         "symbol" : "QVTX"
+      },
+      "networkId" : 8825,
+      "rpc" : [
+         "https://rpc.qvtxaeon.io/_rpc/8825",
+         "https://rpc.quantvestrix.io/_rpc/8825"
+      ],
+      "shortName" : "qvtx"
    },
    {
       "chain" : "HYDRA",
@@ -46294,6 +46358,24 @@
       "shortName" : "moli"
    },
    {
+      "chain" : "QVTX",
+      "chainId" : 20232,
+      "faucets" : [],
+      "infoURL" : "https://quantvestrix.io",
+      "name" : "QVTX Aeon",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "QVTX",
+         "symbol" : "QVTX"
+      },
+      "networkId" : 20232,
+      "rpc" : [
+         "https://rpc.qvtxaeon.io/_rpc/20232",
+         "https://rpc.quantvestrix.io/_rpc/20232"
+      ],
+      "shortName" : "qvtx2"
+   },
+   {
       "chain" : "CHEESE",
       "chainId" : 20250,
       "explorers" : [
@@ -49276,6 +49358,29 @@
       "shortName" : "SANR"
    },
    {
+      "chain" : "DGCR",
+      "chainId" : 32427,
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://dagcore.net",
+      "name" : "DAGCore Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "DAGCore",
+         "symbol" : "DGCR"
+      },
+      "networkId" : 32427,
+      "rpc" : [
+         "https://rpc.dgcr.dagcore.net"
+      ],
+      "shortName" : "dgcr",
+      "status" : "incubating"
+   },
+   {
       "chain" : "Brise",
       "chainId" : 32520,
       "explorers" : [
@@ -49418,6 +49523,91 @@
          "https://zilliqa-isolated-server.zilliqa.com/"
       ],
       "shortName" : "zil-isolated-server"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 33000,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (Beacon Chain)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 33000,
+      "rpc" : [],
+      "shortName" : "zero-beacon",
+      "status" : "incubating",
+      "title" : "Zero [Beacon Chain]"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 33001,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (System Zone)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 33001,
+      "rpc" : [],
+      "shortName" : "zero-system",
+      "status" : "incubating",
+      "title" : "Zero [System Zone]"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 33002,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (EVM Zone)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 33002,
+      "rpc" : [],
+      "shortName" : "zero-evm",
+      "status" : "incubating",
+      "title" : "Zero [EVM Zone]"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 33003,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (ATLAS Zone)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 33003,
+      "rpc" : [],
+      "shortName" : "zero-atlas",
+      "status" : "incubating",
+      "title" : "Zero [ATLAS Zone]"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 33004,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (Payments Zone)",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 33004,
+      "rpc" : [],
+      "shortName" : "zero-payments",
+      "status" : "incubating",
+      "title" : "Zero [Payments Zone]"
    },
    {
       "chain" : "NGL",
@@ -50692,6 +50882,11 @@
             "name" : "dexguru",
             "standard" : "EIP3091",
             "url" : "https://arbitrum.dex.guru"
+         },
+         {
+            "name" : "Codex Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.codex.io/arb"
          }
       ],
       "faucets" : [],
@@ -51120,6 +51315,96 @@
       "title" : "Kinto Testnet"
    },
    {
+      "chain" : "ZERO",
+      "chainId" : 43000,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (Beacon Chain) Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 43000,
+      "rpc" : [],
+      "shortName" : "zero-beacon-testnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [Beacon Chain] Testnet"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 43001,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (System Zone) Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 43001,
+      "rpc" : [],
+      "shortName" : "zero-system-testnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [System Zone] Testnet"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 43002,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (EVM Zone) Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 43002,
+      "rpc" : [],
+      "shortName" : "zero-evm-testnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [EVM Zone] Testnet"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 43003,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (ATLAS Zone) Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 43003,
+      "rpc" : [],
+      "shortName" : "zero-atlas-testnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [ATLAS Zone] Testnet"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 43004,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (Payments Zone) Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 43004,
+      "rpc" : [],
+      "shortName" : "zero-payments-testnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [Payments Zone] Testnet"
+   },
+   {
       "chain" : "ATH",
       "chainId" : 43110,
       "faucets" : [
@@ -51227,6 +51512,11 @@
             "name" : "Avascan",
             "standard" : "EIP3091",
             "url" : "https://avascan.info"
+         },
+         {
+            "name" : "Codex Scan",
+            "standard" : "EIP3091",
+            "url" : "https://scan.codex.io/avax"
          }
       ],
       "faucets" : [],
@@ -51430,6 +51720,72 @@
          "https://testnet-rpc.zkfair.io"
       ],
       "shortName" : "ZKFair-Testnet",
+      "slip44" : 1
+   },
+   {
+      "chain" : "QDAY",
+      "chainId" : 44001,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "QDay Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer.qday.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "infoURL" : "https://qday.io",
+      "name" : "QDay Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "QDay Token",
+         "symbol" : "QDAY"
+      },
+      "networkId" : 44001,
+      "rpc" : [
+         "https://rpc.qday.io"
+      ],
+      "shortName" : "qday"
+   },
+   {
+      "chain" : "QDAY",
+      "chainId" : 44005,
+      "explorers" : [
+         {
+            "icon" : "blockscout",
+            "name" : "QDAY Aevum Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://explorer-test.qday.info"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.qday.info"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://qday.io",
+      "name" : "QDAY Aevum Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "QDAY Testnet Token",
+         "symbol" : "tQDAY"
+      },
+      "networkId" : 44005,
+      "rpc" : [
+         "https://rpc-test.qday.info"
+      ],
+      "shortName" : "tqday",
       "slip44" : 1
    },
    {
@@ -56771,6 +57127,7 @@
             "name" : "EIP1559"
          }
       ],
+      "icon" : "zetaphy",
       "infoURL" : "https://app.sawasdeecoin.com",
       "name" : "ZETAPHY Testnet",
       "nativeCurrency" : {
@@ -57134,6 +57491,72 @@
       ],
       "shortName" : "nilsep",
       "slip44" : 1
+   },
+   {
+      "chain" : "SP",
+      "chainId" : 78753,
+      "explorers" : [
+         {
+            "name" : "blockscan",
+            "standard" : "EIP3091",
+            "url" : "https://blockscan.stapleport.com"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://stapleport.com",
+      "name" : "Stapleport",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Stapleport USD",
+         "symbol" : "USDSP"
+      },
+      "networkId" : 78753,
+      "rpc" : [
+         "https://rpc.stapleport.com"
+      ],
+      "shortName" : "sp"
+   },
+   {
+      "chain" : "SP",
+      "chainId" : 78756,
+      "explorers" : [
+         {
+            "name" : "blockscan-test",
+            "standard" : "EIP3091",
+            "url" : "https://blockscan-test.stapleport.com"
+         }
+      ],
+      "faucets" : [
+         "https://faucet.stapleport.com"
+      ],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         }
+      ],
+      "infoURL" : "https://stapleport.com",
+      "name" : "Stapleport Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Stapleport USD",
+         "symbol" : "USDSP"
+      },
+      "networkId" : 78756,
+      "rpc" : [
+         "https://rpc-test.stapleport.com"
+      ],
+      "shortName" : "spt"
    },
    {
       "chain" : "STAND",
@@ -57743,7 +58166,8 @@
          "https://blastl2-mainnet.public.blastapi.io",
          "https://blast.blockpi.network/v1/rpc/public",
          "https://blast-rpc.publicnode.com",
-         "wss://blast-rpc.publicnode.com"
+         "wss://blast-rpc.publicnode.com",
+         "https://rpc.swiftnodes.io/rpc/blast?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "blastmainnet",
       "status" : "active"
@@ -58715,7 +59139,8 @@
       "rpc" : [
          "https://rpc.chiliz.com",
          "https://rpc.ankr.com/chiliz",
-         "https://chiliz.publicnode.com"
+         "https://chiliz.publicnode.com",
+         "https://rpc.swiftnodes.io/rpc/chiliz?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "chzmainnet"
    },
@@ -59220,6 +59645,96 @@
       "status" : "incubating"
    },
    {
+      "chain" : "ZERO",
+      "chainId" : 93000,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (Beacon Chain) Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 93000,
+      "rpc" : [],
+      "shortName" : "zero-beacon-devnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [Beacon Chain] Devnet"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 93001,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (System Zone) Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 93001,
+      "rpc" : [],
+      "shortName" : "zero-system-devnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [System Zone] Devnet"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 93002,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (EVM Zone) Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 93002,
+      "rpc" : [],
+      "shortName" : "zero-evm-devnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [EVM Zone] Devnet"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 93003,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (ATLAS Zone) Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 93003,
+      "rpc" : [],
+      "shortName" : "zero-atlas-devnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [ATLAS Zone] Devnet"
+   },
+   {
+      "chain" : "ZERO",
+      "chainId" : 93004,
+      "faucets" : [],
+      "infoURL" : "https://layerzero.network/zero",
+      "name" : "Zero (Payments Zone) Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "ZRO",
+         "symbol" : "ZRO"
+      },
+      "networkId" : 93004,
+      "rpc" : [],
+      "shortName" : "zero-payments-devnet",
+      "slip44" : 1,
+      "status" : "incubating",
+      "title" : "Zero [Payments Zone] Devnet"
+   },
+   {
       "chain" : "LILA",
       "chainId" : 93572,
       "explorers" : [
@@ -59457,7 +59972,6 @@
       ],
       "faucets" : [
          "https://mantis.switch.ch/faucet",
-         "https://mantis.kore-technologies.ch/faucet",
          "https://mantis.phoenix-systems.io/faucet",
          "https://mantis.block-spirit.ch/faucet"
       ],
@@ -60115,7 +60629,7 @@
          {
             "name" : "Elysium Testnet Explorer",
             "standard" : "EIP3091",
-            "url" : "https://testnet.elysium.kinetiq.xyz/explorer"
+            "url" : "https://testnet.elysium.kinetiq.xyz"
          }
       ],
       "faucets" : [],
@@ -60198,7 +60712,7 @@
          {
             "name" : "Elysium Explorer",
             "standard" : "EIP3091",
-            "url" : "https://elysium.kinetiq.xyz/explorer"
+            "url" : "https://elysium.kinetiq.xyz"
          }
       ],
       "faucets" : [],
@@ -60892,6 +61406,24 @@
       ],
       "shortName" : "vord-testnet",
       "slip44" : 1
+   },
+   {
+      "chain" : "IMA",
+      "chainId" : 101122,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "https://imuat.intainmarkets.us",
+      "name" : "Intain Markets Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Intain Markets",
+         "symbol" : "IMA"
+      },
+      "networkId" : 101122,
+      "rpc" : [
+         "http://20.253.174.32:80/ext/bc/2ALtzRYgRpRWnTgjdrMArkMvU6RTpcjs7VWmupqYaPrHDrHLSd/rpc"
+      ],
+      "shortName" : "ima-test"
    },
    {
       "chain" : "CTC",
@@ -62369,6 +62901,26 @@
       ],
       "shortName" : "mag",
       "title" : "MagApeChain"
+   },
+   {
+      "chain" : "Lattice",
+      "chainId" : 141421,
+      "explorers" : [],
+      "faucets" : [],
+      "infoURL" : "",
+      "name" : "Lattice Testnet",
+      "nativeCurrency" : {
+         "decimals" : 6,
+         "name" : "USDC Mock",
+         "symbol" : "USDC.m"
+      },
+      "networkId" : 141421,
+      "rpc" : [
+         "https://api.zan.top/node/v1/lattice/testnet/${ZAN_API_KEY}"
+      ],
+      "shortName" : "lattice-testnet",
+      "slip44" : 1,
+      "status" : "incubating"
    },
    {
       "chain" : "Bitharvest Chain Testnet",
@@ -66734,6 +67286,21 @@
       "shortName" : "Infinaeon"
    },
    {
+      "chain" : "QVTX",
+      "chainId" : 420018,
+      "faucets" : [],
+      "infoURL" : "https://quantvestrix.com",
+      "name" : "QVTX ByteID Anchor",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "QVTX",
+         "symbol" : "QVTX"
+      },
+      "networkId" : 420018,
+      "rpc" : [],
+      "shortName" : "qvtxa"
+   },
+   {
       "chain" : "VSC",
       "chainId" : 420042,
       "explorers" : [
@@ -67773,6 +68340,122 @@
       ],
       "shortName" : "BESC",
       "title" : "BESC Mainnet"
+   },
+   {
+      "chain" : "SUPRA",
+      "chainId" : 535556,
+      "explorers" : [
+         {
+            "name" : "SupraScan",
+            "standard" : "none",
+            "url" : "https://testnet.suprascan.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP2930"
+         },
+         {
+            "name" : "EIP7702"
+         }
+      ],
+      "icon" : "supra",
+      "infoURL" : "https://supra.com",
+      "name" : "Supra Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Supra",
+         "symbol" : "SUPRA"
+      },
+      "networkId" : 535556,
+      "rpc" : [],
+      "shortName" : "supra-testnet",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "SUPRA",
+      "chainId" : 535558,
+      "explorers" : [
+         {
+            "name" : "SupraScan",
+            "standard" : "none",
+            "url" : "https://suprascan.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP2930"
+         },
+         {
+            "name" : "EIP7702"
+         }
+      ],
+      "icon" : "supra",
+      "infoURL" : "https://supra.com",
+      "name" : "Supra Mainnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Supra",
+         "symbol" : "SUPRA"
+      },
+      "networkId" : 535558,
+      "rpc" : [],
+      "shortName" : "supra",
+      "status" : "incubating"
+   },
+   {
+      "chain" : "SUPRA",
+      "chainId" : 535600,
+      "explorers" : [
+         {
+            "name" : "SupraScan",
+            "standard" : "EIP3091",
+            "url" : "https://devnet.suprascan.io"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         },
+         {
+            "name" : "EIP1559"
+         },
+         {
+            "name" : "EIP2930"
+         },
+         {
+            "name" : "EIP7702"
+         }
+      ],
+      "icon" : "supra",
+      "infoURL" : "https://supra.com",
+      "name" : "Supra Devnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Supra",
+         "symbol" : "SUPRA"
+      },
+      "networkId" : 535600,
+      "rpc" : [
+         "https://rpc-devnet.supra.com/rpc/v1/eth",
+         "wss://rpc-devnet.supra.com/rpc/v1/eth"
+      ],
+      "shortName" : "supra-devnet"
    },
    {
       "chain" : "OverProtocol",
@@ -69020,7 +69703,8 @@
       "rpc" : [
          "https://rpc.katana.network",
          "https://katana.gateway.tenderly.co/",
-         "https://rpc.katanarpc.com/"
+         "https://rpc.katanarpc.com/",
+         "https://rpc.swiftnodes.io/rpc/katana?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "katana"
    },
@@ -72677,6 +73361,38 @@
       "slip44" : 1
    },
    {
+      "chain" : "PINCH",
+      "chainId" : 5261646,
+      "explorers" : [
+         {
+            "name" : "Pinch Explorer",
+            "standard" : "EIP3091",
+            "url" : "https://pinch.network/explorer"
+         }
+      ],
+      "faucets" : [],
+      "features" : [
+         {
+            "name" : "EIP155"
+         }
+      ],
+      "icon" : "pinch",
+      "infoURL" : "https://pinch.network",
+      "name" : "Pinch",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Pinch",
+         "symbol" : "PINCH"
+      },
+      "networkId" : 5261646,
+      "rpc" : [
+         "https://pinch.network/rpc"
+      ],
+      "shortName" : "pinch",
+      "status" : "active",
+      "title" : "Pinch Mainnet"
+   },
+   {
       "chain" : "REACT",
       "chainId" : 5318007,
       "explorers" : [
@@ -72979,6 +73695,27 @@
          "https://rpc.testnet.dogeos.com"
       ],
       "shortName" : "dogeos-chikyu"
+   },
+   {
+      "chain" : "ETH",
+      "chainId" : 6567731,
+      "faucets" : [],
+      "infoURL" : "https://aci-token.net",
+      "name" : "ACI Network Testnet",
+      "nativeCurrency" : {
+         "decimals" : 18,
+         "name" : "Sepolia Ether",
+         "symbol" : "ETH"
+      },
+      "networkId" : 6567731,
+      "parent" : {
+         "chain" : "eip155-11155111",
+         "type" : "L2"
+      },
+      "rpc" : [],
+      "shortName" : "aci-testnet",
+      "slip44" : 1,
+      "status" : "incubating"
    },
    {
       "chain" : "Safe(AnWang)",
@@ -73422,7 +74159,8 @@
       },
       "networkId" : 7777777,
       "rpc" : [
-         "https://rpc.zora.energy/"
+         "https://rpc.zora.energy/",
+         "https://rpc.swiftnodes.io/rpc/zora?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "zora"
    },
@@ -78268,7 +79006,8 @@
       "rpc" : [
          "https://mainnet.aurora.dev",
          "https://aurora.drpc.org",
-         "wss://aurora.drpc.org"
+         "wss://aurora.drpc.org",
+         "https://rpc.swiftnodes.io/rpc/aurora?key=${SWIFTNODES_API_KEY}"
       ],
       "shortName" : "aurora"
    },
@@ -80242,7 +80981,7 @@
       },
       "networkId" : 197710212031,
       "rpc" : [
-         "https://blockchain.haradev.com"
+         "https://rpc.haradev.com"
       ],
       "shortName" : "haradev",
       "slip44" : 1
